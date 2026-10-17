@@ -1,0 +1,35 @@
+{
+  "checked_at": "2026-10-17T13:08:33+08:00",
+  "coverage": ["T/CECS 604-2019", "T/CECS 715-2020", "T/CECS 640-2019", "T/CECS 800-2021"],
+  "query_batches": 10,
+  "detail_attachment_batches": 4,
+  "direct_attachment_candidates_primary_scope": 5,
+  "extension_preview_routes": 8,
+  "audited_full_pdfs": null,
+  "count_note": "5条包括2个全文可能性待核直链、1个公告附件待取、2个参编单位Preview，不等于5个完整PDF。8条扩展路线均Preview。审查实得以pdf-audit为准。",
+  "queries_added_after_round01": [
+    "混凝土结构钢筋详图设计标准 site:cbs.com.cn",
+    "混凝土结构钢筋详图设计标准 site:chinabuilding.com.cn -probation -site:ebook.chinabuilding.com.cn",
+    "混凝土结构钢筋详图设计标准 site:cecs.org -site:gongbiaoku.com",
+    "钢筋桁架混凝土叠合板应用技术规程 site:longxin.com.cn",
+    "CECS_T 715",
+    "T∕CECS 800-2021"
+  ],
+  "findings": [
+    "全名+主编比仅编号返回更多可用附件；但仅编号+公告号会有外国司法文书噪声，下一轮保留CECS和中文全名。",
+    "参编单位天华的publications页一次提供多个公开Preview按钮，可取PDF.js file参数为候选附件；715明确文件名含目录，不能把所有附件视作全文。",
+    "中建604公告正文的附件href与网页简略搜索摘要不同，必须打开详情页逐条取链接。",
+    "715和800的出版方probation是试读；未尝试绕过付费、登录或校园IP限制。",
+    "800仍缺公开完整PDF候选；标准院主站cbs.com.cn及出版站检索本轮未得附件，不能据此判不存在。"
+  ],
+  "next_experiments": [
+    "audit对天华604/715 Preview独立GET，核是否只封面目录；若仅样张，该路线仅用于元数据和新编号发现。",
+    "audit对precast604原附件独立GET；先核其是公告扫描还是标准全文，再决定优先追查。",
+    "800从参编单位的软件/钢筋加工行业公开培训下载页继续找，优先北京建筑大学、同济建筑设计院、建研科技公开域，保留正式与草案分别映射。"
+  ],
+  "primary_metadata_evidence": [
+    {"standard_number": "T/CECS 604-2019", "url": "https://ind-building.cscec.com/zcfg/dfzc/201907/2956795.html", "evidence": "中建转载协会发布公告：2019-07-08发布，2020-01-01施行；非2026现行证据"},
+    {"standard_number": "T/CECS 715-2020", "url": "https://zjt.hubei.gov.cn/zfxxgk/fdzdgknr/qtzdgknr/jcygk/jcca/202106/t20210607_3582134.shtml", "evidence": "政府起草说明提及2020-12-01实施；其附件为湖北地方标准草案，排除为CECS715全文"},
+    {"standard_number": "T/CECS 800-2021", "url": "https://ebook.chinabuilding.com.cn/c/2021-05-31/93934.shtml", "evidence": "出版方2021年6月实施目录；非2026现行证据"}
+  ]
+}

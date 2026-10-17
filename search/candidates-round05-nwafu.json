@@ -1,0 +1,139 @@
+{
+  "round": "R02-public-university",
+  "producer": "search",
+  "checked_at": "2026-10-17T13:06:40+08:00",
+  "note": "从公开列表标题跟随明确预览链接，再提取页面实际提供的iframe PDF地址；未构造或枚举资源ID。首字节不证明完整性。",
+  "candidates": [
+    {
+      "candidate_id": "R02-G3-NWAFU-280-2010",
+      "seed_ids": [],
+      "topic_group": "G3",
+      "standard_number": "CECS 280:2010",
+      "year": "2010",
+      "name": "钢管结构技术规程",
+      "draft_stage": "历史版本候选；正式出版与完整性待审",
+      "source_id": "NWAFU-PUBLIC-STEEL-COURSE-20261017",
+      "source_page": "https://eol.nwafu.edu.cn/meol/homepage/course/listview.jsp?_colId=null&_style=new03&acttype=enter&folderid=283225&lid=47196",
+      "preview_page": "https://eol.nwafu.edu.cn/meol/common/script/preview/download_preview.jsp?fileid=577892&resid=283230&lid=47196&preview=preview",
+      "download_url": "https://eol.nwafu.edu.cn/meol/analytics/resPdfShow.do?resId=283230&lid=47196",
+      "alternative_urls": [],
+      "checked_at": "2026-10-17T13:06:38+08:00",
+      "permission_status": "公开课程资料列表及预览页面；无登录；转载授权未独立核实",
+      "metadata_evidence": [
+        {
+          "source_url": "https://eol.nwafu.edu.cn/meol/homepage/course/listview.jsp?_colId=null&_style=new03&acttype=enter&folderid=283225&lid=47196",
+          "evidence_type": "原文事实",
+          "claim": "课程公开列表以此标题列出文件：CECS 280-2010 钢管结构技术规程；不作为2026现行性证据"
+        }
+      ],
+      "prefix_check": {
+        "http_status": 200,
+        "final_url": "https://eol.nwafu.edu.cn/meol/analytics/resPdfShow.do?resId=283230&lid=47196",
+        "content_type": "application/pdf;charset=UTF-8",
+        "bytes_checked": 512,
+        "starts_with_pdf": true
+      },
+      "route_status": "首512字节为PDF；全文版本/完整性/质量待独立审查",
+      "download_check_status": "候选未审"
+    },
+    {
+      "candidate_id": "R02-G3-NWAFU-200-2006",
+      "seed_ids": [
+        "S017",
+        "S081"
+      ],
+      "topic_group": "G3",
+      "standard_number": "CECS 200:2006",
+      "year": "2006",
+      "name": "建筑钢结构防火技术规范",
+      "draft_stage": "历史版本候选；正式出版与完整性待审",
+      "source_id": "NWAFU-PUBLIC-STEEL-COURSE-20261017",
+      "source_page": "https://eol.nwafu.edu.cn/meol/homepage/course/listview.jsp?_colId=null&_style=new03&acttype=enter&folderid=283225&lid=47196",
+      "preview_page": "https://eol.nwafu.edu.cn/meol/common/script/preview/download_preview.jsp?fileid=577890&resid=283228&lid=47196&preview=preview",
+      "download_url": "https://eol.nwafu.edu.cn/meol/analytics/resPdfShow.do?resId=283228&lid=47196",
+      "alternative_urls": [],
+      "checked_at": "2026-10-17T13:06:38+08:00",
+      "permission_status": "公开课程资料列表及预览页面；无登录；转载授权未独立核实",
+      "metadata_evidence": [
+        {
+          "source_url": "https://eol.nwafu.edu.cn/meol/homepage/course/listview.jsp?_colId=null&_style=new03&acttype=enter&folderid=283225&lid=47196",
+          "evidence_type": "原文事实",
+          "claim": "课程公开列表以此标题列出文件：CECS200-2006 建筑钢结构防火技术规范；不作为2026现行性证据"
+        }
+      ],
+      "prefix_check": {
+        "http_status": 200,
+        "final_url": "https://eol.nwafu.edu.cn/meol/analytics/resPdfShow.do?resId=283228&lid=47196",
+        "content_type": "application/pdf;charset=UTF-8",
+        "bytes_checked": 512,
+        "starts_with_pdf": true
+      },
+      "route_status": "首512字节为PDF；全文版本/完整性/质量待独立审查",
+      "download_check_status": "候选未审"
+    },
+    {
+      "candidate_id": "R02-G3-NWAFU-323-2012",
+      "seed_ids": [],
+      "topic_group": "G3",
+      "standard_number": "CECS 323:2012",
+      "year": "2012",
+      "name": "交错桁架钢框架结构技术规程_附条文说明",
+      "draft_stage": "历史版本候选；正式出版与完整性待审",
+      "source_id": "NWAFU-PUBLIC-STEEL-COURSE-20261017",
+      "source_page": "https://eol.nwafu.edu.cn/meol/homepage/course/listview.jsp?_colId=null&_style=new03&acttype=enter&folderid=283225&lid=47196",
+      "preview_page": "https://eol.nwafu.edu.cn/meol/common/script/preview/download_preview.jsp?fileid=874819&resid=283247&lid=47196&preview=preview",
+      "download_url": "https://eol.nwafu.edu.cn/meol/analytics/resPdfShow.do?resId=283247&lid=47196",
+      "alternative_urls": [],
+      "checked_at": "2026-10-17T13:06:39+08:00",
+      "permission_status": "公开课程资料列表及预览页面；无登录；转载授权未独立核实",
+      "metadata_evidence": [
+        {
+          "source_url": "https://eol.nwafu.edu.cn/meol/homepage/course/listview.jsp?_colId=null&_style=new03&acttype=enter&folderid=283225&lid=47196",
+          "evidence_type": "原文事实",
+          "claim": "课程公开列表以此标题列出文件：CECS 323-2012 交错桁架钢框架结构技术规程_附条文说明；不作为2026现行性证据"
+        }
+      ],
+      "prefix_check": {
+        "http_status": 200,
+        "final_url": "https://eol.nwafu.edu.cn/meol/analytics/resPdfShow.do?resId=283247&lid=47196",
+        "content_type": "application/pdf;charset=UTF-8",
+        "bytes_checked": 512,
+        "starts_with_pdf": true
+      },
+      "route_status": "首512字节为PDF；全文版本/完整性/质量待独立审查",
+      "download_check_status": "候选未审"
+    },
+    {
+      "candidate_id": "R02-G3-NWAFU-102-2002",
+      "seed_ids": [],
+      "topic_group": "G3",
+      "standard_number": "CECS 102:2002",
+      "year": "2002",
+      "name": "门式刚架轻型房屋钢结构技术规程",
+      "draft_stage": "历史版本候选；正式出版与完整性待审",
+      "source_id": "NWAFU-PUBLIC-STEEL-COURSE-20261017",
+      "source_page": "https://eol.nwafu.edu.cn/meol/homepage/course/listview.jsp?_colId=null&_style=new03&acttype=enter&folderid=283225&lid=47196",
+      "preview_page": "https://eol.nwafu.edu.cn/meol/common/script/preview/download_preview.jsp?fileid=874818&resid=283246&lid=47196&preview=preview",
+      "download_url": "https://eol.nwafu.edu.cn/meol/analytics/resPdfShow.do?resId=283246&lid=47196",
+      "alternative_urls": [],
+      "checked_at": "2026-10-17T13:06:40+08:00",
+      "permission_status": "公开课程资料列表及预览页面；无登录；转载授权未独立核实",
+      "metadata_evidence": [
+        {
+          "source_url": "https://eol.nwafu.edu.cn/meol/homepage/course/listview.jsp?_colId=null&_style=new03&acttype=enter&folderid=283225&lid=47196",
+          "evidence_type": "原文事实",
+          "claim": "课程公开列表以此标题列出文件：CECS102-2002 门式刚架轻型房屋钢结构技术规程；不作为2026现行性证据"
+        }
+      ],
+      "prefix_check": {
+        "http_status": 200,
+        "final_url": "https://eol.nwafu.edu.cn/meol/analytics/resPdfShow.do?resId=283246&lid=47196",
+        "content_type": "application/pdf;charset=UTF-8",
+        "bytes_checked": 512,
+        "starts_with_pdf": true
+      },
+      "route_status": "首512字节为PDF；全文版本/完整性/质量待独立审查",
+      "download_check_status": "候选未审"
+    }
+  ]
+}

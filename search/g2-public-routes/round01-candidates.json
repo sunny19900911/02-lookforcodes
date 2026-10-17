@@ -1,0 +1,250 @@
+{
+  "schema_version": 1,
+  "role": "search/G2 public routes",
+  "checked_at": "2026-10-17T13:06:06+08:00",
+  "scope": [
+    "T/CECS 604-2019",
+    "T/CECS 715-2020",
+    "T/CECS 640-2019",
+    "T/CECS 800-2021"
+  ],
+  "quality_boundary": "网页检索及 web.open 得到的候选；未作独立 GET、文件哈希、完整性或目视质量核验。实得完整 PDF 数以 pdf-audit 为准。",
+  "candidates": [
+    {
+      "candidate_id": "G2-20261017-640-ONEHIKER",
+      "standard_number": "T/CECS 640-2019",
+      "name": "超长大体积混凝土结构跳仓法技术规程",
+      "detail_url": null,
+      "direct_url": "https://www.onehiker.com/wp-content/uploads/2023/07/adfcfb87f1081357.pdf",
+      "final_redirect_url": null,
+      "backup_urls": [],
+      "source_type": "公开第三方转载 PDF；起草单位身份与转载授权未核",
+      "discovery_query": "\"超长大体积混凝土结构跳仓法技术规程\" \"主编\"",
+      "permission_observed": "搜索可索引，web.open 无登录提示返回 PDF 解析；不等于授权核实",
+      "web_open_observation": {
+        "content_type": "application/pdf",
+        "pages_reported": 73,
+        "text_lines_reported": 1008
+      },
+      "version_candidate": "表面标注 T/CECS 640-2019，正式版/草案待 audit 核实",
+      "draft_status": "unknown_pending_audit",
+      "metadata_reference": "https://www.gongbiaoku.com/mobile/book/frv19819f1c",
+      "metadata_reference_limit": "出版平台转载第515号公告，仅辅助定位；协会原公告未定位",
+      "next_check": "核封面、版权页、第515号公告、正文末页、条文说明及书签；追找详情页和主编单位源",
+      "download_url": "https://www.onehiker.com/wp-content/uploads/2023/07/adfcfb87f1081357.pdf",
+      "source_page": "https://www.onehiker.com/wp-content/uploads/2023/07/adfcfb87f1081357.pdf",
+      "seed_ids": [
+        "S004"
+      ],
+      "year": 2019,
+      "metadata_evidence": [
+        {
+          "url": "https://www.gongbiaoku.com/mobile/book/frv19819f1c",
+          "limit": "出版平台转载第515号公告，仅辅助定位；协会原公告未定位"
+        }
+      ]
+    },
+    {
+      "candidate_id": "G2-20261017-604-YDD17",
+      "standard_number": "T/CECS 604-2019",
+      "name": "装配式多层混凝土结构技术规程",
+      "detail_url": null,
+      "direct_url": "https://oss.ydd17.com/data/upload/20201230/16092968483029.pdf",
+      "final_redirect_url": null,
+      "backup_urls": [],
+      "source_type": "公开第三方对象存储 PDF，详情页与转载授权未核",
+      "discovery_query": "\"装配式多层混凝土结构技术规程\" \"主编\"",
+      "permission_observed": "搜索可索引，web.open 无登录提示返回 PDF 解析；不等于授权核实",
+      "web_open_observation": {
+        "content_type": "application/pdf",
+        "pages_reported": 51,
+        "text_lines_reported": 0,
+        "parsed_title": "bingdian001.com"
+      },
+      "version_candidate": "重大疑点：搜索封面写 CECS 604-2019（缺 T/）并出现2017 北京；另一转载页宣称正式版本89页，本候选仅报51页。不得判完整或正式版。",
+      "draft_status": "unknown_possible_draft_pending_audit",
+      "metadata_reference": "https://ind-building.cscec.com/zcfg/dfzc/201907/2956795.html",
+      "metadata_reference_limit": "中建装配式建筑网发布公告转载；应核原公告及PDF版本",
+      "other_detail_lead": "https://www.webfree.net/download/15114",
+      "other_detail_limit": "第三方用户上传页，宣称89页、15.80MB；不据此背书完整性，不保存其中密码",
+      "next_check": "核2017/2019封面冲突、是否草稿、页数及正文末页；寻找89页正式出版版本公开源",
+      "download_url": "https://oss.ydd17.com/data/upload/20201230/16092968483029.pdf",
+      "source_page": "https://oss.ydd17.com/data/upload/20201230/16092968483029.pdf",
+      "seed_ids": [
+        "S034"
+      ],
+      "year": 2019,
+      "metadata_evidence": [
+        {
+          "url": "https://ind-building.cscec.com/zcfg/dfzc/201907/2956795.html",
+          "limit": "中建装配式建筑网发布公告转载；应核原公告及PDF版本"
+        }
+      ]
+    },
+    {
+      "candidate_id": "G2-20261017-604-PRECAST",
+      "standard_number": "T/CECS 604-2019",
+      "name": "装配式多层混凝土结构技术规程",
+      "year": 2019,
+      "seed_ids": [
+        "S034"
+      ],
+      "detail_url": "https://ind-building.cscec.com/zcfg/dfzc/201907/2956795.html",
+      "source_page": "https://ind-building.cscec.com/zcfg/dfzc/201907/2956795.html",
+      "direct_url": "https://www.precast.com.cn/includes/ueditor/php/upload/77431562738650.pdf",
+      "download_url": "https://www.precast.com.cn/includes/ueditor/php/upload/77431562738650.pdf",
+      "final_redirect_url": null,
+      "backup_urls": [],
+      "source_type": "中建装配式建筑网转载公告的附件链接，附件域precast.com.cn；原文注明中国工程建设标准化网来源",
+      "permission_observed": "详情页公开无登录；web.click本轮Timeout，随后web.open工具拒绝访问；未判链接失效",
+      "version_candidate": "附件正文、是否仅公告或标准全文均未取到，待audit独立GET",
+      "draft_status": "unknown_pending_audit",
+      "metadata_evidence": [
+        {
+          "url": "https://ind-building.cscec.com/zcfg/dfzc/201907/2956795.html",
+          "evidence": "页面2019-07-12发布；正文公告2019-07-08，编号T/CECS604-2019，2020-01-01施行；L97附件为本直链",
+          "limit": "发布和实施证据，不证2026现行性"
+        }
+      ],
+      "checked_at": "2026-10-17T13:06:06+08:00"
+    },
+    {
+      "candidate_id": "G2-20261017-604-THAPE-PREVIEW",
+      "standard_number": "T/CECS 604-2019",
+      "name": "装配式多层混凝土结构技术规程",
+      "year": 2019,
+      "seed_ids": [
+        "S034"
+      ],
+      "detail_url": "https://www.thape.com/publications/",
+      "source_page": "https://www.thape.com/publications/",
+      "direct_url": "https://thape-upload.oss-cn-shanghai.aliyuncs.com/uploads/publication/pdf_file/39/A08.pdf",
+      "download_url": "https://thape-upload.oss-cn-shanghai.aliyuncs.com/uploads/publication/pdf_file/39/A08.pdf",
+      "final_redirect_url": null,
+      "source_type": "参编单位天华集团公开出版物目录的Preview按钮",
+      "permission_observed": "公开详情页与PDF.js查看器；web.open附件工具拒绝访问",
+      "version_candidate": "Preview，页数未知，不当全文",
+      "draft_status": "unknown_pending_audit",
+      "metadata_evidence": [
+        {
+          "url": "https://www.thape.com/publications/",
+          "evidence": "T/CECS604-2019对应公开Preview按钮，其file参数含本URL"
+        }
+      ],
+      "checked_at": "2026-10-17T13:06:06+08:00"
+    },
+    {
+      "candidate_id": "G2-20261017-715-THAPE-PREVIEW",
+      "standard_number": "T/CECS 715-2020",
+      "name": "钢筋桁架混凝土叠合板应用技术规程",
+      "year": 2020,
+      "seed_ids": [
+        "S035"
+      ],
+      "detail_url": "https://www.thape.com/publications/",
+      "source_page": "https://www.thape.com/publications/",
+      "direct_url": "https://thape-upload.oss-cn-shanghai.aliyuncs.com/uploads/publication/pdf_file/8/%E9%92%A2%E7%AD%8B%E6%A1%81%E6%9E%B6%E6%B7%B7%E5%87%9D%E5%9C%9F%E5%8F%A0%E5%90%88%E6%9D%BF%E5%BA%94%E7%94%A8%E6%8A%80%E6%9C%AF%E8%A7%84%E7%A8%8BTCECS_715-2020_%E7%9B%AE%E5%BD%95_1.pdf",
+      "download_url": "https://thape-upload.oss-cn-shanghai.aliyuncs.com/uploads/publication/pdf_file/8/%E9%92%A2%E7%AD%8B%E6%A1%81%E6%9E%B6%E6%B7%B7%E5%87%9D%E5%9C%9F%E5%8F%A0%E5%90%88%E6%9D%BF%E5%BA%94%E7%94%A8%E6%8A%80%E6%9C%AF%E8%A7%84%E7%A8%8BTCECS_715-2020_%E7%9B%AE%E5%BD%95_1.pdf",
+      "final_redirect_url": null,
+      "source_type": "参编单位天华集团公开出版物目录的Preview按钮",
+      "permission_observed": "公开详情页与PDF.js查看器；web.open附件工具拒绝访问",
+      "version_candidate": "文件名含目录_1且按钮Preview，疑为目录/样张；非完整候选优先级",
+      "draft_status": "unknown_pending_audit",
+      "metadata_evidence": [
+        {
+          "url": "https://www.thape.com/publications/",
+          "evidence": "T/CECS715-2020对应Preview按钮，其file参数含本URL"
+        }
+      ],
+      "checked_at": "2026-10-17T13:06:06+08:00"
+    }
+  ],
+  "no_direct_candidate": [
+    {
+      "standard_number": "T/CECS 715-2020",
+      "name": "钢筋桁架混凝土叠合板应用技术规程",
+      "known_compilers_from_publisher": [
+        "龙信建设集团有限公司",
+        "建研科技股份有限公司"
+      ],
+      "metadata_reference": "https://www.gongbiaoku.com/book/ngl19958gow",
+      "reference_limit": "出版平台转载第633号公告；未据此确定2026现行性",
+      "blocked_or_nonfull_leads": [
+        {
+          "url": "https://max.book118.com/html/2025/0917/7041143046010160.shtm",
+          "status": "VIP下载/预览；未绕过"
+        },
+        {
+          "url": "https://www.softhome.cc/tuji/234853.html",
+          "status": "用户上传第三方介绍页，附件尚未提取，授权未核"
+        }
+      ],
+      "next_route": "龙信/建研科技主编单位公开附件，必要时按站点中文全名搜索",
+      "seed_ids": [
+        "S035"
+      ],
+      "year": 2020,
+      "metadata_evidence": [
+        {
+          "url": "https://zjt.hubei.gov.cn/zfxxgk/fdzdgknr/qtzdgknr/jcygk/jcca/202106/t20210607_3582134.shtml",
+          "type": "湖北省住房和城乡建设厅公开征求地方规程意见的说明",
+          "evidence": "说明中记载T/CECS 715-2020于2020-12-01实施，非715全文，不能证2026现行性"
+        }
+      ]
+    },
+    {
+      "standard_number": "T/CECS 800-2021",
+      "name": "混凝土结构钢筋详图设计标准",
+      "known_compilers_from_publisher": [
+        "中国建筑标准设计研究院有限公司"
+      ],
+      "metadata_reference": "https://ebook.chinabuilding.com.cn/c/2021-05-31/93934.shtml",
+      "reference_limit": "出版方实施目录，能证2021-06-01实施，不能单独证2026现行性",
+      "blocked_or_nonfull_leads": [
+        {
+          "url": "https://ebook.chinabuilding.com.cn/zbooklib/bookpdf/probation?SiteID=1&bookID=141273",
+          "status": "出版方试读1/10，不能当完整PDF"
+        }
+      ],
+      "next_route": "中国建筑标准设计研究院及参编单位公开附件",
+      "seed_ids": [
+        "S032"
+      ],
+      "year": 2021,
+      "metadata_evidence": [
+        {
+          "url": "https://ebook.chinabuilding.com.cn/c/2021-05-31/93934.shtml",
+          "limit": "出版方实施目录，能证2021-06-01实施，不能单独证2026现行性"
+        }
+      ],
+      "draft_mapping_excluded": "S064为800草案，不将正式版链接盲挂"
+    }
+  ],
+  "route_failures": [
+    {
+      "query": "四个完整规范名 site:cecs.org.cn",
+      "result": "本轮搜索无结果，不表示协会网站不存在或标准失效"
+    },
+    {
+      "query": "钢筋桁架混凝土叠合板应用技术规程 site:longxingroup.com",
+      "result": "本轮无结果，域名是否当前主站尚待核"
+    },
+    {
+      "query": "钢筋桁架混凝土叠合板应用技术规程 site:cabrtech.com",
+      "result": "本轮无结果，域名是否当前主站尚待核"
+    },
+    {
+      "query": "混凝土结构钢筋详图设计标准 site:cbsi.com.cn",
+      "result": "本轮无结果，域名是否当前主站尚待核"
+    },
+    {
+      "url": "https://www.onehiker.com",
+      "result": "web.open Internal Error；附件本身web.open可解析，首页失败不能判附件失效"
+    },
+    {
+      "url": "https://www.ydd17.com",
+      "result": "web.open Internal Error；对象存储附件可解析，首页失败不能判附件失效"
+    }
+  ],
+  "method_revision": "完整中文名+主编可发现对象存储附件，较仅编号更有效。索引PDF直链可能为旧排版/草稿：604出现2017封面与2019编号冲突，必须把候选与正式版本判定分开。政府附件中引用本标准的设计文件、论文与相近地方标准均排除为CECS全文。"
+}

@@ -1,0 +1,49 @@
+{
+  "checked_at": "2026-10-17T13:14:00+08:00",
+  "candidate_id": "EXT-R01-661-2020",
+  "supplement_only": true,
+  "metadata_evidence": [
+    {
+      "url": "https://www.chinaasc.org.cn/news/127038.html",
+      "type": "协会公开说明",
+      "conclusion": "保持最优先metadata source；中国建筑学会转载称协会向全社会免费开放标准"
+    }
+  ],
+  "historical_links": [
+    {
+      "url": "http://www.cecs.org.cn/uploads/soft/200213/1-200213131306.pdf",
+      "https_variant": "https://www.cecs.org.cn/uploads/soft/200213/1-200213131306.pdf",
+      "discovered_at": "https://m.mepconsultants.net/nd.jsp?id=5728",
+      "locator": "文末参考文献6，文献访问日2020-05-20",
+      "status": "本次web open两协议均Internal Error；不能列为已验证有效备用链接",
+      "note": "历史引用只能支持旧URL曾被引用，不证明当前可用或完整"
+    }
+  ],
+  "parent_source_page_search": {
+    "status": "仍未定位陕西住建厅PDF所属详情页",
+    "tested_directory": "https://js.shaanxi.gov.cn/sy/zcwj/stwj/202002/",
+    "directory_result": "web open不可访问；未枚举、猜测父页面ID"
+  },
+  "other_pages": [
+    {
+      "url": "https://news.zhuyitai.com/20/0206/b951f41597464c8e9b52de5dbd49e914.html",
+      "observation": "公开文字称文末有PDF，但实际HTML附件列表为空；未见公开PDF href，不构成有效备用下载"
+    }
+  ],
+  "query_count": 12,
+  "queries": [
+    "\"新型冠状病毒感染的肺炎\" \"陕西\" \"标准\" \"2020\" 661",
+    "\"新型冠状病毒感染的肺炎传染病应急医疗设施设计标准\" \"下载\" \"中元\"",
+    "\"CECS 661\" site:ccec.com.cn",
+    "\"CECS 661\" site:cecs.org.cn",
+    "\"应急医疗设施设计标准\" \"陕西省住房\"",
+    "\"T/CECS 661-2020\" pdf site:gov.cn",
+    "\"T/CECS 661-2020\" pdf site:org.cn",
+    "\"CECS 661\" \"中国中元\" \"PDF\"",
+    "site:js.shaanxi.gov.cn \"传染病\" \"设计标准\"",
+    "site:js.shaanxi.gov.cn \"关于发布\" \"应急医疗\"",
+    "site:cecs.org.cn \"661\" \"551\"",
+    "\"1-200213131306.pdf\""
+  ],
+  "summary": "首轮40查询之外追加12查询；仍为3个直接候选、0个独立完整性审查通过；本补充未新增有效直链。"
+}

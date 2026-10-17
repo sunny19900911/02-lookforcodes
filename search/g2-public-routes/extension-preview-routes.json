@@ -1,0 +1,191 @@
+{
+  "checked_at_utc": "2026-10-17 05:08:33 UTC",
+  "source_page": "https://www.thape.com/publications/",
+  "observation": "参编单位公开出版物页的Preview按钮；仅保留页面原编号与英文名，中文正式名称待audit/catalog核封面。未经独立GET或完整性验证，不能据Preview按钮断言为全文。",
+  "candidates": [
+    {
+      "candidate_id": "G2-20261017-THAPE-5222018",
+      "standard_number": "T/CECS 522-2018",
+      "name": null,
+      "name_status": "待封面核准",
+      "year": 2018,
+      "seed_ids": [],
+      "source_page": "https://www.thape.com/publications/",
+      "detail_url": "https://www.thape.com/publications/",
+      "download_url": "https://thape-upload.oss-cn-shanghai.aliyuncs.com/uploads/publication/pdf_file/36/A04.pdf",
+      "direct_url": "https://thape-upload.oss-cn-shanghai.aliyuncs.com/uploads/publication/pdf_file/36/A04.pdf",
+      "final_redirect_url": null,
+      "source_type": "天华集团公开出版物Preview附件",
+      "draft_status": "unknown_pending_audit",
+      "permission_observed": "公开页面与PDF.js查看器，无登录提示；附件独立GET未做",
+      "metadata_evidence": [
+        {
+          "url": "https://www.thape.com/publications/",
+          "evidence": "对应编号的Preview链接，工具link_id=63"
+        }
+      ],
+      "english_name_from_source": "Technical specification for concrete shear wall structure with prefabricated composite shell-form system"
+    },
+    {
+      "candidate_id": "G2-20261017-THAPE-5982019",
+      "standard_number": "T/CECS 598-2019",
+      "name": null,
+      "name_status": "待封面核准",
+      "year": 2019,
+      "seed_ids": [],
+      "source_page": "https://www.thape.com/publications/",
+      "detail_url": "https://www.thape.com/publications/",
+      "download_url": "https://thape-upload.oss-cn-shanghai.aliyuncs.com/uploads/publication/pdf_file/44/A13.pdf",
+      "direct_url": "https://thape-upload.oss-cn-shanghai.aliyuncs.com/uploads/publication/pdf_file/44/A13.pdf",
+      "final_redirect_url": null,
+      "source_type": "天华集团公开出版物Preview附件",
+      "draft_status": "unknown_pending_audit",
+      "permission_observed": "公开页面与PDF.js查看器，无登录提示；附件独立GET未做",
+      "metadata_evidence": [
+        {
+          "url": "https://www.thape.com/publications/",
+          "evidence": "对应编号的Preview链接，工具link_id=71"
+        }
+      ],
+      "english_name_from_source": "Technical specification for buildings with floor-by-floor assembled steel braced frames"
+    },
+    {
+      "candidate_id": "G2-20261017-THAPE-8412021",
+      "standard_number": "T/CECS 841-2021",
+      "name": null,
+      "name_status": "待封面核准",
+      "year": 2021,
+      "seed_ids": [],
+      "source_page": "https://www.thape.com/publications/",
+      "detail_url": "https://www.thape.com/publications/",
+      "download_url": "https://thape-upload.oss-cn-shanghai.aliyuncs.com/uploads/publication/pdf_file/45/A14.pdf",
+      "direct_url": "https://thape-upload.oss-cn-shanghai.aliyuncs.com/uploads/publication/pdf_file/45/A14.pdf",
+      "final_redirect_url": null,
+      "source_type": "天华集团公开出版物Preview附件",
+      "draft_status": "unknown_pending_audit",
+      "permission_observed": "公开页面与PDF.js查看器，无登录提示；附件独立GET未做",
+      "metadata_evidence": [
+        {
+          "url": "https://www.thape.com/publications/",
+          "evidence": "对应编号的Preview链接，工具link_id=75"
+        }
+      ],
+      "english_name_from_source": "Management standard for engineering procurement construction (EPC) projects of assembled buildings with precast concrete structure"
+    },
+    {
+      "candidate_id": "G2-20261017-THAPE-7222020",
+      "standard_number": "T/CECS 722-2020",
+      "name": null,
+      "name_status": "待封面核准",
+      "year": 2020,
+      "seed_ids": [],
+      "source_page": "https://www.thape.com/publications/",
+      "detail_url": "https://www.thape.com/publications/",
+      "download_url": "https://thape-upload.oss-cn-shanghai.aliyuncs.com/uploads/publication/pdf_file/47/A16.pdf",
+      "direct_url": "https://thape-upload.oss-cn-shanghai.aliyuncs.com/uploads/publication/pdf_file/47/A16.pdf",
+      "final_redirect_url": null,
+      "source_type": "天华集团公开出版物Preview附件",
+      "draft_status": "unknown_pending_audit",
+      "permission_observed": "公开页面与PDF.js查看器，无登录提示；附件独立GET未做",
+      "metadata_evidence": [
+        {
+          "url": "https://www.thape.com/publications/",
+          "evidence": "对应编号的Preview链接，工具link_id=81"
+        }
+      ],
+      "english_name_from_source": "Technical specification for prestressed concrete composite slab with grouted steel pipe lattice girders"
+    },
+    {
+      "candidate_id": "G2-20261017-THAPE-7092020",
+      "standard_number": "T/CECS 709-2020",
+      "name": null,
+      "name_status": "待封面核准",
+      "year": 2020,
+      "seed_ids": [],
+      "source_page": "https://www.thape.com/publications/",
+      "detail_url": "https://www.thape.com/publications/",
+      "download_url": "https://thape-upload.oss-cn-shanghai.aliyuncs.com/uploads/publication/pdf_file/55/A27.pdf",
+      "direct_url": "https://thape-upload.oss-cn-shanghai.aliyuncs.com/uploads/publication/pdf_file/55/A27.pdf",
+      "final_redirect_url": null,
+      "source_type": "天华集团公开出版物Preview附件",
+      "draft_status": "unknown_pending_audit",
+      "permission_observed": "公开页面与PDF.js查看器，无登录提示；附件独立GET未做",
+      "metadata_evidence": [
+        {
+          "url": "https://www.thape.com/publications/",
+          "evidence": "对应编号的Preview链接，工具link_id=99"
+        }
+      ],
+      "english_name_from_source": "Technical specification for steel-concrete composite frames using corrugated steel plates"
+    },
+    {
+      "candidate_id": "G2-20261017-THAPE-9092021",
+      "standard_number": "T/CECS 909-2021",
+      "name": null,
+      "name_status": "待封面核准",
+      "year": 2021,
+      "seed_ids": [],
+      "source_page": "https://www.thape.com/publications/",
+      "detail_url": "https://www.thape.com/publications/",
+      "download_url": "https://thape-upload.oss-cn-shanghai.aliyuncs.com/uploads/publication/pdf_file/58/A29.pdf",
+      "direct_url": "https://thape-upload.oss-cn-shanghai.aliyuncs.com/uploads/publication/pdf_file/58/A29.pdf",
+      "final_redirect_url": null,
+      "source_type": "天华集团公开出版物Preview附件",
+      "draft_status": "unknown_pending_audit",
+      "permission_observed": "公开页面与PDF.js查看器，无登录提示；附件独立GET未做",
+      "metadata_evidence": [
+        {
+          "url": "https://www.thape.com/publications/",
+          "evidence": "对应编号的Preview链接，工具link_id=101"
+        }
+      ],
+      "english_name_from_source": "Technical code for prepainted stainless steel cable supporting system engineering"
+    },
+    {
+      "candidate_id": "G2-20261017-THAPE-101322021",
+      "standard_number": "T/CECS 10132-2021",
+      "name": null,
+      "name_status": "待封面核准",
+      "year": 2021,
+      "seed_ids": [],
+      "source_page": "https://www.thape.com/publications/",
+      "detail_url": "https://www.thape.com/publications/",
+      "download_url": "https://thape-upload.oss-cn-shanghai.aliyuncs.com/uploads/publication/pdf_file/62/A35.pdf",
+      "direct_url": "https://thape-upload.oss-cn-shanghai.aliyuncs.com/uploads/publication/pdf_file/62/A35.pdf",
+      "final_redirect_url": null,
+      "source_type": "天华集团公开出版物Preview附件",
+      "draft_status": "unknown_pending_audit",
+      "permission_observed": "公开页面与PDF.js查看器，无登录提示；附件独立GET未做",
+      "metadata_evidence": [
+        {
+          "url": "https://www.thape.com/publications/",
+          "evidence": "对应编号的Preview链接，工具link_id=103"
+        }
+      ],
+      "english_name_from_source": "Long-span prestressed concrete hollow-core slabs"
+    },
+    {
+      "candidate_id": "G2-20261017-THAPE-8322021",
+      "standard_number": "T/CECS 832-2021",
+      "name": null,
+      "name_status": "待封面核准",
+      "year": 2021,
+      "seed_ids": [],
+      "source_page": "https://www.thape.com/publications/",
+      "detail_url": "https://www.thape.com/publications/",
+      "download_url": "https://thape-upload.oss-cn-shanghai.aliyuncs.com/uploads/publication/pdf_file/70/A44.pdf",
+      "direct_url": "https://thape-upload.oss-cn-shanghai.aliyuncs.com/uploads/publication/pdf_file/70/A44.pdf",
+      "final_redirect_url": null,
+      "source_type": "天华集团公开出版物Preview附件",
+      "draft_status": "unknown_pending_audit",
+      "permission_observed": "公开页面与PDF.js查看器，无登录提示；附件独立GET未做",
+      "metadata_evidence": [
+        {
+          "url": "https://www.thape.com/publications/",
+          "evidence": "对应编号的Preview链接，工具link_id=111"
+        }
+      ],
+      "english_name_from_source": "Technical specification for waterproofing of underground works of precast monolithic composite concrete structure"
+    }
+  ]
+}

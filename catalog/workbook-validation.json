@@ -1,0 +1,66 @@
+{
+  "checked_at_utc": "2026-10-17T05:14:54.335464+00:00",
+  "xlsx_sha256": "f6ce838ec33e704fb942bfc63e24c1c641ba177251fb4e62f08e6c50a01b2aac",
+  "bytes": 450385,
+  "sheets": [
+    {
+      "name": "规范总表",
+      "rows": 761,
+      "columns": 23,
+      "freeze_panes": "C9"
+    },
+    {
+      "name": "已验完整PDF",
+      "rows": 16,
+      "columns": 19,
+      "freeze_panes": "C9"
+    },
+    {
+      "name": "链接明细",
+      "rows": 127,
+      "columns": 40,
+      "freeze_panes": "C9"
+    },
+    {
+      "name": "原始映射",
+      "rows": 89,
+      "columns": 12,
+      "freeze_panes": "C9"
+    },
+    {
+      "name": "待查与问题",
+      "rows": 686,
+      "columns": 10,
+      "freeze_panes": "C9"
+    },
+    {
+      "name": "状态与来源依据",
+      "rows": 850,
+      "columns": 12,
+      "freeze_panes": "C9"
+    },
+    {
+      "name": "检索记录",
+      "rows": 43,
+      "columns": 12,
+      "freeze_panes": "C9"
+    },
+    {
+      "name": "说明与覆盖",
+      "rows": 33,
+      "columns": 2,
+      "freeze_panes": "C9"
+    },
+    {
+      "name": "变更记录",
+      "rows": 927,
+      "columns": 8,
+      "freeze_panes": "C9"
+    }
+  ],
+  "native_hyperlinks": 2649,
+  "error_cells": 0,
+  "all_81_original_mappings": true,
+  "counts_reconciled": true,
+  "complete_pdf_required_fields": true
+}

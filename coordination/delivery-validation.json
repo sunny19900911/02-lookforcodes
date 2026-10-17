@@ -1,0 +1,47 @@
+{
+  "checked_at": "2026-10-17T13:15:14.633198+08:00",
+  "xlsx_sha256": "f6ce838ec33e704fb942bfc63e24c1c641ba177251fb4e62f08e6c50a01b2aac",
+  "bytes": 450385,
+  "sheets": {
+    "规范总表": 753,
+    "已验完整PDF": 8,
+    "链接明细": 119,
+    "原始映射": 81,
+    "待查与问题": 678,
+    "状态与来源依据": 842,
+    "检索记录": 35,
+    "说明与覆盖": 25,
+    "变更记录": 919
+  },
+  "coverage": {
+    "baseline_records_registered": 81,
+    "baseline_standard_versions": 74,
+    "registered_standard_versions": 753,
+    "registered_links": 119,
+    "verified_complete_pdf_links": 8,
+    "verified_complete_standard_versions": 6,
+    "authority_records": 652,
+    "independent_audit_results": 28,
+    "downloaded_parseable_pending": 8,
+    "verified_complete_unique_sha256": 6
+  },
+  "native_hyperlinks": 2649,
+  "error_cells": 0,
+  "grade_counts_for_complete": {
+    "B": 8
+  },
+  "checks": [
+    "ZIP integrity",
+    "catalog SHA256 receipt",
+    "9 readable worksheets",
+    "81 original mappings",
+    "stable IDs unique",
+    "link IDs unique and no orphan",
+    "only verified complete links recommended",
+    "required PDF evidence fields",
+    "all sheet counts reconcile",
+    "native hyperlinks",
+    "no Excel errors"
+  ],
+  "scope_limit": "Output data consistency only. Independent PDF conclusions remain attributable to pdf-audit evidence; not proof of all-web coverage or current standard applicability."
+}

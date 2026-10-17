@@ -17,6 +17,10 @@ for folder in ('catalog', 'search', 'pdf-audit'):
     base = OUTPUT / folder
     if base.exists():
         sources.extend(p for p in base.iterdir() if p.is_file())
+for folder in ('baseline-external-routes', 'g2-public-routes'):
+    base = OUTPUT / 'search' / folder
+    if base.exists():
+        sources.extend(p for p in base.iterdir() if p.is_file())
 authority = OUTPUT / 'search' / 'master-authority'
 if authority.exists():
     sources.extend(authority.glob('*.json'))

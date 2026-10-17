@@ -1,0 +1,111 @@
+{
+  "checked_at": "2026-10-17T13:10:00+08:00",
+  "query_count": 40,
+  "queries": [
+    "\"CECS\" \"绿色建材\" filetype:pdf site:gov.cn",
+    "\"CECS 279\" filetype:pdf",
+    "\"CECS 465\" filetype:pdf",
+    "\"CECS\" \"1996\" \"预制桩\" pdf",
+    "\"强夯地基处理技术规程\" pdf",
+    "\"既有建筑绿色改造技术规程\" pdf",
+    "\"预制桩工程质量检测标准\" pdf",
+    "\"钻芯法检测混凝土强度技术规程\" filetype:pdf",
+    "\"CECS\" filetype:pdf site:cecs.org.cn \"绿色\"",
+    "\"CECS\" filetype:pdf site:fjbz.org.cn",
+    "\"绿色建筑工程竣工验收标准\" pdf",
+    "\"桩的动力检测标准\" \"2034\" pdf",
+    "\"CECS\" \"pdf\" site:cecs.org.cn \"检测\"",
+    "\"CECS\" \"pdf\" site:cesf.com.cn",
+    "\"预制桩工程质量检测标准\" \"附件\"",
+    "\"CECS 465\" \"下载\" \"中国建筑科学\"",
+    "\"CECS\" \"filetype:pdf\" \"检测\" -site:scribd.com -site:bzko.com -site:guifanku.com",
+    "\"CECS\" \"绿色建材\" \"附件\" \"pdf\" -site:scribd.com",
+    "\"T/CECS\" \"1996\" \"福建\" -site:gongbiaoku.com",
+    "\"CECS 69\" \"pdf\" \"2011\"",
+    "\"氢氧化钠溶液\" \"规程\" pdf",
+    "\"剪压法检测混凝土抗压强度技术规程\" pdf",
+    "\"水泥复合砂浆钢筋加固混凝土结构技术规程\" pdf",
+    "\"喷射混凝土加固技术规程\" pdf",
+    "\"中国工程建设标准化协会\" \"标准全文\" pdf",
+    "\"CECS\" filetype:pdf site:edu.cn \"规程\" -参考文献",
+    "\"CECS\" filetype:pdf site:cabr.com.cn",
+    "\"CECS\" filetype:pdf site:cecs.org.cn",
+    "\"T/CECS 661-2020\" filetype:pdf",
+    "\"新型冠状病毒感染的肺炎传染病应急医疗设施设计标准\" \"pdf\" \"附件\"",
+    "\"绿色建筑检测技术标准\" filetype:pdf",
+    "\"既有建筑绿色改造技术规程\" \"ysjianzhan\"",
+    "\"新型冠状病毒感染的肺炎传染病应急医疗设施设计标准\" pdf -site:scribd.com -site:bzko.com",
+    "\"CECS661\" pdf",
+    "\"CECS 661\" \"下载\"",
+    "\"CECS 68\" \"规程\" \"pdf\" -site:scribd.com",
+    "site:js.shaanxi.gov.cn/sy/zcwj/stwj/202002 \"661\"",
+    "\"CECS 68\" \"下载\" \"标准\" -site:scribd.com -site:bzko.com -site:renrendoc.com",
+    "\"TCECS465-2017JYJZLSGZJSGC\"",
+    "\"CECS\" \"绿色\" site:js.shaanxi.gov.cn filetype:pdf"
+  ],
+  "checked_numbers": [
+    "279-2010",
+    "465-2017",
+    "1996-2025",
+    "3-2007",
+    "494-2017",
+    "2034-2025",
+    "69-2011",
+    "68-1994",
+    "278-2010",
+    "242-2016",
+    "161-2004",
+    "661-2020",
+    "725-2020",
+    "2054-2025"
+  ],
+  "direct_pdf_candidate_count": 3,
+  "web_pdf_parsed_count": 2,
+  "independently_verified_full_pdf_count": 0,
+  "scope": "650编号年份官方/历史元数据按G1/G4/G5主题选取；本轮只对已查编号开展首轮，不是逐650项、逐81项完成。",
+  "method_findings": [
+    "完整中文标准名+PDF显著减少外国大学CECS课程和医学CECS噪声。",
+    "政府PDF命中可能仅为引用目录；名称一致仍需先看封面标准号。剪压法命中福建DBJ/T13-166-2013，应排除而不替代CECS278-2010。",
+    "公开建站附件域命中多份标准，但发布者父页和授权可追溯性较弱，优先级低于有明确免费声明的政府/协会附件。",
+    "官方协会明确免费开放疫情应急标准，沿免费全文声明再查政府附件得到661-2020。这是本轮可复验的G5扩展路径。"
+  ],
+  "gaps": [
+    {
+      "standard": "CECS279-2010",
+      "result": "仅出版社试读及第三方介绍，无公开机构完整PDF"
+    },
+    {
+      "standard": "CECS3-2007",
+      "result": "第三方资源页及报告引用；无公开机构完整PDF"
+    },
+    {
+      "standard": "T/CECS494-2017",
+      "result": "工标库公告/目录及VIP资料页，无公开机构完整PDF"
+    },
+    {
+      "standard": "CECS69-2011",
+      "result": "论文引用及行业检测依据页，无公开机构完整PDF；不得用69:94冒充"
+    },
+    {
+      "standard": "CECS278-2010",
+      "result": "有官方引用证据，但同名福建地方标准不是同一份CECS"
+    },
+    {
+      "standard": "CECS242-2016",
+      "result": "介绍页和正文HTML；未取得公开机构PDF"
+    },
+    {
+      "standard": "CECS161-2004",
+      "result": "第三方VIP资料页，无公开机构完整PDF"
+    },
+    {
+      "standard": "T/CECS725-2020",
+      "result": "资料站介绍及官方引用文档，无公开机构完整PDF"
+    }
+  ],
+  "next_experiments": [
+    "解析陕西住建厅661附件所属详情页、查中国中元官网备份附件",
+    "对465/68建站附件做独立GET，再尝试从网页反向定位公开发布者，不以域名或页数判完整",
+    "G4按2054的东南大学/参编单位和1996福建建科院公开附件路线继续，避免只查标准资源站"
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "producer": "search",
+  "date": "2026-10-17",
+  "timezone": "Asia/Shanghai",
+  "coverage_boundary": "五组已有主题首轮，不等于81条逐项完成。当前为第二轮接手增量；目录池650个编号年份仅元数据，未逐一查全文。",
+  "rounds": [
+    {
+      "round": "r07-r09",
+      "target_groups": [
+        "G4",
+        "G5"
+      ],
+      "queries": [
+        "site:cecs.org.cn \"796\" \"屋面结构雪荷载\"",
+        "\"屋面结构雪荷载设计标准\" \"757\""
+      ],
+      "page_checks": [
+        "津维标准页3/4/5",
+        "协会公告11661",
+        "NDLS796-2021及其2020相关条目",
+        "淄博住建局2021年6月实施清单"
+      ],
+      "outcome": "4个津维候选补href及备用；796双馆藏冲突"
+    },
+    {
+      "round": "r10",
+      "target_groups": [
+        "G5"
+      ],
+      "queries": [
+        "site:cecs.org.cn \"屋面结构雪荷载\" \"796\"",
+        "site:china-building.com.cn \"屋面结构雪荷载\"",
+        "site:cabp.com.cn \"屋面结构雪荷载\"",
+        "\"屋面结构雪荷载设计标准\" \"勘误\""
+      ],
+      "outcome": "本轮未得协会澄清或勘误，不把搜不到作不存在"
+    },
+    {
+      "round": "r11",
+      "target_groups": [
+        "G1"
+      ],
+      "queries": [
+        "\"岩土锚杆技术规程\" \"22-2024\" pdf -site:zhanggenbao.com -site:scribd.com -site:doc88.com -site:docin.com",
+        "\"岩土锚杆(索)技术规程\" filetype:pdf -site:antpedia.com -site:scribd.com -site:doc88.com -site:docin.com",
+        "\"CECS 22\" site:edu.cn filetype:pdf",
+        "\"T∕CECS 22-2024\" 下载"
+      ],
+      "outcome": "新增22:2005公开附件，2024仅登录/活力值等缺口；政府报告引用不收作全文"
+    },
+    {
+      "round": "r12-r13",
+      "target_groups": [
+        "G3",
+        "G1"
+      ],
+      "queries": [
+        "site:cecs.org.cn \"200-2025\"",
+        "\"T/CECS 200-2025\" filetype:pdf",
+        "\"CECS\" \"抗震\" filetype:pdf site:org.cn",
+        "\"CECS\" \"钢结构\" \"下载\" site:edu.cn",
+        "\"建筑钢结构防火技术标准\" \"同济\" \"2025\"",
+        "\"建筑钢结构防火技术标准\" site:gov.cn",
+        "\"岩土锚杆技术规程\" \"2185\" site:org.cn"
+      ],
+      "outcome": "发现大学公开课程4条明确预览PDF链接；200-2025官方目录已在master-authority池，替代关系仍需协会原公告，不据第三方摘要定案"
+    },
+    {
+      "round": "r14-r17",
+      "target_groups": [
+        "G4"
+      ],
+      "queries": [
+        "\"T/CECS 10032-2019\" filetype:pdf -site:dlssyht.cn",
+        "\"绿色建材评价\" \"保温系统材料\" pdf",
+        "\"T/CECS10032\" site:gov.cn",
+        "\"玻璃栈道工程技术规程\" filetype:pdf -site:wlt.fujian.gov.cn",
+        "\"保温系统材料\" site:ctc.ac.cn filetype:pdf",
+        "\"CECS10032\" filetype:pdf",
+        "\"CECS 10032\" \"附件\"",
+        "\"绿色建材评价标准\" \"下载\" site:gov.cn"
+      ],
+      "outcome": "10032未得无遮挡替换本，qbw游客禁止下载；896 safehoo明确20点/VIP，未绕过。CMEEEA同名2025草案、政府材料技术要求和CTC认证细则不属于CECS全文"
+    },
+    {
+      "round": "r18-r19",
+      "target_groups": [
+        "G5"
+      ],
+      "queries": [
+        "\"屋面结构雪荷载设计标准\" filetype:pdf -site:ysjianzhan.cn -site:scribd.com -site:doc88.com -site:docin.com",
+        "\"TCECS796\" pdf",
+        "\"T/CECS 796-2020\" \"中国建筑工业出版社\""
+      ],
+      "outcome": "出版方公开试读目录标796-2020，另单页公告副本标796-2021；冲突保留，未将DB23/T4000近似名称计为CECS"
+    }
+  ],
+  "failures_reused_for_method": [
+    "锚杆2024.pdf实返HTML",
+    "锚杆2005旧antpedia三页封面",
+    "索结构草案只到条文说明扉页",
+    "10032有跨栏水印",
+    "796公开附件403",
+    "800/715出版社试读不当全文"
+  ],
+  "pending": [
+    "基线余项逐条标准名+起草单位检索",
+    "官方目录候选池2018-2025空档补充",
+    "896纸本对照/无遮挡10032/796出版社与协会澄清"
+  ],
+  "verification": "链接最终URL、完整性和质量只采用独立pdf-audit结果"
+}

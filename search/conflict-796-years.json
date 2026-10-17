@@ -1,0 +1,61 @@
+{
+  "source_id": "SEARCH-CONFLICT-796-20261017",
+  "checked_at": "2026-10-17T13:10:31+08:00",
+  "seed_ids": [
+    "S009"
+  ],
+  "name": "屋面结构雪荷载设计标准",
+  "status": "年份冲突未解决；同名同实施日，不能先行认作两个实际版本或认作笔误",
+  "retained_values": [
+    "T/CECS 796-2020",
+    "T/CECS 796-2021"
+  ],
+  "evidence": [
+    {
+      "source_url": "https://www.ndls.org.cn/standard/detail/b370e7a720812dae2ef5e9b83c9a07b3",
+      "source_id": "NDLS-796-2021-20261017",
+      "statement_type": "原文事实",
+      "claim": "馆藏页编号796-2021，发布日期2021-01-05、实施日期2021-06-01；网页标现行，且相似条目链接到796-2020；这是馆藏元数据，不独立核定2026状态"
+    },
+    {
+      "source_url": "https://www.ndls.org.cn/standard/detail/ce1c29ad394dd9d329efef769e4b05d7",
+      "source_id": "NDLS-796-2020-20261017",
+      "statement_type": "原文事实",
+      "claim": "另一馆藏页编号796-2020，名称附条文说明，实施2021-06-01，网页亦标现行"
+    },
+    {
+      "source_url": "https://js.zibo.gov.cn/art/2021/6/21/art_18263_2672842.html",
+      "source_id": "ZIBO-202106-IMPLEMENTATION",
+      "statement_type": "原文事实",
+      "claim": "住建局2021年6月实施清单第23条为T/CECS796-2021，实施2021/6/1；历史实施事实不能直接证明2026状态"
+    },
+    {
+      "source_url": "https://pro5323b5d3-pic11.ysjianzhan.cn/upload/39TCECS796-2020WMJGXHZSJBZ.pdf",
+      "source_id": "SEARCH-R01-G5-004",
+      "statement_type": "原文事实候选",
+      "claim": "公开附件搜索解析中的版权页编号为796-2020且首印2021年5月；封面与公告需audit独立核验",
+      "audit_candidate_id": "R01-G5-004"
+    },
+    {
+      "source_url": "https://www.cecs.org.cn/xhbz/fbgg/11661.html",
+      "source_id": "CECS-ANNOUNCEMENT-11661",
+      "statement_type": "待核实",
+      "claim": "转载提供协会原公告URL；本轮web打开失败，未据此认定原文"
+    },
+    {
+      "source_url": "https://ebook.chinabuilding.com.cn/zbooklib/bookpdf/probation?SiteID=1&bookID=140749",
+      "source_id": "CABP-796-2020-PREVIEW-20261017",
+      "statement_type": "原文事实",
+      "claim": "出版方公开试读网页标题和目录标T/CECS796-2020；它是出版方年份证据，不是可用完整PDF证据；与2021公告及2020/2021双馆藏关系仍待澄清"
+    }
+  ],
+  "inference": {
+    "statement_type": "AI推断",
+    "claim": "可能为发布公告与出版物编年差异或元数据误录；当前证据不足以判定，应挂冲突组并保留原始映射"
+  },
+  "next_test": [
+    "查协会原公告或迁移页及出版社勘误",
+    "由独立审查核对公开PDF封面、扉页、公告页与版权页是否一致",
+    "未取得权威澄清前不静默统一年份"
+  ]
+}

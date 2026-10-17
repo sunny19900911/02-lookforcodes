@@ -1,0 +1,12 @@
+{
+  "source_page": "https://eol.nwafu.edu.cn/meol/homepage/course/listview.jsp?_colId=null&_style=new03&acttype=enter&folderid=283225&lid=47196",
+  "preview_page": "https://eol.nwafu.edu.cn/meol/common/script/preview/download_preview.jsp?fileid=577890&resid=283228&lid=47196&preview=preview",
+  "observed_public_iframe_url": "https://eol.nwafu.edu.cn/meol/analytics/resPdfShow.do?resId=283228&lid=47196",
+  "checked_at": "2026-10-17T13:05:47+08:00",
+  "status": 200,
+  "final_url": "https://eol.nwafu.edu.cn/meol/analytics/resPdfShow.do?resId=283228&lid=47196",
+  "content_type": "application/pdf;charset=UTF-8",
+  "starts_with_pdf": true,
+  "bytes_checked": 512,
+  "boundary": "仅公开预览iframe GET首512字节探测；非完整PDF验证；若认证/权限拒绝则停止，不绕过"
+}

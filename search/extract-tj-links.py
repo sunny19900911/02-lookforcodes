@@ -1,6 +1,7 @@
 import html
 import json
 import re
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 root = Path(__file__).resolve().parent
@@ -21,7 +22,7 @@ for block in blocks:
             result = dict(item)
             result['download_url'] = next(x for x in links if 'download.s21i.co99.net' in x)
             result['alternative_urls'] = [x for x in links if x != result['download_url']]
-            result['checked_at'] = '2026-10-17T13:05:00+08:00'
+            result['checked_at'] = datetime.now(timezone(timedelta(hours=8))).isoformat(timespec='seconds')
             result['permission_status'] = '公开页面明确提供下载href；未登录；独立GET待审'
             result['source_id'] = 'SEARCH-TJ-JWDZ-20261017-P4'
             result['discovery_evidence'] = 'curl公开GET并解压页面HTML，提取同一CECS标题行的下载href和站点预览href；未用HTTP200推断PDF完整性'

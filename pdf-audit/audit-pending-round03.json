@@ -1,0 +1,196 @@
+{
+  "schema_version": "1.0",
+  "producer": "audit",
+  "status": "pending_merge_after_canonical_freeze",
+  "results": [
+    {
+      "candidate_id": "EXT-R01-661-2020",
+      "seed_ids": [],
+      "topic_group": "G5",
+      "standard_number": "T/CECS 661-2020",
+      "number": "661",
+      "year": "2020",
+      "name": "新型冠状病毒感染的肺炎传染病应急医疗设施设计标准",
+      "version_stage": "正式版（附件封面和第551号公告）",
+      "source_page": "https://www.chinaasc.org.cn/news/127038.html",
+      "download_url": "https://js.shaanxi.gov.cn/sy/zcwj/stwj/202002/P020241009665216889729.pdf",
+      "alternate_urls": [],
+      "source_page_gap": "陕西住建厅PDF所属详情页尚未定位；source_page为中国建筑学会全文公开说明和编号证据，不是该PDF的父页面。",
+      "metadata_evidence": [
+        {
+          "url": "https://www.chinaasc.org.cn/news/127038.html",
+          "kind": "协会转载正式发布及免费公开说明",
+          "locator": "网页正文，发布日期2020-02-20，说明编号661-2020、2020-02-06实施；明确协会向全社会免费公开标准"
+        },
+        {
+          "url": "https://js.shaanxi.gov.cn/sy/zcwj/stwj/202002/P020241009665216889729.pdf",
+          "kind": "政府附件封面/公告",
+          "locator": "PDF P1/P2，T/CECS661-2020，第551号公告"
+        }
+      ],
+      "search_observation": {
+        "tool": "web open",
+        "content_type": "application/pdf",
+        "reported_page_count": 44,
+        "reported_final_url": "https://js.shaanxi.gov.cn/sy/zcwj/stwj/202002/P020241009665216889729.pdf",
+        "note": "web解析到封面、公告、目录和正文；不是独立下载或完整性结论。"
+      },
+      "permission": "公开政府附件；关联协会声明免费向全社会开放，不需要认证",
+      "download_status": "已实测GET可解析PDF；完整性待核",
+      "current_status": "未知（未核2026现行性）",
+      "requested_url": "https://js.shaanxi.gov.cn/sy/zcwj/stwj/202002/P020241009665216889729.pdf",
+      "checked_at": "2026-10-17T13:13:34+08:00",
+      "audit_id": "EXT-R01-661-2020",
+      "recommendation": "C",
+      "recommendation_reason": "实际GET和全部页面解析通过，等待版本、目录末项与终页、抽样图像核验",
+      "evidence_paths": [
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\EXT-R01-661-2020\\parse-evidence.json",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\EXT-R01-661-2020\\page-001.png",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\EXT-R01-661-2020\\page-005.png",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\EXT-R01-661-2020\\page-007.png",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\EXT-R01-661-2020\\page-023.png",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\EXT-R01-661-2020\\page-042.png",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\EXT-R01-661-2020\\page-044.png",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\EXT-R01-661-2020\\contact-sheet.jpg"
+      ],
+      "audit_rules_version": "2026-10-17.2",
+      "complete_pdf": false,
+      "version_verified": false,
+      "standard_key": "T/CECS 661-2020",
+      "http_status": 200,
+      "final_url": "https://js.shaanxi.gov.cn/sy/zcwj/stwj/202002/P020241009665216889729.pdf",
+      "content_type": "application/pdf",
+      "content_length_header": "1319658",
+      "bytes": 1319658,
+      "transfer_size_matches_header": true,
+      "pdf_header_valid": true,
+      "sha256": "c506ede42f0fb04ffcdb2c5d28783d1f121f2750282d15756c648eb2554784ea",
+      "local_path": "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\downloads-temp\\EXT-R01-661-2020.pdf",
+      "encrypted": false,
+      "encryption_permissions": null,
+      "pages": 44,
+      "pdf_parse": "页面树可遍历；已尝试逐页文本提取。图像/字体/内容流可读性另以渲染与目视记录判断",
+      "eof_marker_present": true,
+      "text_pages": 43,
+      "text_characters": 26455,
+      "cjk_characters": 16138,
+      "text_layer": true,
+      "body_searchable": null,
+      "body_text_layer": "待正文中文与图像对照；少量导航文字或乱码不能证明正文可搜索",
+      "searchable": "待抽查中文抽取准确性",
+      "bookmark_count": 2,
+      "bookmark_valid_target_count": 2,
+      "bookmark_navigation": "全部目标有效",
+      "clickable_toc": "未发现任何Link注释；目录不可点击",
+      "link_annotation_count": 0,
+      "rotation_summary": {
+        "0": 44
+      },
+      "cropbox_diff_pages": [],
+      "version_match": "待封面人工核验",
+      "completeness": "可下载，完整性待核",
+      "clarity": "待封面/目录/正文/表图/末页目视抽查",
+      "contact_sheet": "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\EXT-R01-661-2020\\contact-sheet.jpg",
+      "elapsed_seconds": 3.19
+    },
+    {
+      "candidate_id": "EXT-R01-465-2017",
+      "seed_ids": [],
+      "topic_group": "G5",
+      "standard_number": "T/CECS 465-2017",
+      "number": "465",
+      "year": "2017",
+      "name": "既有建筑绿色改造技术规程",
+      "version_stage": "正式版候选（PDF公告及官方历史目录交叉支持）",
+      "source_page": "https://lwec.net/article/detail-107",
+      "download_url": "https://pro5323b5d3-pic11.ysjianzhan.cn/upload/5TCECS465-2017JYJZLSGZJSGC.pdf",
+      "alternate_urls": [],
+      "source_page_gap": "source_page仅为2018历史机构目录证据；PDF发布者及父页面尚未定位，公开建站附件域本身不能确定发布者。",
+      "metadata_evidence": [
+        {
+          "local_reference": "../master-authority/authority-directory-records.json",
+          "source_id": "LWEC-20180611-CECS-CATALOG",
+          "kind": "2018年历史机构目录记录",
+          "note": "仅编号、名称及历史收录依据，不确认2026现行性"
+        },
+        {
+          "url": "https://pro5323b5d3-pic11.ysjianzhan.cn/upload/5TCECS465-2017JYJZLSGZJSGC.pdf",
+          "kind": "附件公告",
+          "locator": "web解析PDF P3，有T/CECS465-2017和2017-06-01实施日期；OCR存在明显错误"
+        }
+      ],
+      "search_observation": {
+        "tool": "web open",
+        "content_type": "application/pdf",
+        "reported_page_count": 136,
+        "reported_final_url": "https://pro5323b5d3-pic11.ysjianzhan.cn/upload/5TCECS465-2017JYJZLSGZJSGC.pdf",
+        "note": "web可解析，但OCR大量乱码；页数不能证明完整。"
+      },
+      "permission": "公网附件未见认证门槛；发布者及授权说明待核",
+      "download_status": "需登录或访问受限",
+      "current_status": "未知（2018历史收录不能证明2026现行性）",
+      "requested_url": "https://pro5323b5d3-pic11.ysjianzhan.cn/upload/5TCECS465-2017JYJZLSGZJSGC.pdf",
+      "checked_at": "2026-10-17T13:13:34+08:00",
+      "audit_id": "EXT-R01-465-2017",
+      "recommendation": "D",
+      "recommendation_reason": "实际GET/解析未成功；不推断永久失效",
+      "evidence_paths": [],
+      "audit_rules_version": "2026-10-17.2",
+      "complete_pdf": false,
+      "version_verified": false,
+      "standard_key": "T/CECS 465-2017",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "http_status": 403,
+      "elapsed_seconds": 0.14
+    },
+    {
+      "candidate_id": "EXT-R01-68-1994",
+      "seed_ids": [],
+      "topic_group": "G1",
+      "standard_number": "CECS 68-1994",
+      "number": "68",
+      "year": "1994",
+      "name": "氢氧化钠溶液(碱液)加固湿陷性黄土地基技术规程",
+      "version_stage": "正式版候选（仅历史目录与搜索解析，待封面独立核对）",
+      "source_page": "https://lwec.net/article/detail-107",
+      "download_url": "https://pro5323b5d3-pic11.ysjianzhan.cn/upload/172CECS68-94QYHNRYJYJGSXXHTDJJSGC.pdf",
+      "alternate_urls": [],
+      "source_page_gap": "source_page仅为2018历史目录；附件发布者与父页面未定位。",
+      "metadata_evidence": [
+        {
+          "local_reference": "../master-authority/authority-directory-records.json",
+          "source_id": "LWEC-20180611-CECS-CATALOG:CECS68",
+          "kind": "2018历史机构目录",
+          "note": "名称、编号、年份交叉依据"
+        },
+        {
+          "url": "https://pro5323b5d3-pic11.ysjianzhan.cn/upload/172CECS68-94QYHNRYJYJGSXXHTDJJSGC.pdf",
+          "kind": "搜索引擎解析命中",
+          "note": "搜索解析有协会标准及中文标题；web open本轮Internal Error，未认定可下载"
+        }
+      ],
+      "search_observation": {
+        "tool": "web search/open",
+        "open_result": "Internal Error",
+        "note": "本次网络失败未验证，不判永久失效"
+      },
+      "permission": "公网候选未见认证门槛；发布者及授权说明待核",
+      "download_status": "需登录或访问受限",
+      "current_status": "未知（2026现行性待核）",
+      "requested_url": "https://pro5323b5d3-pic11.ysjianzhan.cn/upload/172CECS68-94QYHNRYJYJGSXXHTDJJSGC.pdf",
+      "checked_at": "2026-10-17T13:13:34+08:00",
+      "audit_id": "EXT-R01-68-1994",
+      "recommendation": "D",
+      "recommendation_reason": "实际GET/解析未成功；不推断永久失效",
+      "evidence_paths": [],
+      "audit_rules_version": "2026-10-17.2",
+      "complete_pdf": false,
+      "version_verified": false,
+      "standard_key": "CECS 68-1994",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "http_status": 403,
+      "elapsed_seconds": 0.12
+    }
+  ],
+  "updated_at": "2026-10-17T13:13:37+08:00"
+}

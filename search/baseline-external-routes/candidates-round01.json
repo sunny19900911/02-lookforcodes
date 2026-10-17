@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "producer": "search-baseline-external-routes",
+  "checked_at": "2026-10-17T13:10:00+08:00",
+  "boundary": "仅搜索候选与元数据。未保存PDF原件；独立GET、完整性和清晰度审查由pdf-audit负责。全部候选均不在81条seed中，baseline_seed_ids为空。",
+  "candidates": [
+    {
+      "candidate_id": "EXT-R01-661-2020",
+      "seed_ids": [],
+      "topic_group": "G5",
+      "standard_number": "T/CECS 661-2020",
+      "number": "661",
+      "year": "2020",
+      "name": "新型冠状病毒感染的肺炎传染病应急医疗设施设计标准",
+      "version_stage": "正式版（附件封面和第551号公告）",
+      "source_page": "https://www.chinaasc.org.cn/news/127038.html",
+      "download_url": "https://js.shaanxi.gov.cn/sy/zcwj/stwj/202002/P020241009665216889729.pdf",
+      "alternate_urls": [],
+      "source_page_gap": "陕西住建厅PDF所属详情页尚未定位；source_page为中国建筑学会全文公开说明和编号证据，不是该PDF的父页面。",
+      "metadata_evidence": [
+        {
+          "url": "https://www.chinaasc.org.cn/news/127038.html",
+          "kind": "协会转载正式发布及免费公开说明",
+          "locator": "网页正文，发布日期2020-02-20，说明编号661-2020、2020-02-06实施；明确协会向全社会免费公开标准"
+        },
+        {
+          "url": "https://js.shaanxi.gov.cn/sy/zcwj/stwj/202002/P020241009665216889729.pdf",
+          "kind": "政府附件封面/公告",
+          "locator": "PDF P1/P2，T/CECS661-2020，第551号公告"
+        }
+      ],
+      "search_observation": {
+        "tool": "web open",
+        "content_type": "application/pdf",
+        "reported_page_count": 44,
+        "reported_final_url": "https://js.shaanxi.gov.cn/sy/zcwj/stwj/202002/P020241009665216889729.pdf",
+        "note": "web解析到封面、公告、目录和正文；不是独立下载或完整性结论。"
+      },
+      "permission": "公开政府附件；关联协会声明免费向全社会开放，不需要认证",
+      "download_status": "直接PDF候选，待独立GET及完整性审查",
+      "current_status": "未知（未核2026现行性）"
+    },
+    {
+      "candidate_id": "EXT-R01-465-2017",
+      "seed_ids": [],
+      "topic_group": "G5",
+      "standard_number": "T/CECS 465-2017",
+      "number": "465",
+      "year": "2017",
+      "name": "既有建筑绿色改造技术规程",
+      "version_stage": "正式版候选（PDF公告及官方历史目录交叉支持）",
+      "source_page": "https://lwec.net/article/detail-107",
+      "download_url": "https://pro5323b5d3-pic11.ysjianzhan.cn/upload/5TCECS465-2017JYJZLSGZJSGC.pdf",
+      "alternate_urls": [],
+      "source_page_gap": "source_page仅为2018历史机构目录证据；PDF发布者及父页面尚未定位，公开建站附件域本身不能确定发布者。",
+      "metadata_evidence": [
+        {
+          "local_reference": "../master-authority/authority-directory-records.json",
+          "source_id": "LWEC-20180611-CECS-CATALOG",
+          "kind": "2018年历史机构目录记录",
+          "note": "仅编号、名称及历史收录依据，不确认2026现行性"
+        },
+        {
+          "url": "https://pro5323b5d3-pic11.ysjianzhan.cn/upload/5TCECS465-2017JYJZLSGZJSGC.pdf",
+          "kind": "附件公告",
+          "locator": "web解析PDF P3，有T/CECS465-2017和2017-06-01实施日期；OCR存在明显错误"
+        }
+      ],
+      "search_observation": {
+        "tool": "web open",
+        "content_type": "application/pdf",
+        "reported_page_count": 136,
+        "reported_final_url": "https://pro5323b5d3-pic11.ysjianzhan.cn/upload/5TCECS465-2017JYJZLSGZJSGC.pdf",
+        "note": "web可解析，但OCR大量乱码；页数不能证明完整。"
+      },
+      "permission": "公网附件未见认证门槛；发布者及授权说明待核",
+      "download_status": "直接PDF候选，待来源父页和独立审查",
+      "current_status": "未知（2018历史收录不能证明2026现行性）"
+    },
+    {
+      "candidate_id": "EXT-R01-68-1994",
+      "seed_ids": [],
+      "topic_group": "G1",
+      "standard_number": "CECS 68-1994",
+      "number": "68",
+      "year": "1994",
+      "name": "氢氧化钠溶液(碱液)加固湿陷性黄土地基技术规程",
+      "version_stage": "正式版候选（仅历史目录与搜索解析，待封面独立核对）",
+      "source_page": "https://lwec.net/article/detail-107",
+      "download_url": "https://pro5323b5d3-pic11.ysjianzhan.cn/upload/172CECS68-94QYHNRYJYJGSXXHTDJJSGC.pdf",
+      "alternate_urls": [],
+      "source_page_gap": "source_page仅为2018历史目录；附件发布者与父页面未定位。",
+      "metadata_evidence": [
+        {
+          "local_reference": "../master-authority/authority-directory-records.json",
+          "source_id": "LWEC-20180611-CECS-CATALOG:CECS68",
+          "kind": "2018历史机构目录",
+          "note": "名称、编号、年份交叉依据"
+        },
+        {
+          "url": "https://pro5323b5d3-pic11.ysjianzhan.cn/upload/172CECS68-94QYHNRYJYJGSXXHTDJJSGC.pdf",
+          "kind": "搜索引擎解析命中",
+          "note": "搜索解析有协会标准及中文标题；web open本轮Internal Error，未认定可下载"
+        }
+      ],
+      "search_observation": {
+        "tool": "web search/open",
+        "open_result": "Internal Error",
+        "note": "本次网络失败未验证，不判永久失效"
+      },
+      "permission": "公网候选未见认证门槛；发布者及授权说明待核",
+      "download_status": "候选直链，本次网络失败未验证",
+      "current_status": "未知（2026现行性待核）"
+    }
+  ],
+  "metadata_only": [
+    {
+      "standard_number": "T/CECS 2054-2025",
+      "number": "2054",
+      "year": "2025",
+      "name": "纤维格栅增强高性能水泥基复合材料加固混凝土结构技术规程",
+      "seed_ids": [],
+      "topic_group": "G4",
+      "source_page": "https://hshx.dgut.edu.cn/info/1130/21239.htm",
+      "download_url": null,
+      "alternate_urls": [],
+      "version_stage": "正式发布（起草参与机构新闻证据）",
+      "metadata_evidence": [
+        {
+          "url": "https://hshx.dgut.edu.cn/info/1130/21239.htm",
+          "kind": "参编单位大学官方网页",
+          "date": "2025-11-11",
+          "note": "说明东南大学主编，中国工程建设标准化协会批准，2026-03-01实施，中国建筑工业出版社出版"
+        }
+      ],
+      "download_status": "仅正式发布介绍，无公开全文附件",
+      "current_status": "来源可证明截至新闻日正式发布及计划实施；不单独保证2026现行性"
+    },
+    {
+      "standard_number": "T/CECS 1996-2025",
+      "name": "预制桩工程质量检测标准",
+      "seed_ids": [],
+      "topic_group": "G1",
+      "source_page": "https://sjw.qingdao.gov.cn/cxjsj3/cxjsj200/cxjsj_hydt2/202512/t20251225_10420918.html",
+      "download_url": null,
+      "alternate_urls": [],
+      "version_stage": "正式版目录记录",
+      "metadata_evidence": [
+        {
+          "local_reference": "../master-authority/authority-directory-records.json",
+          "kind": "青岛住建局2026年1月实施标准清单"
+        }
+      ],
+      "search_route_lead": "工标库介绍指向福建省建筑科学研究院有限责任公司主编，但本轮未取得官方公开完整PDF",
+      "download_status": "缺全文"
+    },
+    {
+      "standard_number": "T/CECS 2034-2025",
+      "name": "桩的动力检测标准",
+      "seed_ids": [],
+      "topic_group": "G1",
+      "source_page": "https://sjw.qingdao.gov.cn/cxjsj3/cxjsj200/cxjsj_hydt2/202603/t20260302_10522358.html",
+      "download_url": null,
+      "alternate_urls": [],
+      "version_stage": "正式版目录记录",
+      "metadata_evidence": [
+        {
+          "local_reference": "../master-authority/authority-directory-records.json",
+          "kind": "青岛住建局2026年3月实施标准清单"
+        }
+      ],
+      "search_route_lead": "工标库介绍指向中国建筑科学研究院有限公司和广东省建筑科学研究院集团股份有限公司主编，本轮未取得官方公开完整PDF",
+      "download_status": "缺全文"
+    }
+  ]
+}

@@ -14,23 +14,34 @@ RULES={
 }
 
 def inspect(c):
-    ident=c['candidate_id']; url=c.get('download_url') or c['requested_url']; folder=OUT/ident; folder.mkdir(exist_ok=True)
-    r={**c,'requested_url':url,'checked_at':NOW(),'audit_id':ident,'download_status':'本次网络失败未验证','recommendation':'D','recommendation_reason':'尚未完成下载与核验','evidence_paths':[],'audit_rules_version':'2026-10-17.1'}
+    ident=c['candidate_id']; url=c.get('download_url') or c.get('requested_url') or c.get('direct_url'); folder=OUT/ident; folder.mkdir(exist_ok=True)
+    r={**c,'requested_url':url,'checked_at':NOW(),'audit_id':ident,'download_status':'本次网络失败未验证','recommendation':'D','recommendation_reason':'尚未完成下载与核验','evidence_paths':[],'audit_rules_version':'2026-10-17.2','complete_pdf':False,'version_verified':False,'standard_key':c.get('standard_key') or c.get('standard_number')}
+    if not url:
+      r.update(download_status='仅详情页线索，下载href待解析',recommendation_reason='没有可实际GET的候选直链；不猜附件URL')
+      return r
     p=TEMP/(ident+'.pdf'); started=time.monotonic()
     try:
-      req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0 (compatible; CECS-link-audit/1.0)','Accept':'application/pdf,*/*;q=0.5'})
-      with urllib.request.urlopen(req,timeout=18) as resp:
-        r.update(http_status=resp.status,final_url=resp.geturl(),content_type=resp.headers.get('Content-Type'),content_length_header=resp.headers.get('Content-Length'))
-        size=0
-        with p.open('wb') as f:
-          while True:
-            if time.monotonic()-started>130:raise TimeoutError('GET total budget 130 seconds exceeded')
-            b=resp.read(256*1024)
-            if not b:break
-            size+=len(b)
-            if size>MAX_BYTES:raise ValueError('download exceeds 95 MiB limit')
-            f.write(b)
+      if c.get('reuse_download') and p.exists():
+        r['download_checked_at']=c.get('download_checked_at') or c.get('checked_at')
+        r['local_reinspection_at']=NOW();r.pop('error',None)
+      else:
+        req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0 (compatible; CECS-link-audit/1.0)','Accept':'application/pdf,*/*;q=0.5'})
+        with urllib.request.urlopen(req,timeout=18) as resp:
+          r.update(http_status=resp.status,final_url=resp.geturl(),content_type=resp.headers.get('Content-Type'),content_length_header=resp.headers.get('Content-Length'))
+          size=0
+          with p.open('wb') as f:
+            while True:
+              if time.monotonic()-started>130:raise TimeoutError('GET total budget 130 seconds exceeded')
+              b=resp.read(256*1024)
+              if not b:break
+              size+=len(b)
+              if size>MAX_BYTES:raise ValueError('download exceeds 95 MiB limit')
+              f.write(b)
       r['bytes']=p.stat().st_size
+      declared=r.get('content_length_header')
+      r['transfer_size_matches_header']=(r['bytes']==int(declared)) if str(declared or '').isdigit() else None
+      if r['transfer_size_matches_header'] is False:
+        r.setdefault('transfer_warnings',[]).append('实际接收字节与Content-Length不同，须排查截断或传输编码')
       header=p.open('rb').read(1024)
       r['pdf_header_valid']=bool(re.search(br'%PDF-\d\.\d',header))
       if not r['pdf_header_valid']:
@@ -41,12 +52,13 @@ def inspect(c):
       r['sha256']=hashlib.sha256(p.read_bytes()).hexdigest(); r['local_path']=str(p)
       reader=PdfReader(str(p),strict=True)
       r['encrypted']=reader.is_encrypted
-      r['encryption_permissions']=str(reader.trailer.get('/Encrypt',''))[:500] if reader.is_encrypted else None
+      enc=reader.trailer.get('/Encrypt')
+      r['encryption_permissions']=int(enc.get_object().get('/P',0)) if enc else None
       if reader.is_encrypted and reader.decrypt('')==0:
         r.update(download_status='加密需密码',recommendation_reason='空密码不能打开，未尝试绕过')
         return r
       n=len(reader.pages); r['pages']=n
-      r['pdf_parse']='全部页面对象可解析'; r['eof_marker_present']=b'%%EOF' in p.read_bytes()[-2048:]
+      r['pdf_parse']='页面树可遍历；已尝试逐页文本提取。图像/字体/内容流可读性另以渲染与目视记录判断'; r['eof_marker_present']=b'%%EOF' in p.read_bytes()[-2048:]
       texts=[]; links=[]; geometry=[]
       for i,page in enumerate(reader.pages):
         try:t=page.extract_text() or ''
@@ -56,11 +68,13 @@ def inspect(c):
         for ref in page.get('/Annots',[]):
           a=ref.get_object()
           if a.get('/Subtype')=='/Link':
-            act=a.get('/A',{}); links.append({'page':i+1,'action':str(act.get('/S','')),'uri':str(act.get('/URI','')),'dest':str(a.get('/Dest',''))[:120]})
+            act=a.get('/A',{}); links.append({'page':i+1,'action':str(act.get('/S','')),'uri':str(act.get('/URI','')),'dest':str(a.get('/Dest') or act.get('/D',''))[:180],'rect':str(a.get('/Rect',''))})
       r['text_pages']=sum(bool(x.strip()) for x in texts)
       r['text_characters']=sum(len(x) for x in texts)
       r['cjk_characters']=sum(len(re.findall(r'[\u4e00-\u9fff]',x)) for x in texts)
       r['text_layer']=r['text_pages']>0
+      r['body_searchable']=None
+      r['body_text_layer']='待正文中文与图像对照；少量导航文字或乱码不能证明正文可搜索'
       r['searchable']='待抽查中文抽取准确性' if r['text_layer'] else '无文本层，不能直接搜索复制'
       outline=[]
       def visit(xs):
@@ -70,9 +84,10 @@ def inspect(c):
             try:page=reader.get_destination_page_number(item); valid=page is not None and 0<=page<n
             except Exception:page=None;valid=False
             outline.append({'title':str(item.get('/Title','')),'page':None if page is None else page+1,'valid_target':valid})
-      visit(reader.outline)
+      try:visit(reader.outline)
+      except Exception as e:r['outline_error']=type(e).__name__+': '+str(e)
       r['bookmark_count']=len(outline); r['bookmark_valid_target_count']=sum(x['valid_target'] for x in outline)
-      r['bookmark_navigation']='全部目标有效' if outline and all(x['valid_target'] for x in outline) else ('无原生书签' if not outline else '存在无效/未解析目标')
+      r['bookmark_navigation']='Outline结构异常，不能使用' if r.get('outline_error') else ('全部目标有效' if outline and all(x['valid_target'] for x in outline) else ('无原生书签' if not outline else '存在无效/未解析目标'))
       r['clickable_toc']='待人工核对目录页Link注释' if links else '未发现任何Link注释；目录不可点击'
       r['link_annotation_count']=len(links)
       r['rotation_summary']={str(x):sum(y['rotation']==x for y in geometry) for x in sorted(set(y['rotation'] for y in geometry))}
@@ -107,6 +122,7 @@ def inspect(c):
       except Exception as e:r['contact_sheet_error']=str(e)
     except Exception as e:
       r['error']=type(e).__name__+': '+str(e);r['recommendation_reason']='实际GET/解析未成功；不推断永久失效'
+      if r.get('pdf_header_valid'):r['download_status']='PDF已取得，但解析异常待核（非网络失败）'
       if isinstance(e,urllib.error.HTTPError):
         r['http_status']=e.code
         r['download_status']='需登录或访问受限' if e.code in [401,403] else ('失效HTTP404' if e.code==404 else 'HTTP错误未获得PDF')
@@ -123,6 +139,8 @@ def main():
     with concurrent.futures.ThreadPoolExecutor(max_workers=2) as ex:
       jobs={ex.submit(inspect,c):c for c in queue}
       for f in concurrent.futures.as_completed(jobs):
-        result=f.result();old['results'].append(result);old['updated_at']=NOW();path.write_text(json.dumps(old,ensure_ascii=False,indent=2),encoding='utf-8')
+        try:result=f.result()
+        except Exception as e:result={**jobs[f],'checked_at':NOW(),'download_status':'审查脚本异常，需重核','recommendation':'D','complete_pdf':False,'version_verified':False,'error':type(e).__name__+': '+str(e)}
+        old['results'].append(result);old['updated_at']=NOW();path.write_text(json.dumps(old,ensure_ascii=False,indent=2),encoding='utf-8')
         print(json.dumps({k:result.get(k) for k in ['candidate_id','download_status','pages','bytes','bookmark_count','error']},ensure_ascii=False),flush=True)
 if __name__=='__main__':main()

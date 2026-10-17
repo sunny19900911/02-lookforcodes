@@ -1,0 +1,66 @@
+{
+  "generated_at": "2026-10-17T05:14:07.858Z",
+  "path": "catalog/CECS可下载PDF总表.xlsx",
+  "sheets": [
+    {
+      "name": "规范总表",
+      "records": 753,
+      "columns": 23
+    },
+    {
+      "name": "已验完整PDF",
+      "records": 8,
+      "columns": 19
+    },
+    {
+      "name": "链接明细",
+      "records": 119,
+      "columns": 40
+    },
+    {
+      "name": "原始映射",
+      "records": 81,
+      "columns": 12
+    },
+    {
+      "name": "待查与问题",
+      "records": 678,
+      "columns": 10
+    },
+    {
+      "name": "状态与来源依据",
+      "records": 842,
+      "columns": 12
+    },
+    {
+      "name": "检索记录",
+      "records": 35,
+      "columns": 12
+    },
+    {
+      "name": "说明与覆盖",
+      "records": 25,
+      "columns": 2
+    },
+    {
+      "name": "变更记录",
+      "records": 919,
+      "columns": 8
+    }
+  ],
+  "coverage": {
+    "baseline_records_registered": 81,
+    "baseline_standard_versions": 74,
+    "registered_standard_versions": 753,
+    "registered_links": 119,
+    "verified_complete_pdf_links": 8,
+    "verified_complete_standard_versions": 6,
+    "authority_records": 652,
+    "independent_audit_results": 28,
+    "downloaded_parseable_pending": 8,
+    "verified_complete_unique_sha256": 6
+  },
+  "formula_errors": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+  "authoring_library": "@oai/artifact-tool",
+  "visual_review": "预览已生成，须人工目视确认"
+}

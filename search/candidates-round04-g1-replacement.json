@@ -1,0 +1,26 @@
+{
+  "round": "R02-G1-replacement",
+  "created_at": "2026-10-17T13:06:38+08:00",
+  "candidates": [
+    {
+      "candidate_id": "R02-G1-010",
+      "seed_ids": [
+        "S019"
+      ],
+      "topic_group": "G1",
+      "standard_number": "CECS 22:2005",
+      "year": "2005",
+      "name": "岩土锚杆(索)技术规程",
+      "draft_stage": "正式旧版候选",
+      "source_page": "https://download.s21i.faimallusr.com/4214640/0/0/ABUIABA9GAAg9ZnIrAUoleqJxQI.pdf?f=CECS+22-2005+%E5%B2%A9%E5%9C%9F%E9%94%9A%E6%9D%86%EF%BC%88%E7%B4%A2%EF%BC%89%E6%8A%80%E6%9C%AF%E8%A7%84%E7%A8%8B.pdf&v=1435634932",
+      "download_url": "https://download.s21i.faimallusr.com/4214640/0/0/ABUIABA9GAAg9ZnIrAUoleqJxQI.pdf?f=CECS+22-2005+%E5%B2%A9%E5%9C%9F%E9%94%9A%E6%9D%86%EF%BC%88%E7%B4%A2%EF%BC%89%E6%8A%80%E6%9C%AF%E8%A7%84%E7%A8%8B.pdf&v=1435634932",
+      "alternative_urls": [],
+      "discovered_by_query": "\"岩土锚杆(索)技术规程\" filetype:pdf -site:antpedia.com -site:scribd.com -site:doc88.com -site:docin.com",
+      "source_id": "SEARCH-R11-G1-REPLACEMENT",
+      "discovery_evidence": "搜索索引中的正文从1总则展开，替代旧antpedia三页封面候选；web open本轮内部错误。公开附件托管域未识别上传单位；全文及版本待独立GET核验",
+      "permission_status": "公开搜索索引附件，不涉及登录；上传授权未核",
+      "download_check_status": "候选未审",
+      "metadata_evidence": []
+    }
+  ]
+}

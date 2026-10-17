@@ -1,0 +1,39 @@
+{
+  "checked_at": "2026-10-17T13:06:00+08:00",
+  "producer": "controller",
+  "scope": "下一轮目录扩展路线，尚未提取，不计入650目录覆盖或完整PDF数",
+  "routes": [
+    {
+      "priority": 1,
+      "url": "https://www.qingdao.gov.cn/zwgk/xxgk/cxjs/gkml/gwfg/202511/P020251121604645725245.pdf",
+      "source_type": "政府原始PDF附件",
+      "target": "附录2好住房、好小区CECS标准目录",
+      "purpose": "补2018-2025间的住宅/建筑CECS编号；只将目录记元数据，不把该目录PDF当规范全文"
+    },
+    {
+      "priority": 2,
+      "url": "https://zjt.hubei.gov.cn/zfxxgk/zc/gfxwj/202212/P020221229428659512527.pdf",
+      "source_type": "政府原始PDF附件",
+      "target": "建筑节能和绿色建筑标准体系，收录截止2022-05",
+      "purpose": "扩展绿色与节能编号及历史状态，不能以2022有效确认2026"
+    },
+    {
+      "priority": 3,
+      "url": "https://www.ttbz.org.cn/organizationDetail.html?id=on7dyabz50gn1ayktw5rx2hhxm4r05a",
+      "source_type": "全国团体标准信息平台",
+      "target": "CECS组织公布标准目录",
+      "purpose": "网页工具能读组织页但列表未加载；本机直接GET403，不绕过权限，需待公开列表可用"
+    },
+    {
+      "priority": 4,
+      "url": "https://www.ttbz.org.cn/OrganManage/OrganNewsListAll/1756/?categoryId=38",
+      "source_type": "全国团体标准信息平台历史公开新闻列表",
+      "target": "2024-2026审查/启动会",
+      "purpose": "仅作制定中或审查中的检索入口，不当成发布正式编号"
+    }
+  ],
+  "excluded_route": {
+    "url": "https://m.conpres.com/StandardManage/List/?organId=1756",
+    "reason": "搜索结果冒用全国团体平台标题但实际域名非官方，不作为权威目录依据；未访问。"
+  }
+}
