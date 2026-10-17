@@ -1,0 +1,91 @@
+{
+  "round": "R02-tj-href-supplement",
+  "producer": "search",
+  "replaces_fields_only": "保留R01-G4-006至009原candidate_id，补充download_url及备用链接",
+  "candidates": [
+    {
+      "candidate_id": "R01-G4-006",
+      "seed_ids": [],
+      "topic_group": "G4",
+      "standard_number": "CECS 69:94",
+      "year": "1994",
+      "name": "后装拔出法检测混凝土强度技术规程",
+      "draft_stage": "正式旧版候选",
+      "source_page": "https://www.tj-jwdz.com/standard.html?m437pageno=4",
+      "download_url": "https://download.s21i.co99.net/8375715/0/0/ABUIABA9GAAg4ay8zgUo0J_X8QU.pdf?f=CECS%2069%EF%BC%9A94%E5%90%8E%E8%A3%85%E6%8B%94%E5%87%BA%E6%B3%95%E6%A3%80%E6%B5%8B%E6%B7%B7%E5%87%9D%E5%9C%9F%E5%BC%BA%E5%BA%A6%E6%8A%80%E6%9C%AF%E8%A7%84%E7%A8%8B.pdf&v=1506743905",
+      "discovered_by_query": "\"CECS\" \"检测\" filetype:pdf -site:scribd.com -site:doc88.com -site:docin.com",
+      "discovery_evidence": "curl公开GET并解压页面HTML，提取同一CECS标题行的下载href和站点预览href；未用HTTP200推断PDF完整性",
+      "metadata_evidence": [],
+      "alternative_urls": [
+        "https://8375715.s21i.faiusr.com/61/ABUIABA9GAAg4ay8zgUo0J_X8QU.pdf"
+      ],
+      "checked_at": "2026-10-17T13:05:00+08:00",
+      "permission_status": "公开页面明确提供下载href；未登录；独立GET待审",
+      "source_id": "SEARCH-TJ-JWDZ-20261017-P4",
+      "download_check_status": "候选未审"
+    },
+    {
+      "candidate_id": "R01-G4-007",
+      "seed_ids": [],
+      "topic_group": "G4",
+      "standard_number": "CECS 48:93",
+      "year": "1993",
+      "name": "砂、石碱活性快速试验方法",
+      "draft_stage": "正式旧版候选",
+      "source_page": "https://www.tj-jwdz.com/standard.html?m437pageno=4",
+      "download_url": "https://download.s21i.co99.net/8375715/0/0/ABUIABA9GAAg36y8zgUoqNOW3gI.pdf?f=CECS%2048%EF%BC%9A93%E7%A0%82%E3%80%81%E7%9F%B3%E7%A2%B1%E6%B4%BB%E6%80%A7%E5%BF%AB%E9%80%9F%E8%AF%95%E9%AA%8C%E6%96%B9%E6%B3%95.pdf&v=1506743903",
+      "discovered_by_query": "\"CECS\" \"检测\" filetype:pdf -site:scribd.com -site:doc88.com -site:docin.com",
+      "discovery_evidence": "curl公开GET并解压页面HTML，提取同一CECS标题行的下载href和站点预览href；未用HTTP200推断PDF完整性",
+      "metadata_evidence": [],
+      "alternative_urls": [
+        "https://8375715.s21i.faiusr.com/61/ABUIABA9GAAg36y8zgUoqNOW3gI.pdf"
+      ],
+      "checked_at": "2026-10-17T13:05:00+08:00",
+      "permission_status": "公开页面明确提供下载href；未登录；独立GET待审",
+      "source_id": "SEARCH-TJ-JWDZ-20261017-P4",
+      "download_check_status": "候选未审"
+    },
+    {
+      "candidate_id": "R01-G4-008",
+      "seed_ids": [],
+      "topic_group": "G4",
+      "standard_number": "CECS 21:2000",
+      "year": "2000",
+      "name": "超声法检测混凝土缺陷技术规程",
+      "draft_stage": "正式旧版候选",
+      "source_page": "https://www.tj-jwdz.com/standard.html?m437pageno=4",
+      "download_url": "https://download.s21i.co99.net/8375715/0/0/ABUIABA9GAAg3ay8zgUouO7jvQU.pdf?f=CECS%2021%EF%BC%9A2000%E8%B6%85%E5%A3%B0%E6%B3%95%E6%A3%80%E6%B5%8B%E6%B7%B7%E5%87%9D%E5%9C%9F%E7%BC%BA%E9%99%B7%E6%8A%80%E6%9C%AF%E8%A7%84%E7%A8%8B.pdf&v=1506743901",
+      "discovered_by_query": "\"CECS\" \"检测\" filetype:pdf -site:scribd.com -site:doc88.com -site:docin.com",
+      "discovery_evidence": "curl公开GET并解压页面HTML，提取同一CECS标题行的下载href和站点预览href；未用HTTP200推断PDF完整性",
+      "metadata_evidence": [],
+      "alternative_urls": [
+        "https://8375715.s21i.faiusr.com/61/ABUIABA9GAAg3ay8zgUouO7jvQU.pdf"
+      ],
+      "checked_at": "2026-10-17T13:05:00+08:00",
+      "permission_status": "公开页面明确提供下载href；未登录；独立GET待审",
+      "source_id": "SEARCH-TJ-JWDZ-20261017-P4",
+      "download_check_status": "候选未审"
+    },
+    {
+      "candidate_id": "R01-G4-009",
+      "seed_ids": [],
+      "topic_group": "G4",
+      "standard_number": "CECS 02:2005",
+      "year": "2005",
+      "name": "超声回弹综合法检测混凝土强度技术规程",
+      "draft_stage": "正式旧版候选",
+      "source_page": "https://www.tj-jwdz.com/standard.html?m437pageno=4",
+      "download_url": "https://download.s21i.co99.net/8375715/0/0/ABUIABA9GAAg26y8zgUoyJqezAU.pdf?f=CECS%2002%EF%BC%9A2005%E8%B6%85%E5%A3%B0%E5%9B%9E%E5%BC%B9%E7%BB%BC%E5%90%88%E6%B3%95%E6%A3%80%E6%B5%8B%E6%B7%B7%E5%87%9D%E5%9C%9F%E5%BC%BA%E5%BA%A6%E6%8A%80%E6%9C%AF%E8%A7%84%E7%A8%8B.pdf&v=1506743899",
+      "discovered_by_query": "\"CECS\" \"检测\" filetype:pdf -site:scribd.com -site:doc88.com -site:docin.com",
+      "discovery_evidence": "curl公开GET并解压页面HTML，提取同一CECS标题行的下载href和站点预览href；未用HTTP200推断PDF完整性",
+      "metadata_evidence": [],
+      "alternative_urls": [
+        "https://8375715.s21i.faiusr.com/61/ABUIABA9GAAg26y8zgUoyJqezAU.pdf"
+      ],
+      "checked_at": "2026-10-17T13:05:00+08:00",
+      "permission_status": "公开页面明确提供下载href；未登录；独立GET待审",
+      "source_id": "SEARCH-TJ-JWDZ-20261017-P4",
+      "download_check_status": "候选未审"
+    }
+  ]
+}

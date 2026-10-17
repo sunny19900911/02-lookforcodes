@@ -1,0 +1,38 @@
+{
+  "round": "R01",
+  "created_date": "2026-10-17",
+  "producer": "search",
+  "note": "仅为检索发现，须由独立audit实际GET、解析、完整性与质量核验；不得以搜索摘录判全文可用。",
+  "candidates": [
+    {
+      "candidate_id": "R01-G1-001",
+      "seed_ids": ["S025"],
+      "topic_group": "G1",
+      "standard_number": "T/CECS 22-2024",
+      "year": "2024",
+      "name": "岩土锚杆技术规程",
+      "draft_stage": "正式版候选",
+      "source_page": "https://www.zhanggenbao.com/wp-content/uploads/2025/12/TCECS-22-2024-%E5%B2%A9%E5%9C%9F%E9%94%9A%E6%9D%86%E6%8A%80%E6%9C%AF%E8%A7%84%E7%A8%8B.pdf",
+      "download_url": "https://www.zhanggenbao.com/wp-content/uploads/2025/12/TCECS-22-2024-%E5%B2%A9%E5%9C%9F%E9%94%9A%E6%9D%86%E6%8A%80%E6%9C%AF%E8%A7%84%E7%A8%8B.pdf",
+      "discovered_by_query": "\"CECS\" \"岩土锚杆\" filetype:pdf",
+      "discovery_evidence": "搜索直接命中PDF，摘录含规程编号和条文说明；全文待独立核验",
+      "metadata_evidence": [],
+      "download_check_status": "候选未审"
+    },
+    {
+      "candidate_id": "R01-G1-002",
+      "seed_ids": ["S019"],
+      "topic_group": "G1",
+      "standard_number": "CECS 22:2005",
+      "year": "2005",
+      "name": "岩土锚杆(索)技术规程",
+      "draft_stage": "正式旧版候选",
+      "source_page": "https://img.antpedia.com/standard/files/pdfs_ora/CN-CECS/edb/CECS%2022-2005.pdf",
+      "download_url": "https://img.antpedia.com/standard/files/pdfs_ora/CN-CECS/edb/CECS%2022-2005.pdf",
+      "discovered_by_query": "\"CECS\" \"岩土锚杆\" filetype:pdf",
+      "discovery_evidence": "搜索直接命中PDF，摘录含中国计划出版社2005年版版权页；全文待独立核验",
+      "metadata_evidence": [],
+      "download_check_status": "候选未审"
+    }
+  ]
+}

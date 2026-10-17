@@ -1,0 +1,6 @@
+{
+  "schema_version": 1,
+  "standards": [],
+  "links": [],
+  "note": "新增/更新/停用写入本文件；原始记录与证据永久保留。字段变更须注明reason/source_id。"
+}

@@ -1,0 +1,195 @@
+{
+  "checked_at": "2026-10-17T13:03:05.033016+08:00",
+  "copied": [
+    {
+      "path": "catalog/build-catalog.mjs",
+      "size": 21535,
+      "sha256": "a2c7c3c01173aa6331dcb7a0c5cb93d685e1fca1c72cfd7b76f003759027249f"
+    },
+    {
+      "path": "catalog/cecs-master.json",
+      "size": 3335386,
+      "sha256": "f323b347f358a4bb361b592bb38d46b4f3244c1035588add31d31f6b40cc702d"
+    },
+    {
+      "path": "catalog/change-log.jsonl",
+      "size": 213424,
+      "sha256": "183b1150f2fd3557af4bc880390c51490918ee8aab77057d93a9ddc7e976a7b7"
+    },
+    {
+      "path": "catalog/discussion-1300.md",
+      "size": 1927,
+      "sha256": "c0653e2199ee308964b25eb70fdea4915d75a52f2331a2401aa55e15c44bb1e3"
+    },
+    {
+      "path": "catalog/handoff.md",
+      "size": 6273,
+      "sha256": "f22aa40d411bfb59b4719fce9211ef0812badc5d05b784f4f43056b2803c84da"
+    },
+    {
+      "path": "catalog/maintenance-input.json",
+      "size": 187,
+      "sha256": "2648b3865c824a8f93c0eeb49f2378cac10a777845886e93d0cb0b066510219d"
+    },
+    {
+      "path": "catalog/seed-index.json",
+      "size": 107638,
+      "sha256": "82ab9055dd32ff74154dcb6fa6b76a0248cbcf8ebc14cd97d6e03070212f461e"
+    },
+    {
+      "path": "pdf-audit/audit-results.json",
+      "size": 56945,
+      "sha256": "71d2b2b9a092d27e42077fab3be20b58cc2907be5450407da7edaa71d807db41"
+    },
+    {
+      "path": "pdf-audit/audit_pdf.py",
+      "size": 9081,
+      "sha256": "6ac38e08af9519ca22c679ef8d68abefaa352591f21df611c37590c175027e6e"
+    },
+    {
+      "path": "pdf-audit/candidates-direct-round02.json",
+      "size": 2889,
+      "sha256": "3812e25d5c4e7da959e24509e2674da614a119cf73fe5b30546381d5a32be65e"
+    },
+    {
+      "path": "pdf-audit/candidates-own-round01.json",
+      "size": 1948,
+      "sha256": "91f00dee1ba5da58f342890be765537130620adac0102ec6712e8b78fa6aac0c"
+    },
+    {
+      "path": "pdf-audit/finalize_handoff.py",
+      "size": 4993,
+      "sha256": "9e55d5b4e5b3ad519598b3299b66482660c32bcc2fe5dbc0aff2017dc91cce50"
+    },
+    {
+      "path": "pdf-audit/handoff.md",
+      "size": 4139,
+      "sha256": "9ce56c6ae0ac530a6401396e618c55de237e8b7dc743edebb069a79d16031a0f"
+    },
+    {
+      "path": "pdf-audit/supplement_review.py",
+      "size": 4215,
+      "sha256": "82f316a48015983138d428dd8b4c8a9417b0937516a8a52c39ee72a913baab9c"
+    },
+    {
+      "path": "search/build-search-seed.ps1",
+      "size": 1767,
+      "sha256": "5d12e6e5d7e6dd341c93df9a85bf19e3b70836d6e83f88f750ef7a2b335de828"
+    },
+    {
+      "path": "search/candidates-round01.json",
+      "size": 1837,
+      "sha256": "269c926c45915d71fbc933cc99c9d4311404f4f474cbf886c0e3c131311d984d"
+    },
+    {
+      "path": "search/candidates-round02.json",
+      "size": 5846,
+      "sha256": "c5e47067d5ff4b1d35d39eee894ec99639b9189f7a13b4aeae92bb3d7c5135b7"
+    },
+    {
+      "path": "search/candidates-round03-tj-links.json",
+      "size": 5370,
+      "sha256": "3f38725e2b7ba500f7fd18b2a59a59becf209ffc58e200cc5625f5d5604c300a"
+    },
+    {
+      "path": "search/extract-tj-links.py",
+      "size": 2065,
+      "sha256": "f7aa44c247252432c1f7a198fad9e9b0d2b96ca4ee8be2ab86e5ac0c7998cbd4"
+    },
+    {
+      "path": "search/handoff.md",
+      "size": 4245,
+      "sha256": "ac416511592051a740cfc77d8147a971cf7fa0c3ae339e901f3f4d505d905af4"
+    },
+    {
+      "path": "search/master-authority/authority-directory-records.json",
+      "size": 671166,
+      "sha256": "d499ee8be3e5b89cc3bf74a259c54defc2c6171173505342f7802f0ad7f3562b"
+    },
+    {
+      "path": "search/master-authority/collect_directories.py",
+      "size": 6774,
+      "sha256": "754233781e294f5bd60cc832bece5e36be48f4a0f04fdeb91d642645a8a14a36"
+    },
+    {
+      "path": "search/master-authority/history/authority-directory-records-4cc796b8d0e1.json",
+      "size": 280874,
+      "sha256": "4cc796b8d0e1d6dec3edf713356034a95a05a900f94aec5e2ba4f3f08260a944"
+    },
+    {
+      "path": "search/master-authority/lwec-2018-catalog-extraction.json",
+      "size": 30154,
+      "sha256": "493f2e072f61b8d6211efc499a92d66a0fabc3a30af4d9bf9d1cb103e54ee78d"
+    },
+    {
+      "path": "search/seed-groups.json",
+      "size": 79766,
+      "sha256": "dde1e1d5ed31b145e7276f0798d41309f8abac06870254434d147bce2f162098"
+    }
+  ],
+  "unchanged": [],
+  "skipped": [
+    {
+      "path": "search\\tj-headers.txt",
+      "reason": "outside metadata allowlist"
+    },
+    {
+      "path": "search\\tj-jwdz-page3.html",
+      "reason": "outside metadata allowlist"
+    },
+    {
+      "path": "search\\tj-jwdz-page4.html",
+      "reason": "outside metadata allowlist"
+    },
+    {
+      "path": "search\\tj-jwdz-page5.html",
+      "reason": "outside metadata allowlist"
+    },
+    {
+      "path": "search\\tj-page3.html",
+      "reason": "outside metadata allowlist"
+    },
+    {
+      "path": "search\\tj-page5.html",
+      "reason": "outside metadata allowlist"
+    },
+    {
+      "path": "search\\tj-raw.html",
+      "reason": "outside metadata allowlist"
+    },
+    {
+      "path": "search\\web-r02.json",
+      "reason": "outside metadata allowlist"
+    },
+    {
+      "path": "search\\web-r03.json",
+      "reason": "outside metadata allowlist"
+    },
+    {
+      "path": "search\\web-r04.json",
+      "reason": "outside metadata allowlist"
+    },
+    {
+      "path": "search\\web-r05.json",
+      "reason": "outside metadata allowlist"
+    },
+    {
+      "path": "search\\web-r06.json",
+      "reason": "outside metadata allowlist"
+    },
+    {
+      "path": "search\\web-r07.json",
+      "reason": "outside metadata allowlist"
+    },
+    {
+      "path": "search\\web-r08.json",
+      "reason": "outside metadata allowlist"
+    },
+    {
+      "path": "search\\web-r09.json",
+      "reason": "outside metadata allowlist"
+    }
+  ],
+  "excluded": "PDF originals, page images, downloaded documents, raw HTML/headers/web tool responses, credentials, unrelated files",
+  "version_history": "Git commits preserve prior exchange copies; source evidence and change logs remain append-only."
+}

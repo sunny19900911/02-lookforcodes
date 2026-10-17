@@ -1,0 +1,58 @@
+[
+  {
+    "candidate_id": "R01-G3-003",
+    "seed_ids": [],
+    "topic_group": "G3",
+    "standard_number": "T/CECS XXX-202X",
+    "year": null,
+    "name": "建筑索结构节点设计标准",
+    "draft_stage": "征求意见稿",
+    "source_page": "https://www.cnass.cn/upload/gjgfenhui/file/20201023/1603438518363121.pdf",
+    "download_url": "https://www.cnass.cn/upload/gjgfenhui/file/20201023/1603438518363121.pdf",
+    "discovered_by_query": "\"CECS\" \"钢结构\" filetype:pdf -site:scribd.com -site:doc88.com -site:docin.com",
+    "discovery_evidence": "中国钢结构协会附件；web解析61页、首页明确征求意见稿与占位编号。勿合并为正式标准；独立GET及质量待审",
+    "metadata_evidence": [
+      {
+        "source_url": "https://www.cnass.cn/upload/gjgfenhui/file/20201023/1603438518363121.pdf",
+        "evidence_type": "原文事实",
+        "claim": "封面为建筑索结构节点设计标准（征求意见稿），编号占位T/CECS XXX-202X"
+      }
+    ]
+  },
+  {
+    "candidate_id": "R01-G5-004",
+    "seed_ids": [
+      "S009"
+    ],
+    "topic_group": "G5",
+    "standard_number": "T/CECS 796-2020",
+    "year": "2020",
+    "name": "屋面结构雪荷载设计标准",
+    "draft_stage": "正式版候选，年份冲突待核",
+    "source_page": "https://pro5323b5d3-pic11.ysjianzhan.cn/upload/39TCECS796-2020WMJGXHZSJBZ.pdf",
+    "download_url": "https://pro5323b5d3-pic11.ysjianzhan.cn/upload/39TCECS796-2020WMJGXHZSJBZ.pdf",
+    "discovered_by_query": "\"屋面结构雪荷载设计标准\" pdf",
+    "discovery_evidence": "搜索摘要封面2020，但同名发布公告显示T/CECS796-2021。须保留年份冲突，检查PDF公告及封面，不能静默认定2020或2021",
+    "metadata_evidence": [
+      {
+        "source_url": "https://qxb-img-osscache.qixin.com/standards/a3ae6a861cab59788b7c093ef8ed1ffe.pdf",
+        "evidence_type": "原文事实候选",
+        "claim": "搜索摘要中的协会第757号公告：编号为T/CECS796—2021，自2021-06-01施行；落款2021-01-05。需核原公告"
+      }
+    ]
+  },
+  {
+    "candidate_id": "R01-G4-005",
+    "seed_ids": [],
+    "topic_group": "G4",
+    "standard_number": "T/CECS 10032-2019",
+    "year": "2019",
+    "name": "绿色建材评价（具体名称待PDF封面核实）",
+    "draft_stage": "正式版候选",
+    "source_page": "https://aimg8.dlssyht.cn/u/2150462/ueditor/file/1076/2150462/1723185464783487.pdf",
+    "download_url": "https://aimg8.dlssyht.cn/u/2150462/ueditor/file/1076/2150462/1723185464783487.pdf",
+    "discovered_by_query": "\"CECS\" \"绿色\" filetype:pdf -site:scribd.com -site:doc88.com -site:docin.com",
+    "discovery_evidence": "搜索直接命中PDF，正文编号T/CECS10032—2019；名称须核封面，不从条文术语猜",
+    "metadata_evidence": []
+  }
+]

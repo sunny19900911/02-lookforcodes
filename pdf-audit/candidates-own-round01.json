@@ -1,0 +1,40 @@
+[
+  {
+    "download_url": "https://knowledge.tjad.cloud/download/st/reference/01.02%20%E5%B7%A5%E7%A8%8B%E5%BB%BA%E8%AE%BE%E6%A0%87%E5%87%86/GG%2010%20%E5%9F%BA%E7%A1%80%E6%A0%87%E5%87%86/3%20%E6%A0%87%E5%87%86%E7%BC%96%E5%86%99%E5%AF%BC%E5%88%99/T_CECS%201000-2021%20%E5%B7%A5%E7%A8%8B%E5%BB%BA%E8%AE%BE%E6%A0%87%E5%87%86%E7%BC%96%E5%86%99%E5%AF%BC%E5%88%99.pdf",
+    "standard_number": "T/CECS 1000-2021",
+    "source_page": "https://knowledge.tjad.cloud/",
+    "seed_ids": [
+      "S001"
+    ],
+    "name": "工程建设标准编写导则",
+    "candidate_id": "AUD-S001-HTTPS"
+  },
+  {
+    "download_url": "https://wlt.fujian.gov.cn/zwgk/zcfg/zxwj/202604/P020260916651145397228.pdf",
+    "candidate_id": "AUD-PUBLIC-001",
+    "name": "玻璃栈道工程技术规程",
+    "standard_number": "T/CECS 896-2021",
+    "source_page": "https://wlt.fujian.gov.cn/zwgk/zcfg/zxwj/202604/t20260424_7130967.htm"
+  },
+  {
+    "download_url": "https://wlt.fujian.gov.cn/zwgk/zcfg/zxwj/202604/P020260916651161208088.pdf",
+    "candidate_id": "AUD-PUBLIC-002",
+    "name": "景区人行悬索桥工程技术规程",
+    "standard_number": "T/CECS 1140-2022",
+    "source_page": "https://wlt.fujian.gov.cn/zwgk/zcfg/zxwj/202604/t20260424_7130967.htm"
+  },
+  {
+    "download_url": "https://ecpi.ggj.gov.cn/tzgg/202111/P020220718643697311469.pdf",
+    "candidate_id": "AUD-PUBLIC-003",
+    "name": "公共机构建筑空调系统节能改造技术规程",
+    "standard_number": "T/CECS 935-2021",
+    "source_page": "https://ecpi.ggj.gov.cn/tzgg/202111/t20211125_40789.htm"
+  },
+  {
+    "download_url": "https://xxgk.mot.gov.cn/2020/jigou/glj/202006/P020200623699566184589.pdf",
+    "candidate_id": "AUD-PUBLIC-004",
+    "name": "公路机制砂高性能混凝土技术规程",
+    "standard_number": "T/CECS G:K50-30-2018",
+    "source_page": "https://xxgk.mot.gov.cn/2020/jigou/glj/202006/t20200623_3313245.html"
+  }
+]
