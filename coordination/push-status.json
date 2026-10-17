@@ -1,17 +1,21 @@
 {
-  "checked_at": "2026-10-17T13:29:49+08:00",
-  "status": "local_commit_preserved_push_pending",
-  "local_commit": "c50f56d",
-  "last_confirmed_remote_commit": "bcdd5b4a139902ec040bfe19db193d8a68dcf350",
-  "attempts_this_checkpoint": 2,
-  "error": "Could not connect to github.com port 443 after about 21 seconds on each attempt",
+  "checked_at": "2026-10-17T14:18:33+08:00",
+  "status": "snapshot_push_confirmed_success",
+  "confirmed_snapshot_commit": "8a807a8dc309cfbf070d6a8df793bdff6b665d12",
+  "remote_branch": "main",
+  "local_publication_branch": "codex/reviewed-cecs-20261017",
+  "git_result": "bcdd5b4..8a807a8 HEAD -> main",
+  "prior_failed_attempts_in_1320_checkpoint": 2,
+  "prior_error": "Could not connect to github.com port 443 after about 21 seconds on each attempt",
   "local_delivery": {
-    "generated_at_beijing": "2026-10-17T13:24:50+08:00",
-    "xlsx_sha256": "527f247db91479c6671eaa1b71799a5583652129af418a0ea6175c452f04f169",
-    "initial_identities": 810,
-    "links": 126,
-    "complete_links": 8,
-    "complete_unique_pdfs": 6
+    "generated_at_beijing": "2026-10-17T14:06:54+08:00",
+    "xlsx_sha256": "3843f0b27e13f43fe1f33065cddc312c0c77bee52878f7f899c78420a779a0e4",
+    "initial_identities": 889,
+    "links": 134,
+    "formal_complete_links": 10,
+    "formal_complete_unique_pdfs": 8,
+    "content_complete_draft_links": 1
   },
-  "next_action": "下一检查点先普通push重试；失败仍保留本地，不强推、不改remote、不读取凭据。"
+  "publication_boundary": "以最后确认远端bcdd5b4为父的已审树正常fast-forward；未强推、未推旧exchange本地main历史，PDF/页面图/原始响应和瞬时参数未发布。",
+  "next_action": "下一检查点继续固定输入、审查、回灌、校核后正常HEAD:main同步；不读取凭据。"
 }
