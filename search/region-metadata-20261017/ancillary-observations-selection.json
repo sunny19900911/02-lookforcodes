@@ -1,0 +1,23 @@
+{
+  "source_id": "SEARCH-REGION-ANCILLARY-SELECTION-20261017",
+  "recorded_at": "2026-10-17T15:31:03+08:00",
+  "auxiliary_files": [
+    {
+      "path": "search/region-metadata-20261017/tjad/tjad-identity-pending.json",
+      "sha256": "4c624c3376867b6ab2ed5e1e79b09519486b1a192cd57d33a7d4516f012c4d37",
+      "current_registry_input": false,
+      "role": "身份未闭合，不映射省市"
+    },
+    {
+      "path": "search/region-metadata-20261017/beijing-organizations/beijing-organizations-crosscheck.json",
+      "sha256": "206de5abd7d4f26800fac364731df42100fd30df069a8a692221bc536224ea85",
+      "current_registry_input": false,
+      "role": "分工确认前已获官方证据的交叉核对，catalog另有专人负责，不作为本高校registry输入"
+    }
+  ],
+  "notes": [
+    "knowledge.tjad.cloud不由tjad字母推同济设计或上海，81来源链接地区待核",
+    "cnass具体主体应核空间结构分会；勿把总会与分会省市依据混写",
+    "此辅助选择不启动新GET，不改catalog地域表"
+  ]
+}

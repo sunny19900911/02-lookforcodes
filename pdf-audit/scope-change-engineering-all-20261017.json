@@ -1,0 +1,75 @@
+{
+  "source_id": "USER-20261017-CECS-ENGINEERING-ALL",
+  "statement_type": "原文事实（用户最新直接澄清，经主控转达）",
+  "recorded_at": "2026-10-17T15:09:23+08:00",
+  "effective": "立即，覆盖上一仅房屋结构规则",
+  "user_quote": "可以通知其他的，就是 CECS 本身就是一个工程的行业标准，我觉得跟工程相关的都可以先下载下来",
+  "active_scope": "工程相关CECS均可先收集/下载；房屋结构设计相关优先",
+  "limits": [
+    "只收CECS相关工程标准，不扩展为所有标准体系或无关资料",
+    "无法辨明工程关联标待判，不静默当已确认工程相关",
+    "草案/历史版本/正式出版身份/完整性/质量分字段保留；已下载或目录命中不证明现行、完整"
+  ],
+  "supersedes": {
+    "source_id": "USER-20261017-CECS-BUILDING-STRUCTURE-ONLY",
+    "path": "scope-change-building-structure-20261017.json",
+    "sha256": "94a594f3e9d838e2877495ecbb2c043ed9d858cd97370d05dd4d8ad91c6de13c",
+    "historical_record_preserved": true,
+    "no_longer_active": true
+  },
+  "restored_queues": [
+    "房屋结构、地基基础、检测鉴定与加固（优先）",
+    "给排水/灌溉/暖通/电气/通信管道及消防等工程CECS",
+    "桥梁/公路/铁路/隧道/市政等工程CECS",
+    "工程绿色建材/节能/低碳及碳中和评价",
+    "其他能说明工程关联的CECS材料、构造、施工、检测及维护技术"
+  ],
+  "rollback_audit": {
+    "canonical_modified_for_previous_scope": false,
+    "excel_or_master_index_modified_by_this_role": false,
+    "exclusion_projection_created": false,
+    "original_files_deleted_or_moved": false,
+    "data_rollback_required": false,
+    "action": "上一停止记录仅保留历史，撤销仅因非房屋结构形成的本角色停用；不回滚或重建未改的数据"
+  },
+  "restored_pending_inputs": [
+    "audit-pending-round07-freeze-1430.json",
+    "audit-pending-round08-fixed-r10.json",
+    "audit-pending-round09-freeze-1450-v2.json",
+    "audit-round09-publication-selection-1450.json"
+  ],
+  "classification": {
+    "primary_discipline": [
+      "结构与岩土",
+      "交通与市政",
+      "给排水与灌溉",
+      "暖通与电气/通信",
+      "消防与防火",
+      "工程材料与施工",
+      "绿色/节能/低碳评价",
+      "其他工程相关/待判"
+    ],
+    "cross_discipline": "允许多标签，不能因跨专业直接排除",
+    "applicable_objects": [
+      "房屋建筑",
+      "桥梁/道路/铁路/隧道",
+      "市政/园林/管网",
+      "工业工程",
+      "多领域/待核"
+    ],
+    "independent_quality_fields": [
+      "正式/历史/草案及具体阶段",
+      "版本/现行状态及来源",
+      "GET/访问结果",
+      "complete_pdf/draft_content_complete",
+      "A/B/C/D质量及限制"
+    ]
+  },
+  "operational_boundaries": {
+    "catalog": "唯一Excel与主索引写入",
+    "search": "检索及来源清单维护",
+    "pdf_audit": "实际GET、版本/完整性/质量审查，按固定选择与QA逐批交接",
+    "master": "唯一Git写入与发布"
+  },
+  "preserved": "所有原始输入、PDF/PNG、历史冻结、原质量结论均不改不删；本次仅恢复范围与队列资格，不将未核候选计完整"
+}

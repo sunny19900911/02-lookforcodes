@@ -1,0 +1,17 @@
+{
+  "recorded_at": "2026-10-17T15:06:38+08:00",
+  "statement_type": "原文事实（用户任务范围指令及通知收据）",
+  "source_id": "USER-20261017-CECS-ENGINEERING-ALL",
+  "user_text": "可以通知其他的，就是 CECS 本身就是一个工程的行业标准，我觉得跟工程相关的都可以先下载下来",
+  "effective_scope": "工程相关CECS均可收集和下载，房屋结构设计相关优先；按专业分类保留，供后续筛选。",
+  "supersedes": "USER-20261017-CECS-BUILDING-STRUCTURE-ONLY",
+  "scope_history": "此前临时要求仅房屋结构；用户随后明确恢复工程相关CECS。旧指令及冻结记录保留，不作为当前排除规则。",
+  "notified_threads": [
+    {"title": "CECS ①｜规范总表管理", "threadId": "01a14838-25e1-7de2-9595-0b694022aa05", "delivered": true, "acknowledged": true},
+    {"title": "CECS ②｜检索路径与方法迭代", "threadId": "01a14838-987f-7860-b82e-e000fe59ca30", "delivered": true, "acknowledged": true},
+    {"title": "CECS ③｜PDF 下载与质量审查", "threadId": "01a14838-9d35-74d1-8de7-5683103ad144", "delivered": true, "acknowledged": true}
+  ],
+  "acknowledgement_evidence": "三个对话在紧急通知后的compact wait_threads快照中均明确按最新范围恢复。catalog确认尚未修改主索引或Excel，无需撤销主索引排除。search已新增临时投影，现明确撤销仅因非房屋结构产生的禁用；审查确认未改主索引或建立排除投影。",
+  "preservation": "不删除原件，不改历史冻结或既有质量结论；不因恢复范围升级完整性、现行性或放宽访问验证。",
+  "publication": "此记录不改变当前已发布Excel与数据快照；后续增量按既有独立校核流程同步。"
+}

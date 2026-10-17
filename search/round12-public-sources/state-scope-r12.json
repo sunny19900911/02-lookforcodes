@@ -1,0 +1,42 @@
+{
+  "source_id": "SEARCH-R12-STATE-20261017",
+  "recorded_at": "2026-10-17T15:06:32+08:00",
+  "scope_rule_source_id": "USER-20261017-CECS-BUILDING-STRUCTURE-ONLY",
+  "status": "非房屋结构路线已停止；本轮仅范围切换、隔离和队列投影",
+  "stop": {
+    "transport": true,
+    "green_product_broad_search": true,
+    "post_stop_search": 0,
+    "post_stop_get": 0,
+    "post_stop_download": 0
+  },
+  "root_scope_projection": {
+    "rows": 13,
+    "counts": {
+      "excluded": 5,
+      "in_scope": 5,
+      "pending": 3
+    },
+    "download_enabled": false
+  },
+  "subagent_products": {
+    "formal_pdf_candidates": 0,
+    "pending_structural_draft": 1,
+    "download_enabled": false
+  },
+  "subagent_transport": {
+    "isolated_metadata": 5,
+    "current_candidates": 0
+  },
+  "new_formal_complete_claims": 0,
+  "new_global_scope_counts": null,
+  "global_count_owner": "catalog/audit在新范围交集后重算；本角色不改主索引、Excel或质量评级",
+  "selected_audit": "pdf-audit/audit-pending-round09-freeze-1450-v2.json",
+  "selected_alternate_projection": "pdf-audit/candidates-r11-alt31-share.json",
+  "normalized_subagent_scope": "search/round12-public-sources/scope-normalized-subagents-r12.json",
+  "unchanged_previous_freezes": 11,
+  "next": [
+    "等待主控统一范围筛选与catalog投影；旧广范围队列不直接恢复。",
+    "结构相关新路线须在范围明确后再推进；含糊条目先核适用范围。"
+  ]
+}

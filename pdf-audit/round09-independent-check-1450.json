@@ -1,0 +1,21 @@
+{
+  "checked_at": "2026-10-17T14:58:26+08:00",
+  "reviewer": "audit_r08_conversion_draft只读独立QA",
+  "result": "通过：7唯一ID/URL，4PDF字节hash匹配且3新增内容hash；来源3与历史派生输入hash匹配；当前分享投影不沿用主64页，旧派生历史限定与v1不选用明确；分享JSON无原HTML或验证瞬时值",
+  "selected_audit_sha256": "339a53ad776599ca4181a75633dd0479b1f040d293e9bf35d02dd762937196ef",
+  "publication_selection_sha256": "91744369ebd0b0916afa791012dd3ab6ca3dedbaa0b57c061d92848d41523e44",
+  "alternate_share_sha256": "2aa5cd96cfcc3f9d3848c7046575bb72e53b7426fb602f8b58b191558b94a61d",
+  "canonical48_unchanged": true,
+  "prospective_all_three_pending": {
+    "count": 63,
+    "formal_complete_links": 14,
+    "versions": 12,
+    "hashes": 12,
+    "complete_drafts": 5,
+    "ratings": {
+      "B": 19,
+      "C": 18,
+      "D": 26
+    }
+  }
+}

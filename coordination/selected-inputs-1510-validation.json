@@ -1,0 +1,44 @@
+{
+  "checked_at": "2026-10-17T15:34:33.728006+08:00",
+  "status": "selected_frozen_inputs_pass",
+  "selected_hashes": {
+    "search/freeze-inputs-1420.json": "cc3118242ffa6b13e530ef48678adacb5a6fc9a2d0fe553f39be2ca6e66df2ed",
+    "search/freeze-inputs-1430.json": "3974c2d6470358bce3c086132f783d963e351988ab4bf18450def551067d5722",
+    "search/freeze-inputs-1440.json": "c6da85fcbe8c2c3a5a54166ee03eacee36f0c1b5f7de58eadb398686525d0be7",
+    "search/freeze-region-metadata-1530.json": "a2f5754e0962f20204fd05fcd17cabaec077e16035fb9cc6d08ad6e7184c1772",
+    "pdf-audit/audit-results-freeze-1410.json": "a81a40dfff05c0bd437b99875baba5efc7f540c05ae9c59437aceb66d5aa65e2",
+    "pdf-audit/audit-pending-round07-freeze-1430.json": "1f75a6b1536d5265a2a8cb814e1c2d1c7630de38d9dd49ec707650a174aebe0f",
+    "pdf-audit/audit-pending-round08-fixed-r10.json": "b85f429140403811b90b5215ca38ab9c45d420705073ccb55c93f072805843e5",
+    "pdf-audit/audit-pending-round09-freeze-1450-v2.json": "339a53ad776599ca4181a75633dd0479b1f040d293e9bf35d02dd762937196ef",
+    "pdf-audit/candidates-r11-alt31-share.json": "2aa5cd96cfcc3f9d3848c7046575bb72e53b7426fb602f8b58b191558b94a61d",
+    "pdf-audit/evidence-85-repeal-cecs69-94.json": "442e9485aae9fed84a118ebfdc0365e80bb2328ef05ba901958274a81178f95e"
+  },
+  "sealed_audit": {
+    "path": "pdf-audit/audit-results-freeze-1510.json",
+    "sha256": "815565100ff8959e609b223af1c64e43451b98fbb4cb1dfc83ddcd5f778c4449",
+    "selected_observations_unchanged_with_merge_history": true
+  },
+  "manifest_files_checked": 42,
+  "audit_union": {
+    "results": 63,
+    "formal_complete_links": 14,
+    "formal_complete_unique_hashes": 12,
+    "complete_drafts": 5,
+    "ratings": {
+      "D": 26,
+      "C": 18,
+      "B": 19
+    }
+  },
+  "checks": [
+    "selected SHA256",
+    "transitive manifest file SHA256",
+    "unique audit IDs and request URLs",
+    "formal and draft counts separate",
+    "R11 current v2 and alternate share selection",
+    "failed alternate does not inherit main link pages",
+    "old 48 observations byte-equivalent as JSON objects",
+    "new 15 observations unchanged except one provenance merge history event"
+  ],
+  "limit": "Input union only; not yet a catalog or published Excel receipt."
+}

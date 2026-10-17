@@ -1,0 +1,52 @@
+{
+  "source_id": "USER-20261017-CECS-ENGINEERING-ALL",
+  "recorded_at": "2026-10-17T15:10:45+08:00",
+  "statement_type": "原文事实（主控转达用户最新直接澄清）",
+  "active": true,
+  "supersedes": "USER-20261017-CECS-BUILDING-STRUCTURE-ONLY",
+  "scope": "工程相关CECS均可先收集和下载，房屋结构设计相关优先",
+  "include": [
+    "房屋结构与岩土地基",
+    "给排水",
+    "暖通电气与消防",
+    "公路桥梁铁路隧道与市政",
+    "工程绿色建材、节能、碳评价和工程综合"
+  ],
+  "exclude": [
+    "其他标准体系的标准正文不作为CECS条目",
+    "只有CECS引用的论文、项目文件、目录、奖项名单不作为CECS标准全文",
+    "无法辨明工程关联的资料先待判"
+  ],
+  "classification": [
+    "主专业",
+    "交叉标签",
+    "适用对象与范围",
+    "版本阶段",
+    "访问状态",
+    "完整性与质量"
+  ],
+  "restored_prior_batches": [
+    "R09",
+    "R10",
+    "R11",
+    "R12工程相关路线"
+  ],
+  "cancel_only_due_to_nonbuilding_structure": true,
+  "quality_and_access_findings_unchanged": true,
+  "safeguards": [
+    "不把下载或目录发现当作现行或完整",
+    "草案、历史版、正式编号文本分别保存",
+    "不绕过账号、付费、验证码或挑战；失败路线不因范围恢复重复请求"
+  ],
+  "historical_scope_manifest": {
+    "path": "search/freeze-inputs-1500-scope-transition.json",
+    "sha256": "19ccfcdd7f137dbfee2f279799c2edda793ac08a1a39bb92e2691f86c596e148",
+    "current_scope_policy": false
+  },
+  "ownership": {
+    "catalog": "唯一Excel与主索引写入",
+    "audit": "独立全文审查",
+    "search": "检索及队列",
+    "main": "唯一Git写入"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "source_id": "SEARCH-R11-INDEPENDENT-VALIDATION",
+  "recorded_at": "2026-10-17T14:43:32+08:00",
+  "source_rows": 117,
+  "complete_unique_keys": 116,
+  "all_actual_locations": true,
+  "master_count_at_read": 1008,
+  "master_sha256_at_read": "c78cabf007821b7bf79e0f7946fc84a5241c9cddb3c72ec83efadb7e1a4dce5d",
+  "master_overlap": 112,
+  "prior_pending_overlap": 0,
+  "new_keys_at_read": [
+    "1861/2025",
+    "1865/2025",
+    "1867/2025",
+    "1870/2025"
+  ],
+  "merge_count": 0,
+  "boundary": "去重快照而非已合库净增；机构补充与政府分开，缺年份不猜。"
+}

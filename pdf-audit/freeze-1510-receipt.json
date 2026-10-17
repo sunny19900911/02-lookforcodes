@@ -1,0 +1,132 @@
+{
+  "checkpoint": "2026-10-17T15:10:00+08:00",
+  "frozen_at": "2026-10-17T15:20:16+08:00",
+  "updated_at": "2026-10-17T15:20:16+08:00",
+  "before_sha256": "a81a40dfff05c0bd437b99875baba5efc7f540c05ae9c59437aceb66d5aa65e2",
+  "sha256": "815565100ff8959e609b223af1c64e43451b98fbb4cb1dfc83ddcd5f778c4449",
+  "input_snapshots": [
+    {
+      "file": "audit-pending-round07-freeze-1430.json",
+      "sha256": "1f75a6b1536d5265a2a8cb814e1c2d1c7630de38d9dd49ec707650a174aebe0f",
+      "result_count": 6
+    },
+    {
+      "file": "audit-pending-round08-fixed-r10.json",
+      "sha256": "b85f429140403811b90b5215ca38ab9c45d420705073ccb55c93f072805843e5",
+      "result_count": 2
+    },
+    {
+      "file": "audit-pending-round09-freeze-1450-v2.json",
+      "sha256": "339a53ad776599ca4181a75633dd0479b1f040d293e9bf35d02dd762937196ef",
+      "result_count": 7
+    }
+  ],
+  "reference_snapshots": [
+    {
+      "file": "candidates-r11-alt31-share.json",
+      "sha256": "2aa5cd96cfcc3f9d3848c7046575bb72e53b7426fb602f8b58b191558b94a61d"
+    },
+    {
+      "file": "audit-round09-publication-selection-1450.json",
+      "sha256": "91744369ebd0b0916afa791012dd3ab6ca3dedbaa0b57c061d92848d41523e44"
+    },
+    {
+      "file": "evidence-85-repeal-cecs69-94.json",
+      "sha256": "442e9485aae9fed84a118ebfdc0365e80bb2328ef05ba901958274a81178f95e"
+    },
+    {
+      "file": "active-cecs-scope.json",
+      "sha256": "acc68fea52f390c7a97580cd6c9e67d141e7c1b467af8afecd3c4740e48838ec"
+    },
+    {
+      "file": "scope-change-engineering-all-20261017.json",
+      "sha256": "dcabb6987e1868c497e043cc8f24047e9a2154bf22fd23e056c5b8b505f61c4a"
+    }
+  ],
+  "result_count": 63,
+  "complete_link_count": 14,
+  "complete_version_count": 12,
+  "complete_hash_count": 12,
+  "complete_draft_count": 5,
+  "complete_draft_stage_counts": {
+    "报批稿": 3,
+    "送审稿": 1,
+    "征求意见稿": 1
+  },
+  "complete_drafts": [
+    {
+      "candidate_id": "R07-G5-DRAFT-ZERO-2025",
+      "version_class": "报批稿"
+    },
+    {
+      "candidate_id": "R08-CNASS-DRAFT-INDUSTRIAL-CONVERSION",
+      "version_class": "送审稿"
+    },
+    {
+      "candidate_id": "R09-CNASS-DRAFT-CABLE-ACCEPT",
+      "version_class": "征求意见稿"
+    },
+    {
+      "candidate_id": "R09-DRAFT-DRAIN-MANHOLE-GRATING",
+      "version_class": "报批稿"
+    },
+    {
+      "candidate_id": "R09-DRAFT-WOOD-FIRE-COATINGS",
+      "version_class": "报批稿"
+    }
+  ],
+  "rating_counts": {
+    "A": 0,
+    "B": 19,
+    "C": 18,
+    "D": 26
+  },
+  "rating_scope_note": "A/B/C/D主推荐与稿型、完整性分别保存；B19含14正式完整链接与5件完整草案；1555主D、正文浏览范围B不进入主B计数，200不补正文B",
+  "metadata_only_count": 1,
+  "additions": 15,
+  "replacements": 0,
+  "merged_candidate_ids": [
+    "R09-HPU-69-2011",
+    "R09-CNASS-DRAFT-CABLE-ACCEPT",
+    "R09-DRAFT-PREFAB-LOW-CARBON",
+    "R09-DRAFT-DRAIN-MANHOLE-GRATING",
+    "R09-DRAFT-WOOD-FIRE-COATINGS",
+    "R09-WM-001",
+    "R10-69-2011-BJHCGK",
+    "R10-02-2005-CCTEDU",
+    "R11-31-2017-APEXTRAY",
+    "R11-1555-2024-FAIUSR",
+    "R11-200-2006-DLSSYHT",
+    "R11-197-2006-FAIUSR",
+    "R11-165-2004-YSJIANZHAN",
+    "R11-31-2017-GUANGYUXC",
+    "R11-INST-PDF-001"
+  ],
+  "old_freeze": "audit-results-freeze-1410.json",
+  "current_freeze": "audit-results-freeze-1510.json",
+  "old48_records_unchanged": true,
+  "old_freeze_sha256": {
+    "audit-results-freeze-1310.json": "46147add21cc3ab5453f683ac816c8763fddc31a845baa2908adf2e902642f1d",
+    "audit-results-freeze-1320.json": "28e9f89c8134d5933aef28565efc2ddf22a8e4aaa5eb5691ccd09f5283063f25",
+    "audit-results-freeze-1330.json": "84e4361fbbcdee054efb3ac89e5610001df33e049db3271ba2f2fd1616686629",
+    "audit-results-freeze-1350.json": "400cf857fd7d1a084bb44cb4f0b387cda220f679e88370784296314f96386d33",
+    "audit-results-freeze-1410.json": "a81a40dfff05c0bd437b99875baba5efc7f540c05ae9c59437aceb66d5aa65e2"
+  },
+  "history_preserved": true,
+  "tested_url_identity": "requested_url优先，其次download_url/direct_url；保留资源query参数（含NWAFU resId/lid），不将alternative_urls元数据计为已测链接",
+  "same_hash_different_url": "R11-INST-PDF-001与旧两份02同SHA，保留实际GET新链接，不计新内容版本",
+  "historical_repeal_evidence": {
+    "source_id": "PDF-CECS-85-REPEAL-20261017",
+    "file": "evidence-85-repeal-cecs69-94.json",
+    "sha256": "442e9485aae9fed84a118ebfdc0365e80bb2328ef05ba901958274a81178f95e",
+    "announcement": "中国工程建设标准化协会第85号，2011-06-22；2011-10-01实施并同时废止CECS69:94",
+    "location": "PDF2左半页、无印刷folio；PDF16右印25另佐证日期/公告号",
+    "limits": "仅历史废止事件；不推断69:2011在2026现行，旧69:94及HPU404记录均保留"
+  },
+  "publication_selection": "仅R11 v2及备用31当前sharing投影；历史v1/继承64页的派生输入保留但不选用",
+  "active_scope_source_id": "USER-20261017-CECS-ENGINEERING-ALL",
+  "quality_limits": "1555整件D/正文浏览B；200整件D且原件漏单位，不补正文B；197/69:2011疑似空白背页未证仍C；243技术文字缺失仍C；五件完整草案不计正式完整。",
+  "excluded_pending": "R12/R13及其他后续新候选不纳入本次63；封版前暂停新GET",
+  "canonical_frozen_until": "主控本轮本地封版；后续新GET另存独立pending",
+  "publication_status": "本角色未操作Git或远端，PDF及PNG仅本地；发布状态由主控另登记"
+}

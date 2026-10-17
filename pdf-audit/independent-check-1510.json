@@ -1,0 +1,59 @@
+{
+  "checkpoint": "1510",
+  "checked_at": "2026-10-17T15:25:25+08:00",
+  "reviewer": "audit_method_check（独立只读第二审）",
+  "source_id": "AUDIT-INDEPENDENT-1510-20261017",
+  "statement_type": "AI推断（独立文件哈希、字段及计数核对；85公告原文事实沿用既有双审证据）",
+  "freeze_file": "audit-results-freeze-1510.json",
+  "freeze_sha256": "815565100ff8959e609b223af1c64e43451b98fbb4cb1dfc83ddcd5f778c4449",
+  "receipt_file": "freeze-1510-receipt.json",
+  "receipt_sha256": "3ddfa9ee6cffaeff6fa23d0eb60e12097b8f0283c1d8ca301aa77fda36dc403c",
+  "outcome": "通过，无不一致",
+  "checks": {
+    "old48_complete_objects_unchanged": true,
+    "added15_original_fields_preserved": true,
+    "added_history_only": true,
+    "replacement_count": 0,
+    "unique_candidate_ids": 63,
+    "unique_primary_resource_urls": 63,
+    "resource_query_values_preserved": true,
+    "same_hash_distinct_url_retained": true,
+    "formal_complete_links": 14,
+    "formal_complete_versions": 12,
+    "formal_complete_hashes": 12,
+    "complete_drafts": 5,
+    "draft_stage_counts": {
+      "报批稿": 3,
+      "送审稿": 1,
+      "征求意见稿": 1
+    },
+    "rating_counts": {
+      "A": 0,
+      "B": 19,
+      "C": 18,
+      "D": 26
+    },
+    "draft_flags_separate": true,
+    "1555_main_D_body_B": true,
+    "200_main_D_without_body_B": true,
+    "31_alternate_web_pages_null": true,
+    "three_input_five_reference_hashes_match": true,
+    "85_evidence_pdf_hash_and_location_match": true,
+    "old69_and_hpu404_preserved": true
+  },
+  "historical_repeal_evidence": {
+    "source_id": "PDF-CECS-85-REPEAL-20261017",
+    "sha256": "442e9485aae9fed84a118ebfdc0365e80bb2328ef05ba901958274a81178f95e",
+    "announcement": "85",
+    "date": "2011-06-22",
+    "effective_date": "2011-10-01",
+    "repealed_standard": "CECS 69:94",
+    "location": "PDF2左半页，无印刷folio",
+    "limits": "仅历史事件，不推断69:2011在2026现行"
+  },
+  "boundaries": [
+    "第二审未执行合并脚本、未写入审查或目录数据、未发起GET或操作Git。",
+    "本文件仅由root记录已返回的独立只读核对结论，不重新评定PDF。",
+    "本批freeze保持815565...不变；后续来源地区字段属于catalog/search，不写入本冻结。"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "source_id": "SEARCH-UNIVERSITY-REGION-INDEPENDENT-QA-20261017",
+  "checked_at": "2026-10-17T15:33:11+08:00",
+  "reviewer": "/root/baseline_external_routes",
+  "statement_type": "AI独立只读本地证据一致性复核",
+  "status": "passed",
+  "checks": [
+    "两份证据SHA及主库快照SHA一致",
+    "EOL4个link ID/URL/来源页精确匹配；HPU候选URL及来源SHA匹配",
+    "身份地址摘录与记录HTML行号一致；HPU仅host_observed，不猜scheme",
+    "杨凌city为空；焦作仅高校公开地址，不推上传校区",
+    "只匹配两个具体子站，无CDN/高校主域通配",
+    "地区不作为适用地，无PDF GET或完整性变化"
+  ],
+  "limits": [
+    "未重新读取网页；不是网页当前内容的第二次独立实测",
+    "不决定catalog最终映射，不改主索引或Excel"
+  ],
+  "new_network_requests": 0,
+  "files_modified_by_reviewer": false
+}

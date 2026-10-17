@@ -1,0 +1,482 @@
+{
+  "schema_version": "cecs-download-source-region-crosscheck-v1",
+  "batch_id": "REGION-20261017-BEIJING-ORGANIZATIONS",
+  "source_id": "USER-20261017-CECS-DOWNLOAD-SOURCE-REGION",
+  "purpose": "交叉核对补充，未直接并库",
+  "created_at": "2026-10-17T15:28:19.089427+08:00",
+  "stopped_new_queries_at": "收到主控停止指令后即停止，最后普通HTML GET时间15:26:55+08:00",
+  "entity_count": 2,
+  "pdf_get_count_this_task": 0,
+  "new_standard_candidate_count": 0,
+  "raw_html_saved": false,
+  "pdf_saved": false,
+  "png_saved": false,
+  "transient_parameter_values_saved": false,
+  "read_only_inputs": [
+    {
+      "path": "C:/Users/mj528/Documents/004 工作/web-demo/outputs/cecs-master-20261017/catalog/cecs-master.json",
+      "sha256": "c78cabf007821b7bf79e0f7946fc84a5241c9cddb3c72ec83efadb7e1a4dce5d",
+      "bytes": 8942697,
+      "scope": "只读提取cnass九个已登记链接映射，不改库"
+    },
+    {
+      "path": "C:/Users/mj528/Documents/004 工作/web-demo/outputs/cecs-master-20261017/search/round11-public-sources/instrument-pages/round11-instrument-pages.json",
+      "sha256": "c2e76731ffe5d5a025af8f688ddfd672028ce6aa5a40ea8d1c63fbedbcba7c96",
+      "bytes": 20617,
+      "scope": "只读R11附件/非PDF元数据已登记URL及来源ID"
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ENTITY-CNASS-SPATIAL-BRANCH",
+      "source_entity": "中国钢结构协会空间结构分会",
+      "previous_coarse_label": "中国钢结构协会",
+      "identity_correction": "cnass.cn具体署名主体为空间结构分会；不能直接将该网站下载来源省市归因到总会总部。",
+      "match_hosts": [
+        "www.cnass.cn",
+        "cnass.cn",
+        "m.cnass.cn"
+      ],
+      "official_contact_address": "北京市朝阳区平乐园100号北京工业大学西校区",
+      "download_source_region": {
+        "region_status": "已取得官网地址证据，交叉核对补充待主控采用",
+        "province": "北京市",
+        "city": "北京市",
+        "source_entity": "中国钢结构协会空间结构分会",
+        "region_evidence_ids": [
+          "REGION-20261017-CNASS-HOME-IDENTITY",
+          "REGION-20261017-CNASS-HOME-ADDRESS"
+        ],
+        "region_basis": "官网页脚明确署名空间结构分会及北京市朝阳区联系地址；分类的是实际资料发布/下载主体所在省市，不是标准适用范围。"
+      },
+      "mapped_master_link_count": 9,
+      "remaining_gap": "工作条例搜索索引提及与总会的分支关系，但当前移动站81页返回非法id，不把索引摘录升级为现时网页验证；总会总部地址及分会独立法人身份未核，均非本次地域判定所需。"
+    },
+    {
+      "entity_id": "ENTITY-ZBL",
+      "source_entity": "北京智博联科技股份有限公司",
+      "match_hosts": [
+        "www.zbl.cn",
+        "zbl.cn"
+      ],
+      "official_contact_address": "北京市西城区德胜门外大街11号B座4层",
+      "download_source_region": {
+        "region_status": "已取得官网地址证据，交叉核对补充待主控采用",
+        "province": "北京市",
+        "city": "北京市",
+        "source_entity": "北京智博联科技股份有限公司",
+        "region_evidence_ids": [
+          "REGION-20261017-ZBL-CONTACT-IDENTITY",
+          "REGION-20261017-ZBL-CONTACT-ADDRESS",
+          "REGION-20261017-ZBL-PARENT-IDENTITY"
+        ],
+        "region_basis": "官方联系我们表同时给出单位名称、www.zbl.cn及北京市西城区单位地址；R11实际附件父页有同公司版权及同地址。"
+      },
+      "mapped_r11_route_count": 2,
+      "remaining_gap": "官网联系地址与网站主体明确；不判断本标准参编、转载授权及企业登记注册地址。"
+    }
+  ],
+  "region_evidence": [
+    {
+      "region_evidence_id": "REGION-20261017-CNASS-HOME-IDENTITY",
+      "source_id": "SRC-REGION-CNASS-HOME-IDENTITY",
+      "match_hosts": [
+        "www.cnass.cn",
+        "cnass.cn",
+        "m.cnass.cn"
+      ],
+      "proof_url": "https://www.cnass.cn/",
+      "evidence_type": "官方网页主体自述",
+      "excerpt": "版权所有：中国钢结构协会空间结构分会",
+      "position": "主页页脚版权行",
+      "checked_at": "2026-10-17T15:26:15.470274+08:00",
+      "method": "GET",
+      "http_status": 200,
+      "final_url": "https://www.cnass.cn/",
+      "statement_type": "原文事实",
+      "scope": "网站实际署名主体；不直接证明总会总部或分会独立法人身份"
+    },
+    {
+      "region_evidence_id": "REGION-20261017-CNASS-HOME-ADDRESS",
+      "source_id": "SRC-REGION-CNASS-HOME-ADDRESS",
+      "match_hosts": [
+        "www.cnass.cn",
+        "cnass.cn",
+        "m.cnass.cn"
+      ],
+      "proof_url": "https://www.cnass.cn/",
+      "evidence_type": "官方机构联系地址",
+      "excerpt": "地址：北京市朝阳区平乐园100号北京工业大学西校区",
+      "position": "主页底部地址栏，版权行附近",
+      "checked_at": "2026-10-17T15:26:15.470274+08:00",
+      "method": "GET",
+      "http_status": 200,
+      "final_url": "https://www.cnass.cn/",
+      "statement_type": "原文事实",
+      "province": "北京市",
+      "city": "北京市",
+      "district": "朝阳区",
+      "scope": "官网公开联系地址，非网站服务器地域、标准适用范围或总会总部地址"
+    },
+    {
+      "region_evidence_id": "REGION-20261017-CNASS-PARENT-IDENTITY",
+      "source_id": "SRC-REGION-CNASS-PARENT-IDENTITY",
+      "match_hosts": [
+        "www.cnass.cn"
+      ],
+      "proof_url": "https://www.cnass.cn/site/content/325.html",
+      "evidence_type": "已登记附件父页主体署名与地址",
+      "excerpt": "版权所有：中国钢结构协会空间结构分会；地址：北京市朝阳区平乐园100号北京工业大学西校区",
+      "position": "《结构检测监测鉴定标准-相关文献》页面标题及页脚",
+      "checked_at": "2026-10-17T15:26:53.971537+08:00",
+      "method": "GET",
+      "http_status": 200,
+      "final_url": "https://www.cnass.cn/site/content/325.html",
+      "statement_type": "原文事实",
+      "scope": "仅复核现有父页主体；本轮未请求PDF、未新增标准候选"
+    },
+    {
+      "region_evidence_id": "REGION-20261017-ZBL-CONTACT-IDENTITY",
+      "source_id": "SRC-REGION-ZBL-CONTACT-IDENTITY",
+      "match_hosts": [
+        "www.zbl.cn",
+        "zbl.cn"
+      ],
+      "proof_url": "https://www.zbl.cn/index.php?a=lists&c=index&catid=16&m=content",
+      "evidence_type": "官方联系页单位名称及网址",
+      "excerpt": "单位名称：北京智博联科技股份有限公司；公司网址：www.zbl.cn",
+      "position": "联系我们→公司信息表，网页工具文本第148、152行",
+      "checked_at": "2026-10-17T15:26:19.571577+08:00",
+      "method": "GET",
+      "http_status": 200,
+      "final_url": "https://www.zbl.cn/index.php?a=lists&c=index&catid=16&m=content",
+      "statement_type": "原文事实"
+    },
+    {
+      "region_evidence_id": "REGION-20261017-ZBL-CONTACT-ADDRESS",
+      "source_id": "SRC-REGION-ZBL-CONTACT-ADDRESS",
+      "match_hosts": [
+        "www.zbl.cn",
+        "zbl.cn"
+      ],
+      "proof_url": "https://www.zbl.cn/index.php?a=lists&c=index&catid=16&m=content",
+      "evidence_type": "官方联系地址",
+      "excerpt": "单位地址：北京市西城区德胜门外大街11号B座4层",
+      "position": "联系我们→公司信息表单位地址行（网页工具文本第150行）；页脚第160行重复",
+      "checked_at": "2026-10-17T15:26:19.571577+08:00",
+      "method": "GET",
+      "http_status": 200,
+      "final_url": "https://www.zbl.cn/index.php?a=lists&c=index&catid=16&m=content",
+      "statement_type": "原文事实",
+      "province": "北京市",
+      "city": "北京市",
+      "district": "西城区",
+      "scope": "依据明确地址判定省市，未从企业名称推测"
+    },
+    {
+      "region_evidence_id": "REGION-20261017-ZBL-PARENT-IDENTITY",
+      "source_id": "SRC-REGION-ZBL-PARENT-IDENTITY",
+      "download_urls": [
+        "http://www.zbl.cn/uploadfile/2020/0812/20200812101348781.pdf"
+      ],
+      "proof_url": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=9",
+      "evidence_type": "R11已登记厂家父页主体署名",
+      "excerpt": "Copyright © 北京智博联科技股份有限公司；地址：北京市西城区德胜门外大街11号B座4层",
+      "position": "相关规程第9页页脚版权行及地址行",
+      "checked_at": "2026-10-17T15:26:55.381598+08:00",
+      "method": "GET",
+      "http_status": 200,
+      "final_url": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=9",
+      "statement_type": "原文事实",
+      "scope": "附件href沿用冻结R11记录；本轮只取HTML主体元数据，没有GET PDF"
+    }
+  ],
+  "download_subject_mappings": {
+    "master_cnass_links": [
+      {
+        "link_id": "L-e6d108909c89",
+        "candidate_id": "R01-G3-003",
+        "source_page": "https://www.cnass.cn/upload/gjgfenhui/file/20201023/1603438518363121.pdf",
+        "requested_url": "https://www.cnass.cn/upload/gjgfenhui/file/20201023/1603438518363121.pdf",
+        "active": true,
+        "download_source_region": {
+          "region_status": "已取得官网地址证据，交叉核对补充待主控采用",
+          "province": "北京市",
+          "city": "北京市",
+          "source_entity": "中国钢结构协会空间结构分会",
+          "region_evidence_ids": [
+            "REGION-20261017-CNASS-HOME-IDENTITY",
+            "REGION-20261017-CNASS-HOME-ADDRESS"
+          ],
+          "region_basis": "官网页脚明确署名空间结构分会及北京市朝阳区联系地址；分类的是实际资料发布/下载主体所在省市，不是标准适用范围。"
+        },
+        "mapping_source_id": "MAP-REGION-CNASS-L-e6d108909c89",
+        "mapping_basis": "仅从只读master已登记requested_url域名及source_page映射到该官网主体；本轮未请求任何附件。",
+        "boundary": "具体附件父页未定位；source_page为PDF自身，不以首页充当具体父页。主体级地域证据不补证附件授权。"
+      },
+      {
+        "link_id": "L-5446b0f1e111",
+        "candidate_id": "R08-CNASS-212-2006",
+        "source_page": "https://www.cnass.cn/site/content/325.html",
+        "requested_url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863584412305.pdf",
+        "active": true,
+        "download_source_region": {
+          "region_status": "已取得官网地址证据，交叉核对补充待主控采用",
+          "province": "北京市",
+          "city": "北京市",
+          "source_entity": "中国钢结构协会空间结构分会",
+          "region_evidence_ids": [
+            "REGION-20261017-CNASS-HOME-IDENTITY",
+            "REGION-20261017-CNASS-HOME-ADDRESS",
+            "REGION-20261017-CNASS-PARENT-IDENTITY"
+          ],
+          "region_basis": "官网页脚明确署名空间结构分会及北京市朝阳区联系地址；分类的是实际资料发布/下载主体所在省市，不是标准适用范围。"
+        },
+        "mapping_source_id": "MAP-REGION-CNASS-L-5446b0f1e111",
+        "mapping_basis": "仅从只读master已登记requested_url域名及source_page映射到该官网主体；本轮未请求任何附件。"
+      },
+      {
+        "link_id": "L-5482c290cb11",
+        "source_page": "https://www.cnass.cn/site/content/325.html",
+        "requested_url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863584412305.pdf",
+        "active": true,
+        "download_source_region": {
+          "region_status": "已取得官网地址证据，交叉核对补充待主控采用",
+          "province": "北京市",
+          "city": "北京市",
+          "source_entity": "中国钢结构协会空间结构分会",
+          "region_evidence_ids": [
+            "REGION-20261017-CNASS-HOME-IDENTITY",
+            "REGION-20261017-CNASS-HOME-ADDRESS",
+            "REGION-20261017-CNASS-PARENT-IDENTITY"
+          ],
+          "region_basis": "官网页脚明确署名空间结构分会及北京市朝阳区联系地址；分类的是实际资料发布/下载主体所在省市，不是标准适用范围。"
+        },
+        "mapping_source_id": "MAP-REGION-CNASS-L-5482c290cb11",
+        "mapping_basis": "仅从只读master已登记requested_url域名及source_page映射到该官网主体；本轮未请求任何附件。"
+      },
+      {
+        "link_id": "L-03e4ee7e6142",
+        "candidate_id": "R08-CNASS-235-2008",
+        "source_page": "https://www.cnass.cn/site/content/325.html",
+        "requested_url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863593110778.pdf",
+        "active": true,
+        "download_source_region": {
+          "region_status": "已取得官网地址证据，交叉核对补充待主控采用",
+          "province": "北京市",
+          "city": "北京市",
+          "source_entity": "中国钢结构协会空间结构分会",
+          "region_evidence_ids": [
+            "REGION-20261017-CNASS-HOME-IDENTITY",
+            "REGION-20261017-CNASS-HOME-ADDRESS",
+            "REGION-20261017-CNASS-PARENT-IDENTITY"
+          ],
+          "region_basis": "官网页脚明确署名空间结构分会及北京市朝阳区联系地址；分类的是实际资料发布/下载主体所在省市，不是标准适用范围。"
+        },
+        "mapping_source_id": "MAP-REGION-CNASS-L-03e4ee7e6142",
+        "mapping_basis": "仅从只读master已登记requested_url域名及source_page映射到该官网主体；本轮未请求任何附件。"
+      },
+      {
+        "link_id": "L-a8e68907d132",
+        "source_page": "https://www.cnass.cn/site/content/325.html",
+        "requested_url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863593110778.pdf",
+        "active": true,
+        "download_source_region": {
+          "region_status": "已取得官网地址证据，交叉核对补充待主控采用",
+          "province": "北京市",
+          "city": "北京市",
+          "source_entity": "中国钢结构协会空间结构分会",
+          "region_evidence_ids": [
+            "REGION-20261017-CNASS-HOME-IDENTITY",
+            "REGION-20261017-CNASS-HOME-ADDRESS",
+            "REGION-20261017-CNASS-PARENT-IDENTITY"
+          ],
+          "region_basis": "官网页脚明确署名空间结构分会及北京市朝阳区联系地址；分类的是实际资料发布/下载主体所在省市，不是标准适用范围。"
+        },
+        "mapping_source_id": "MAP-REGION-CNASS-L-a8e68907d132",
+        "mapping_basis": "仅从只读master已登记requested_url域名及source_page映射到该官网主体；本轮未请求任何附件。"
+      },
+      {
+        "link_id": "L-f9c077354f90",
+        "candidate_id": "R08-CNASS-333-2012",
+        "source_page": "https://www.cnass.cn/site/content/325.html",
+        "requested_url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863590691072.pdf",
+        "active": true,
+        "download_source_region": {
+          "region_status": "已取得官网地址证据，交叉核对补充待主控采用",
+          "province": "北京市",
+          "city": "北京市",
+          "source_entity": "中国钢结构协会空间结构分会",
+          "region_evidence_ids": [
+            "REGION-20261017-CNASS-HOME-IDENTITY",
+            "REGION-20261017-CNASS-HOME-ADDRESS",
+            "REGION-20261017-CNASS-PARENT-IDENTITY"
+          ],
+          "region_basis": "官网页脚明确署名空间结构分会及北京市朝阳区联系地址；分类的是实际资料发布/下载主体所在省市，不是标准适用范围。"
+        },
+        "mapping_source_id": "MAP-REGION-CNASS-L-f9c077354f90",
+        "mapping_basis": "仅从只读master已登记requested_url域名及source_page映射到该官网主体；本轮未请求任何附件。"
+      },
+      {
+        "link_id": "L-41e9936e6618",
+        "source_page": "https://www.cnass.cn/site/content/325.html",
+        "requested_url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863590691072.pdf",
+        "active": true,
+        "download_source_region": {
+          "region_status": "已取得官网地址证据，交叉核对补充待主控采用",
+          "province": "北京市",
+          "city": "北京市",
+          "source_entity": "中国钢结构协会空间结构分会",
+          "region_evidence_ids": [
+            "REGION-20261017-CNASS-HOME-IDENTITY",
+            "REGION-20261017-CNASS-HOME-ADDRESS",
+            "REGION-20261017-CNASS-PARENT-IDENTITY"
+          ],
+          "region_basis": "官网页脚明确署名空间结构分会及北京市朝阳区联系地址；分类的是实际资料发布/下载主体所在省市，不是标准适用范围。"
+        },
+        "mapping_source_id": "MAP-REGION-CNASS-L-41e9936e6618",
+        "mapping_basis": "仅从只读master已登记requested_url域名及source_page映射到该官网主体；本轮未请求任何附件。"
+      },
+      {
+        "link_id": "L-6d9c3e869f45",
+        "candidate_id": "R08-CNASS-DRAFT-INDUSTRIAL-CONVERSION",
+        "source_page": "https://www.cnass.cn/site/content/325.html",
+        "requested_url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863809601694.pdf",
+        "active": true,
+        "download_source_region": {
+          "region_status": "已取得官网地址证据，交叉核对补充待主控采用",
+          "province": "北京市",
+          "city": "北京市",
+          "source_entity": "中国钢结构协会空间结构分会",
+          "region_evidence_ids": [
+            "REGION-20261017-CNASS-HOME-IDENTITY",
+            "REGION-20261017-CNASS-HOME-ADDRESS",
+            "REGION-20261017-CNASS-PARENT-IDENTITY"
+          ],
+          "region_basis": "官网页脚明确署名空间结构分会及北京市朝阳区联系地址；分类的是实际资料发布/下载主体所在省市，不是标准适用范围。"
+        },
+        "mapping_source_id": "MAP-REGION-CNASS-L-6d9c3e869f45",
+        "mapping_basis": "仅从只读master已登记requested_url域名及source_page映射到该官网主体；本轮未请求任何附件。"
+      },
+      {
+        "link_id": "L-a857d506d2cb",
+        "source_page": "https://www.cnass.cn/site/content/325.html",
+        "requested_url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863809601694.pdf",
+        "active": true,
+        "download_source_region": {
+          "region_status": "已取得官网地址证据，交叉核对补充待主控采用",
+          "province": "北京市",
+          "city": "北京市",
+          "source_entity": "中国钢结构协会空间结构分会",
+          "region_evidence_ids": [
+            "REGION-20261017-CNASS-HOME-IDENTITY",
+            "REGION-20261017-CNASS-HOME-ADDRESS",
+            "REGION-20261017-CNASS-PARENT-IDENTITY"
+          ],
+          "region_basis": "官网页脚明确署名空间结构分会及北京市朝阳区联系地址；分类的是实际资料发布/下载主体所在省市，不是标准适用范围。"
+        },
+        "mapping_source_id": "MAP-REGION-CNASS-L-a857d506d2cb",
+        "mapping_basis": "仅从只读master已登记requested_url域名及source_page映射到该官网主体；本轮未请求任何附件。"
+      }
+    ],
+    "frozen_r11_zbl_routes": [
+      {
+        "candidate_id": "R11-INST-PDF-001",
+        "source_id": "SRC-R11-INST-PDF-001",
+        "source_page": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=9",
+        "download_url": "http://www.zbl.cn/uploadfile/2020/0812/20200812101348781.pdf",
+        "format": "PDF",
+        "standard_number": "CECS 02:2005",
+        "route_kind": "PDF候选",
+        "download_source_region": {
+          "region_status": "已取得官网地址证据，交叉核对补充待主控采用",
+          "province": "北京市",
+          "city": "北京市",
+          "source_entity": "北京智博联科技股份有限公司",
+          "region_evidence_ids": [
+            "REGION-20261017-ZBL-CONTACT-IDENTITY",
+            "REGION-20261017-ZBL-CONTACT-ADDRESS",
+            "REGION-20261017-ZBL-PARENT-IDENTITY"
+          ],
+          "region_basis": "官方联系我们表同时给出单位名称、www.zbl.cn及北京市西城区单位地址；R11实际附件父页有同公司版权及同地址。"
+        },
+        "mapping_basis": "R11冻结记录给出实际同域附件href与具体父页；本轮官网联系页为地址证据。"
+      },
+      {
+        "route_id": "R11-INST-DOC-001",
+        "source_id": "SRC-R11-INST-DOC-001",
+        "source_page": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=4",
+        "download_url": "http://www.zbl.cn/uploadfile/2020/0812/20200812111020700.doc",
+        "format": "DOC",
+        "standard_number": "CECS 21:2000",
+        "route_kind": "非PDF元数据路线",
+        "download_source_region": {
+          "region_status": "已取得官网地址证据，交叉核对补充待主控采用",
+          "province": "北京市",
+          "city": "北京市",
+          "source_entity": "北京智博联科技股份有限公司",
+          "region_evidence_ids": [
+            "REGION-20261017-ZBL-CONTACT-IDENTITY",
+            "REGION-20261017-ZBL-CONTACT-ADDRESS"
+          ],
+          "region_basis": "官方联系我们表同时给出单位名称、www.zbl.cn及北京市西城区单位地址；R11实际附件父页有同公司版权及同地址。"
+        },
+        "boundary": "沿用R11 DOC父页归属；本轮未复查第4页、未请求DOC，不计PDF。",
+        "mapping_basis": "R11冻结记录给出实际同域附件href与具体父页；本轮官网联系页为地址证据。"
+      }
+    ]
+  },
+  "query_and_failure_log": [
+    {
+      "query": "site:cnass.cn 中国钢结构协会 联系我们 地址 北京",
+      "type": "官方域名搜索",
+      "checked_at_range": "2026-10-17T15:26:15+08:00",
+      "result": "取得官方首页、分会简介/条例索引。搜索结果包含PDF摘要，未打开或GET这些PDF；不登记新标准。"
+    },
+    {
+      "query": "site:cnass.cn 中国钢结构协会 协会简介 住所",
+      "type": "官方域名搜索",
+      "result": "条例81页索引显示分会名称、总会分支关系与北京住所；当前直接打开返回非法id，索引仅作路线留痕。"
+    },
+    {
+      "url": "https://www.cnass.cn/",
+      "result": "网页工具先超时；普通HTTPS GET 200取得页脚主体与地址，保留工具失败与普通GET成功的差异。",
+      "checked_at": "2026-10-17T15:26:15.470274+08:00"
+    },
+    {
+      "url": "https://cnass.cn/",
+      "result": "网页工具不可达；普通HTTPS GET200，页脚主体及地址与www版本一致。",
+      "checked_at": "2026-10-17T15:26:16.845005+08:00"
+    },
+    {
+      "url": "https://m.cnass.cn/",
+      "result": "网页工具未给可用正文；普通HTTPS GET200，页脚主体地址一致。",
+      "checked_at": "2026-10-17T15:26:18.178892+08:00"
+    },
+    {
+      "url": "https://m.cnass.cn/site/content/81.html",
+      "result": "普通GET200但页面为error：非法id；不以HTTP200冒充内容核验成功，不重试。",
+      "checked_at": "2026-10-17T15:26:52.653625+08:00"
+    },
+    {
+      "url": "https://www.zbl.cn/index.php?a=lists&c=index&catid=7&m=content",
+      "result": "官网关于我们链接在网页工具超时；已有官方联系我们充分证据，没有重试。"
+    },
+    {
+      "url": "https://www.cnass.cn/site/content/325.html",
+      "result": "网页工具不可达，普通HTTPS GET200取得已登记附件父页主体页脚；本轮不打开任何附件。",
+      "checked_at": "2026-10-17T15:26:53.971537+08:00"
+    },
+    {
+      "url": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=9",
+      "result": "网页工具不可达，普通HTTPS GET200取得已登记PDF父页同公司版权/地址；本轮不请求PDF。",
+      "checked_at": "2026-10-17T15:26:55.381598+08:00"
+    }
+  ],
+  "boundaries": [
+    "工程范围沿用USER-20261017-CECS-ENGINEERING-ALL，本轮仅地区元数据。",
+    "地址证据与附件主体映射分开；不改变既有PDF质量、版本、完整性或权限判断。",
+    "省市依据明确官网联系地址，不依据企业名称、CDN/IP或标准适用地域。",
+    "未登录、未绕过访问限制、未操作Git、未修改旧冻结、未保存原始响应或媒体。"
+  ]
+}

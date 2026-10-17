@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-10-17T06:31:38.023Z",
+  "generated_at": "2026-10-17T07:38:04.157Z",
   "records": [
     {
       "seed_id": "S001",
@@ -1191,7 +1191,7 @@
       "year": null,
       "year_text": "202X",
       "edition_label": null,
-      "draft_stage": "征求意见稿",
+      "draft_stage": "草案（阶段待核）",
       "topic_group": "G1",
       "topic_group_name": "地基基础与岩土",
       "source_id": "网页20261017.txt:353",

@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "recorded_at_utc": "2026-10-17 07:07:38 UTC",
+  "active_instruction_id": "USER-20261017-CECS-ENGINEERING-ALL",
+  "active_scope": "工程相关CECS均可收集和下载，房屋结构设计相关优先",
+  "statement_type": "原文事实（用户最新直接澄清，由主控转达）",
+  "source_id": "USER-20261017-CECS-ENGINEERING-ALL",
+  "scope_rules": {
+    "include": "房屋结构及地基基础、检测鉴定加固、给排水、暖通电气消防、桥梁公路及市政、绿色建材等与工程相关的CECS；不因非房屋结构排除",
+    "priority": "房屋结构设计直接相关条目优先",
+    "pending": "无法辨明CECS身份或工程关联的条目待判；目录、引用、短预览与非CECS材料不计完整规范",
+    "exclude": "不属于CECS体系或与工程无关的资料；保留原来源及排除证据",
+    "quality": "草案、历史版本、正式全文分别标识；下载、目录收录与现行性、完整性分开",
+    "integration": "保留原冻结和分享投影选择；R09/R10/R11等按独立QA与主控冻结批逐批接入，不追入未选批次"
+  },
+  "disciplines": [
+    "房屋结构与地基基础",
+    "结构荷载抗震抗风减隔震",
+    "结构检测鉴定与加固",
+    "结构材料构造与施工",
+    "给排水",
+    "暖通",
+    "电气与消防",
+    "交通土建与市政",
+    "绿色建材及工程节能评价",
+    "其他工程相关",
+    "工程关联待判"
+  ],
+  "instruction_history": [
+    {
+      "sequence": 1,
+      "source_id": "USER-20261017-CECS-BUILDING-STRUCTURE-ONLY",
+      "scope": "仅房屋结构设计相关",
+      "status": "superseded",
+      "superseded_by": "USER-20261017-CECS-ENGINEERING-ALL",
+      "catalog_actions_taken": "停止旧范围追加/并库并通知schema子角色；未改master、Excel或active标记",
+      "exclusions_applied_to_master": 0
+    },
+    {
+      "sequence": 2,
+      "source_id": "USER-20261017-CECS-ENGINEERING-ALL",
+      "scope": "工程相关CECS均可先收集下载，房屋结构优先",
+      "status": "active",
+      "catalog_actions_taken": "恢复工程队列及按冻结QA分批接入；旧专业数据继续保留，不需回滚重建"
+    }
+  ],
+  "existing_snapshot": {
+    "status": "保持工程范围冻结",
+    "standards": 1008,
+    "links": 146,
+    "audits": 48,
+    "formal_complete_links": 14,
+    "complete_drafts": 2,
+    "master_sha256": "c78cabf007821b7bf79e0f7946fc84a5241c9cddb3c72ec83efadb7e1a4dce5d",
+    "xlsx_sha256": "d43f48f992396601ca9d5b35f25dafd86bc89ef3fc0aa2c32a78da6f26d77324",
+    "rebuild_needed_for_scope_rollback": false
+  },
+  "restored_queues": [
+    "R09/1420检索与审查冻结",
+    "R10/1430检索、两审查与85公告证据",
+    "R11/1440检索及1450审查v2/备链share投影"
+  ],
+  "inactive_projections_note": "基于BUILDING-STRUCTURE-ONLY形成的范围停用/排除投影只作历史，不作为当前筛除依据；专业分类和不属CECS的证据可分别保留"
+}

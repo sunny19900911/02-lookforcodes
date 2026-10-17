@@ -1,0 +1,60 @@
+{
+  "source_id": "USER-20261017-CECS-DOWNLOAD-SOURCE-REGION",
+  "recorded_at": "2026-10-17",
+  "meaning": "按实际资料发布/下载来源主体的公开地址分类省市；每条下载链接独立归类。",
+  "limits": ["不是规范适用地或地方标准分类", "目录所在地不传给外站下载链接", "不按域名文字、CDN/IP或运营商所在地猜测", "缺少明确证据保留待核", "高校主体地址不等于上传人员或具体校区地址", "本批尚无明确天津主体证据，不据此断言全库没有天津来源"],
+  "supplemental_inputs": [
+    {"path":"search/freeze-region-metadata-1530.json","sha256":"a2f5754e0962f20204fd05fcd17cabaec077e16035fb9cc6d08ad6e7184c1772"},
+    {"path":"search/region-metadata-20261017/university-region-evidence-proposal.json","sha256":"6588447360ea54ad0aff23e2992d0811c9d295824289bf2a5a7fcff04245fc60"},
+    {"path":"search/region-metadata-20261017/universities/official-html-observations.json","sha256":"e6c878d58e112bba28868e323512b0308cd60b41bcebbc8b48510837648e5801"},
+    {"path":"search/region-metadata-20261017/universities/platform-identity-observations-v2.json","sha256":"f487ff087c66b1cfe698c0386a6dfd9a8ba947799bc67582a48c6d8940b540ec"}
+  ],
+  "evidence": [
+    {
+      "region_evidence_id":"REG-SOURCE-CNASS-20261017", "match_hosts":["www.cnass.cn","m.cnass.cn","cnass.cn"], "download_urls":[],
+      "province":"北京市", "city":"北京市", "source_entity":"中国钢结构协会空间结构分会",
+      "proof_url":"https://m.cnass.cn/site/content/81.html", "proof_excerpt":"本分会的住所设在北京市朝阳区平乐园100号北京工业大学",
+      "identity_basis":"分会工作条例第1条明确分会名称，第5条明确住所并列出http://www.cnass.cn网址；同站官方内容将主体与下载域关联。",
+      "statement_type":"原文事实（官方分会条例）；地址规范化为省市由AI整理", "checked_at":"2026-10-17"
+    },
+    {
+      "region_evidence_id":"REG-SOURCE-ZBL-20261017", "match_hosts":["www.zbl.cn","zbl.cn"], "download_urls":[],
+      "province":"北京市", "city":"北京市", "source_entity":"北京智博联科技股份有限公司",
+      "proof_url":"https://www.zbl.cn/index.php?a=lists&c=index&catid=16&m=content", "proof_excerpt":"单位地址：北京市西城区德胜门外大街11号B座4层",
+      "identity_basis":"同域官方联系页面明确公司全称与地址。",
+      "statement_type":"原文事实（公司官网联系地址）", "checked_at":"2026-10-17"
+    },
+    {
+      "region_evidence_id":"REG-SOURCE-BJHCGK-20261017", "match_hosts":["www.bjhcgk.com","bjhcgk.com"], "download_urls":[],
+      "province":"北京市", "city":"北京市", "source_entity":"北京海创高科科技有限公司",
+      "proof_url":"https://www.bjhcgk.com/m/connect.html", "proof_excerpt":"北京总部：北京市大兴区宏福路6号鸿坤跃界513室",
+      "identity_basis":"同域联系页面给出北京总部地址，页脚明确公司全称；销售区域中的天津不能作为来源地址。",
+      "statement_type":"原文事实（公司官网联系地址）", "checked_at":"2026-10-17"
+    },
+    {
+      "region_evidence_id":"REG-SOURCE-YONGGAO-20261017", "match_hosts":["web.yonggao.com"], "download_urls":[],
+      "province":"浙江省", "city":"台州市", "source_entity":"公元股份",
+      "proof_url":"https://www.yonggao.com/", "proof_excerpt":"地址：浙江省台州市黄岩经济开发区埭西路2号",
+      "identity_basis":"官网页脚公元股份版权及联系地址；既有下载子域web.yonggao.com属于该官网主体，按主站公开地址归类。",
+      "statement_type":"原文事实（公司官网页脚地址）；同主体下载子域关联由AI整理", "checked_at":"2026-10-17"
+    },
+    {
+      "region_evidence_id":"REG-SOURCE-NWAFU-EOL-20261017", "match_hosts":["eol.nwafu.edu.cn"],
+      "download_urls":["https://eol.nwafu.edu.cn/meol/analytics/resPdfShow.do?resId=283230&lid=47196","https://eol.nwafu.edu.cn/meol/analytics/resPdfShow.do?resId=283228&lid=47196","https://eol.nwafu.edu.cn/meol/analytics/resPdfShow.do?resId=283247&lid=47196","https://eol.nwafu.edu.cn/meol/analytics/resPdfShow.do?resId=283246&lid=47196"],
+      "province":"陕西省", "city":null, "locality_as_published":"杨凌", "source_entity":"西北农林科技大学网络教学综合平台",
+      "proof_url":"https://www.nwafu.edu.cn/", "proof_excerpt":"地址：陕西杨凌 邮编：712100",
+      "identity_basis":"EOL平台正文明确西北农林科技大学网络教学综合平台及同域URL；学校官网地址为陕西杨凌，城市留待核，不推定咸阳。",
+      "identity_evidence":{"source_id":"REGION-NWAFU-EOL-IDENTITY-V2-20261017","proof_url":"https://eol.nwafu.edu.cn/meol/jpk/course/layout/newpage/default_demonstrate.jsp?courseId=31600","excerpt":"西北农林科技大学网络教学综合平台https://eol.nwafu.edu.cn/eol/homepage/common/","html_source_line":1316},
+      "source_location":{"html_source_line":1269}, "statement_type":"原文事实（官方平台名称及高校官网地址）；省名规范化为AI整理", "checked_at":"2026-10-17T15:31:03+08:00"
+    },
+    {
+      "region_evidence_id":"REG-SOURCE-HPU-TMKY-20261017", "match_hosts":["tmky.hpu.edu.cn"],
+      "download_urls":["https://tmky.hpu.edu.cn/__local/C/50/C1/BC5CAAF66018396E9CD63FC4EDE_B2D81413_DFC9E.pdf?e=.pdf"],
+      "province":"河南省", "city":"焦作市", "source_entity":"河南理工大学（tmky子站：生态建筑与环境构建工程实验室）",
+      "proof_url":"https://www.hpu.edu.cn/xxgk/xxjj.htm", "proof_excerpt":"地址：河南省焦作市世纪路2001号",
+      "identity_basis":"子站明确大学名称并链接学校主页，学校简介明确公开地址；不推上传人员或具体校区位置。该PDF既有404记录继续保留，地区核实不代表链接可下载。",
+      "identity_evidence":{"source_id":"REGION-HPU-LAB-IDENTITY-20261017","proof_url":"https://tmky.hpu.edu.cn/","excerpt":"河南理工大学生态建筑与环境构建工程实验室","html_source_line":6,"school_home_link_lines":[33,275]},
+      "source_location":{"html_source_line":259}, "statement_type":"原文事实（子站名称/主页链接及高校官网地址）", "checked_at":"2026-10-17T15:31:03+08:00"
+    }
+  ]
+}

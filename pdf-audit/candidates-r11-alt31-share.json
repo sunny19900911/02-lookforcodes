@@ -1,0 +1,36 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "R11-31-2017-GUANGYUXC",
+      "source_id": "SEARCH-R11-31-2017-GUANGYUXC-ALT",
+      "seed_ids": [],
+      "standard_number": "T/CECS 31-2017",
+      "year": "2017",
+      "name": "钢制电缆桥架工程技术规程",
+      "topic_group": "G5",
+      "source_page": "https://guangyuxc.com/app/3/16%E9%92%A2%E5%88%B6%E7%94%B5%E7%BC%86%E6%A1%A5%E6%9E%B6%E5%B7%A5%E7%A8%8B%E6%8A%80%E6%9C%AF%E8%A7%84%E7%A8%8BT_CECS31-2017.pdf",
+      "parent_page_status": "具体附件父页未定位；source_page为实际公开索引PDF，不以首页或同名页冒充父页。",
+      "download_url": "https://guangyuxc.com/app/3/16%E9%92%A2%E5%88%B6%E7%94%B5%E7%BC%86%E6%A1%A5%E6%9E%B6%E5%B7%A5%E7%A8%8B%E6%8A%80%E6%9C%AF%E8%A7%84%E7%A8%8BT_CECS31-2017.pdf",
+      "final_url": null,
+      "alternative_urls": [],
+      "draft_stage": "正式编号的历史/发布版候选；封面、版本身份和完整性待独立审查。",
+      "permission_status": "公开索引/托管路线，无账号操作，转载授权未核。",
+      "recorded_at": "2026-10-17T14:39:51+08:00",
+      "web_pages_observed": null,
+      "web_observation": "本备用URL未取得PDF，不沿用主apextray的web64页观察",
+      "download_check_status": "已实测TLS失败，非已取得PDF",
+      "complete_pdf": null,
+      "duplicate_master_host_path": false,
+      "evidence_type": "原文事实（本轮公开索引与web解析观察，非独立质量结论）",
+      "alternative_status": "本备用URL实际普通GET因证书主机名不匹配停止，未关闭验证",
+      "original_candidate_id": "R11-31-2017-APEXTRAY",
+      "derivation_note": "来自R11检索固定候选公开alternate，不操作apextray验证；独立普通GET另一公开托管",
+      "source_input_path": "search/round11-public-sources/candidates-r11-root.json"
+    }
+  ],
+  "projection_scope": "当前分享投影，依据历史请求输入和已固定审查v2，只收窄观察归属，非新候选或新GET",
+  "historical_input_not_current_observation": {
+    "path": "candidates-r11-alt31.json",
+    "sha256": "4e420a740958b2fbbbbdfb357fc65a77912a20421f5f53d05c424aa6c1e7ff9d"
+  }
+}

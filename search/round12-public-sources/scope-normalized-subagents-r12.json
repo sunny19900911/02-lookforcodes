@@ -1,0 +1,144 @@
+{
+  "source_id": "SEARCH-R12-NORMALIZED-SUBAGENTS-20261017",
+  "recorded_at": "2026-10-17T15:06:31+08:00",
+  "statement_type": "AI整理（已有观察的范围字段投影，未增加网络操作或质量判断）",
+  "current_machine_consumption": true,
+  "originals_are_evidence_not_uniform_queue": true,
+  "scope_rule_source_id": "USER-20261017-CECS-BUILDING-STRUCTURE-ONLY",
+  "input_hashes": [
+    {
+      "path": "search/round12-public-sources/transport/excluded-transport-closeout.json",
+      "sha256": "cd81a5c95c2dc334773ad83feace854d2e4524ad4fa30b86958d397d2b096d4f"
+    },
+    {
+      "path": "search/round12-public-sources/material-products/round12-house-structure-scope.json",
+      "sha256": "195ce7a2ffcfd7fcbd137f93ee1847546ee41cb90c4d5ff47ccd4203a0c3504f"
+    }
+  ],
+  "independent_qa": {
+    "status": "范围语义检查通过；两处机器字段缺口已由本文件规范化",
+    "fixes": [
+      "transport逐条补download_enabled=false并明确record_id/source_id映射",
+      "材料草案scope_status说明句统一映射pending，正式10300仅线索",
+      "transport003排除理由明确非CECS，不沿用笼统交通适用结论"
+    ]
+  },
+  "rows": [
+    {
+      "source_id": "SEARCH-R12-TRANSPORT-EXCLUDED-001",
+      "original_record_id": "R12-EXCLUDED-001",
+      "original_file": "search/round12-public-sources/transport/excluded-transport-closeout.json",
+      "standard_number": "T/CECS G:K50-30-2018",
+      "name": "公路机制砂高性能混凝土技术规程",
+      "entity_kind": "CECS路线",
+      "scope_status": "excluded",
+      "scope_reason": "公路CECS，非房屋结构",
+      "download_enabled": false,
+      "eligible_for_current_structure_queue": false,
+      "eligible_for_coverage_denominator": false,
+      "download_url": "https://xxgk.mot.gov.cn/2020/jigou/glj/202006/P020200623699566184589.pdf",
+      "source_page": "https://xxgk.mot.gov.cn/2020/jigou/glj/202006/t20200623_3313245.html"
+    },
+    {
+      "source_id": "SEARCH-R12-TRANSPORT-EXCLUDED-002",
+      "original_record_id": "R12-EXCLUDED-002",
+      "original_file": "search/round12-public-sources/transport/excluded-transport-closeout.json",
+      "standard_number": "GDJTG/T B01-2017",
+      "name": "广东省公路工程机制砂水泥混凝土应用技术规范",
+      "entity_kind": "非CECS正文排除证据",
+      "scope_status": "excluded",
+      "scope_reason": "地方公路标准，非CECS",
+      "download_enabled": false,
+      "eligible_for_current_structure_queue": false,
+      "eligible_for_coverage_denominator": false,
+      "download_url": "https://xxgk.mot.gov.cn/2020/jigou/glj/202006/P020200623699566385370.pdf",
+      "source_page": "https://xxgk.mot.gov.cn/2020/jigou/glj/202006/t20200623_3313245.html"
+    },
+    {
+      "source_id": "SEARCH-R12-TRANSPORT-EXCLUDED-003",
+      "original_record_id": "R12-EXCLUDED-003",
+      "original_file": "search/round12-public-sources/transport/excluded-transport-closeout.json",
+      "standard_number": null,
+      "name": "花岗岩石屑混凝土应用技术规程（征求意见稿）",
+      "entity_kind": "非CECS正文排除证据",
+      "scope_status": "excluded",
+      "scope_reason": "地方标准草案，非CECS；不以正文引用证明属于CECS全文",
+      "download_enabled": false,
+      "eligible_for_current_structure_queue": false,
+      "eligible_for_coverage_denominator": false,
+      "download_url": "https://www.zskcsj.com/d/file/notice/1/2021-07-05/6c9736c47b52a7c0a074ae3419d9148a.pdf",
+      "source_page": null
+    },
+    {
+      "source_id": "SEARCH-R12-TRANSPORT-EXCLUDED-004",
+      "original_record_id": "R12-EXCLUDED-004",
+      "original_file": "search/round12-public-sources/transport/excluded-transport-closeout.json",
+      "standard_number": null,
+      "name": "2024年吉林省普通国省干线公路桥梁定期检查项目",
+      "entity_kind": "非CECS正文排除证据",
+      "scope_status": "excluded",
+      "scope_reason": "桥梁检查项目文件，非CECS标准正文",
+      "download_enabled": false,
+      "eligible_for_current_structure_queue": false,
+      "eligible_for_coverage_denominator": false,
+      "download_url": "https://jtyst.jl.gov.cn/zw_133208/zfcg2020/202411/P020241111326512011295.pdf",
+      "source_page": null
+    },
+    {
+      "source_id": "SEARCH-R12-TRANSPORT-EXCLUDED-005",
+      "original_record_id": "R12-EXCLUDED-005",
+      "original_file": "search/round12-public-sources/transport/excluded-transport-closeout.json",
+      "standard_number": null,
+      "name": "2022年度重庆市科学技术奖南岸区拟提名名单",
+      "entity_kind": "非CECS正文排除证据",
+      "scope_status": "excluded",
+      "scope_reason": "科技奖名单，非CECS标准正文",
+      "download_enabled": false,
+      "eligible_for_current_structure_queue": false,
+      "eligible_for_coverage_denominator": false,
+      "download_url": "https://www.cqna.gov.cn/zwxx_254/gsgg/202303/P020230330587842830915.pdf",
+      "source_page": null
+    },
+    {
+      "source_id": "SRC-R12-STRUCT-DRAFT-001",
+      "original_record_id": "R12-STRUCT-DRAFT-001",
+      "original_file": "search/round12-public-sources/material-products/round12-house-structure-scope.json",
+      "standard_number": "T/CECS ×××××-2022",
+      "name": "钢网格结构螺栓球节点用封板、锥头和套筒",
+      "entity_kind": "占位草案",
+      "is_draft": true,
+      "related_formal_hint_only": "T/CECS 10300-2023（仅目录线索，不是此文件编号）",
+      "scope_status": "pending",
+      "scope_reason": "承重网格结构节点直接连接构件；房屋适用边界待判，未审全文",
+      "download_enabled": false,
+      "eligible_for_current_structure_queue": false,
+      "eligible_for_coverage_denominator": false,
+      "download_url": "https://cnass.cn/upload/gjgfenhui/file/20221006/1665033581390787.pdf",
+      "source_page": "https://cnass.cn/upload/gjgfenhui/file/20221006/1665033581390787.pdf"
+    },
+    {
+      "source_id": "SRC-R12-EXCLUDED-GREEN-10045",
+      "original_record_id": "SRC-R12-EXCLUDED-GREEN-10045",
+      "original_file": "search/round12-public-sources/material-products/round12-house-structure-scope.json",
+      "standard_number": "T/CECS 10045-2019",
+      "name": "绿色建材评价 空气净化材料",
+      "entity_kind": "CECS路线",
+      "scope_status": "excluded",
+      "scope_reason": "绿色建材评价/空气净化材料，已有证据不能证明属于房屋承重结构设计直接材料技术。",
+      "download_enabled": false,
+      "eligible_for_current_structure_queue": false,
+      "eligible_for_coverage_denominator": false,
+      "download_url": "https://zqc.apisms.com/soft/bmt/uploads/setting/prod_ver/169890492595.pdf",
+      "source_page": "https://zqc.apisms.com/soft/bmt/uploads/setting/prod_ver/169890492595.pdf"
+    }
+  ],
+  "counts": {
+    "excluded": 6,
+    "pending": 1,
+    "in_scope": 0
+  },
+  "notes": [
+    "本文件是子代理路线当前机器范围投影，原文件仅作观察证据。",
+    "不得把4条非CECS正文记录计入CECS版本总数。"
+  ]
+}

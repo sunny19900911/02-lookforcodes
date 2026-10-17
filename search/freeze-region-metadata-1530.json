@@ -1,0 +1,157 @@
+{
+  "producer": "search",
+  "checkpoint": "15:30 来源主体地区metadata addendum",
+  "checked_at": "2026-10-17T15:33:11+08:00",
+  "frozen": true,
+  "region_instruction_source_id": "USER-20261017-CECS-DOWNLOAD-SOURCE-REGION",
+  "input_file_count": 10,
+  "previous_freeze_integrity": [
+    {
+      "path": "search/freeze-inputs-1320.json",
+      "sha256": "dba3baee49dcbfcdf5711f3175dfdc986b5369b55103a1034a2d8d1e2338024c",
+      "files": 19,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "path": "search/freeze-inputs-1330.json",
+      "sha256": "cbaca0e020a0490acd481ca458253bfa76f12d4f2504ef12723e274dd5d30ff4",
+      "files": 12,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "path": "search/freeze-inputs-1340-water-mep-addendum-v2.json",
+      "sha256": "508185ceab7f8930993e1f0dfe37c6f1551350165134417f898eafc735609dda",
+      "files": 4,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "path": "search/freeze-inputs-1340-water-mep-addendum.json",
+      "sha256": "1e25d7f559f47368e3f17446ba2bccb0d13a8260231df7a44e40cbc394fed609",
+      "files": 3,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "path": "search/freeze-inputs-1340.json",
+      "sha256": "964794e5ab1f8b044d495907e2da04a559fb0b211466708ce963b8c643472fb9",
+      "files": 12,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "path": "search/freeze-inputs-1400.json",
+      "sha256": "a02d910b3e4f1db769eda1d11e68ff7a9adb005ae2ed834bc0284f0e3b749519",
+      "files": 13,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "path": "search/freeze-inputs-1420.json",
+      "sha256": "cc3118242ffa6b13e530ef48678adacb5a6fc9a2d0fe553f39be2ca6e66df2ed",
+      "files": 11,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "path": "search/freeze-inputs-1430.json",
+      "sha256": "3974c2d6470358bce3c086132f783d963e351988ab4bf18450def551067d5722",
+      "files": 10,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "path": "search/freeze-inputs-1440.json",
+      "sha256": "c6da85fcbe8c2c3a5a54166ee03eacee36f0c1b5f7de58eadb398686525d0be7",
+      "files": 11,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "path": "search/freeze-inputs-1500-scope-transition.json",
+      "sha256": "19ccfcdd7f137dbfee2f279799c2edda793ac08a1a39bb92e2691f86c596e148",
+      "files": 11,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "path": "search/freeze-inputs-1510-engineering-restored.json",
+      "sha256": "43eb548866b5b196b0b1445e298d5960af399c34cce28351d8687ed60f0edadc",
+      "files": 17,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "path": "search/freeze-inputs-g2-round02-share-1350.json",
+      "sha256": "42506bcb9964f302335cff5524621bdda7a9d0091dc876a9e126a67e02cfdd31",
+      "files": 1,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "path": "search/freeze-inputs-round04.json",
+      "sha256": "b80eac1da1fe05fb68b9566b25a24c9fce38a37a4d8be1366a7061ecceeeeca7",
+      "files": 9,
+      "unchanged": true,
+      "failures": []
+    }
+  ],
+  "current_registry_proposal": "search/region-metadata-20261017/university-region-evidence-proposal.json",
+  "files": [
+    {
+      "path": "search/region-metadata-20261017/university-region-evidence-proposal.json",
+      "sha256": "6588447360ea54ad0aff23e2992d0811c9d295824289bf2a5a7fcff04245fc60",
+      "bytes": 7217
+    },
+    {
+      "path": "search/region-metadata-20261017/universities/official-html-observations.json",
+      "sha256": "e6c878d58e112bba28868e323512b0308cd60b41bcebbc8b48510837648e5801",
+      "bytes": 3500
+    },
+    {
+      "path": "search/region-metadata-20261017/universities/platform-identity-observations-v2.json",
+      "sha256": "f487ff087c66b1cfe698c0386a6dfd9a8ba947799bc67582a48c6d8940b540ec",
+      "bytes": 1972
+    },
+    {
+      "path": "search/region-metadata-20261017/query-ledger-region.json",
+      "sha256": "8998f146cb40c05b6937dd776f77c8d81caa68f50f9265dc5ccd759693578d83",
+      "bytes": 2330
+    },
+    {
+      "path": "search/region-metadata-20261017/ancillary-observations-selection.json",
+      "sha256": "98080a19d015781ab9bbdb57decf609b8d2d4dbdb4b3a7214f9c4a0f37661367",
+      "bytes": 1068
+    },
+    {
+      "path": "search/region-metadata-20261017/tjad/tjad-identity-pending.json",
+      "sha256": "4c624c3376867b6ab2ed5e1e79b09519486b1a192cd57d33a7d4516f012c4d37",
+      "bytes": 10481
+    },
+    {
+      "path": "search/region-metadata-20261017/university-independent-qa.json",
+      "sha256": "4b2fa1c0392bc77ab3ba7582474844df41816f6fd7b692f9fcd377449a80602d",
+      "bytes": 934
+    },
+    {
+      "path": "search/region-metadata-20261017/validation-region-1530.json",
+      "sha256": "1b1fe8c2f3d3c9670383bf1a40d7ca4079551558c0c47f978b72837551e67911",
+      "bytes": 3545
+    },
+    {
+      "path": "search/region-metadata-20261017/state-region-1530.json",
+      "sha256": "daa479d6bba3db810c3dc307d65de7832af1c1ebae721eaebd236130a02acb58",
+      "bytes": 1477
+    },
+    {
+      "path": "search/discussion-1530-source-region.md",
+      "sha256": "c77eb7648beadecb36e269d8afb88e5b3a46775cd1104a36d7c804a6cd0ef702",
+      "bytes": 1529
+    }
+  ],
+  "new_standard_candidates": 0,
+  "new_complete_claims": 0,
+  "pdf_get_count": 0
+}

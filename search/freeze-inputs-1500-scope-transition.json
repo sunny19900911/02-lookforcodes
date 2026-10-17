@@ -1,0 +1,145 @@
+{
+  "producer": "search",
+  "checkpoint": "15:00 范围切换",
+  "checked_at": "2026-10-17T15:06:32+08:00",
+  "frozen": true,
+  "scope_rule_source_id": "USER-20261017-CECS-BUILDING-STRUCTURE-ONLY",
+  "input_file_count": 11,
+  "previous_freeze_integrity": [
+    {
+      "manifest": "search/freeze-inputs-1320.json",
+      "sha256": "dba3baee49dcbfcdf5711f3175dfdc986b5369b55103a1034a2d8d1e2338024c",
+      "files": 19,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-1330.json",
+      "sha256": "cbaca0e020a0490acd481ca458253bfa76f12d4f2504ef12723e274dd5d30ff4",
+      "files": 12,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-1340-water-mep-addendum-v2.json",
+      "sha256": "508185ceab7f8930993e1f0dfe37c6f1551350165134417f898eafc735609dda",
+      "files": 4,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-1340-water-mep-addendum.json",
+      "sha256": "1e25d7f559f47368e3f17446ba2bccb0d13a8260231df7a44e40cbc394fed609",
+      "files": 3,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-1340.json",
+      "sha256": "964794e5ab1f8b044d495907e2da04a559fb0b211466708ce963b8c643472fb9",
+      "files": 12,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-1400.json",
+      "sha256": "a02d910b3e4f1db769eda1d11e68ff7a9adb005ae2ed834bc0284f0e3b749519",
+      "files": 13,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-1420.json",
+      "sha256": "cc3118242ffa6b13e530ef48678adacb5a6fc9a2d0fe553f39be2ca6e66df2ed",
+      "files": 11,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-1430.json",
+      "sha256": "3974c2d6470358bce3c086132f783d963e351988ab4bf18450def551067d5722",
+      "files": 10,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-1440.json",
+      "sha256": "c6da85fcbe8c2c3a5a54166ee03eacee36f0c1b5f7de58eadb398686525d0be7",
+      "files": 11,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-g2-round02-share-1350.json",
+      "sha256": "42506bcb9964f302335cff5524621bdda7a9d0091dc876a9e126a67e02cfdd31",
+      "files": 1,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-round04.json",
+      "sha256": "b80eac1da1fe05fb68b9566b25a24c9fce38a37a4d8be1366a7061ecceeeeca7",
+      "files": 9,
+      "unchanged": true,
+      "failures": []
+    }
+  ],
+  "note": "只选结构化范围投影；旧记录历史保留，不直接进入当前专业范围分母。",
+  "files": [
+    {
+      "path": "search/round12-public-sources/scope-transition-20261017.md",
+      "sha256": "a3031b781d1e415956e389e345248e27f8da846a6286e2df88d3d11bb28cb4ba",
+      "bytes": 2398
+    },
+    {
+      "path": "search/round12-public-sources/scope-queue-r12.json",
+      "sha256": "3380bf7c65d93076d6ce469f84d1ca792837649e22b89bb2b867a62751285c43",
+      "bytes": 17650
+    },
+    {
+      "path": "search/round12-public-sources/query-ledger-r12-pre-scope.json",
+      "sha256": "e5753163f67438acb143912fa4ca58bba490725b82e610691c9826010b212591",
+      "bytes": 2184
+    },
+    {
+      "path": "search/round12-public-sources/receipt-audit-1450-selection-r12.json",
+      "sha256": "4800b995f3af187ac508306c729c55fe7539e8154d43d987db087e4357f0107e",
+      "bytes": 1601
+    },
+    {
+      "path": "search/round12-public-sources/scope-closeout-receipt-r12.json",
+      "sha256": "a7dff6a92df881e7ead4794f5e652c3bebf47dbb923c31ab1d2f0af5e9a5ca63",
+      "bytes": 1765
+    },
+    {
+      "path": "search/round12-public-sources/material-products/round12-house-structure-scope.json",
+      "sha256": "195ce7a2ffcfd7fcbd137f93ee1847546ee41cb90c4d5ff47ccd4203a0c3504f",
+      "bytes": 6562
+    },
+    {
+      "path": "search/round12-public-sources/transport/excluded-transport-closeout.json",
+      "sha256": "cd81a5c95c2dc334773ad83feace854d2e4524ad4fa30b86958d397d2b096d4f",
+      "bytes": 5201
+    },
+    {
+      "path": "search/round12-public-sources/scope-normalized-subagents-r12.json",
+      "sha256": "a71c8065d60d98918c64fe439e5f99bb7c9a2eb3a019030e0771f1fd09cf810d",
+      "bytes": 7280
+    },
+    {
+      "path": "search/round12-public-sources/validation-scope-r12.json",
+      "sha256": "fcbf3482e402edd0239fadb57de37e95a45ca0fbb58278540e562f7d3e4c1e9d",
+      "bytes": 3317
+    },
+    {
+      "path": "search/round12-public-sources/state-scope-r12.json",
+      "sha256": "ca774b95e4c30b930843dd8aec5940e0c4fea347cac5cf56c96b21dfe77288df",
+      "bytes": 1521
+    },
+    {
+      "path": "search/discussion-1500-scope-transition.md",
+      "sha256": "df48e3d3b96f2ad8d8d2a186888974a838da63edcee5cf1b0e3d1a861c404233",
+      "bytes": 1568
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "source_id": "USER-20261017-CECS-PAUSE-AND-SUMMARIZE",
+  "statement_type": "原文事实（用户暂停指令）及本地成果观测",
+  "paused_at": "2026-10-17T15:37:35+08:00",
+  "status": "PAUSED",
+  "canonical": {
+    "freeze": "audit-results-freeze-1510.json",
+    "sha256": "815565100ff8959e609b223af1c64e43451b98fbb4cb1dfc83ddcd5f778c4449",
+    "audit_count": 63,
+    "formal_complete_links": 14,
+    "formal_complete_versions": 12,
+    "formal_complete_hashes": 12,
+    "complete_drafts": 5,
+    "complete_draft_stages": {
+      "报批稿": 3,
+      "送审稿": 1,
+      "征求意见稿": 1
+    },
+    "ratings": {
+      "A": 0,
+      "B": 19,
+      "C": 18,
+      "D": 26
+    },
+    "independent_check": "independent-check-1510.json",
+    "old48_unchanged": true
+  },
+  "new_pending": {
+    "file": "audit-pending-round10-r12r13.json",
+    "sha256_at_pause": "0c996aee71da041506e658328490aa3c1e8ba6899850abebf0cce5db82edc2e9",
+    "completed": [
+      "每候选一次普通GET成功",
+      "逐页解析",
+      "全部23/25页渲染"
+    ],
+    "not_completed": [
+      "全文目视闭环",
+      "独立第二审闭环",
+      "最终评级",
+      "完整草案标志",
+      "独立receipt"
+    ],
+    "initial_recommendation": "C",
+    "draft_content_complete": "未确认",
+    "included_in_canonical63": false,
+    "candidate_ids": [
+      "R12-STRUCT-DRAFT-001",
+      "R13-MP-DRAFT-001"
+    ],
+    "pdf_sha256": [
+      "f035fffd528b2ec626d72df0291f466c871ffee87f31d7c407da5ca89b2ffc0b",
+      "8acf25445f85c2f72f279061fd63befeaf7d6e975d8fcf842666808dd9f70655"
+    ]
+  },
+  "catalog_observed_at_pause": {
+    "master_last_written": "2026-10-17T14:31:38+08:00",
+    "xlsx_last_written": "2026-10-17T14:31:57+08:00",
+    "xlsx_sha256": "d43f48f992396601ca9d5b35f25dafd86bc89ef3fc0aa2c32a78da6f26d77324",
+    "new1510_build_observed": false,
+    "new_region_registry_file": "catalog/download-source-region-evidence-1510.json",
+    "new_region_registry_sha256": "f02e52478e9d05287d6651cdc2a6db20d2289fd71b20204a5f7c85452def69dc",
+    "quality_mapper_review": "63实际输入复放及16纯测试通过",
+    "region_mapper_review": "8纯测试通过，仅代码逻辑",
+    "not_completed": [
+      "新地区证据逐链接实际关联QA",
+      "最终1510 JSON/XLSX输出只读验收"
+    ]
+  },
+  "stop_state": {
+    "new_gets_and_audits_stopped": true,
+    "next_round_subreview_interrupted": true,
+    "git_operations": false,
+    "catalog_writes_by_this_role": false
+  },
+  "handoff": "主控已收到极简状态；保留旧可用Excel，未宣称1510及地区新版已经交付，不等待下一检查点。"
+}

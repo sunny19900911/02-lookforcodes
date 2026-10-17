@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "source_id": "SEARCH-STAGE-EVIDENCE-METHOD-1510-20261017",
+  "instruction_source": "主控01a1482e-ed9b-70b3-b74c-89867f90d180本轮方法修正",
+  "statement_type": "AI整理（依据本轮独立审查发现的稿型误判制定后续检索字段规则）",
+  "scope_rule_source_id": "USER-20261017-CECS-ENGINEERING-ALL",
+  "effective_for": "后续新增检索记录；不修改已冻结输入或当前审查批次选择",
+  "fields": {
+    "affirmative_stage": {
+      "allowed_values": ["formal_candidate", "comment_draft", "review_draft", "approval_draft", "unknown"],
+      "rule": "仅根据明确肯定阶段证据赋值；缺证或只有否定、推测、待核说明时为unknown。formal_candidate仍不表示正式出版终稿已核实。"
+    },
+    "stage_assertion_type": {
+      "allowed_values": ["affirmative", "unknown"],
+      "rule": "与枚举同时提供；不能由裸关键词自动判肯定阶段。"
+    },
+    "stage_evidence": {
+      "rule": "分别记录source_id、source_url、页码或位置、原文片段和证据种类；封面、公告、目录及搜索摘要不得混成同一证据等级。"
+    },
+    "stage_observations": {
+      "rule": "保留原文观察、否定句、限制和待核说明，禁止将此自由文本直接作为肯定稿型枚举。"
+    },
+    "number_identity_observation": {
+      "rule": "编号外观与稿型分开；占位草案不改挂目录所见正式号，正式编号外观不单独证明正式出版终稿。"
+    },
+    "quality_observation": {
+      "rule": "访问状态、完整性、清晰度及审查评级独立保存，稿型纠正不自动改变质量评级。"
+    }
+  },
+  "negative_cases": [
+    {"raw": "未见草案标识", "affirmative_stage": "unknown", "stage_assertion_type": "unknown"},
+    {"raw": "非草案", "affirmative_stage": "unknown", "stage_assertion_type": "unknown", "note": "不能仅凭否定文字确定正式发布阶段。"},
+    {"raw": "是否为征求意见稿待核", "affirmative_stage": "unknown", "stage_assertion_type": "unknown"},
+    {"raw": "未标报批，正式或草案状态待审", "affirmative_stage": "unknown", "stage_assertion_type": "unknown"}
+  ],
+  "affirmative_cases": [
+    {"raw": "封面明确标征求意见稿", "affirmative_stage": "comment_draft", "stage_assertion_type": "affirmative", "requires": "实际封面位置及source_id"},
+    {"raw": "封面明确标报批稿", "affirmative_stage": "approval_draft", "stage_assertion_type": "affirmative", "requires": "实际封面位置及source_id"}
+  ],
+  "current_batch_boundaries": [
+    "1555和243的身份修正由catalog按审查证据处理；本角色不重写主索引，也不改变原全文D/C。",
+    "R12/R13现有明确征求意见封面证据仍保留原候选ID和URL；本附录不另造候选、不变更当前分享选择、不追新审查。",
+    "目录来源身份、稿型、正文完整性和可读性分别留证。"
+  ],
+  "git_used": false,
+  "frozen_files_modified": false
+}

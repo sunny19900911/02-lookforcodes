@@ -1,0 +1,39 @@
+{
+  "source_id": "SEARCH-REGION-STATE-1530-20261017",
+  "recorded_at": "2026-10-17T15:33:11+08:00",
+  "active_scope_source_id": "USER-20261017-CECS-ENGINEERING-ALL",
+  "region_instruction_source_id": "USER-20261017-CECS-DOWNLOAD-SOURCE-REGION",
+  "result": "仅两个高校来源主体的地区metadata提案交catalog，未直接改主索引或Excel",
+  "mapping_targets": {
+    "existing_master_links": 4,
+    "pending_hpu_route": 1
+  },
+  "region_proposals": [
+    {
+      "entity": "西北农林科技大学网络教学综合平台",
+      "province": "陕西省",
+      "city": null,
+      "locality_as_published": "杨凌"
+    },
+    {
+      "entity": "河南理工大学tmky子站",
+      "province": "河南省",
+      "city": "焦作市",
+      "basis": "大学主体官网公开地址；不推上传者校区"
+    }
+  ],
+  "known_unknown": {
+    "host": "knowledge.tjad.cloud",
+    "existing_links": 81,
+    "provider": null,
+    "province": null,
+    "city": null,
+    "reason": "实际下载主体身份链未闭合，不由字母推同济设计/上海"
+  },
+  "tianjin": "本批无明确天津主体证据，不作全库无天津来源结论",
+  "original_freezes_unchanged": 13,
+  "pdf_get": 0,
+  "new_standards": 0,
+  "new_complete_claims": 0,
+  "catalog_schema": "link.download_source_region={region_status,province,city,source_entity,region_evidence_ids,region_basis}; standards.download_source_regions只聚合链接"
+}

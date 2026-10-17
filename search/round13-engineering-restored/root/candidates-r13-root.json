@@ -1,0 +1,50 @@
+{
+  "source_id": "SEARCH-R13-ROOT-CANDIDATES-20261017",
+  "recorded_at": "2026-10-17T15:09:54+08:00",
+  "scope": "工程CECS均可收集，房屋结构优先",
+  "candidates": [
+    {
+      "candidate_id": "R13-325-2012-WANGJIAN",
+      "standard_number": "CECS 325:2012",
+      "name": "既有村镇住宅建筑抗震鉴定和加固技术规程",
+      "source_id": "SEARCH-R13-325-2012-WANGJIAN",
+      "download_url": "https://www.wangjian1985.cn/downloads/structure/authenticate/CECS325-2012%20%E6%97%A2%E6%9C%89%E6%9D%91%E9%95%87%E4%BD%8F%E5%AE%85%E5%BB%BA%E7%AD%91%E6%8A%97%E9%9C%87%E9%89%B4%E5%AE%9A%E5%92%8C%E5%8A%A0%E5%9B%BA%E6%8A%80%E6%9C%AF%E8%A7%84%E7%A8%8B.pdf",
+      "source_page": "https://www.wangjian1985.cn/downloads/structure/authenticate/CECS325-2012%20%E6%97%A2%E6%9C%89%E6%9D%91%E9%95%87%E4%BD%8F%E5%AE%85%E5%BB%BA%E7%AD%91%E6%8A%97%E9%9C%87%E9%89%B4%E5%AE%9A%E5%92%8C%E5%8A%A0%E5%9B%BA%E6%8A%80%E6%9C%AF%E8%A7%84%E7%A8%8B.pdf",
+      "parent_page_status": "未定位具体父页，不以首页替代",
+      "professional_category": "房屋结构/抗震鉴定加固",
+      "scope_rule_source_id": "USER-20261017-CECS-ENGINEERING-ALL",
+      "prior_exact_url_seen": false,
+      "complete_pdf": null,
+      "full_text_review_status": "未作独立全文审查",
+      "file_saved": false,
+      "checked_at": "2026-10-17T15:09:53+08:00",
+      "method": "ordinary anonymous GET prefix16",
+      "error_type": "HTTPError",
+      "http_status": 404,
+      "pdf_signature": false,
+      "access_status": "本次失败后停止，不绕过证书或挑战"
+    },
+    {
+      "candidate_id": "R13-828-2021-YSJIANZHAN",
+      "standard_number": "T/CECS 828-2021",
+      "name": "建筑工程非结构构件抗震锚固技术规程",
+      "source_id": "SEARCH-R13-828-2021-YSJIANZHAN",
+      "download_url": "https://pro5323b5d3-pic11.ysjianzhan.cn/upload/25TCECS828-2021JZGCFJGGJKZMGJSGC.pdf",
+      "source_page": "https://pro5323b5d3-pic11.ysjianzhan.cn/upload/25TCECS828-2021JZGCFJGGJKZMGJSGC.pdf",
+      "parent_page_status": "未定位具体父页，不以首页替代",
+      "professional_category": "房屋结构/非结构构件抗震锚固",
+      "scope_rule_source_id": "USER-20261017-CECS-ENGINEERING-ALL",
+      "prior_exact_url_seen": true,
+      "complete_pdf": null,
+      "full_text_review_status": "未作独立全文审查",
+      "file_saved": false,
+      "access_status": "既有URL不重复GET"
+    }
+  ],
+  "candidate_count": 2,
+  "complete_formal_claims_added": 0,
+  "boundaries": [
+    "公开索引/GET签名不是完整性或2026现行证明",
+    "未保存PDF/HTML/PNG/瞬时参数值；失败URL不重试"
+  ]
+}

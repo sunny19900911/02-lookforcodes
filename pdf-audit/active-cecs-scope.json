@@ -1,0 +1,13 @@
+{
+  "active_source_id": "USER-20261017-CECS-ENGINEERING-ALL",
+  "effective_at": "2026-10-17T15:09:23+08:00",
+  "active_scope": "工程相关CECS",
+  "priority": "房屋结构设计相关优先",
+  "rule_record": "scope-change-engineering-all-20261017.json",
+  "rule_record_sha256": "dcabb6987e1868c497e043cc8f24047e9a2154bf22fd23e056c5b8b505f61c4a",
+  "superseded_source_id": "USER-20261017-CECS-BUILDING-STRUCTURE-ONLY",
+  "previous_historical_record": "scope-change-building-structure-20261017.json",
+  "non_building_structure_is_exclusion_reason": false,
+  "unclear_engineering_relation": "待判",
+  "quality_conclusions_and_freezes": "unchanged"
+}

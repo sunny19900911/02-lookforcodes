@@ -1,0 +1,95 @@
+{
+  "source_id": "SEARCH-REGION-UNIVERSITY-HTML-20261017",
+  "observations": [
+    {
+      "source_id": "REGION-HTML-05d99d980451",
+      "proof_url": "https://eol.nwafu.edu.cn/",
+      "checked_at": "2026-10-17T15:28:17+08:00",
+      "method": "ordinary anonymous HTML GET",
+      "pdf_request": false,
+      "raw_html_saved": false,
+      "http_status": 200,
+      "content_sha256": "58a546715a22ab1e60061755c66f90fea88ec032042d2c3589384d986063ef73",
+      "title": null,
+      "frame_references": [],
+      "image_alt_identity": [],
+      "observed_snippets": []
+    },
+    {
+      "source_id": "REGION-HTML-0bc3d872af95",
+      "proof_url": "https://tmky.hpu.edu.cn/",
+      "checked_at": "2026-10-17T15:28:17+08:00",
+      "method": "ordinary anonymous HTML GET",
+      "pdf_request": false,
+      "raw_html_saved": false,
+      "http_status": 200,
+      "content_sha256": "be4600d8c8f5afa343235cdeb9fdf6bc285867d849f580e3b581ab4e600fdbe7",
+      "title": "河南理工大学生态建筑与环境构建工程实验室",
+      "frame_references": [],
+      "image_alt_identity": [
+        "我校举行与河南油田工程咨询股份有限公司共建实验室签约和揭牌仪式",
+        "实验室举办焦作市第二届BIM论坛"
+      ],
+      "observed_snippets": [
+        {
+          "html_source_line": 6,
+          "excerpt": "河南理工大学生态建筑与环境构建工程实验室"
+        }
+      ]
+    },
+    {
+      "source_id": "REGION-HTML-ae84851a6489",
+      "proof_url": "https://www.nwafu.edu.cn/",
+      "checked_at": "2026-10-17T15:28:17+08:00",
+      "method": "ordinary anonymous HTML GET",
+      "pdf_request": false,
+      "raw_html_saved": false,
+      "http_status": 200,
+      "content_sha256": "508ff585aef6a7146f9adda608230812db41314920582ad71fb636759d3589c8",
+      "title": "西北农林科技大学",
+      "frame_references": [],
+      "image_alt_identity": [],
+      "observed_snippets": [
+        {
+          "html_source_line": 696,
+          "excerpt": "【离退休处】退休不褪色 奉献亦生辉 我校离退休党员李谱华深耕新媒体讲好杨凌农科故事"
+        },
+        {
+          "html_source_line": 1269,
+          "excerpt": "地址：陕西杨凌 邮编：712100"
+        },
+        {
+          "html_source_line": 1272,
+          "excerpt": "版权所有©西北农林科技大学 陕ICP备05001586号"
+        }
+      ]
+    },
+    {
+      "source_id": "REGION-HTML-9ff426aa0348",
+      "proof_url": "https://www.hpu.edu.cn/xxgk/xxjj.htm",
+      "checked_at": "2026-10-17T15:28:17+08:00",
+      "method": "ordinary anonymous HTML GET",
+      "pdf_request": false,
+      "raw_html_saved": false,
+      "http_status": 200,
+      "content_sha256": "c4e74dadf7d62e30abda59d6d24203d9e996af602cc3fd994b48a7909de8a92e",
+      "title": "学校简介-河南理工大学",
+      "frame_references": [],
+      "image_alt_identity": [],
+      "observed_snippets": [
+        {
+          "html_source_line": 259,
+          "excerpt": "地址：河南省焦作市世纪路2001号 邮编：454003"
+        },
+        {
+          "html_source_line": 263,
+          "excerpt": "南校区：河南省焦作市世纪路2001号"
+        },
+        {
+          "html_source_line": 339,
+          "excerpt": "版权所有 河南理工大学 工信部备案豫ICP备05002483号 公安机关备案41081102000100号"
+        }
+      ]
+    }
+  ]
+}

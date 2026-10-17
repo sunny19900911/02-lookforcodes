@@ -1,0 +1,127 @@
+{
+  "producer": "search",
+  "checkpoint": "14:40",
+  "checked_at": "2026-10-17T14:43:32+08:00",
+  "frozen": true,
+  "input_file_count": 11,
+  "previous_freeze_integrity": [
+    {
+      "manifest": "search/freeze-inputs-1320.json",
+      "files": 19,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-round04.json",
+      "files": 9,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-1330.json",
+      "files": 12,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-1340.json",
+      "files": 12,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-1340-water-mep-addendum.json",
+      "files": 3,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-1340-water-mep-addendum-v2.json",
+      "files": 4,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-g2-round02-share-1350.json",
+      "files": 1,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-1400.json",
+      "files": 13,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-1420.json",
+      "files": 11,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-1430.json",
+      "files": 10,
+      "unchanged": true,
+      "failures": []
+    }
+  ],
+  "note": "候选/短PDF/DOC/已有版本备链/目录来源分开，不增加完整数；无PDF/PNG/原HTML/瞬时参数值。",
+  "files": [
+    {
+      "path": "search/round11-public-sources/candidates-r11-root.json",
+      "sha256": "781acda888f40af1be55f824fc22e6f25225c1c4d8e295450ed4dda1fbda907a",
+      "bytes": 8799
+    },
+    {
+      "path": "search/round11-public-sources/alternate-route-41-r11.json",
+      "sha256": "9e09f3c145f155dc44571814bd4472e9fabe3b5c996407388efdaaa2e87a77ee",
+      "bytes": 621
+    },
+    {
+      "path": "search/round11-public-sources/query-ledger-r11-root.json",
+      "sha256": "2543b4eceb812045c9ced70ca0e6394d96059e2ca24665be8d18a6bd0636e85b",
+      "bytes": 3839
+    },
+    {
+      "path": "search/round11-public-sources/quality-feedback-r11-audit-1430.json",
+      "sha256": "acad37f1e4a1876543e781a7a2a8bcd88ec34e837b3bf4cf6d731a010a66455c",
+      "bytes": 6489
+    },
+    {
+      "path": "search/round11-public-sources/receipt-85-repeal-r11.json",
+      "sha256": "8b924531102f5d4d9734f239063ad28a9b582e775bc271902c0c01c259129fd3",
+      "bytes": 1897
+    },
+    {
+      "path": "search/round11-public-sources/monthly-directory/monthly-directory-r11.json",
+      "sha256": "141e8c0428f268cabb0bc9d4a4503f0b2c66739a74423e9c037af1444de18e45",
+      "bytes": 226022
+    },
+    {
+      "path": "search/round11-public-sources/monthly-directory/validation-r11.json",
+      "sha256": "eea6b65f0624854ee9496855913b53855e8b132eb3a0a2f3e9d8ef569a722689",
+      "bytes": 4166
+    },
+    {
+      "path": "search/round11-public-sources/instrument-pages/round11-instrument-pages.json",
+      "sha256": "c2e76731ffe5d5a025af8f688ddfd672028ce6aa5a40ea8d1c63fbedbcba7c96",
+      "bytes": 20617
+    },
+    {
+      "path": "search/round11-public-sources/validation-r11-root.json",
+      "sha256": "531e2ff36e13bbe6571d6785a4b7b2362a87dcd886dc5f13f9fbea50af930b60",
+      "bytes": 605
+    },
+    {
+      "path": "search/round11-public-sources/state-r11.json",
+      "sha256": "580a30622e64de1a6f3a15110bb4985ca81139e593951394daa480be473bd6ac",
+      "bytes": 2691
+    },
+    {
+      "path": "search/discussion-1440.md",
+      "sha256": "d9e460b30aa346753f1825a1366145c80f2e0a1d08ca38001607c1ad0ea1bb10",
+      "bytes": 2763
+    }
+  ]
+}

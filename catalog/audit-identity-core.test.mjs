@@ -51,3 +51,15 @@ test('audited placeholder code reuses exactly the same unnumbered candidate',()=
   assert.equal(matchUnnumberedAuditCandidate({...a,name:'另一规范'},{number:null},link,standards),null);
   assert.equal(auditCompletenessFields({version_class:'送审稿',draft_stage:'送审稿',draft_content_complete:true,version_verified:true,complete_pdf:true}).complete_pdf,false);
 });
+
+test('body reading grade is preserved independently of full-standard recommendation',()=>{
+  const round=JSON.parse(fs.readFileSync(new URL('../pdf-audit/audit-pending-round09-freeze-1450-v2.json',import.meta.url),'utf8'));
+  const browser=round.results.find(a=>/1555/.test(a.standard_number));
+  const incomplete=round.results.find(a=>/CECS\s*200[:\-]/.test(a.standard_number));
+  assert.equal(browser.recommendation,'D');
+  assert.match(auditCompletenessFields(browser).body_reading_recommendation,/^B/);
+  assert.equal(auditCompletenessFields(browser).complete_pdf,false);
+  assert.equal(incomplete.recommendation,'D');
+  assert.equal(auditCompletenessFields(incomplete).body_reading_recommendation,null);
+  assert.deepEqual(auditCompletenessFields(incomplete).quality_anomalies,incomplete.quality_anomalies??null);
+});

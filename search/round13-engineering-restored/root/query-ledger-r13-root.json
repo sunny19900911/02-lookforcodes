@@ -1,0 +1,93 @@
+{
+  "source_id": "SEARCH-R13-ROOT-QUERY-LEDGER-20261017",
+  "scope_rule_source_id": "USER-20261017-CECS-ENGINEERING-ALL",
+  "requests": [
+    {
+      "store_key": "r13-web60",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.ynjcxh.cn/webinfoynxh/Del.aspx?id=5556"
+          },
+          {
+            "ref_id": "https://pro5323b5d3-pic11.ysjianzhan.cn/upload/102CECS291-2011BWFBGJGJSGF.pdf"
+          },
+          {
+            "ref_id": "https://img.antpedia.com/standard/files/pdfs_ora/CN-CECS/a47/CECS%2080-2006.pdf"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "store_key": "r13-web61",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"6f531b872d124585b888c4bcfde0616b.pdf\""
+          },
+          {
+            "q": "site:jncc.jinan.gov.cn \"CECS\" \"钢管混凝土\""
+          },
+          {
+            "q": "\"T/CECS 1009-2022\" filetype:pdf -site:scribd.com -site:img.antpedia.com"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "store_key": "r13-web62",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"CECS\" \"28\" \"2012\" filetype:pdf -site:jncc.jinan.gov.cn -site:scribd.com -试验 -研究 -论文"
+          },
+          {
+            "q": "\"T/CECS\" filetype:pdf \"砌体\" \"施行日期\" -site:scribd.com -site:ebook.chinabuilding.com.cn"
+          },
+          {
+            "q": "\"CECS\" filetype:pdf \"抗震\" \"技术规程\" \"主编单位\" -site:scribd.com -site:ebook.chinabuilding.com.cn"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "store_key": "r13-web63",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"CECS 28\" filetype:pdf site:hit.edu.cn"
+          },
+          {
+            "q": "\"钢管混凝土结构技术规程\" filetype:pdf site:cabr.com.cn"
+          },
+          {
+            "q": "\"钢结构现场检测技术标准\" filetype:pdf site:cabr.com.cn"
+          },
+          {
+            "q": "\"既有村镇住宅建筑抗震鉴定和加固技术规程\" filetype:pdf site:tongji.edu.cn"
+          }
+        ],
+        "response_length": "long"
+      }
+    }
+  ],
+  "search_query_count": 10,
+  "web_open_count": 3,
+  "main_requested_primary_experiment_number_count": 3,
+  "primary_experiment_numbers": [
+    "CECS 28:2012",
+    "T/CECS 1009-2022",
+    "CECS 325:2012"
+  ],
+  "results_summary": [
+    "291与80的实际web open分别403后停止；1009协会页仅元数据。",
+    "CECS28取得另一个公开索引的无不透明参数路线，普通GET403；未追查旧含参数URL。",
+    "325个人站PDF实际GET404，与web缓存解析封面观察并存；828为旧URL不重复GET。",
+    "主编/参编独立原站一组四查询，三页普通GET均200且无文档附件属性；新增可用PDF0。"
+  ],
+  "raw_responses_saved": false,
+  "opaque_download_parameters_saved": false
+}

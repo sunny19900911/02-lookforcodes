@@ -1,0 +1,51 @@
+{
+  "source_id": "SEARCH-R13-STATE-20261017",
+  "recorded_at": "2026-10-17T15:17:02+08:00",
+  "active_rule": "USER-20261017-CECS-ENGINEERING-ALL",
+  "superseded_rule": "USER-20261017-CECS-BUILDING-STRUCTURE-ONLY",
+  "scope": "工程相关CECS均可收集下载，房屋结构优先；保留专业和适用范围分类",
+  "scope_restoration": {
+    "in_scope_route_records": 16,
+    "non_cecs_excluded_records": 4,
+    "master_or_excel_changed": false
+  },
+  "current_main_batch": {
+    "search_manifests": [
+      "search/freeze-inputs-1420.json",
+      "search/freeze-inputs-1430.json",
+      "search/freeze-inputs-1440.json"
+    ],
+    "source_selection_receipt": "search/round13-engineering-restored/receipt-current-selection-r09-r11-1510.json",
+    "directory_difference": 268,
+    "difference_is_final_catalog_net": false
+  },
+  "new_pending": {
+    "candidate_file": "search/round13-engineering-restored/new-drafts-r12-r13-share.json",
+    "drafts": 2,
+    "formal_usable_pdf_candidates": 0,
+    "complete_pdf_claims": 0,
+    "separate_from_R09_R11": true
+  },
+  "primary_source_experiments": {
+    "target_numbers": [
+      "28:2012",
+      "1009-2022",
+      "325:2012"
+    ],
+    "primary_pages_get_200": 3,
+    "document_href_found": 0,
+    "new_pdf": 0,
+    "failed_routes_not_retried": [
+      "CECS28济南403",
+      "CECS325个人站404",
+      "CECS291和80的web403"
+    ]
+  },
+  "traffic": {
+    "query_count": 20,
+    "pdf_get": 0,
+    "new_pdf_candidates": 0
+  },
+  "ownership": "search未操作主索引、Excel、audit评级、master-authority、Git或原件",
+  "next": "主控按本批冻结接R09/R10/R11；R12/R13两份草案独立待审，不能计完整。"
+}

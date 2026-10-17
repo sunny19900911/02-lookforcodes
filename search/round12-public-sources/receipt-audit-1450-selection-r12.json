@@ -1,0 +1,38 @@
+{
+  "source_id": "SEARCH-R12-AUDIT-SELECTION-20261017",
+  "recorded_at": "2026-10-17T15:04:37+08:00",
+  "statement_type": "原文事实（只读路径/哈希核对）",
+  "selected": [
+    {
+      "path": "pdf-audit/audit-round09-publication-selection-1450.json",
+      "sha256": "91744369ebd0b0916afa791012dd3ab6ca3dedbaa0b57c061d92848d41523e44",
+      "expected_sha256": null,
+      "matches_expected": null
+    },
+    {
+      "path": "pdf-audit/audit-pending-round09-freeze-1450-v2.json",
+      "sha256": "339a53ad776599ca4181a75633dd0479b1f040d293e9bf35d02dd762937196ef",
+      "expected_sha256": "339a53ad776599ca4181a75633dd0479b1f040d293e9bf35d02dd762937196ef",
+      "matches_expected": true
+    },
+    {
+      "path": "pdf-audit/audit-round09-receipt-1450-v2.json",
+      "sha256": "fecbf50a02f3c5e2e62d0606b971753a3eacb5dee61a7b0718a488fe5024bdcd",
+      "expected_sha256": null,
+      "matches_expected": null
+    },
+    {
+      "path": "pdf-audit/candidates-r11-alt31-share.json",
+      "sha256": "2aa5cd96cfcc3f9d3848c7046575bb72e53b7426fb602f8b58b191558b94a61d",
+      "expected_sha256": "2aa5cd96cfcc3f9d3848c7046575bb72e53b7426fb602f8b58b191558b94a61d",
+      "matches_expected": true
+    }
+  ],
+  "excluded_as_current": [
+    "pdf-audit/candidates-r11-alt31.json",
+    "pdf-audit/audit-pending-round09-freeze-1450.json"
+  ],
+  "note": "只选v2及备链share投影；备用URL不继承主web64页。7审查记录为旧广范围批次，不能直接作为新范围总数。",
+  "changed_audit_ratings": false,
+  "changed_canonical_audit": false
+}

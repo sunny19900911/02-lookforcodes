@@ -1,0 +1,271 @@
+{
+  "schema_version": "1.0",
+  "source_id": "REGION-TJAD-PENDING-IDENTITY-20261017",
+  "generated_at": "2026-10-17T15:27:54.323280+08:00",
+  "rule_source_id": "USER-20261017-CECS-DOWNLOAD-SOURCE-REGION",
+  "record_class": "auxiliary_pending_identity",
+  "scope_status": "pending_identity",
+  "task_status": "closed_after_parent_scope_narrowing",
+  "source_host_observed": "knowledge.tjad.cloud",
+  "match_hosts": [],
+  "download_urls": [],
+  "auto_registry_mapping_allowed": false,
+  "provider_identity": null,
+  "province": null,
+  "city": null,
+  "district": null,
+  "official_address": null,
+  "address_type": null,
+  "identity_chain_closed": false,
+  "region_adoption_status": "待核；不得直接映射registry",
+  "scope_note": "本角色非高校来源辅助观察；主控已收窄本次省市补证主任务为已登记高校，收到通知后停止新查询/GET。",
+  "master_snapshot": {
+    "path": "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\catalog\\cecs-master.json",
+    "sha256": "c78cabf007821b7bf79e0f7946fc84a5241c9cddb3c72ec83efadb7e1a4dce5d",
+    "standard_count": 1008,
+    "registered_link_count_for_host": 81,
+    "registered_link_ids": [
+      "L-94ffbf34a4df",
+      "L-1c746747a570",
+      "L-2409f08b1ca4",
+      "L-23b4273ff91f",
+      "L-4aa7fe4796ce",
+      "L-29294ca4523d",
+      "L-9e55c33abee6",
+      "L-75214ef79a8c",
+      "L-34eb67df3cef",
+      "L-6a798c415065",
+      "L-56f1ea96102e",
+      "L-49588bc23c8b",
+      "L-efd59dddd67e",
+      "L-cedd281564f1",
+      "L-0aefd9dbca65",
+      "L-3ca290a61c5f",
+      "L-063760d36d38",
+      "L-40c13adbb012",
+      "L-6a1526da0e77",
+      "L-54c886926269",
+      "L-84aa409c7247",
+      "L-8ea5158057be",
+      "L-8d0659ce914a",
+      "L-502b4ae89308",
+      "L-c252649dfa6b",
+      "L-771d952d68fc",
+      "L-4f21912fdffe",
+      "L-c44a44aadc5a",
+      "L-012c3febe005",
+      "L-c737be3d3ad9",
+      "L-9a337e7fdbbb",
+      "L-822c761fa32a",
+      "L-6e81d3cfb208",
+      "L-8b5338eb97c1",
+      "L-5876a63b417d",
+      "L-823d16977239",
+      "L-aeb7aea0f533",
+      "L-5e98bbe36118",
+      "L-447cd92e3d19",
+      "L-9aaa84b3d86d",
+      "L-8520a4c984ea",
+      "L-b0436c2971be",
+      "L-2f0a0d48a901",
+      "L-3d180f35a012",
+      "L-065b39855b0f",
+      "L-d9383a34054d",
+      "L-c3b7bd33e839",
+      "L-24d94698801d",
+      "L-4c1e2994001e",
+      "L-b30694450a88",
+      "L-ae081576ea14",
+      "L-4fae31816403",
+      "L-8b1b6b8abd07",
+      "L-1c044dd844fa",
+      "L-0b5c06b0f99a",
+      "L-69a03fd6c8e0",
+      "L-85dc9fa43e32",
+      "L-35fd89cfe32e",
+      "L-e004819be047",
+      "L-0f6cdfacc9a8",
+      "L-9910018394fa",
+      "L-70c517464cd2",
+      "L-f551d9af755d",
+      "L-ff781b34a40c",
+      "L-aea0ad674c12",
+      "L-fd8aeeb58784",
+      "L-5b475ab5df5f",
+      "L-40ea8a109a8d",
+      "L-8da810f32f65",
+      "L-a8f8541576b4",
+      "L-f45f9c967233",
+      "L-f0598e965028",
+      "L-52c5ad1d6d17",
+      "L-68367bc16fa3",
+      "L-141441e723b7",
+      "L-6580725eb506",
+      "L-a7444f2a4e03",
+      "L-5f613babb310",
+      "L-7d32e85ba19b",
+      "L-3c398b6509cd",
+      "L-f7c9c93fb500"
+    ],
+    "modified": false
+  },
+  "observed_host_usage": {
+    "source_pages": [
+      "https://knowledge.tjad.cloud/"
+    ],
+    "boundary": "域名出现在81条既有下载记录，不证明资料发布者、著作权人或所在地"
+  },
+  "identity_chain": {
+    "download_host_to_source_legal_entity": "unresolved",
+    "source_legal_entity_to_official_address": "not_attempted_without_first_edge",
+    "unlinked_official_site_reference": "https://www.tjad.cn/",
+    "unlinked_reference_must_not_be_inherited": true
+  },
+  "evidence": [
+    {
+      "source_id": "REGION-TJAD-OBS-001",
+      "region_evidence_id": "REGION-TJAD-OBS-001",
+      "proof_url": "https://knowledge.tjad.cloud/",
+      "original_location": "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\catalog\\cecs-master.json / links filtered by registered host",
+      "short_excerpt": "81条已登记链接的source_page均为https://knowledge.tjad.cloud/",
+      "excerpt_type": "本地元数据计数，不是外部主体声明",
+      "checked_at": "2026-10-17T15:27:54.323280+08:00",
+      "supports": "已登记下载域名，不支持主体身份或省市"
+    },
+    {
+      "source_id": "REGION-TJAD-OBS-002",
+      "region_evidence_id": "REGION-TJAD-OBS-002",
+      "proof_url": "https://knowledge.tjad.cloud/",
+      "original_location": "web open turn215view0, L0",
+      "short_excerpt": "URL https://knowledge.tjad.cloud/ is not accessible via this tool.",
+      "excerpt_type": "工具失败报告；未获得来源正文",
+      "checked_at": "2026-10-17T15:27:54.323280+08:00",
+      "supports": "本通道未能读到页脚/关于/官方交叉链接；不能推断站点归属"
+    },
+    {
+      "source_id": "REGION-TJAD-OBS-003",
+      "region_evidence_id": "REGION-TJAD-OBS-003",
+      "proof_url": "https://knowledge.tjad.cloud/",
+      "original_location": "普通匿名HTTPS GET的TLS握手阶段，未读到HTML正文",
+      "short_excerpt": "The handshake operation timed out",
+      "excerpt_type": "本轮普通GET失败报告；非主体原文",
+      "checked_at": "2026-10-17T15:27:54.323280+08:00",
+      "supports": "未取得页脚、ICP备案主体或联系地址，不构成不存在或不合法结论"
+    },
+    {
+      "source_id": "REGION-TJAD-OBS-004",
+      "region_evidence_id": "REGION-TJAD-OBS-004",
+      "proof_url": "https://www.tjad.cn/",
+      "original_location": "web搜索结果turn222search0：页面题名及页脚摘录；未继续GET页面",
+      "short_excerpt": "同济大学建筑设计研究院(集团)有限公司；四平路1230号 200092",
+      "excerpt_type": "公开官方站搜索摘录，未证明与资料下载域名关联",
+      "checked_at": "2026-10-17T15:27:54.323280+08:00",
+      "supports": "仅为未关联主体的官方站线索，不能把地址传给knowledge.tjad.cloud",
+      "identity_edge_to_download_host": "not_established",
+      "may_map_registry": false
+    }
+  ],
+  "gaps": [
+    {
+      "source_id": "REGION-TJAD-GAP-001",
+      "proof_url": "https://knowledge.tjad.cloud/",
+      "original_location": null,
+      "short_excerpt": null,
+      "checked_at": "2026-10-17T15:27:54.323280+08:00",
+      "gap": "未取得实际来源站可见页脚、关于页面、ICP备案主体或指向官方机构的交叉链接，首条身份边缺失"
+    },
+    {
+      "source_id": "REGION-TJAD-GAP-002",
+      "proof_url": "https://www.tjad.cn/",
+      "original_location": "仅搜索可见官方站线索",
+      "short_excerpt": null,
+      "checked_at": "2026-10-17T15:27:54.323280+08:00",
+      "gap": "本轮未找到可核官方页面明确链接或声明knowledge.tjad.cloud属于该机构；不因tjad字母推断关联"
+    },
+    {
+      "source_id": "REGION-TJAD-GAP-003",
+      "proof_url": "https://knowledge.tjad.cloud/",
+      "original_location": null,
+      "short_excerpt": null,
+      "checked_at": "2026-10-17T15:27:54.323280+08:00",
+      "gap": "来源主体尚未确定，官方地址及省市均留空；未使用同济大学、同济设计、云服务商或机房所在地替代"
+    }
+  ],
+  "query_ledger": [
+    {
+      "query_id": "REGION-TJAD-Q01",
+      "query": "\"knowledge.tjad.cloud\"",
+      "boundary": "仅已完成公开搜索；未取得闭合身份链；无结果不证明不存在关联"
+    },
+    {
+      "query_id": "REGION-TJAD-Q02",
+      "query": "\"tjad.cloud\" 同济 资料 知识库",
+      "boundary": "仅已完成公开搜索；未取得闭合身份链；无结果不证明不存在关联"
+    },
+    {
+      "query_id": "REGION-TJAD-Q03",
+      "query": "\"knowledge.tjad.cloud\" \"同济大学建筑设计研究院\"",
+      "boundary": "仅已完成公开搜索；未取得闭合身份链；无结果不证明不存在关联"
+    },
+    {
+      "query_id": "REGION-TJAD-Q04",
+      "query": "site:tjad.cn \"tjad.cloud\"",
+      "boundary": "仅已完成公开搜索；未取得闭合身份链；无结果不证明不存在关联"
+    },
+    {
+      "query_id": "REGION-TJAD-Q05",
+      "query": "site:tjad.cn \"知识库\"",
+      "boundary": "仅已完成公开搜索；未取得闭合身份链；无结果不证明不存在关联"
+    },
+    {
+      "query_id": "REGION-TJAD-Q06",
+      "query": "\"同济设计\" \"知识云\"",
+      "boundary": "仅已完成公开搜索；未取得闭合身份链；无结果不证明不存在关联"
+    },
+    {
+      "query_id": "REGION-TJAD-Q07",
+      "query": "\"tjad.cloud\" 知识",
+      "boundary": "仅已完成公开搜索；未取得闭合身份链；无结果不证明不存在关联"
+    },
+    {
+      "query_id": "REGION-TJAD-Q08",
+      "query": "同济大学建筑设计研究院 集团有限公司 官方 联系我们",
+      "boundary": "仅已完成公开搜索；未取得闭合身份链；无结果不证明不存在关联"
+    },
+    {
+      "query_id": "REGION-TJAD-Q09",
+      "query": "\"knowledge.tjad\" -filetype:pdf",
+      "boundary": "仅已完成公开搜索；未取得闭合身份链；无结果不证明不存在关联"
+    },
+    {
+      "query_id": "REGION-TJAD-Q10",
+      "query": "\"tjad.cloud\" -filetype:pdf -site:scribd.com",
+      "boundary": "仅已完成公开搜索；未取得闭合身份链；无结果不证明不存在关联"
+    },
+    {
+      "query_id": "REGION-TJAD-Q11",
+      "query": "\"同济设计\" \"知识库\" 网站",
+      "boundary": "仅已完成公开搜索；未取得闭合身份链；无结果不证明不存在关联"
+    }
+  ],
+  "summary": {
+    "registered_links_observed": 81,
+    "source_identity_confirmed_count": 0,
+    "province_city_assignments": 0,
+    "network_requests_after_stop": 0,
+    "pdf_gets": 0,
+    "new_standard_queries": 0,
+    "raw_html_pdf_png_saved": 0,
+    "registry_changes": 0
+  },
+  "restrictions": {
+    "credentials_read": false,
+    "login_used": false,
+    "tls_verification_disabled": false,
+    "bypass_used": false,
+    "raw_responses_saved": false,
+    "transient_parameter_values_saved": false,
+    "old_inputs_modified": false,
+    "git_used": false
+  }
+}

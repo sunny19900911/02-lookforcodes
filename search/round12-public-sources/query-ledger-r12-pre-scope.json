@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "source_id": "SEARCH-R12-PRE-SCOPE-QUERIES-20261017",
+  "statement_type": "原文事实",
+  "recorded_at": "2026-10-17T15:02:13+08:00",
+  "cutoff_source_id": "USER-20261017-CECS-BUILDING-STRUCTURE-ONLY",
+  "queries": [
+    {
+      "store_key": "r12-web58",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"T/CECS G\" filetype:pdf site:gov.cn"
+          },
+          {
+            "q": "\"T/CECS\" filetype:pdf site:mot.gov.cn"
+          },
+          {
+            "q": "\"T/CECS G\" filetype:pdf -site:scribd.com"
+          },
+          {
+            "q": "\"CECS G\" \"标准\" \"下载\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "pre_scope_change": true
+    },
+    {
+      "store_key": "r12-web59",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"CECS\" filetype:pdf \"钢管混凝土\" -site:scribd.com -学报 -性能"
+          },
+          {
+            "q": "\"CECS\" filetype:pdf \"钢结构\" \"施行日期\" -site:scribd.com -site:ebook.chinabuilding.com.cn"
+          },
+          {
+            "q": "\"CECS\" filetype:pdf \"装配式\" \"施行日期\" -site:scribd.com -site:ebook.chinabuilding.com.cn"
+          },
+          {
+            "q": "\"CECS\" \"下载中心\" \"钢结构\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "pre_scope_change": true
+    }
+  ],
+  "query_count": 8,
+  "boundaries": [
+    "检索发生于范围收窄前；交通相关结果已停用。",
+    "不保存原始网页、PDF或不透明下载参数；搜索命中不等于已实测下载或完整文本。"
+  ],
+  "observations": [
+    {
+      "request": "r12-web58",
+      "result": "未发现新可保留房屋结构PDF路线；交通标准及其他规范引用隔离，不纳入当前队列。",
+      "scope_status": "excluded"
+    },
+    {
+      "request": "r12-web59",
+      "result": "索引出现CECS28:2012、T/CECS1009-2022、CECS291:2011及CECS80:2006；未在本轮执行后续GET，按scope-transition投影分级。",
+      "scope_status": "mixed"
+    }
+  ]
+}

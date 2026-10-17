@@ -1,0 +1,938 @@
+{
+  "checkpoint": "1510",
+  "checked_at": "2026-10-17T07:44:25.743Z",
+  "hashes": {
+    "master_sha256": "20c4cf59436e3f80aac897a50378d63f603dc3c93d3a76f4a1183fdfa05a09cd",
+    "xlsx_sha256": "1de0ac6fced1d8f7dcc1a507f62f27fdc83a9d96839020eda4b872ffa0b1f73d",
+    "audit_sha256": "815565100ff8959e609b223af1c64e43451b98fbb4cb1dfc83ddcd5f778c4449"
+  },
+  "counts": {
+    "standards": 1288,
+    "links": 163,
+    "audits": 63,
+    "selected_search_files": 93,
+    "auxiliary_share_files": 1,
+    "formal_complete_links": 14,
+    "formal_complete_versions": 12,
+    "formal_complete_sha256": 12,
+    "complete_drafts": 5,
+    "directory_source_rows": 1367,
+    "directory_observations": 1416,
+    "recent_raw_rows": 397,
+    "recent_resolved_rows": 394,
+    "recent_unique_versions": 381,
+    "directory_net_new": 268,
+    "pdf_candidate_net_new": 6,
+    "extra_metadata_net_new": 6,
+    "unresolved_directory_entries": 21,
+    "total_net_new": 280,
+    "region_counts": {
+      "total_links": 163,
+      "province_evidenced_links": 21,
+      "city_evidenced_links": 17,
+      "fully_identified_links": 17,
+      "partial_links": 4,
+      "pending_links": 142,
+      "standards_with_download_links": 121
+    },
+    "region_supplemental_files": 4
+  },
+  "checks": [
+    {
+      "path": "/snapshot/xlsx-sha256",
+      "passed": true
+    },
+    {
+      "path": "/identity/counts",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1candidates-round01.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1candidates-round02.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1candidates-round03-tj-links.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1candidates-round04-g1-replacement.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1candidates-round05-nwafu.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1candidates-round06-g1-22-alternative.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1g2-public-routes~1round01-candidates.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1g2-public-routes~1extension-preview-routes.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1g2-public-routes~1round02-candidates.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1baseline-external-routes~1candidates-round01.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1baseline-external-routes~1directory-round02.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1baseline-external-routes~1query-log-round01.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1baseline-external-routes~1followup-661-links.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1g1-round03-coverage.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1query-ledger-r02.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1quality-feedback-r03.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1conflict-796-years.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1discussion-1320.md",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1search-state.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round04-feedback-22.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round04-metadata-102-edition.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round04-102-route-gap.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round04-web-r29.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round04-web-r30.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round04-web-r31.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round04-web-r32.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round04-661~1routes-round04.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round04-handoff.md",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round05-796-conflict-supplement.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round05-web-r33.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1discussion-1330.md",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round07-broad-attachments~1directory~1directory-round07.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round07-broad-attachments~1directory~1corrections-round02.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round07-broad-attachments~1green~1candidates-r07-green.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round07-broad-attachments~1green~1web-r34.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round07-broad-attachments~1green~1web-r35.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round07-broad-attachments~1green~1web-r36.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round07-broad-attachments~1green~1web-r37.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round07-broad-attachments~1green~1web-r38.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round07-broad-attachments~1green~1web-r39.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round07-broad-attachments~1receipt-2185.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round07-broad-attachments~1state-r07.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1discussion-1340.md",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round07-broad-attachments~1water-mep~1candidates-round07-water-mep-share-v2.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round07-broad-attachments~1water-mep~1query-ledger-r07-water-mep-share.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round07-broad-attachments~1water-mep~1addendum-r07-water-mep.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round07-broad-attachments~1water-mep~1share-review-v2.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1g2-public-routes~1round02-candidates-share.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round08-public-expansion~1candidates-r08-association.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round08-public-expansion~1query-ledger-r08-root.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round08-public-expansion~1public-page-observations-r08-share.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round08-public-expansion~1quality-feedback-r08-audit-1350.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round08-public-expansion~1water-historical~1round08-water-historical-candidates.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round08-public-expansion~1directory2~1directory-round08.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round08-public-expansion~1directory2~1directory-conflicts.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round08-public-expansion~1directory2~1raw-cells.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round08-public-expansion~1directory2~1validation-summary.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round08-public-expansion~1directory2~1front-matter-evidence.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round08-public-expansion~1directory2~1conflict-visual-check-r08.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round08-public-expansion~1state-r08.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1discussion-1400.md",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1master-authority~1ttbz-ui-observed-20261017-p1.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round09-new-sources~1candidates-r09-root-share.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round09-new-sources~1query-ledger-r09-root.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round09-new-sources~1public-route-observations-r09.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round09-new-sources~1quality-feedback-r09-audit-1410.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round09-new-sources~1audit-observation-69-r09.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round09-new-sources~1validation-r09-root.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round09-new-sources~1water-mep~1round09-water-mep-candidates.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round09-new-sources~1recent-directory~1recent-directory-r09.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round09-new-sources~1recent-directory~1validation-r09.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round09-new-sources~1state-r09.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1discussion-1420.md",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round10-public-sources~1candidates-r10-detection.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round10-public-sources~1instrument-observations-r10.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round10-public-sources~1query-ledger-r10-root.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round10-public-sources~1foundation~1round10-foundation-search.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round10-public-sources~1monthly-directory~1monthly-directory-r10.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round10-public-sources~1monthly-directory~1validation-r10.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round10-public-sources~1validation-r10-root.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round10-public-sources~1audit-canonical-1410-receipt-r10.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round10-public-sources~1state-r10.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1discussion-1430.md",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round11-public-sources~1candidates-r11-root.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round11-public-sources~1alternate-route-41-r11.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round11-public-sources~1query-ledger-r11-root.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round11-public-sources~1quality-feedback-r11-audit-1430.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round11-public-sources~1receipt-85-repeal-r11.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round11-public-sources~1monthly-directory~1monthly-directory-r11.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round11-public-sources~1monthly-directory~1validation-r11.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round11-public-sources~1instrument-pages~1round11-instrument-pages.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round11-public-sources~1validation-r11-root.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round11-public-sources~1state-r11.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1discussion-1440.md",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/count_and_scope",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1candidates-round01.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1candidates-round02.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1candidates-round03-tj-links.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1candidates-round04-g1-replacement.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1candidates-round05-nwafu.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1candidates-round06-g1-22-alternative.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1g2-public-routes~1round01-candidates.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1g2-public-routes~1extension-preview-routes.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1baseline-external-routes~1candidates-round01.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1baseline-external-routes~1directory-round02.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1baseline-external-routes~1query-log-round01.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1baseline-external-routes~1followup-661-links.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1g1-round03-coverage.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1query-ledger-r02.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1quality-feedback-r03.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1conflict-796-years.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1discussion-1320.md",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1search-state.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round04-feedback-22.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round04-metadata-102-edition.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round04-102-route-gap.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round04-web-r29.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round04-web-r30.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round04-web-r31.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round04-web-r32.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round04-661~1routes-round04.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round04-handoff.md",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round05-796-conflict-supplement.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round05-web-r33.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1discussion-1330.md",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round07-broad-attachments~1directory~1directory-round07.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round07-broad-attachments~1directory~1corrections-round02.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round07-broad-attachments~1green~1candidates-r07-green.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round07-broad-attachments~1green~1web-r34.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round07-broad-attachments~1green~1web-r35.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round07-broad-attachments~1green~1web-r36.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round07-broad-attachments~1green~1web-r37.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round07-broad-attachments~1green~1web-r38.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round07-broad-attachments~1green~1web-r39.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round07-broad-attachments~1receipt-2185.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round07-broad-attachments~1state-r07.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1discussion-1340.md",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round07-broad-attachments~1water-mep~1candidates-round07-water-mep-share-v2.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round07-broad-attachments~1water-mep~1query-ledger-r07-water-mep-share.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round07-broad-attachments~1water-mep~1addendum-r07-water-mep.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round07-broad-attachments~1water-mep~1share-review-v2.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1g2-public-routes~1round02-candidates-share.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round08-public-expansion~1candidates-r08-association.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round08-public-expansion~1query-ledger-r08-root.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round08-public-expansion~1public-page-observations-r08-share.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round08-public-expansion~1quality-feedback-r08-audit-1350.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round08-public-expansion~1water-historical~1round08-water-historical-candidates.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round08-public-expansion~1directory2~1directory-round08.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round08-public-expansion~1directory2~1directory-conflicts.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round08-public-expansion~1directory2~1raw-cells.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round08-public-expansion~1directory2~1validation-summary.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round08-public-expansion~1directory2~1front-matter-evidence.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round08-public-expansion~1directory2~1conflict-visual-check-r08.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round08-public-expansion~1state-r08.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1discussion-1400.md",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1master-authority~1ttbz-ui-observed-20261017-p1.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round09-new-sources~1candidates-r09-root-share.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round09-new-sources~1query-ledger-r09-root.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round09-new-sources~1public-route-observations-r09.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round09-new-sources~1quality-feedback-r09-audit-1410.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round09-new-sources~1audit-observation-69-r09.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round09-new-sources~1validation-r09-root.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round09-new-sources~1water-mep~1round09-water-mep-candidates.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round09-new-sources~1recent-directory~1recent-directory-r09.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round09-new-sources~1recent-directory~1validation-r09.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round09-new-sources~1state-r09.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1discussion-1420.md",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round10-public-sources~1candidates-r10-detection.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round10-public-sources~1instrument-observations-r10.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round10-public-sources~1query-ledger-r10-root.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round10-public-sources~1foundation~1round10-foundation-search.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round10-public-sources~1monthly-directory~1monthly-directory-r10.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round10-public-sources~1monthly-directory~1validation-r10.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round10-public-sources~1validation-r10-root.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round10-public-sources~1audit-canonical-1410-receipt-r10.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round10-public-sources~1state-r10.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1discussion-1430.md",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round11-public-sources~1candidates-r11-root.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round11-public-sources~1alternate-route-41-r11.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round11-public-sources~1query-ledger-r11-root.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round11-public-sources~1quality-feedback-r11-audit-1430.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round11-public-sources~1receipt-85-repeal-r11.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round11-public-sources~1monthly-directory~1monthly-directory-r11.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round11-public-sources~1monthly-directory~1validation-r11.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round11-public-sources~1instrument-pages~1round11-instrument-pages.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round11-public-sources~1validation-r11-root.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round11-public-sources~1state-r11.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1discussion-1440.md",
+      "passed": true
+    },
+    {
+      "path": "/sharing/alternate_current_projection_only",
+      "passed": true
+    },
+    {
+      "path": "/sharing/transient_query",
+      "passed": true
+    },
+    {
+      "path": "/audit/frozen_63",
+      "passed": true
+    },
+    {
+      "path": "/audit/old_48_unchanged",
+      "passed": true
+    },
+    {
+      "path": "/audit/pending/audit-pending-round07-freeze-1430.json",
+      "passed": true
+    },
+    {
+      "path": "/audit/pending/audit-pending-round08-fixed-r10.json",
+      "passed": true
+    },
+    {
+      "path": "/audit/pending/audit-pending-round09-freeze-1450-v2.json",
+      "passed": true
+    },
+    {
+      "path": "/audit/ratings_and_body_fields",
+      "passed": true
+    },
+    {
+      "path": "/formal/counts_and_gate",
+      "passed": true
+    },
+    {
+      "path": "/relations/links_evidence_best",
+      "passed": true
+    },
+    {
+      "path": "/draft/five_separate_from_formal",
+      "passed": true
+    },
+    {
+      "path": "/evidence/quality_is_ai_inference",
+      "passed": true
+    },
+    {
+      "path": "/directory/counts_and_frozen_inputs",
+      "passed": true
+    },
+    {
+      "path": "/directory/row_identity_parent_and_dates",
+      "passed": true
+    },
+    {
+      "path": "/directory/unresolved_and_in_progress_separate",
+      "passed": true
+    },
+    {
+      "path": "/identity/pdf_candidate_net_six",
+      "passed": true
+    },
+    {
+      "path": "/identity/metadata_six_extra_and_no_invented_gaps",
+      "passed": true
+    },
+    {
+      "path": "/scope/engineering_all_and_history",
+      "passed": true
+    },
+    {
+      "path": "/regions/registry_and_supplemental_selection",
+      "passed": true
+    },
+    {
+      "path": "/regions/supplemental_sha/search~1freeze-region-metadata-1530.json",
+      "passed": true
+    },
+    {
+      "path": "/regions/supplemental_sha/search~1region-metadata-20261017~1university-region-evidence-proposal.json",
+      "passed": true
+    },
+    {
+      "path": "/regions/supplemental_sha/search~1region-metadata-20261017~1universities~1official-html-observations.json",
+      "passed": true
+    },
+    {
+      "path": "/regions/supplemental_sha/search~1region-metadata-20261017~1universities~1platform-identity-observations-v2.json",
+      "passed": true
+    },
+    {
+      "path": "/regions/each_link_evidence_and_counts",
+      "passed": true
+    },
+    {
+      "path": "/regions/standards_aggregate_actual_link_regions",
+      "passed": true
+    },
+    {
+      "path": "/sharing/transient_query_in_region_inputs",
+      "passed": true
+    },
+    {
+      "path": "/regression/69_historical_repeal_and_old_pdfs",
+      "passed": true
+    },
+    {
+      "path": "/regression/608_10065_10066",
+      "passed": true
+    },
+    {
+      "path": "/regression/102_edition",
+      "passed": true
+    },
+    {
+      "path": "/regression/22_status",
+      "passed": true
+    },
+    {
+      "path": "/regression/796_announcement_and_name_conflicts",
+      "passed": true
+    },
+    {
+      "path": "/regression/81_mapping_and_four_metadata_routes",
+      "passed": true
+    },
+    {
+      "path": "/snapshot/unchanged_during_validation",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "snapshot_generated_at": "2026-10-17T07:38:04.157Z",
+  "transient_query_paths": [],
+  "passed": true
+}

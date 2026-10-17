@@ -13,6 +13,13 @@ assert receipt['coverage'] == validation['coverage']
 generated = datetime.datetime.fromisoformat(receipt['generated_at'].replace('Z', '+00:00'))
 beijing = generated.astimezone(datetime.timezone(datetime.timedelta(hours=8)))
 c = receipt['coverage']
+sheet_names = [sheet['name'] for sheet in receipt['sheets']]
+region = c.get('download_source_region_counts')
+region_note = ''
+if region:
+    region_note = (f"下载来源地区：{region['fully_identified_links']}条链接省市已核实，"
+                   f"{region['partial_links']}条部分核实，{region['pending_links']}条待核。"
+                   "地区字段指资料来源主体，不表示规范适用地区。")
 release = {'generated_at': receipt['generated_at'], 'generated_at_beijing': beijing.isoformat(),
            'xlsx': str(book.relative_to(REPO)), 'xlsx_sha256': validation['xlsx_sha256'],
            'coverage': c, 'verification': 'coordination/delivery-validation.json',
@@ -28,7 +35,7 @@ summary = f'''## 当前交付快照
 
 快照生成于 {beijing.strftime('%Y-%m-%d %H:%M:%S')}（北京时间）：{c['registered_standard_versions']}个初步身份条目、{c['registered_links']}条链接、全部{c['baseline_records_registered']}条基线映射、{c['independent_audit_results']}条独立审查；正式标准{c['verified_complete_pdf_links']}条已验完整链接对应{c['verified_complete_unique_sha256']}份不同PDF、{c['verified_complete_standard_versions']}个规范版本。另有{c.get('verified_complete_draft_pdf_links', 0)}条内容完整草案链接，独立列出，不混入正式数。完整版本与备用同hash链接分别计数；历史版本、草案和未核状态均保留，身份条目数不代表全国CECS总数。
 
-Excel含规范总表、已验完整PDF、完整草案PDF（有内容完整草案时）、链接明细、原始映射、待查与问题、状态与来源依据、检索记录、说明与覆盖、变更记录。质量推荐以表内证据为准，不用书签数量代替完整性或内容质量。后续增量先由角色继续核验，再按主控检查点回灌。PDF原件不在本仓库，现行性不因PDF完整而自动确认。
+Excel含{len(sheet_names)}个工作表：{'、'.join(sheet_names)}。{region_note}质量推荐以表内证据为准，不用书签数量代替完整性或内容质量。后续增量先由角色继续核验，再按主控检查点回灌。PDF原件不在本仓库，现行性不因PDF完整而自动确认。
 
 '''
 readme.write_text(text[:start] + summary + text[end:], encoding='utf-8')

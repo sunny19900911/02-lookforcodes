@@ -1,0 +1,59 @@
+{
+  "source_id": "USER-20261017-CECS-BUILDING-STRUCTURE-ONLY",
+  "statement_type": "原文事实（用户紧急范围指令，经主控转达）",
+  "recorded_at": "2026-10-17T15:00:47+08:00",
+  "effective": "立即",
+  "scope": "房屋设计中与结构设计直接相关的CECS",
+  "include": [
+    "房屋地基基础与岩土支护",
+    "混凝土/钢/砌体/木/组合及装配式结构",
+    "结构荷载/抗震/减隔震/抗风",
+    "结构检测鉴定与加固",
+    "与房屋结构设计直接相关的材料、构造及施工技术"
+  ],
+  "exclude": [
+    "公路/桥梁/铁路/隧道及一般市政基础设施",
+    "给排水/暖通/电气",
+    "消防设备",
+    "与房屋结构设计无直接关系的纯绿色/能耗/运营/管理评价"
+  ],
+  "decision_rule": "按直接关系判断，不凭混凝土/钢等关键词纳入；跨专业或范围含糊先待判，不继续下载、不静默纳入",
+  "operational_state": {
+    "new_unrelated_gets_stopped": true,
+    "active_get_sessions": 0,
+    "active_subreview_agents": 0,
+    "old_scope_subagents_notified": true,
+    "no_git_or_excel_or_master_index_operations": true
+  },
+  "stopped_routes": [
+    "给排水、灌溉、机电、通信/电缆管道",
+    "纯绿色/碳中和/零碳/低碳能耗评价",
+    "景区悬索桥、公路及一般市政路线"
+  ],
+  "retained_structural_review_queue": [
+    "CECS69:2011及02:2005混凝土检测候选（保留各版本既有质量/历史状态）",
+    "CECS212:2006预应力钢结构、235:2008铸钢节点",
+    "CECS333:2012结构健康监测、工业建筑非工业化改造结构检测鉴定稿",
+    "CECS200:2006建筑钢结构防火、197:2006地基处理候选",
+    "建筑索结构施工质量验收征求意见稿"
+  ],
+  "ambiguous_hold": [
+    "木结构防火涂料/阻燃处理剂等跨专业材料应用条目：先核直接结构设计关系，不继续GET"
+  ],
+  "preservation": {
+    "canonical_and_all_freezes": "历史证据保留不改、不删除",
+    "unrelated_current_use": "停用并从当前推荐/下载/待查清单排除，保留理由及原来源",
+    "old_broad_pending": "R09/R10/R11固定增量保留历史，不按旧范围整体合入",
+    "original_pdfs_and_images": "仅本地保留，不删除、不上传"
+  },
+  "metrics": {
+    "previous_all_cecs_counts": "仅历史，不再作为当前目标/分母/实测完整数",
+    "current_scoped_complete_count": null,
+    "status": "待按新范围重算，不沿用旧全范围数字"
+  },
+  "next_cleanup_path": {
+    "audit_role": "在pdf-audit内另建房屋结构范围投影，逐条纳入/排除/待判，带source_id、理由及原审查引用；不改历史冻结",
+    "catalog_role": "由catalog唯一更新Excel/主索引及新范围计数",
+    "master_role": "主控唯一Git写入与发布"
+  }
+}

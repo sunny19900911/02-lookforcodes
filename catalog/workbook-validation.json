@@ -1,12 +1,18 @@
 {
-  "checked_at_utc": "2026-10-17T06:32:29.359294+00:00",
-  "xlsx_sha256": "d43f48f992396601ca9d5b35f25dafd86bc89ef3fc0aa2c32a78da6f26d77324",
-  "bytes": 805707,
+  "checked_at_utc": "2026-10-17T07:38:52.029395+00:00",
+  "xlsx_sha256": "1de0ac6fced1d8f7dcc1a507f62f27fdc83a9d96839020eda4b872ffa0b1f73d",
+  "bytes": 1217675,
   "sheets": [
     {
       "name": "规范总表",
-      "rows": 1016,
-      "columns": 26,
+      "rows": 1296,
+      "columns": 27,
+      "freeze_panes": "C9"
+    },
+    {
+      "name": "地区下载索引",
+      "rows": 171,
+      "columns": 15,
       "freeze_panes": "C9"
     },
     {
@@ -17,14 +23,14 @@
     },
     {
       "name": "完整草案PDF",
-      "rows": 10,
+      "rows": 13,
       "columns": 22,
       "freeze_panes": "C9"
     },
     {
       "name": "链接明细",
-      "rows": 154,
-      "columns": 43,
+      "rows": 171,
+      "columns": 53,
       "freeze_panes": "C9"
     },
     {
@@ -35,36 +41,36 @@
     },
     {
       "name": "待查与问题",
-      "rows": 985,
+      "rows": 1310,
       "columns": 10,
       "freeze_panes": "C9"
     },
     {
       "name": "状态与来源依据",
-      "rows": 1389,
-      "columns": 14,
+      "rows": 1862,
+      "columns": 17,
       "freeze_panes": "C9"
     },
     {
       "name": "检索记录",
-      "rows": 101,
+      "rows": 129,
       "columns": 12,
       "freeze_panes": "C9"
     },
     {
       "name": "说明与覆盖",
-      "rows": 50,
+      "rows": 58,
       "columns": 2,
       "freeze_panes": "C9"
     },
     {
       "name": "变更记录",
-      "rows": 2162,
+      "rows": 3613,
       "columns": 8,
       "freeze_panes": "C9"
     }
   ],
-  "native_hyperlinks": 3653,
+  "native_hyperlinks": 5222,
   "error_cells": 0,
   "all_81_original_mappings": true,
   "counts_reconciled": true,

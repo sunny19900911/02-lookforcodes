@@ -1,0 +1,40 @@
+{
+  "source_id": "USER-20261017-CECS-PAUSE-AND-SUMMARIZE",
+  "statement_type": "原文事实（主控转达用户明确暂停请求）",
+  "paused_at_utc": "2026-10-17 07:37:01 UTC",
+  "user_timezone": "Asia/Shanghai",
+  "role": "search",
+  "status": "paused_by_user",
+  "completed": [
+    "R09/R10/R11检索输入已冻结，当前分享选择与40项来源/审查哈希核对已交主控和catalog。",
+    "工程CECS范围恢复记录与R12/R13新增候选已单独冻结，未混入63条旧批次实审。",
+    "两个高校来源主体/官方地址metadata提案已单独冻结并交catalog，未知主体不猜地区。",
+    "两名子代理均已完成，无在途工具或下一轮任务。"
+  ],
+  "in_progress": [],
+  "explicitly_unfinished": [
+    "最新两份占位征求意见稿只保留pending，全文审查收尾状态由pdf-audit掌握；不计作新增完整正式文本。",
+    "全CECS覆盖、全部来源地区与未知来源主体尚未核完。",
+    "地区提案由catalog决定映射，本角色未写主索引或Excel；不确认尚未收到的build/发布状态。"
+  ],
+  "fixed_outputs": [
+    {
+      "path": "search/freeze-inputs-1510-engineering-restored.json",
+      "sha256": "43eb548866b5b196b0b1445e298d5960af399c34cce28351d8687ed60f0edadc"
+    },
+    {
+      "path": "search/freeze-region-metadata-1530.json",
+      "sha256": "a2f5754e0962f20204fd05fcd17cabaec077e16035fb9cc6d08ad6e7184c1772"
+    }
+  ],
+  "restrictions": {
+    "new_queries": false,
+    "new_source_expansion": false,
+    "new_get": false,
+    "new_downloads": false,
+    "new_subtasks": false,
+    "git_used": false,
+    "old_frozen_inputs_modified": false
+  },
+  "automation_note": "本角色未创建定时任务；主控负责暂停既有CECS定时跟进。"
+}

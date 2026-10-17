@@ -1,0 +1,345 @@
+{
+  "schema_version": "1.0",
+  "source_id": "SEARCH-R13-TRANSPORT-ENGINEERING-RESTORED-20261017",
+  "generated_at": "2026-10-17T15:11:13.124630+08:00",
+  "rule_source_id": "USER-20261017-CECS-ENGINEERING-ALL",
+  "scope": "工程相关CECS均可收集，房屋结构优先；交通CECS恢复，非CECS及仅引用标准文件仍排除",
+  "statement_types": {
+    "scope": "原文事实（主控转达用户澄清）",
+    "route_observations": "原文事实（本轮公开网页GET或明确失败）",
+    "scope_classification": "AI推断（基于标准体系及文档类型）"
+  },
+  "snapshots": {
+    "master": {
+      "path": "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\catalog\\cecs-master.json",
+      "sha256": "c78cabf007821b7bf79e0f7946fc84a5241c9cddb3c72ec83efadb7e1a4dce5d",
+      "standard_count": 1008
+    },
+    "old_transport_projection": {
+      "path": "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\search\\round12-public-sources\\transport\\excluded-transport-closeout.json",
+      "sha256": "cd81a5c95c2dc334773ad83feace854d2e4524ad4fa30b86958d397d2b096d4f",
+      "modified": false
+    },
+    "url_dedup": {
+      "json_files_scanned": 163,
+      "json_parse_errors": 0,
+      "rule": "URL host lowercased + percent-decoded path + stable query; compare actual observed URLs only"
+    }
+  },
+  "summary": {
+    "new_cecs_g_pdf_candidates": 0,
+    "restored_existing_cecs_queue_records": 1,
+    "retained_non_cecs_exclusions": 4,
+    "query_count": 20,
+    "ordinary_get_routes": 5,
+    "successful_html_gets": 4,
+    "failed_gets_403": 1,
+    "pdf_gets": 0,
+    "new_pdf_files_saved": 0,
+    "new_complete_pdf_count": 0,
+    "merged_into_master_count": 0
+  },
+  "candidates": [],
+  "scope_restoration": [
+    {
+      "source_id": "SRC-R13-TRANSPORT-RESTORE-001",
+      "old_record_id": "R12-EXCLUDED-001",
+      "old_source_file": "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\search\\round12-public-sources\\transport\\excluded-transport-closeout.json",
+      "standard_number": "T/CECS G:K50-30-2018",
+      "name": "公路机制砂高性能混凝土技术规程",
+      "source_page": "https://xxgk.mot.gov.cn/2020/jigou/glj/202006/t20200623_3313245.html",
+      "download_url": "https://xxgk.mot.gov.cn/2020/jigou/glj/202006/P020200623699566184589.pdf",
+      "discipline": "交通/公路工程",
+      "download_enabled": false,
+      "new_get_performed": false,
+      "scope_status": "in_scope",
+      "eligible_for_current_engineering_queue": true,
+      "reason": "最新用户澄清恢复工程CECS范围；不得再仅因非房屋结构排除",
+      "download_disabled_reason": "parent_reports_existing_fullB; do_not_redownload",
+      "existing_quality": "fullB（来自主控本轮指令，本角色未复审）",
+      "prior_url_evidence_files": [
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\catalog\\cecs-master.json",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\search\\round12-public-sources\\scope-normalized-subagents-r12.json",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\search\\round12-public-sources\\transport\\excluded-transport-closeout.json",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\search\\round13-engineering-restored\\queue-engineering-restored-r12.json"
+      ]
+    },
+    {
+      "source_id": "SRC-R13-TRANSPORT-RESTORE-002",
+      "old_record_id": "R12-EXCLUDED-002",
+      "old_source_file": "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\search\\round12-public-sources\\transport\\excluded-transport-closeout.json",
+      "standard_number": "GDJTG/T B01-2017",
+      "name": "广东省公路工程机制砂水泥混凝土应用技术规范",
+      "source_page": "https://xxgk.mot.gov.cn/2020/jigou/glj/202006/t20200623_3313245.html",
+      "download_url": "https://xxgk.mot.gov.cn/2020/jigou/glj/202006/P020200623699566385370.pdf",
+      "discipline": "交通/公路工程",
+      "download_enabled": false,
+      "new_get_performed": false,
+      "scope_status": "excluded",
+      "eligible_for_current_engineering_queue": false,
+      "reason": "地方公路标准GDJTG，非CECS",
+      "prior_url_evidence_files": [
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\search\\round12-public-sources\\scope-normalized-subagents-r12.json",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\search\\round12-public-sources\\transport\\excluded-transport-closeout.json",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\search\\round13-engineering-restored\\queue-engineering-restored-r12.json"
+      ]
+    },
+    {
+      "source_id": "SRC-R13-TRANSPORT-RESTORE-003",
+      "old_record_id": "R12-EXCLUDED-003",
+      "old_source_file": "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\search\\round12-public-sources\\transport\\excluded-transport-closeout.json",
+      "standard_number": "DBJXX-XX-2021",
+      "name": "花岗岩石屑混凝土应用技术规程（征求意见稿）",
+      "source_page": null,
+      "download_url": "https://www.zskcsj.com/d/file/notice/1/2021-07-05/6c9736c47b52a7c0a074ae3419d9148a.pdf",
+      "discipline": "交通/公路工程",
+      "download_enabled": false,
+      "new_get_performed": false,
+      "scope_status": "excluded",
+      "eligible_for_current_engineering_queue": false,
+      "reason": "广东省地方标准草案DBJXX，非CECS；其引用CECS不使文件成为CECS全文；不沿用交通适用性推断",
+      "prior_url_evidence_files": [
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\search\\round12-public-sources\\scope-normalized-subagents-r12.json",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\search\\round12-public-sources\\transport\\excluded-transport-closeout.json",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\search\\round13-engineering-restored\\queue-engineering-restored-r12.json"
+      ]
+    },
+    {
+      "source_id": "SRC-R13-TRANSPORT-RESTORE-004",
+      "old_record_id": "R12-EXCLUDED-004",
+      "old_source_file": "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\search\\round12-public-sources\\transport\\excluded-transport-closeout.json",
+      "standard_number": null,
+      "name": "2024年吉林省普通国省干线公路桥梁定期检查项目",
+      "source_page": null,
+      "download_url": "https://jtyst.jl.gov.cn/zw_133208/zfcg2020/202411/P020241111326512011295.pdf",
+      "discipline": "交通/公路工程",
+      "download_enabled": false,
+      "new_get_performed": false,
+      "scope_status": "excluded",
+      "eligible_for_current_engineering_queue": false,
+      "reason": "桥梁检查项目文件，仅引用CECS，非CECS正文",
+      "prior_url_evidence_files": [
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\search\\round12-public-sources\\scope-normalized-subagents-r12.json",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\search\\round12-public-sources\\transport\\excluded-transport-closeout.json",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\search\\round13-engineering-restored\\queue-engineering-restored-r12.json"
+      ]
+    },
+    {
+      "source_id": "SRC-R13-TRANSPORT-RESTORE-005",
+      "old_record_id": "R12-EXCLUDED-005",
+      "old_source_file": "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\search\\round12-public-sources\\transport\\excluded-transport-closeout.json",
+      "standard_number": null,
+      "name": "2022年度重庆市科学技术奖南岸区拟提名名单",
+      "source_page": null,
+      "download_url": "https://www.cqna.gov.cn/zwxx_254/gsgg/202303/P020230330587842830915.pdf",
+      "discipline": "交通/公路工程",
+      "download_enabled": false,
+      "new_get_performed": false,
+      "scope_status": "excluded",
+      "eligible_for_current_engineering_queue": false,
+      "reason": "科技奖提名名单，仅引用CECS，非CECS正文",
+      "prior_url_evidence_files": [
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\search\\round12-public-sources\\scope-normalized-subagents-r12.json",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\search\\round12-public-sources\\transport\\excluded-transport-closeout.json",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\search\\round13-engineering-restored\\queue-engineering-restored-r12.json"
+      ]
+    }
+  ],
+  "route_observations": [
+    {
+      "source_id": "SRC-R13-TRANSPORT-ROUTE-001",
+      "source_page": "https://www.rioh.cn/col/col130/index.html",
+      "publisher": "交通运输部公路科学研究院",
+      "request_method": "ordinary anonymous GET",
+      "http_status": 200,
+      "title": "标准征求意见",
+      "result": "实际HTML锚点未见CECS G PDF附件；未调用隐藏接口",
+      "pdf_candidate": false,
+      "prior_url_evidence_files": [],
+      "checked_within_round": "2026-10-17T15:07:53+08:00 to 2026-10-17T15:11:13.124630+08:00"
+    },
+    {
+      "source_id": "SRC-R13-TRANSPORT-ROUTE-002",
+      "source_page": "https://www.rioh.cn/art/2019/5/6/art_129_10866.html",
+      "publisher": "交通运输部公路科学研究院",
+      "request_method": "ordinary anonymous GET",
+      "http_status": 200,
+      "title": "关于发布《桥梁混凝土结构无损检测技术规程》的公告",
+      "result": "实际页面未见PDF href；公告元数据路线，不是全文PDF候选",
+      "pdf_candidate": false,
+      "completeness": "未获得规范PDF，不作结论",
+      "prior_url_evidence_files": [],
+      "checked_within_round": "2026-10-17T15:07:53+08:00 to 2026-10-17T15:11:13.124630+08:00"
+    },
+    {
+      "source_id": "SRC-R13-TRANSPORT-ROUTE-003",
+      "source_page": "https://www.instrument.com.cn/zhuti/18604/data.html",
+      "publisher": "仪器信息网",
+      "request_method": "ordinary anonymous GET",
+      "http_status": 403,
+      "result": "当次403后停止；未绕过、未登录、未提取受限下载链接",
+      "pdf_candidate": false,
+      "prior_url_evidence_files": [],
+      "checked_within_round": "2026-10-17T15:07:53+08:00 to 2026-10-17T15:11:13.124630+08:00"
+    },
+    {
+      "source_id": "SRC-R13-TRANSPORT-ROUTE-004",
+      "source_page": "https://jointlessbridges.fzu.edu.cn/cn/info/1005/1058.htm",
+      "publisher": "国际无缝桥联合会（福州大学域名）",
+      "request_method": "ordinary anonymous GET",
+      "http_status": 200,
+      "title": "《公路无伸缩缝桥梁技术规程》(T/CECS G：D60-01-2020)批准发布",
+      "webpage_published_date": "2020-07-01",
+      "standard_effective_date": "2020-08-01",
+      "standard_published_date": null,
+      "standard_number_as_title": "T/CECS G：D60-01-2020",
+      "observed_href": "http://www.csres.com/detail/297556.html",
+      "result": "实际页面链接为csres标准信息页，未见直接PDF附件；未继续跳转下载",
+      "pdf_candidate": false,
+      "current_status": "unknown",
+      "prior_url_evidence_files": [],
+      "checked_within_round": "2026-10-17T15:07:53+08:00 to 2026-10-17T15:11:13.124630+08:00"
+    },
+    {
+      "source_id": "SRC-R13-TRANSPORT-ROUTE-005",
+      "source_page": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=4",
+      "publisher": "北京智博联公开资料页",
+      "request_method": "ordinary anonymous GET",
+      "http_status": 200,
+      "result": "实际锚点为JTG、地方标准及旧CECS21 DOC；未发现CECS G PDF；非CECS附件未GET",
+      "pdf_candidate": false,
+      "observed_non_cecs_pdf_hrefs": [
+        "http://www.zbl.cn/uploadfile/2020/0812/20200812111359439.pdf",
+        "http://www.zbl.cn/uploadfile/2020/0812/20200812111316985.pdf",
+        "http://www.zbl.cn/uploadfile/2020/0812/20200812111235703.pdf"
+      ],
+      "prior_url_evidence_files": [
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\search\\round11-public-sources\\instrument-pages\\round11-instrument-pages.json",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\search\\round12-public-sources\\scope-queue-r12.json",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\search\\round13-engineering-restored\\queue-engineering-restored-r12.json"
+      ],
+      "checked_within_round": "2026-10-17T15:07:53+08:00 to 2026-10-17T15:11:13.124630+08:00"
+    }
+  ],
+  "query_ledger": [
+    {
+      "query_id": "R13-TRANSPORT-Q01",
+      "query": "site:cecs.org.cn 公路 征求意见 pdf",
+      "result_boundary": "仅搜索发现；未将摘要命中作为规范PDF；TTBZ/付费/引用文件均不作为新候选"
+    },
+    {
+      "query_id": "R13-TRANSPORT-Q02",
+      "query": "site:rioh.cn 公路 标准 征求意见 CECS",
+      "result_boundary": "仅搜索发现；未将摘要命中作为规范PDF；TTBZ/付费/引用文件均不作为新候选"
+    },
+    {
+      "query_id": "R13-TRANSPORT-Q03",
+      "query": "\"T/CECS G\" \"征求意见\" \"pdf\" -site:ttbz.org.cn -site:guifanku.com",
+      "result_boundary": "仅搜索发现；未将摘要命中作为规范PDF；TTBZ/付费/引用文件均不作为新候选"
+    },
+    {
+      "query_id": "R13-TRANSPORT-Q04",
+      "query": "\"T/CECS G\" \"附件\" \"pdf\" -site:ttbz.org.cn -site:bzfxw.com -site:guifanku.com",
+      "result_boundary": "仅搜索发现；未将摘要命中作为规范PDF；TTBZ/付费/引用文件均不作为新候选"
+    },
+    {
+      "query_id": "R13-TRANSPORT-Q05",
+      "query": "\"T/CECSG\" filetype:pdf -site:ttbz.org.cn -site:book118.com",
+      "result_boundary": "仅搜索发现；未将摘要命中作为规范PDF；TTBZ/付费/引用文件均不作为新候选"
+    },
+    {
+      "query_id": "R13-TRANSPORT-Q06",
+      "query": "\"CECSG:J\" filetype:pdf -site:ttbz.org.cn",
+      "result_boundary": "仅搜索发现；未将摘要命中作为规范PDF；TTBZ/付费/引用文件均不作为新候选"
+    },
+    {
+      "query_id": "R13-TRANSPORT-Q07",
+      "query": "\"公路桥梁抗震韧性评价标准\" 附件",
+      "result_boundary": "仅搜索发现；未将摘要命中作为规范PDF；TTBZ/付费/引用文件均不作为新候选"
+    },
+    {
+      "query_id": "R13-TRANSPORT-Q08",
+      "query": "\"桥梁混凝土结构无损检测技术规程\" pdf -site:ttbz.org.cn -site:book118.com -site:guifanku.com",
+      "result_boundary": "仅搜索发现；未将摘要命中作为规范PDF；TTBZ/付费/引用文件均不作为新候选"
+    },
+    {
+      "query_id": "R13-TRANSPORT-Q09",
+      "query": "\"桥梁混凝土结构无损检测技术规程\" \"upload\"",
+      "result_boundary": "仅搜索发现；未将摘要命中作为规范PDF；TTBZ/付费/引用文件均不作为新候选"
+    },
+    {
+      "query_id": "R13-TRANSPORT-Q10",
+      "query": "\"公路隧道检测规程\" \".pdf\" -site:book118.com -site:ttbz.org.cn -site:renrendoc.com -site:bzko.com -site:bzfxw.com",
+      "result_boundary": "仅搜索发现；未将摘要命中作为规范PDF；TTBZ/付费/引用文件均不作为新候选"
+    },
+    {
+      "query_id": "R13-TRANSPORT-Q11",
+      "query": "\"T/CECS\" \"G：\" filetype:pdf site:gov.cn -site:ttbz.org.cn",
+      "result_boundary": "仅搜索发现；未将摘要命中作为规范PDF；TTBZ/付费/引用文件均不作为新候选"
+    },
+    {
+      "query_id": "R13-TRANSPORT-Q12",
+      "query": "\"CECS\" \"公路\" 附件下载 site:cecs.org.cn",
+      "result_boundary": "仅搜索发现；未将摘要命中作为规范PDF；TTBZ/付费/引用文件均不作为新候选"
+    },
+    {
+      "query_id": "R13-TRANSPORT-Q13",
+      "query": "\"T/CECS\" \"G:J50\" \".pdf\" 下载 -site:book118.com -site:ttbz.org.cn -site:bzko.com -site:doc88.com",
+      "result_boundary": "仅搜索发现；未将摘要命中作为规范PDF；TTBZ/付费/引用文件均不作为新候选"
+    },
+    {
+      "query_id": "R13-TRANSPORT-Q14",
+      "query": "\"T/CECS G\" pdf 附件 site:edu.cn",
+      "result_boundary": "仅搜索发现；未将摘要命中作为规范PDF；TTBZ/付费/引用文件均不作为新候选"
+    },
+    {
+      "query_id": "R13-TRANSPORT-Q15",
+      "query": "\"T/CECS G\" pdf 附件 site:org.cn -site:ttbz.org.cn",
+      "result_boundary": "仅搜索发现；未将摘要命中作为规范PDF；TTBZ/付费/引用文件均不作为新候选"
+    },
+    {
+      "query_id": "R13-TRANSPORT-Q16",
+      "query": "\"T/CECS G\" pdf 附件 交通科学",
+      "result_boundary": "仅搜索发现；未将摘要命中作为规范PDF；TTBZ/付费/引用文件均不作为新候选"
+    },
+    {
+      "query_id": "R13-TRANSPORT-Q17",
+      "query": "\"公路桥梁\" \"T/CECS\" \"pdf\" \"uploadfile\" -site:ttbz.org.cn",
+      "result_boundary": "仅搜索发现；未将摘要命中作为规范PDF；TTBZ/付费/引用文件均不作为新候选"
+    },
+    {
+      "query_id": "R13-TRANSPORT-Q18",
+      "query": "\"公路\" \"T/CECS\" \"pdf\" \"ueditor\" -site:ttbz.org.cn",
+      "result_boundary": "仅搜索发现；未将摘要命中作为规范PDF；TTBZ/付费/引用文件均不作为新候选"
+    },
+    {
+      "query_id": "R13-TRANSPORT-Q19",
+      "query": "\"公路\" \"T/CECS\" \"pdf\" \"附件\" site:jtj.gz.gov.cn",
+      "result_boundary": "仅搜索发现；未将摘要命中作为规范PDF；TTBZ/付费/引用文件均不作为新候选"
+    },
+    {
+      "query_id": "R13-TRANSPORT-Q20",
+      "query": "\"T/CECS G\" \"公路\" \"全文\" site:rioh.cn",
+      "result_boundary": "仅搜索发现；未将摘要命中作为规范PDF；TTBZ/付费/引用文件均不作为新候选"
+    }
+  ],
+  "permissions": {
+    "public_anonymous_only": true,
+    "credentials_read": false,
+    "account_access": false,
+    "ttbz_opened_or_get": false,
+    "hidden_api_called": false,
+    "tls_verification_disabled": false,
+    "pdf_saved": false,
+    "html_saved": false,
+    "png_saved": false,
+    "transient_parameter_values_saved": false,
+    "git_used": false,
+    "old_inputs_modified": false
+  },
+  "limitations": [
+    "未发现新的实际CECS G规范PDF href；不是全网穷尽结论",
+    "搜索结果中的项目、奖项、其他团体/行业标准及商业资源页不计为CECS规范全文",
+    "本批零新PDF，既有fullB仅恢复工程分类，不重复增加完整数"
+  ]
+}

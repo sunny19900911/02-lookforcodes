@@ -1,0 +1,70 @@
+{
+  "recorded_at": "2026-10-17T15:37:05+08:00",
+  "source_id": "USER-20261017-CECS-PAUSE-AND-SUMMARIZE",
+  "user_request": "现在这个收集可以暂时告一段落。请把之前的整理一下，给我看一个目前初步、简短的结论。",
+  "collection_status": "paused_by_user",
+  "automation": {
+    "id": "cecs",
+    "status": "PAUSED",
+    "tool_receipt_verified_in_toml": true
+  },
+  "roles": {
+    "search": "已确认暂停，无在途工具；只保留已有冻结和地区metadata",
+    "pdf-audit": "已确认暂停；1510固定63，后续两件已下载材料仅pending未闭环，子审已中断",
+    "catalog": "已确认暂停新增收集；1510新版尚未构建，允许仅对已固定材料保存收尾，不扩来源"
+  },
+  "preliminary_verified_evidence": {
+    "audit_snapshot": "pdf-audit/audit-results-freeze-1510.json",
+    "sha256": "815565100ff8959e609b223af1c64e43451b98fbb4cb1dfc83ddcd5f778c4449",
+    "audits": 63,
+    "formal_complete_links": 14,
+    "formal_complete_versions": 12,
+    "formal_complete_unique_pdfs": 12,
+    "complete_drafts": 5,
+    "new_downloads_not_reviewed_complete": 2,
+    "ratings": {
+      "A": 0,
+      "B": 19,
+      "C": 18,
+      "D": 26
+    }
+  },
+  "current_available_workbook_at_pause": {
+    "status": "previous_verified_workbook_pending_1510_consolidation",
+    "identities": 1008,
+    "links": 146,
+    "audits_merged": 48,
+    "formal_complete_links": 14,
+    "complete_drafts_merged": 2,
+    "sha256": "d43f48f992396601ca9d5b35f25dafd86bc89ef3fc0aa2c32a78da6f26d77324"
+  },
+  "limits": [
+    "目录身份数量不等于已获得全文，不是全国CECS总数",
+    "完整PDF不自动确认现行性或具体工程适用性",
+    "地区分类为下载来源省市，证据已整理但新版Excel当时尚未生成",
+    "后续仅收尾已有固定成果，未经用户要求不恢复新增检索或下载"
+  ],
+  "fixed_materials_cleanup": {
+    "status": "sealed_and_controller_independently_verified",
+    "generated_at_beijing": "2026-10-17T15:38:04.157000+08:00",
+    "identities": 1288,
+    "links": 163,
+    "audits": 63,
+    "formal_complete_links": 14,
+    "formal_complete_versions": 12,
+    "formal_complete_unique_pdfs": 12,
+    "complete_drafts": 5,
+    "download_source_region_counts": {
+      "total_links": 163,
+      "province_evidenced_links": 21,
+      "city_evidenced_links": 17,
+      "fully_identified_links": 17,
+      "partial_links": 4,
+      "pending_links": 142,
+      "standards_with_download_links": 121
+    },
+    "xlsx_sha256": "1de0ac6fced1d8f7dcc1a507f62f27fdc83a9d96839020eda4b872ffa0b1f73d",
+    "source_collection_remains_paused": true,
+    "catalog_receipt": "catalog/freeze-1510-receipt.json"
+  }
+}

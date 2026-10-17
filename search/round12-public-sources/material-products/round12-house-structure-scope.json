@@ -1,0 +1,127 @@
+{
+  "schema_version": "cecs-r12-house-structure-scope-projection-v1",
+  "source_id": "SCOPE-R12-MATERIAL-PRODUCTS-20261017",
+  "generated_at_utc": "2026-10-17 07:03:03 UTC",
+  "scope": "紧急收窄为房屋结构设计，仅复用中断前已有证据，未发起新检索或GET",
+  "prior_r12_files_written": [],
+  "formal_candidate_count": 0,
+  "retained_structural_draft_candidate_count": 1,
+  "excluded_route_count": 1,
+  "candidates": [],
+  "retained_structural_draft_candidates": [
+    {
+      "candidate_id": "R12-STRUCT-DRAFT-001",
+      "source_id": "SRC-R12-STRUCT-DRAFT-001",
+      "seed_ids": [],
+      "standard_number": "T/CECS ×××××-2022",
+      "standard_name": "钢网格结构螺栓球节点用封板、锥头和套筒",
+      "year": 2022,
+      "is_draft": true,
+      "draft_type": "征求意见稿",
+      "format": "PDF",
+      "download_url": "https://cnass.cn/upload/gjgfenhui/file/20221006/1665033581390787.pdf",
+      "direct_url": "https://cnass.cn/upload/gjgfenhui/file/20221006/1665033581390787.pdf",
+      "original_url": "https://cnass.cn/upload/gjgfenhui/file/20221006/1665033581390787.pdf",
+      "final_url": "https://cnass.cn/upload/gjgfenhui/file/20221006/1665033581390787.pdf",
+      "source_page": "https://cnass.cn/upload/gjgfenhui/file/20221006/1665033581390787.pdf",
+      "detail_url": null,
+      "parent_page_status": "具体附件父页未定位；source_page为实际PDF；协会标准目录仅提供同名正式版本线索，不能当此附件父页",
+      "download_enabled": false,
+      "scope_status": "可保留为结构直接连接构件的草案候选；房屋项目适用边界与文件审查待判，停止下载",
+      "scope_reason": "不是依据钢字推断：所见封面明确为钢网格结构螺栓球节点用封板、锥头和套筒，属于网格承重结构节点的直接连接构件；前言明确按产品标准编制，主编浙江东南网架股份有限公司和北京工业大学。仍不推断其适用于所有房屋。",
+      "metadata_evidence": [
+        {
+          "source_id": "SRC-R12-STRUCT-DRAFT-001-COVER",
+          "url": "https://cnass.cn/upload/gjgfenhui/file/20221006/1665033581390787.pdf",
+          "kind": "中断前web工具已解析PDF第一页",
+          "evidence": "封面编号为五位占位T/CECS ×××××-2022，题名为钢网格结构螺栓球节点用封板、锥头和套筒，明确标征求意见稿。"
+        },
+        {
+          "source_id": "SRC-R12-STRUCT-DRAFT-001-PREFACE",
+          "url": "https://cnass.cn/upload/gjgfenhui/file/20221006/1665033581390787.pdf",
+          "kind": "中断前PDF前言解析",
+          "evidence": "主编浙江东南网架股份有限公司、北京工业大学；文本说明按GB/T20001.10产品标准编制。"
+        },
+        {
+          "source_id": "SRC-R12-STRUCT-DRAFT-001-FORMAL-LEAD",
+          "url": "https://m.cnass.cn/site/term/37.html",
+          "kind": "中断前协会目录/搜索索引",
+          "evidence": "目录列同名T/CECS10300-2023，2023-11-08。仅作正式版本线索，不将2022占位草案改挂正式号。"
+        }
+      ],
+      "access_before_scope_change": {
+        "url": "https://cnass.cn/upload/gjgfenhui/file/20221006/1665033581390787.pdf",
+        "method": "GET",
+        "checked_at": "2026-10-17T14:59:16.938640+08:00",
+        "pdf_saved": false,
+        "existing_url": false,
+        "dedup_unique_urls": 166,
+        "http_status": 200,
+        "final_url": "https://cnass.cn/upload/gjgfenhui/file/20221006/1665033581390787.pdf",
+        "content_type": "application/pdf",
+        "content_length": "472725",
+        "bytes_read": 16,
+        "pdf_signature": true
+      },
+      "full_text_review_status": "未审查完整性；仅普通GET读取前16bytes，未保存PDF/PNG",
+      "permissions": {
+        "source_type": "中国钢结构协会空间结构分会域名静态附件",
+        "public_get_observed": true,
+        "reprint_authorization": "未核实，公开访问不等于转载授权"
+      },
+      "dedup": {
+        "checked_at": "2026-10-17T14:59:16+08:00",
+        "against": "当前master requested_url及search全JSON递归download_url",
+        "unique_existing_urls": 166,
+        "exact_duplicate": false
+      },
+      "related_formal_standard_hint": "T/CECS 10300-2023（仅目录线索，不是此文件编号）"
+    }
+  ],
+  "excluded_routes": [
+    {
+      "source_id": "SRC-R12-EXCLUDED-GREEN-10045",
+      "seed_ids": [],
+      "standard_number": "T/CECS 10045-2019",
+      "standard_name": "绿色建材评价 空气净化材料",
+      "download_url": "https://zqc.apisms.com/soft/bmt/uploads/setting/prod_ver/169890492595.pdf",
+      "source_page": "https://zqc.apisms.com/soft/bmt/uploads/setting/prod_ver/169890492595.pdf",
+      "download_enabled": false,
+      "scope_status": "排除",
+      "scope_reason": "绿色建材评价/空气净化材料，已有证据不能证明属于房屋承重结构设计直接材料技术。",
+      "access_before_scope_change": {
+        "url": "https://zqc.apisms.com/soft/bmt/uploads/setting/prod_ver/169890492595.pdf",
+        "url_sha256": "6b4cbbe089ad88b649641a340978f9753ff1005f9d5be984491d78421a5dc40e",
+        "method": "GET",
+        "checked_at": "2026-10-17T14:58:15.534341+08:00",
+        "pdf_saved": false,
+        "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f",
+        "existing_url": false
+      },
+      "action": "普通GET证书名称不匹配后已停止，未关闭证书验证。"
+    }
+  ],
+  "other_exclusions": [
+    {
+      "category": "绿色认证规则/认证目录/企业名录/技术评价报告/公告",
+      "scope_status": "排除",
+      "download_enabled": false,
+      "evidence": "中断前搜索结果只见引用标准、认证实施细则或名录，不作标准正文；没有为这些材料发起GET。"
+    }
+  ],
+  "not_presumed_in_scope": [
+    "既有10025/10032仅因材料或混凝土关键词不能自动保留；本角色未在R12重新下载或计数",
+    "正式10300是否适用于房屋结构设计及此草案与正式文件的一致性待人工判定"
+  ],
+  "restrictions": {
+    "new_search_after_scope_change": false,
+    "new_get_after_scope_change": false,
+    "download_enabled_for_all_routes": false,
+    "pdf_saved": false,
+    "html_saved": false,
+    "png_saved": false,
+    "transient_parameter_values_saved": false,
+    "old_frozen_files_modified": false,
+    "git_used": false
+  }
+}

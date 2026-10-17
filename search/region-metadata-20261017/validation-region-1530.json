@@ -1,0 +1,108 @@
+{
+  "source_id": "SEARCH-REGION-VALIDATION-1530-20261017",
+  "checked_at": "2026-10-17T15:33:11+08:00",
+  "previous_frozen_inputs": [
+    {
+      "path": "search/freeze-inputs-1320.json",
+      "sha256": "dba3baee49dcbfcdf5711f3175dfdc986b5369b55103a1034a2d8d1e2338024c",
+      "files": 19,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "path": "search/freeze-inputs-1330.json",
+      "sha256": "cbaca0e020a0490acd481ca458253bfa76f12d4f2504ef12723e274dd5d30ff4",
+      "files": 12,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "path": "search/freeze-inputs-1340-water-mep-addendum-v2.json",
+      "sha256": "508185ceab7f8930993e1f0dfe37c6f1551350165134417f898eafc735609dda",
+      "files": 4,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "path": "search/freeze-inputs-1340-water-mep-addendum.json",
+      "sha256": "1e25d7f559f47368e3f17446ba2bccb0d13a8260231df7a44e40cbc394fed609",
+      "files": 3,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "path": "search/freeze-inputs-1340.json",
+      "sha256": "964794e5ab1f8b044d495907e2da04a559fb0b211466708ce963b8c643472fb9",
+      "files": 12,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "path": "search/freeze-inputs-1400.json",
+      "sha256": "a02d910b3e4f1db769eda1d11e68ff7a9adb005ae2ed834bc0284f0e3b749519",
+      "files": 13,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "path": "search/freeze-inputs-1420.json",
+      "sha256": "cc3118242ffa6b13e530ef48678adacb5a6fc9a2d0fe553f39be2ca6e66df2ed",
+      "files": 11,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "path": "search/freeze-inputs-1430.json",
+      "sha256": "3974c2d6470358bce3c086132f783d963e351988ab4bf18450def551067d5722",
+      "files": 10,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "path": "search/freeze-inputs-1440.json",
+      "sha256": "c6da85fcbe8c2c3a5a54166ee03eacee36f0c1b5f7de58eadb398686525d0be7",
+      "files": 11,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "path": "search/freeze-inputs-1500-scope-transition.json",
+      "sha256": "19ccfcdd7f137dbfee2f279799c2edda793ac08a1a39bb92e2691f86c596e148",
+      "files": 11,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "path": "search/freeze-inputs-1510-engineering-restored.json",
+      "sha256": "43eb548866b5b196b0b1445e298d5960af399c34cce28351d8687ed60f0edadc",
+      "files": 17,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "path": "search/freeze-inputs-g2-round02-share-1350.json",
+      "sha256": "42506bcb9964f302335cff5524621bdda7a9d0091dc876a9e126a67e02cfdd31",
+      "files": 1,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "path": "search/freeze-inputs-round04.json",
+      "sha256": "b80eac1da1fe05fb68b9566b25a24c9fce38a37a4d8be1366a7061ecceeeeca7",
+      "files": 9,
+      "unchanged": true,
+      "failures": []
+    }
+  ],
+  "structured_json_valid": true,
+  "official_identity_and_address_separate": true,
+  "match_only_two_specific_hosts": true,
+  "exact_url_mapping_targets": 5,
+  "partial_city_not_guessed": true,
+  "unknown_identity_not_mapped": true,
+  "pdf_get": 0,
+  "new_standards": 0,
+  "master_or_excel_written": false,
+  "wrong_charset_observation_not_selected": "universities/platform-identity-observations.json",
+  "ancillary_beijing_evidence_not_current_university_registry": true
+}

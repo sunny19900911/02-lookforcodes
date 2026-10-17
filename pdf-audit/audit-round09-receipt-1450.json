@@ -1,0 +1,71 @@
+{
+  "checkpoint": "1450",
+  "frozen_at": "2026-10-17T14:53:23+08:00",
+  "updated_at": "2026-10-17T14:51:08+08:00",
+  "status": "independent_pending_freeze_not_canonical",
+  "snapshot": "audit-pending-round09-freeze-1450.json",
+  "sha256": "cf0dd59afb35b348b277f5b2b1437741dd995f947cc3c327faa002970b9572ff",
+  "audited_link_candidate_count": 7,
+  "source_main_candidate_count": 6,
+  "additional_public_alternate_tested": 1,
+  "ordinary_get_attempt_count": 7,
+  "new_parseable_pdf_links": 4,
+  "new_unique_content_hashes_vs_previous": 3,
+  "known_duplicate_content_link": "R11-INST-PDF-001 matches R01-G4-009/ALT",
+  "formal_complete_added": 0,
+  "complete_draft_added": 0,
+  "pending_ratings": {
+    "D": 6,
+    "C": 1
+  },
+  "d_categories": {
+    "known_incomplete_readable_pdf": 3,
+    "html_verification_challenge": 1,
+    "http403": 1,
+    "tls_hostname_mismatch": 1
+  },
+  "canonical_count": 48,
+  "canonical_sha256": "a81a40dfff05c0bd437b99875baba5efc7f540c05ae9c59437aceb66d5aa65e2",
+  "predecessor_pending": [
+    "audit-pending-round07-freeze-1430.json",
+    "audit-pending-round08-fixed-r10.json"
+  ],
+  "source_inputs": [
+    {
+      "path": "search/round11-public-sources/candidates-r11-root.json",
+      "sha256": "781acda888f40af1be55f824fc22e6f25225c1c4d8e295450ed4dda1fbda907a"
+    },
+    {
+      "path": "search/round11-public-sources/instrument-pages/round11-instrument-pages.json",
+      "sha256": "c2e76731ffe5d5a025af8f688ddfd672028ce6aa5a40ea8d1c63fbedbcba7c96"
+    },
+    {
+      "path": "search/freeze-inputs-1440.json",
+      "sha256": "c6da85fcbe8c2c3a5a54166ee03eacee36f0c1b5f7de58eadb398686525d0be7"
+    }
+  ],
+  "derived_alternate_input": {
+    "path": "pdf-audit/candidates-r11-alt31.json",
+    "sha256": "4e420a740958b2fbbbbdfb357fc65a77912a20421f5f53d05c424aa6c1e7ff9d",
+    "relation": "one existing search alternative URL, independent host ordinary GET, no operation of primary-site challenge"
+  },
+  "prospective_if_all_three_pending_selected": {
+    "result_count": 63,
+    "formal_complete_links": 14,
+    "formal_complete_versions": 12,
+    "formal_complete_hashes": 12,
+    "complete_drafts": 5,
+    "ratings": {
+      "D": 26,
+      "C": 18,
+      "B": 19
+    }
+  },
+  "boundaries": [
+    "No canonical merge until new master checkpoint authorization.",
+    "1555/200/02 are readable but known incomplete; D applies full-standard recommendation, not a claim all pages unusable.",
+    "197 C: 18/20/22 not proved blank; printed-page group outline not chapter outline.",
+    "Raw HTML and challenge/transient values are excluded from shared audit data; no CAPTCHA interaction or TLS bypass.",
+    "No PDF/image upload or Git operations by audit role."
+  ]
+}

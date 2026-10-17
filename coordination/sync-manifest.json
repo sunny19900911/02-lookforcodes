@@ -1,428 +1,59 @@
 {
-  "checked_at": "2026-10-17T14:42:37.242912+08:00",
+  "checked_at": "2026-10-17T15:46:31.695624+08:00",
   "copied": [
     {
-      "path": "catalog/audit-identity-core.mjs",
-      "size": 1898,
-      "sha256": "5f2ac0a1430ca8cdb4b86a634e4520ebbbad7bf22348392d1f09da8c3d392c93"
+      "path": "catalog/discussion-1510-merge.md",
+      "size": 3506,
+      "sha256": "22074384e37e3177c85748aa72aab271a6ce3c46a47b0b6651e9e4ef702ad141"
     },
     {
-      "path": "catalog/audit-identity-core.test.mjs",
-      "size": 3747,
-      "sha256": "95df42a013536d1ecf1f680b6c0d75d95a2102a9c09104de08f1533c374dc0e9"
+      "path": "catalog/freeze-1510-receipt.json",
+      "size": 4608,
+      "sha256": "dc78c1e17d2ea1a4b51765e50b08e51ebb0a790e238e7dad980b3e0fb5e9445e"
     },
     {
-      "path": "catalog/build-catalog.mjs",
-      "size": 75815,
-      "sha256": "f2c8ea6c48718de5942168af4d728188cab6ce1446d5be6d4a5b635f6df9c3bb"
-    },
-    {
-      "path": "catalog/cecs-master.json",
-      "size": 8942697,
-      "sha256": "c78cabf007821b7bf79e0f7946fc84a5241c9cddb3c72ec83efadb7e1a4dce5d"
-    },
-    {
-      "path": "catalog/CECS可下载PDF总表.xlsx",
-      "size": 805707,
-      "sha256": "d43f48f992396601ca9d5b35f25dafd86bc89ef3fc0aa2c32a78da6f26d77324"
-    },
-    {
-      "path": "catalog/change-log.jsonl",
-      "size": 669275,
-      "sha256": "bece3cdedb4fe8513777ca26bc9239b18d0fe5a0bf59401f7f0b59ed3d1de9af"
-    },
-    {
-      "path": "catalog/discussion-1410-merge.md",
-      "size": 2803,
-      "sha256": "b08c9ac722f7d02ad149719a3d3d1a976e911d1edd8a441baa74baf7f55b4e0a"
-    },
-    {
-      "path": "catalog/freeze-1410-receipt.json",
-      "size": 3156,
-      "sha256": "0e69c9cb533fbc6f29b3acdc5d335db6aa8cbaeeb6f26eead1835d556db13ac8"
-    },
-    {
-      "path": "catalog/freeze-1410-validation.json",
-      "size": 18488,
-      "sha256": "f17368e1175a6396c27fb192fcb8fd4e0aa23fa3e12ab5e4584d723f00fcb847"
+      "path": "catalog/freeze-1510-validation.json",
+      "size": 28634,
+      "sha256": "5343554e2fc628457bb4b3e385763bfe1cf896ea34aaec4cbdf8dd3995037656"
     },
     {
       "path": "catalog/handoff.md",
-      "size": 19877,
-      "sha256": "acb43493eeae02f4e9d56909ef47459ff673e157c20fd99ac42b5ee467205e88"
+      "size": 23423,
+      "sha256": "496e166f3ac757d666d56b16c44a0dfb5fcdc2973eedc6d508c3e72ffcbc576a"
     },
     {
-      "path": "catalog/inputs-1410-receipt.json",
-      "size": 13027,
-      "sha256": "dca378d7d65cd607698c1547e0a0721fc7eef4fe60d50dc95d585bd40aa244ca"
-    },
-    {
-      "path": "catalog/inspect-saved-workbook.mjs",
-      "size": 2951,
-      "sha256": "208953ea004cb81371adfeaeaf248fd8eeaa30b17b2ed8e222159e421bd70cb9"
-    },
-    {
-      "path": "catalog/native-hyperlinks.json",
-      "size": 481384,
-      "sha256": "2f1f1ced751d49604373bb93e9cfb54a64763c08a2f27cbea7a8b9aa047f206f"
+      "path": "catalog/inputs-1510-receipt.json",
+      "size": 20160,
+      "sha256": "457048ee4ca661e4a7837e02bd23c3da62ef627f1174d4ddf40a45bce2240979"
     },
     {
       "path": "catalog/pending-next-round.md",
-      "size": 17277,
-      "sha256": "79a871aad9a75fbc4111cede77701e1987ec6cf1b6441f77be264bad0683a949"
-    },
-    {
-      "path": "catalog/seal-current-freeze.mjs",
-      "size": 7099,
-      "sha256": "43dd5c875ec3b1d03e9ec436bffc7727011dcb8aac50aac10e326b96fee27b2e"
-    },
-    {
-      "path": "catalog/seed-index.json",
-      "size": 107638,
-      "sha256": "0474520cc3f78c5913097c6a7bc4d5a21e802d44330479597157440fecae3553"
+      "size": 20866,
+      "sha256": "6849eb668f75b447ac047a94fcd7c8d3bcf712b328156632768f2f701e405341"
     },
     {
       "path": "catalog/sharing-validation.json",
-      "size": 1676,
-      "sha256": "d4fcaf5944d55ff6969383209e37bd9b3ed6c517616436885cdf1edd7266d17d"
+      "size": 2411,
+      "sha256": "ee7a79fe0fd2c5d54595e6a495c26fce897a38993d65b330c570f5f8cc3638b8"
     },
     {
-      "path": "catalog/verify-freeze-1410.mjs",
-      "size": 26319,
-      "sha256": "f4d41a0a3413d371a597e8bbbbc93389f9fca5ace880732acb23e94ab6b4a32e"
-    },
-    {
-      "path": "catalog/verify-workbook.py",
-      "size": 6786,
-      "sha256": "5d59868a7a91f9459e139ca543d7c09a05b1c8904864a1ebc7834742a2b4cbc2"
+      "path": "catalog/verify-freeze-1510.mjs",
+      "size": 42629,
+      "sha256": "30b865171e4adad1e0e37e6befaca8c870bba1d505bbe50ed2ef7850b9c2de73"
     },
     {
       "path": "catalog/workbook-build-receipt.json",
-      "size": 2460,
-      "sha256": "8f560a4d7ebe2e254e128ccdfa9cda3fdc59835c38e6764c72d27af4d2e0f352"
-    },
-    {
-      "path": "catalog/workbook-inspection.json",
-      "size": 10881,
-      "sha256": "c937d84e8ab5d289216c0fe2c01bab79e676e02c15bd82c61f4d26581b2b41e7"
-    },
-    {
-      "path": "catalog/workbook-validation.json",
-      "size": 1523,
-      "sha256": "55a53eaed8c0a2e6fc186f1428a7ace6ae6a890bbcd4f71749f6b21b6c0032bb"
-    },
-    {
-      "path": "pdf-audit/audit-pending-round06-freeze-1410.json",
-      "size": 76127,
-      "sha256": "455b212b19fd80b644aa82c64e5592d07e35fc27fd462c99571dbd6fdebb4b57"
-    },
-    {
-      "path": "pdf-audit/audit-pending-round06.json",
-      "size": 76127,
-      "sha256": "455b212b19fd80b644aa82c64e5592d07e35fc27fd462c99571dbd6fdebb4b57"
-    },
-    {
-      "path": "pdf-audit/audit-pending-round07-freeze-1430.json",
-      "size": 46082,
-      "sha256": "1f75a6b1536d5265a2a8cb814e1c2d1c7630de38d9dd49ec707650a174aebe0f"
-    },
-    {
-      "path": "pdf-audit/audit-pending-round07.json",
-      "size": 46082,
-      "sha256": "1f75a6b1536d5265a2a8cb814e1c2d1c7630de38d9dd49ec707650a174aebe0f"
-    },
-    {
-      "path": "pdf-audit/audit-pending-round08-fixed-r10.json",
-      "size": 12662,
-      "sha256": "b85f429140403811b90b5215ca38ab9c45d420705073ccb55c93f072805843e5"
-    },
-    {
-      "path": "pdf-audit/audit-pending-round08.json",
-      "size": 12662,
-      "sha256": "b85f429140403811b90b5215ca38ab9c45d420705073ccb55c93f072805843e5"
-    },
-    {
-      "path": "pdf-audit/audit-pending-round09.json",
-      "size": 23020,
-      "sha256": "32c5a89f33621adde751b5da0936e6fb313d2bea677bb4fd92bd381a98ab61af"
-    },
-    {
-      "path": "pdf-audit/audit-results-freeze-1410.json",
-      "size": 319153,
-      "sha256": "a81a40dfff05c0bd437b99875baba5efc7f540c05ae9c59437aceb66d5aa65e2"
-    },
-    {
-      "path": "pdf-audit/audit-results.json",
-      "size": 319153,
-      "sha256": "a81a40dfff05c0bd437b99875baba5efc7f540c05ae9c59437aceb66d5aa65e2"
-    },
-    {
-      "path": "pdf-audit/audit-round06-receipt-1410.json",
-      "size": 2218,
-      "sha256": "5348f2f9e44cadb93c57151a4aaad1212baafeb3cf485fe24871e39d50366353"
-    },
-    {
-      "path": "pdf-audit/audit-round07-receipt-1430.json",
-      "size": 2354,
-      "sha256": "37296cb3549302848f6b7ade61c4a7fbf26539ff758558ee5cc9643ddc6f8c69"
-    },
-    {
-      "path": "pdf-audit/audit-round08-receipt-r10.json",
-      "size": 2102,
-      "sha256": "4f46df931ca8077717fad84cd17320cc530ae6aaba53c8b03ea6b4f2ddaeb596"
-    },
-    {
-      "path": "pdf-audit/audit_pdf.py",
-      "size": 11927,
-      "sha256": "4e47afc58cc03bec7d28ab79701eb660b411155767dd1d74fcdfb78dbc6aa949"
-    },
-    {
-      "path": "pdf-audit/candidates-r11-alt31.json",
-      "size": 1922,
-      "sha256": "4e420a740958b2fbbbbdfb357fc65a77912a20421f5f53d05c424aa6c1e7ff9d"
-    },
-    {
-      "path": "pdf-audit/discussion-1410.md",
-      "size": 2188,
-      "sha256": "e70c45a7f02e268fdcf59570101d9c639fccc6619e2e966b0f39eb56aa06df52"
-    },
-    {
-      "path": "pdf-audit/discussion-1430.md",
-      "size": 1642,
-      "sha256": "fc1989e51e59d69a046227cf78d28701f136ab7c2660d8a0869af6c6843c2fee"
-    },
-    {
-      "path": "pdf-audit/discussion-1440.md",
-      "size": 1240,
-      "sha256": "962382f2c747fb481a65eccb39dcc923e7ecd9fc0df111c013dc7a679fe5866a"
-    },
-    {
-      "path": "pdf-audit/evidence-85-repeal-cecs69-94.json",
-      "size": 1873,
-      "sha256": "442e9485aae9fed84a118ebfdc0365e80bb2328ef05ba901958274a81178f95e"
-    },
-    {
-      "path": "pdf-audit/finalize_round06.py",
-      "size": 18905,
-      "sha256": "416a9ff286ad01c4167db1f7d8dd90d3f11693f878f4a1a61e5e446a47618733"
-    },
-    {
-      "path": "pdf-audit/finalize_round07.py",
-      "size": 12594,
-      "sha256": "5d0c49b5de398c1a6ece387c416b74f37c70d64edaa3c6e738d97960ca84b837"
-    },
-    {
-      "path": "pdf-audit/freeze-1410-receipt.json",
-      "size": 2057,
-      "sha256": "d71f1bc3f3dd5089cfe1b5baac22d652b8cfd8dea23585950c05d5ef7b9b3943"
-    },
-    {
-      "path": "pdf-audit/merge_round06_checkpoint.py",
-      "size": 4830,
-      "sha256": "34463c48d67da3092a2ad945c612e4f9b18d9ca64b8a12b44a40540ed47c36e8"
-    },
-    {
-      "path": "pdf-audit/round06-independent-check-1410.json",
-      "size": 754,
-      "sha256": "7ba68a9c55a22d170a2d812b8d6ed9d0e5cd30326b6ad8ee2def16899e37368a"
-    },
-    {
-      "path": "pdf-audit/round07-independent-check-1430.json",
-      "size": 468,
-      "sha256": "5229b05d85b10ec5462c90d6aae35a90d047e5cbda72790efb547e1ad16976dd"
-    },
-    {
-      "path": "pdf-audit/round08-independent-check-r10.json",
-      "size": 728,
-      "sha256": "889a2058cc02ee60154fabba4fe574565a8d8bde492fa6536f28b36010547ce2"
-    },
-    {
-      "path": "search/discussion-1420.md",
-      "size": 2563,
-      "sha256": "90d0d510e438bdbb3dea28ad12a58c85c692fe75c0373272197ebbf7f91dd502"
-    },
-    {
-      "path": "search/discussion-1430.md",
-      "size": 2736,
-      "sha256": "b0c72e6956a87c8e88d00c9d3872ce3c6243361873f361ab4a41aa6690906378"
-    },
-    {
-      "path": "search/freeze-inputs-1420.json",
-      "size": 3704,
-      "sha256": "cc3118242ffa6b13e530ef48678adacb5a6fc9a2d0fe553f39be2ca6e66df2ed"
-    },
-    {
-      "path": "search/freeze-inputs-1430.json",
-      "size": 3634,
-      "sha256": "3974c2d6470358bce3c086132f783d963e351988ab4bf18450def551067d5722"
-    },
-    {
-      "path": "search/master-authority/freeze-ttbz-p1-1410.json",
-      "size": 506,
-      "sha256": "79b4ee21c539b0750e792c524fba0ae0d850d3112370a02aa3512d280bf6edf7"
-    },
-    {
-      "path": "search/master-authority/ttbz-ui-observed-20261017-p1.json",
-      "size": 13044,
-      "sha256": "da0251d1ee5dfe9dac0cac6721a7d3e793e40f596ebb9b028c38ebf977ad2cd7"
-    },
-    {
-      "path": "search/round09-new-sources/audit-observation-69-r09.json",
-      "size": 942,
-      "sha256": "5799c9ab8d89ba357c5446b9c80b748dd70ee0b020718cde195a9be1f4c444af"
-    },
-    {
-      "path": "search/round09-new-sources/build-root-r09.py",
-      "size": 7784,
-      "sha256": "2ebb6f5d0921caaca6751237cecfc24ca39f6e1b180eb86ea2acc660364d37cb"
-    },
-    {
-      "path": "search/round09-new-sources/candidates-r09-root-share.json",
-      "size": 12326,
-      "sha256": "e06bc88574152717b0aa0e49bcce149f436f19701079be3e9ece13c297856ef3"
-    },
-    {
-      "path": "search/round09-new-sources/check-public-pdf-routes-r09.py",
-      "size": 1839,
-      "sha256": "0f777575eba21561bf0ab56193e29b074aad7b2bc5732b172cb440b881c0ff7e"
-    },
-    {
-      "path": "search/round09-new-sources/freeze-r09.py",
-      "size": 10952,
-      "sha256": "19d797094da267cf2c5ab7df37667f76c4dd65f27d9b760718885f84339d6e23"
-    },
-    {
-      "path": "search/round09-new-sources/public-route-observations-r09.json",
-      "size": 1864,
-      "sha256": "67865e6ca44bfdc9d71e52a06ebe24aaa9de69b47be366a035b7ef95a96bd2c6"
-    },
-    {
-      "path": "search/round09-new-sources/quality-feedback-r09-audit-1410.json",
-      "size": 11452,
-      "sha256": "bca69bee62f62dcfe0dac3f1ce6d787baae27b8771094d41359e254fb35b5ae9"
-    },
-    {
-      "path": "search/round09-new-sources/query-ledger-r09-root.json",
-      "size": 3582,
-      "sha256": "5ad5cd6072dea89f002ca2eb9e707432a288377804a60965a42505f20b04d526"
-    },
-    {
-      "path": "search/round09-new-sources/recent-directory/recent-directory-r09.json",
-      "size": 234257,
-      "sha256": "91436f5d85fa8df1861994d71566f38a72e3a126a3b6c84ac3f02a5ef470436d"
-    },
-    {
-      "path": "search/round09-new-sources/recent-directory/validation-r09.json",
-      "size": 1782,
-      "sha256": "cbf05885958c9f70f5c73d12ec2cde2a3b6e06e1cc33a667aae4e5e54673924c"
-    },
-    {
-      "path": "search/round09-new-sources/state-r09.json",
-      "size": 2520,
-      "sha256": "9d0cccd353a3e78bf503159bbf5558ba67db73396d46c6759cd3eac8c850a77e"
-    },
-    {
-      "path": "search/round09-new-sources/validation-r09-root.json",
-      "size": 1015,
-      "sha256": "afecc9418caa12e85e68905810d777b320d6cc00077edbb2f3ca4d29fd65a430"
-    },
-    {
-      "path": "search/round09-new-sources/water-mep/round09-water-mep-candidates.json",
-      "size": 15251,
-      "sha256": "172817225816b9cfcfbb52a591ef87ea15e4a551bd360a2e22a42dbe50beaadd"
-    },
-    {
-      "path": "search/round10-public-sources/audit-canonical-1410-receipt-r10.json",
-      "size": 839,
-      "sha256": "97d1e63aa8258b86e3b17b9198663434728d9cbcc8ae336d60e3e1c8fdd71c00"
-    },
-    {
-      "path": "search/round10-public-sources/candidates-r10-detection.json",
-      "size": 4559,
-      "sha256": "0c6ec696308986f650354115279d84384acc920cb63633440b97dd88489e7df0"
-    },
-    {
-      "path": "search/round10-public-sources/foundation/round10-foundation-search.json",
-      "size": 13424,
-      "sha256": "3a713fae13242298124a9dd7c3ec79e4641448a69c02cb5af09de2c843fb43fd"
-    },
-    {
-      "path": "search/round10-public-sources/freeze-r10.py",
-      "size": 9374,
-      "sha256": "9eb62fef8754cf02c92de1261edbe87f1db4af9c1b4cc7a3020ff6ac7aa08711"
-    },
-    {
-      "path": "search/round10-public-sources/instrument-observations-r10.json",
-      "size": 2548,
-      "sha256": "8d042eb83ea05262761e7d634d3d9d197b05721e53d3341544249390c5b9e16b"
-    },
-    {
-      "path": "search/round10-public-sources/monthly-directory/monthly-directory-r10.json",
-      "size": 242254,
-      "sha256": "d457d36600059e68a7c30377bfa2b73091ce1f42b8bd6de41f9417a8be32911c"
-    },
-    {
-      "path": "search/round10-public-sources/monthly-directory/validation-r10.json",
-      "size": 5155,
-      "sha256": "97b7920cf80e9ec1a3753b4d7e58fb81d99fab097203525ab8e7a364ff476ac7"
-    },
-    {
-      "path": "search/round10-public-sources/probe-instrument-pages-r10.py",
-      "size": 2414,
-      "sha256": "aeff3cf23ee8d6240f951e1571bad47bcd83810efae99ae0e60ff2344f4c6b03"
-    },
-    {
-      "path": "search/round10-public-sources/query-ledger-r10-root.json",
-      "size": 3325,
-      "sha256": "37adcd0fcb18d832e4e5ce01683bd44e14a7bf100e8fc3b25f0db4bb99e35d91"
-    },
-    {
-      "path": "search/round10-public-sources/state-r10.json",
-      "size": 2343,
-      "sha256": "c7c0802cd6c4dc5e508a7c03dc6a1b5854eeb73a7f2e383cd643d7b3a3e60997"
-    },
-    {
-      "path": "search/round10-public-sources/validation-r10-root.json",
-      "size": 551,
-      "sha256": "136b7382c3453e6be61b1c718cda40617dd5909847c0ec5e8f19668590c0881d"
-    },
-    {
-      "path": "search/round11-public-sources/alternate-route-41-r11.json",
-      "size": 621,
-      "sha256": "9e09f3c145f155dc44571814bd4472e9fabe3b5c996407388efdaaa2e87a77ee"
-    },
-    {
-      "path": "search/round11-public-sources/build-root-r11.py",
-      "size": 7032,
-      "sha256": "8c0885082992e02191d963c602a627b4c1967b067c31a08feec2cb3fa8068bb2"
-    },
-    {
-      "path": "search/round11-public-sources/candidates-r11-root.json",
-      "size": 8799,
-      "sha256": "781acda888f40af1be55f824fc22e6f25225c1c4d8e295450ed4dda1fbda907a"
-    },
-    {
-      "path": "search/round11-public-sources/monthly-directory/monthly-directory-r11.json",
-      "size": 226022,
-      "sha256": "141e8c0428f268cabb0bc9d4a4503f0b2c66739a74423e9c037af1444de18e45"
-    },
-    {
-      "path": "search/round11-public-sources/monthly-directory/validation-r11.json",
-      "size": 4166,
-      "sha256": "eea6b65f0624854ee9496855913b53855e8b132eb3a0a2f3e9d8ef569a722689"
-    },
-    {
-      "path": "search/round11-public-sources/quality-feedback-r11-audit-1430.json",
-      "size": 6489,
-      "sha256": "acad37f1e4a1876543e781a7a2a8bcd88ec34e837b3bf4cf6d731a010a66455c"
-    },
-    {
-      "path": "search/round11-public-sources/query-ledger-r11-root.json",
-      "size": 3839,
-      "sha256": "2543b4eceb812045c9ced70ca0e6394d96059e2ca24665be8d18a6bd0636e85b"
+      "size": 3132,
+      "sha256": "ba8a0be097cd6a0b502dcf87d990c874f58137e888bc3b1b6a27519492c6750d"
     }
   ],
   "unchanged": [
+    "catalog/audit-identity-core.mjs",
+    "catalog/audit-identity-core.test.mjs",
+    "catalog/build-catalog.mjs",
+    "catalog/cecs-master.json",
+    "catalog/CECS可下载PDF总表.xlsx",
+    "catalog/change-log.jsonl",
     "catalog/clean-sharing-projection.mjs",
     "catalog/delivery-1308.md",
     "catalog/delivery-final-1314.md",
@@ -432,57 +63,121 @@
     "catalog/discussion-1330.md",
     "catalog/discussion-1350-merge.md",
     "catalog/discussion-1350.md",
+    "catalog/discussion-1410-merge.md",
+    "catalog/download-source-region-evidence-1510.json",
+    "catalog/download-source-regions.mjs",
+    "catalog/download-source-regions.test.mjs",
     "catalog/finalize-receipts1320.mjs",
     "catalog/freeze-1350-receipt.json",
     "catalog/freeze-1350-validation.json",
+    "catalog/freeze-1410-receipt.json",
+    "catalog/freeze-1410-validation.json",
     "catalog/inputs-1320-receipt.json",
     "catalog/inputs-1350-receipt.json",
+    "catalog/inputs-1410-receipt.json",
+    "catalog/inspect-saved-workbook.mjs",
     "catalog/maintenance-input.json",
+    "catalog/native-hyperlinks.json",
     "catalog/next-round-staging.json",
     "catalog/patch-hyperlinks.py",
     "catalog/release-receipt.json",
+    "catalog/scope-change-log.jsonl",
+    "catalog/scope-policy-20261017.json",
+    "catalog/seal-current-freeze.mjs",
     "catalog/seal-freeze-1350.mjs",
+    "catalog/seed-index.json",
     "catalog/sharing-projection-core.mjs",
     "catalog/sharing-projection-core.test.mjs",
     "catalog/sharing-projection-receipt.json",
     "catalog/verify-freeze-1350.mjs",
+    "catalog/verify-freeze-1410.mjs",
     "catalog/verify-sharing-projection.mjs",
+    "catalog/verify-workbook.py",
+    "catalog/version-stage-core.mjs",
+    "catalog/version-stage-core.test.mjs",
+    "catalog/workbook-inspection.json",
+    "catalog/workbook-validation.json",
+    "pdf-audit/active-cecs-scope.json",
     "pdf-audit/audit-pending-round03.json",
     "pdf-audit/audit-pending-round04.json",
     "pdf-audit/audit-pending-round05-freeze-1350.json",
     "pdf-audit/audit-pending-round05.json",
+    "pdf-audit/audit-pending-round06-freeze-1410.json",
+    "pdf-audit/audit-pending-round06.json",
+    "pdf-audit/audit-pending-round07-freeze-1430.json",
+    "pdf-audit/audit-pending-round07.json",
+    "pdf-audit/audit-pending-round08-fixed-r10.json",
+    "pdf-audit/audit-pending-round08.json",
+    "pdf-audit/audit-pending-round09-freeze-1450-v2.json",
+    "pdf-audit/audit-pending-round09-freeze-1450.json",
+    "pdf-audit/audit-pending-round09.json",
+    "pdf-audit/audit-pending-round10-r12r13.json",
     "pdf-audit/audit-results-freeze-1310.json",
     "pdf-audit/audit-results-freeze-1320.json",
     "pdf-audit/audit-results-freeze-1330.json",
     "pdf-audit/audit-results-freeze-1350.json",
+    "pdf-audit/audit-results-freeze-1410.json",
+    "pdf-audit/audit-results-freeze-1510.json",
+    "pdf-audit/audit-results.json",
     "pdf-audit/audit-round05-receipt-1350.json",
+    "pdf-audit/audit-round06-receipt-1410.json",
+    "pdf-audit/audit-round07-receipt-1430.json",
+    "pdf-audit/audit-round08-receipt-r10.json",
+    "pdf-audit/audit-round09-publication-selection-1450.json",
+    "pdf-audit/audit-round09-receipt-1450-v2.json",
+    "pdf-audit/audit-round09-receipt-1450.json",
     "pdf-audit/audit_increment.py",
+    "pdf-audit/audit_pdf.py",
     "pdf-audit/candidate-796-announcement.json",
     "pdf-audit/candidates-direct-round02.json",
     "pdf-audit/candidates-own-round01.json",
+    "pdf-audit/candidates-r11-alt31-share.json",
     "pdf-audit/candidates-tj-backups.json",
     "pdf-audit/discussion-1300.md",
     "pdf-audit/discussion-1310.md",
     "pdf-audit/discussion-1320.md",
     "pdf-audit/discussion-1330.md",
     "pdf-audit/discussion-1350.md",
+    "pdf-audit/discussion-1410.md",
+    "pdf-audit/discussion-1430.md",
+    "pdf-audit/discussion-1440.md",
+    "pdf-audit/discussion-1450-v2.md",
+    "pdf-audit/discussion-1450.md",
     "pdf-audit/evidence-2185-repeal-cecs22-2005.json",
+    "pdf-audit/evidence-85-repeal-cecs69-94.json",
     "pdf-audit/finalize_handoff.py",
     "pdf-audit/finalize_round02.py",
     "pdf-audit/finalize_round04.py",
     "pdf-audit/finalize_round05.py",
+    "pdf-audit/finalize_round06.py",
+    "pdf-audit/finalize_round07.py",
+    "pdf-audit/finalize_round09.py",
     "pdf-audit/finalize_tj_batch.py",
     "pdf-audit/freeze-1320-receipt.json",
     "pdf-audit/freeze-1330-receipt.json",
     "pdf-audit/freeze-1350-receipt.json",
+    "pdf-audit/freeze-1410-receipt.json",
+    "pdf-audit/freeze-1510-receipt.json",
     "pdf-audit/handoff.md",
+    "pdf-audit/independent-check-1510.json",
     "pdf-audit/merge_round03_checkpoint.py",
     "pdf-audit/merge_round04_checkpoint.py",
     "pdf-audit/merge_round05_checkpoint.py",
+    "pdf-audit/merge_round06_checkpoint.py",
+    "pdf-audit/merge_round07to09_checkpoint1510.py",
+    "pdf-audit/pause-status-20261017.json",
     "pdf-audit/render_footer_check.py",
     "pdf-audit/round03-status.md",
+    "pdf-audit/round06-independent-check-1410.json",
+    "pdf-audit/round07-independent-check-1430.json",
+    "pdf-audit/round08-independent-check-r10.json",
+    "pdf-audit/round09-independent-check-1450.json",
     "pdf-audit/save_round03_pending.py",
+    "pdf-audit/scope-change-building-structure-20261017.json",
+    "pdf-audit/scope-change-engineering-all-20261017.json",
+    "pdf-audit/scope-instruction-timeline-20261017.json",
     "pdf-audit/supplement_review.py",
+    "search/active-cecs-scope.json",
     "search/baseline-external-routes/candidates-round01.json",
     "search/baseline-external-routes/directory-round02.json",
     "search/baseline-external-routes/followup-661-links.json",
@@ -503,6 +198,12 @@
     "search/discussion-1340.md",
     "search/discussion-1350.md",
     "search/discussion-1400.md",
+    "search/discussion-1420.md",
+    "search/discussion-1430.md",
+    "search/discussion-1440.md",
+    "search/discussion-1500-scope-transition.md",
+    "search/discussion-1510-engineering-restored.md",
+    "search/discussion-1530-source-region.md",
     "search/extract-nwafu-links.py",
     "search/extract-tj-links.py",
     "search/freeze-inputs-1320.json",
@@ -511,8 +212,14 @@
     "search/freeze-inputs-1340-water-mep-addendum.json",
     "search/freeze-inputs-1340.json",
     "search/freeze-inputs-1400.json",
+    "search/freeze-inputs-1420.json",
+    "search/freeze-inputs-1430.json",
+    "search/freeze-inputs-1440.json",
+    "search/freeze-inputs-1500-scope-transition.json",
+    "search/freeze-inputs-1510-engineering-restored.json",
     "search/freeze-inputs-g2-round02-share-1350.json",
     "search/freeze-inputs-round04.json",
+    "search/freeze-region-metadata-1530.json",
     "search/freeze-search-inputs.py",
     "search/g1-round03-coverage.json",
     "search/g2-public-routes/extension-preview-routes.json",
@@ -524,13 +231,29 @@
     "search/master-authority/authority-directory-records.json",
     "search/master-authority/collect_directories.py",
     "search/master-authority/controller-next-directory-queue.json",
+    "search/master-authority/freeze-ttbz-p1-1410.json",
     "search/master-authority/history/authority-directory-records-4cc796b8d0e1.json",
     "search/master-authority/lwec-2018-catalog-extraction.json",
+    "search/master-authority/ttbz-ui-observed-20261017-p1.json",
     "search/nwafu-route-check.json",
+    "search/pause-state-20261017-search.json",
     "search/quality-feedback-r03.json",
     "search/query-ledger-r02.json",
     "search/receipt-r07-audit-get-1345.json",
     "search/receipt-r07-audit-get-1345.py",
+    "search/region-metadata-20261017/ancillary-observations-selection.json",
+    "search/region-metadata-20261017/beijing-organizations/beijing-organizations-crosscheck.json",
+    "search/region-metadata-20261017/build-university-region.py",
+    "search/region-metadata-20261017/freeze-region-1530.py",
+    "search/region-metadata-20261017/query-ledger-region.json",
+    "search/region-metadata-20261017/state-region-1530.json",
+    "search/region-metadata-20261017/tjad/tjad-identity-pending.json",
+    "search/region-metadata-20261017/universities/official-html-observations.json",
+    "search/region-metadata-20261017/universities/platform-identity-observations-v2.json",
+    "search/region-metadata-20261017/universities/platform-identity-observations.json",
+    "search/region-metadata-20261017/university-independent-qa.json",
+    "search/region-metadata-20261017/university-region-evidence-proposal.json",
+    "search/region-metadata-20261017/validation-region-1530.json",
     "search/round04-102-route-gap.json",
     "search/round04-661/routes-round04.json",
     "search/round04-feedback-22.json",
@@ -572,15 +295,87 @@
     "search/round08-public-expansion/query-ledger-r08-root.json",
     "search/round08-public-expansion/state-r08.json",
     "search/round08-public-expansion/water-historical/round08-water-historical-candidates.json",
+    "search/round09-new-sources/audit-observation-69-r09.json",
+    "search/round09-new-sources/build-root-r09.py",
+    "search/round09-new-sources/candidates-r09-root-share.json",
+    "search/round09-new-sources/check-public-pdf-routes-r09.py",
+    "search/round09-new-sources/freeze-r09.py",
+    "search/round09-new-sources/public-route-observations-r09.json",
+    "search/round09-new-sources/quality-feedback-r09-audit-1410.json",
+    "search/round09-new-sources/query-ledger-r09-root.json",
+    "search/round09-new-sources/recent-directory/recent-directory-r09.json",
+    "search/round09-new-sources/recent-directory/validation-r09.json",
+    "search/round09-new-sources/state-r09.json",
+    "search/round09-new-sources/validation-r09-root.json",
+    "search/round09-new-sources/water-mep/round09-water-mep-candidates.json",
+    "search/round10-public-sources/audit-canonical-1410-receipt-r10.json",
+    "search/round10-public-sources/candidates-r10-detection.json",
+    "search/round10-public-sources/foundation/round10-foundation-search.json",
+    "search/round10-public-sources/freeze-r10.py",
+    "search/round10-public-sources/instrument-observations-r10.json",
+    "search/round10-public-sources/monthly-directory/monthly-directory-r10.json",
+    "search/round10-public-sources/monthly-directory/validation-r10.json",
+    "search/round10-public-sources/probe-instrument-pages-r10.py",
+    "search/round10-public-sources/query-ledger-r10-root.json",
+    "search/round10-public-sources/state-r10.json",
+    "search/round10-public-sources/validation-r10-root.json",
+    "search/round11-public-sources/alternate-route-41-r11.json",
+    "search/round11-public-sources/build-root-r11.py",
+    "search/round11-public-sources/candidates-r11-root.json",
+    "search/round11-public-sources/freeze-r11.py",
+    "search/round11-public-sources/instrument-pages/round11-instrument-pages.json",
+    "search/round11-public-sources/monthly-directory/monthly-directory-r11.json",
+    "search/round11-public-sources/monthly-directory/validation-r11.json",
+    "search/round11-public-sources/quality-feedback-r11-audit-1430.json",
+    "search/round11-public-sources/query-ledger-r11-root.json",
+    "search/round11-public-sources/receipt-85-repeal-r11.json",
+    "search/round11-public-sources/state-r11.json",
+    "search/round11-public-sources/validation-r11-root.json",
+    "search/round12-public-sources/build-scope-r12.py",
+    "search/round12-public-sources/freeze-scope-r12.py",
+    "search/round12-public-sources/material-products/round12-house-structure-scope.json",
+    "search/round12-public-sources/normalize-subagents-r12.py",
+    "search/round12-public-sources/query-ledger-r12-pre-scope.json",
+    "search/round12-public-sources/receipt-audit-1450-selection-r12.json",
+    "search/round12-public-sources/scope-closeout-receipt-r12.json",
+    "search/round12-public-sources/scope-normalized-subagents-r12.json",
+    "search/round12-public-sources/scope-queue-r12.json",
+    "search/round12-public-sources/scope-transition-20261017.md",
+    "search/round12-public-sources/state-scope-r12.json",
+    "search/round12-public-sources/transport/excluded-transport-closeout.json",
+    "search/round12-public-sources/validation-scope-r12.json",
+    "search/round13-engineering-restored/build-engineering-restore.py",
+    "search/round13-engineering-restored/directory-net-crosscheck-1510.json",
+    "search/round13-engineering-restored/freeze-r13.py",
+    "search/round13-engineering-restored/independent-qa-receipt-1510.json",
+    "search/round13-engineering-restored/material-products/round13-material-products.json",
+    "search/round13-engineering-restored/new-drafts-r12-r13-share.json",
+    "search/round13-engineering-restored/queue-engineering-restored-r12.json",
+    "search/round13-engineering-restored/receipt-current-selection-r09-r11-1510.json",
+    "search/round13-engineering-restored/root/access-28-r13.json",
+    "search/round13-engineering-restored/root/candidates-r13-root.json",
+    "search/round13-engineering-restored/root/page-observation-r13-1009.json",
+    "search/round13-engineering-restored/root/primary-source-experiments-r13.json",
+    "search/round13-engineering-restored/root/query-ledger-r13-root.json",
+    "search/round13-engineering-restored/scope-engineering-all-20261017.json",
+    "search/round13-engineering-restored/state-r13.json",
+    "search/round13-engineering-restored/transport/transport-round13.json",
+    "search/round13-engineering-restored/validation-r13.json",
     "search/sanitize-search-evidence.py",
+    "search/scope-instruction-timeline-20261017.json",
     "search/search-state.json",
     "search/seed-groups.json",
+    "search/stage-evidence-method-1510-addendum.json",
     "search/update-conflict-primary.py",
     "search/validate-search-state.py"
   ],
   "skipped": [
     {
       "path": "catalog\\CECS可下载PDF总表.xlsx.inspect.ndjson",
+      "reason": "outside metadata allowlist"
+    },
+    {
+      "path": "pdf-audit\\candidates-r11-alt31.json",
       "reason": "outside metadata allowlist"
     },
     {

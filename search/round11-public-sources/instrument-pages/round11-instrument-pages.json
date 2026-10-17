@@ -1,0 +1,521 @@
+{
+  "schema_version": "cecs-public-search-r11-instrument-pages-v1",
+  "batch_id": "R11-INSTRUMENT-FIRST",
+  "source_id": "SEARCH-R11-INSTRUMENT-20261017",
+  "started_at": "2026-10-17T14:36:07+08:00",
+  "frozen_at": "2026-10-17T14:42:56+08:00",
+  "candidate_count": 1,
+  "pdf_candidate_count": 1,
+  "non_pdf_metadata_route_count": 1,
+  "candidates": [
+    {
+      "candidate_id": "R11-INST-PDF-001",
+      "source_id": "SRC-R11-INST-PDF-001",
+      "seed_ids": [],
+      "standard_number": "CECS 02:2005",
+      "standard_name": "超声回弹综合法检测混凝土强度技术规程",
+      "year": 2005,
+      "format": "PDF",
+      "download_url": "http://www.zbl.cn/uploadfile/2020/0812/20200812101348781.pdf",
+      "direct_url": "http://www.zbl.cn/uploadfile/2020/0812/20200812101348781.pdf",
+      "original_url": "http://www.zbl.cn/uploadfile/2020/0812/20200812101348781.pdf",
+      "final_url": "http://www.zbl.cn/uploadfile/2020/0812/20200812101348781.pdf",
+      "source_page": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=9",
+      "detail_url": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=9",
+      "is_draft": null,
+      "draft_status": "仅页标题未标草案，未读封面，正式/草案状态待审查",
+      "edition_kind": "historical",
+      "current_validity": "未核实",
+      "full_text_review_status": "候选，未作内容/完整性审查",
+      "metadata_evidence": [
+        {
+          "source_id": "SRC-R11-INST-PDF-001-HREF",
+          "url": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=9",
+          "kind": "真实a.href与锚文本",
+          "evidence": "官网列表显示CECS02-2005 超声回弹综合法检测混凝土强度技术规程；更新时间2020-08-12；434KB。"
+        },
+        {
+          "source_id": "SRC-R11-INST-PDF-001-GET",
+          "url": "http://www.zbl.cn/uploadfile/2020/0812/20200812101348781.pdf",
+          "kind": "普通GET前16bytes",
+          "evidence": "200/application/pdf；Content-Length445094，%PDF-签名，未保存PDF"
+        }
+      ],
+      "access": {
+        "url": "http://www.zbl.cn/uploadfile/2020/0812/20200812101348781.pdf",
+        "checked_at": "2026-10-17T14:40:31.737396+08:00",
+        "method": "GET",
+        "file_saved": false,
+        "http_status": 200,
+        "final_url": "http://www.zbl.cn/uploadfile/2020/0812/20200812101348781.pdf",
+        "content_type": "application/pdf",
+        "content_length": "445094",
+        "bytes_read": 16,
+        "pdf_signature": true,
+        "ole_doc_signature": false
+      },
+      "permissions": {
+        "source_type": "北京智博联科技股份有限公司官网公开下载列表",
+        "compiler_role": "未核实本标准参编身份",
+        "reprint_authorization": "未核实，公开可达不等于转载授权"
+      },
+      "dedup": {
+        "existing_exact_download_url": false
+      },
+      "alternates": []
+    }
+  ],
+  "non_pdf_metadata_routes": [
+    {
+      "route_id": "R11-INST-DOC-001",
+      "source_id": "SRC-R11-INST-DOC-001",
+      "seed_ids": [],
+      "standard_number": "CECS 21:2000",
+      "standard_name": "超声法检测混凝土缺陷技术规程（依据页标题对应，文件内容未读）",
+      "year": 2000,
+      "format": "DOC",
+      "download_url": "http://www.zbl.cn/uploadfile/2020/0812/20200812111020700.doc",
+      "original_url": "http://www.zbl.cn/uploadfile/2020/0812/20200812111020700.doc",
+      "final_url": "http://www.zbl.cn/uploadfile/2020/0812/20200812111020700.doc",
+      "source_page": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=4",
+      "detail_url": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=4",
+      "is_draft": null,
+      "status": "非PDF元数据路线，不计PDF候选；不判断正式完整；未打开或转换DOC",
+      "metadata_evidence": [
+        {
+          "source_id": "SRC-R11-INST-DOC-001-HREF",
+          "url": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=4",
+          "kind": "真实a.href与锚文本",
+          "evidence": "列表显示测缺规程(CECS21-2000)，2020-08-12更新，2.34MB；实际href后缀.doc"
+        }
+      ],
+      "access": {
+        "url": "http://www.zbl.cn/uploadfile/2020/0812/20200812111020700.doc",
+        "checked_at": "2026-10-17T14:40:31.737396+08:00",
+        "method": "GET",
+        "file_saved": false,
+        "http_status": 200,
+        "final_url": "http://www.zbl.cn/uploadfile/2020/0812/20200812111020700.doc",
+        "content_type": "application/msword",
+        "content_length": "2455040",
+        "bytes_read": 16,
+        "pdf_signature": false,
+        "ole_doc_signature": true
+      },
+      "permissions": "厂家公开链接，转载授权未核实",
+      "dedup": {
+        "existing_exact_download_url": false
+      }
+    }
+  ],
+  "pagination_check": {
+    "site": "北京智博联相关规程",
+    "entry": "https://www.zbl.cn/index.php?a=lists&c=index&catid=137&m=content",
+    "discovery_chain": [
+      "https://zbl.cn/",
+      "https://www.zbl.cn/index.php?a=lists&c=index&catid=134&m=content",
+      "http://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137"
+    ],
+    "protocol_note": "主页及下载中心实际链接栏目为HTTP；web.open规范化到同路由HTTPS后，默认HTTPS普通GET成功。两个附件均保留页面真实HTTP href并在该HTTP URL普通GET200，未猜资源ID。",
+    "visited_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "method": "只跟随真实href。1页显示2/3/10；3显示4；10显示8/9；4/8/5等继续显示相邻页。",
+    "page_records": [
+      {
+        "page": 1,
+        "url": "https://www.zbl.cn/index.php?a=lists&c=index&catid=137&m=content",
+        "checked_at": "2026-10-17T14:39:37.944934+08:00",
+        "status": 200,
+        "cecs_links": [],
+        "pagination": [
+          {
+            "href": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=2",
+            "title": null,
+            "text": "2"
+          },
+          {
+            "href": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=3",
+            "title": null,
+            "text": "3"
+          },
+          {
+            "href": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=10",
+            "title": null,
+            "text": "10"
+          },
+          {
+            "href": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=2",
+            "title": null,
+            "text": "下一页"
+          }
+        ]
+      },
+      {
+        "page": 2,
+        "url": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=2",
+        "checked_at": "2026-10-17T14:39:52.205227+08:00",
+        "status": 200,
+        "cecs_links": [],
+        "pagination": [
+          {
+            "text": "3",
+            "href": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=3"
+          },
+          {
+            "text": "10",
+            "href": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=10"
+          },
+          {
+            "text": "下一页",
+            "href": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=3"
+          }
+        ]
+      },
+      {
+        "page": 3,
+        "url": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=3",
+        "checked_at": "2026-10-17T14:39:52.205227+08:00",
+        "status": 200,
+        "cecs_links": [],
+        "pagination": [
+          {
+            "text": "上一页",
+            "href": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=2"
+          },
+          {
+            "text": "2",
+            "href": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=2"
+          },
+          {
+            "text": "4",
+            "href": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=4"
+          },
+          {
+            "text": "10",
+            "href": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=10"
+          },
+          {
+            "text": "下一页",
+            "href": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=4"
+          }
+        ]
+      },
+      {
+        "page": 4,
+        "url": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=4",
+        "checked_at": "2026-10-17T14:40:16.108707+08:00",
+        "method": "GET",
+        "status": 200,
+        "final_url": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=4",
+        "cecs_links": [
+          {
+            "text": "测缺规程(CECS21-2000)\r\n                \r\n                    \r\n                    \r\n                \r\n                更新时间：2020-08-12\r\n                文件大小：2.34 MB",
+            "href": "http://www.zbl.cn/uploadfile/2020/0812/20200812111020700.doc",
+            "url_sha256": "c48747ca260ef8969540d2885f03b69d71f67ef1aa5fd10090fb305252a30d10",
+            "existing_url": false
+          }
+        ],
+        "pagination": [
+          {
+            "text": "上一页",
+            "href": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=3"
+          },
+          {
+            "text": "3",
+            "href": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=3"
+          },
+          {
+            "text": "5",
+            "href": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=5"
+          },
+          {
+            "text": "10",
+            "href": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=10"
+          },
+          {
+            "text": "下一页",
+            "href": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=5"
+          }
+        ],
+        "raw_html_saved": false
+      },
+      {
+        "page": 5,
+        "url": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=5",
+        "checked_at": "2026-10-17T14:40:16.830856+08:00",
+        "method": "GET",
+        "status": 200,
+        "final_url": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=5",
+        "cecs_links": [],
+        "pagination": [
+          {
+            "text": "上一页",
+            "href": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=4"
+          },
+          {
+            "text": "4",
+            "href": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=4"
+          },
+          {
+            "text": "6",
+            "href": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=6"
+          },
+          {
+            "text": "10",
+            "href": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=10"
+          },
+          {
+            "text": "下一页",
+            "href": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=6"
+          }
+        ],
+        "raw_html_saved": false
+      },
+      {
+        "page": 6,
+        "url": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=6",
+        "checked_at": "2026-10-17T14:40:17.566016+08:00",
+        "method": "GET",
+        "status": 200,
+        "final_url": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=6",
+        "cecs_links": [],
+        "pagination": [
+          {
+            "text": "上一页",
+            "href": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=5"
+          },
+          {
+            "text": "5",
+            "href": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=5"
+          },
+          {
+            "text": "7",
+            "href": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=7"
+          },
+          {
+            "text": "10",
+            "href": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=10"
+          },
+          {
+            "text": "下一页",
+            "href": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=7"
+          }
+        ],
+        "raw_html_saved": false
+      },
+      {
+        "page": 7,
+        "url": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=7",
+        "checked_at": "2026-10-17T14:40:16.830856+08:00",
+        "method": "GET",
+        "status": 200,
+        "final_url": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=7",
+        "cecs_links": [],
+        "pagination": [
+          {
+            "text": "上一页",
+            "href": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=6"
+          },
+          {
+            "text": "6",
+            "href": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=6"
+          },
+          {
+            "text": "8",
+            "href": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=8"
+          },
+          {
+            "text": "10",
+            "href": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=10"
+          },
+          {
+            "text": "下一页",
+            "href": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=8"
+          }
+        ],
+        "raw_html_saved": false
+      },
+      {
+        "page": 8,
+        "url": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=8",
+        "checked_at": "2026-10-17T14:40:16.108707+08:00",
+        "method": "GET",
+        "status": 200,
+        "final_url": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=8",
+        "cecs_links": [],
+        "pagination": [
+          {
+            "text": "上一页",
+            "href": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=7"
+          },
+          {
+            "text": "7",
+            "href": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=7"
+          },
+          {
+            "text": "9",
+            "href": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=9"
+          },
+          {
+            "text": "10",
+            "href": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=10"
+          },
+          {
+            "text": "下一页",
+            "href": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=9"
+          }
+        ],
+        "raw_html_saved": false
+      },
+      {
+        "page": 9,
+        "url": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=9",
+        "checked_at": "2026-10-17T14:40:16.109715+08:00",
+        "method": "GET",
+        "status": 200,
+        "final_url": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=9",
+        "cecs_links": [
+          {
+            "text": "CECS02-2005 超声回弹综合法检测混凝土强度技术规程\r\n                \r\n                    \r\n                    \r\n                \r\n                更新时间：2020-08-12\r\n                文件大小：434 KB",
+            "href": "http://www.zbl.cn/uploadfile/2020/0812/20200812101348781.pdf",
+            "url_sha256": "4a149febd3d7e1769b70fb11e73f3bd03061708e5b4038b4813ab5dbecf2a99a",
+            "existing_url": false
+          }
+        ],
+        "pagination": [
+          {
+            "text": "上一页",
+            "href": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=8"
+          },
+          {
+            "text": "8",
+            "href": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=8"
+          },
+          {
+            "text": "10",
+            "href": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=10"
+          },
+          {
+            "text": "下一页",
+            "href": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=10"
+          }
+        ],
+        "raw_html_saved": false
+      },
+      {
+        "page": 10,
+        "url": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=10",
+        "checked_at": "2026-10-17T14:39:52.206226+08:00",
+        "status": 200,
+        "cecs_links": [],
+        "pagination": [
+          {
+            "text": "上一页",
+            "href": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=9"
+          },
+          {
+            "text": "8",
+            "href": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=8"
+          },
+          {
+            "text": "9",
+            "href": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=9"
+          },
+          {
+            "text": "下一页",
+            "href": "https://www.zbl.cn/index.php?m=content&c=index&a=lists&catid=137&page=10"
+          }
+        ]
+      }
+    ],
+    "pending_observed_pagination_links": [],
+    "scope": "覆盖本栏目实际可见1–10页的锚文本和href，不宣称穷尽全站其他栏目，不保证没有缺少CECS编号的标准标题。"
+  },
+  "failed_routes": [
+    {
+      "source_id": "SRC-R11-TJ-BLOCKED",
+      "url": "https://www.tj-jwdz.com/standard.html?m437pageno=4",
+      "checked_at": "2026-10-17T14:36:29+08:00",
+      "result": "web工具超时；首次普通GET403",
+      "action": "停止该站，未取得当前分页/附件href，未猜页码，不能声称津维已穷尽"
+    },
+    {
+      "source_id": "SRC-R11-CESHI-CERT",
+      "url": "https://www.ceshi17.cn/download/",
+      "checked_at": "2026-10-17T14:37:50+08:00",
+      "result": "索引有02/220/69/21/03等CECS条目；web超时；普通GET证书Hostname mismatch",
+      "action": "停止，未关闭验证、未改协议，未取得真实附件href"
+    },
+    {
+      "source_id": "SRC-R11-CCTEDU-DUP",
+      "url": "https://www.cctedu.net/lustersoft_file/source_file/e3145e1f-06b6-4c36-848c-ead86d7d39ff/c1c2a313-c99a-4221-a9e6-4f1b8d884edb/c44430cb-0b80-4111-92a2-c0b6f6f177c8.pdf",
+      "checked_at": "2026-10-17T14:37:05+08:00",
+      "result": "CECS02:2005旧URL重复，普通GET证书Hostname mismatch",
+      "action": "排除、不忽略证书"
+    },
+    {
+      "source_id": "SRC-R11-ZBLOLM",
+      "url": "https://www.zbl-olm.cn/m/download_category.php?id=1",
+      "result": "索引只显示产品说明书/软件；web工具不可访问，未发现CECS href"
+    },
+    {
+      "source_id": "SRC-R11-INSTRUMENT-LOGIN",
+      "url": "https://www.instrument.com.cn/download/shtml/483371.shtml",
+      "result": "索引明示APP扫码登录/活力值下载",
+      "action": "未登录、未提取受限文件"
+    }
+  ],
+  "dedup": {
+    "checked_at": "2026-10-17T14:36:07+08:00",
+    "master_path": "C:/Users/mj528/Documents/004 工作/web-demo/outputs/cecs-master-20261017/catalog/cecs-master.json",
+    "master_key": "links.requested_url",
+    "search_scope": "search/**/*.json递归download_url",
+    "search_json_files": 134,
+    "parse_errors": 0,
+    "unique_existing_urls": 159,
+    "matched_pdf_urls": 0,
+    "matched_non_pdf_urls": 0,
+    "method": "精确URL内存SHA256比对，未打印旧参数值；原始HTTP附件href保持不变"
+  },
+  "query_count": 16,
+  "queries": [
+    "\"CECS\" \"标准下载\" \"仪器\"",
+    "\"CECS\" \"规范下载\" \"检测仪\"",
+    "\"CECS\" filetype:pdf \"海创\"",
+    "\"CECS\" filetype:pdf \"智博联\"",
+    "\"CECS\" \"下载\" \"康科瑞\"",
+    "\"CECS\" \"下载\" \"升拓\"",
+    "\"CECS\" \"标准规范\" \"智博联\"",
+    "\"CECS\" \"下载中心\" \"海创\"",
+    "\"仪器\" \"标准规范\" \"CECS\" \"下载中心\"",
+    "\"仪器\" \"资料下载\" \"CECS69\"",
+    "\"仪器\" \"资料下载\" \"CECS 21\"",
+    "\"仪器\" \"标准下载\" \"CECS 02\" -site:bzko.com -site:guifanku.com -site:instrument.com.cn",
+    "\"CECS\" \"规范下载\" -site:instrument.com.cn -site:guifanku.com -site:book118.com -site:bzko.com",
+    "\"CECS\" \"标准规范\" \"下载\" \"武汉\"",
+    "\"北京智博联\" \"下载中心\"",
+    "\"康科瑞\" \"标准规范\""
+  ],
+  "restrictions": {
+    "pdf_saved": false,
+    "doc_saved": false,
+    "document_converted": false,
+    "raw_html_saved": false,
+    "transient_parameter_values_saved": false,
+    "login_used": false,
+    "bypass_403": false,
+    "hidden_resource_ids_guessed": false,
+    "git_used": false,
+    "old_frozen_inputs_modified": false
+  }
+}

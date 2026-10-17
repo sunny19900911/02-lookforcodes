@@ -1,0 +1,54 @@
+{
+  "source_id": "SEARCH-REGION-PLATFORM-IDENTITY-20261017",
+  "observations": [
+    {
+      "source_id": "REGION-NWAFU-EOL-IDENTITY-20261017",
+      "proof_url": "https://eol.nwafu.edu.cn/meol/jpk/course/layout/newpage/default_demonstrate.jsp?courseId=31600",
+      "checked_at": "2026-10-17T15:28:56+08:00",
+      "method": "ordinary anonymous HTML GET",
+      "pdf_get": false,
+      "raw_html_saved": false,
+      "evidence_matches": [
+        {
+          "needle": "eol.nwafu.edu.cn",
+          "html_source_line": 1248,
+          "excerpt": "���γ���ַ�� https://eol.nwafu.edu.cn/eol/homepage/common/"
+        },
+        {
+          "needle": "eol.nwafu.edu.cn",
+          "html_source_line": 1316,
+          "excerpt": "����ũ�ֿƼ���ѧ�����ѧ�ۺ�ƽ̨https://eol.nwafu.edu.cn/eol/homepage/common/"
+        }
+      ],
+      "http_status": 200,
+      "content_sha256": "5121deebfeb773219e9c63ec22bbb25574c7d5f4ac3885bcba3b313999e18c2f"
+    },
+    {
+      "source_id": "REGION-HPU-LAB-IDENTITY-20261017",
+      "proof_url": "https://tmky.hpu.edu.cn/",
+      "checked_at": "2026-10-17T15:28:56+08:00",
+      "method": "ordinary anonymous HTML GET",
+      "pdf_get": false,
+      "raw_html_saved": false,
+      "evidence_matches": [
+        {
+          "needle": "www.hpu.edu.cn",
+          "html_source_line": 33,
+          "excerpt": "学校主页"
+        },
+        {
+          "needle": "www.hpu.edu.cn",
+          "html_source_line": 275,
+          "excerpt": "河南理工大学"
+        },
+        {
+          "needle": "河南理工大学生态建筑与环境构建工程实验室",
+          "html_source_line": 6,
+          "excerpt": "河南理工大学生态建筑与环境构建工程实验室"
+        }
+      ],
+      "http_status": 200,
+      "content_sha256": "be4600d8c8f5afa343235cdeb9fdf6bc285867d849f580e3b581ab4e600fdbe7"
+    }
+  ]
+}

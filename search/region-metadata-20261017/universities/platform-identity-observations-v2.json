@@ -1,0 +1,51 @@
+{
+  "source_id": "SEARCH-REGION-PLATFORM-IDENTITY-V2-20261017",
+  "checked_at": "2026-10-17T15:29:34+08:00",
+  "encoding_correction": "初次HTML按UTF-8显示替代字符；现依实际charset以gb18030严格解码，原GB2312页面文本可确认；未存原HTML。",
+  "observations": [
+    {
+      "source_id": "REGION-NWAFU-EOL-IDENTITY-V2-20261017",
+      "proof_url": "https://eol.nwafu.edu.cn/meol/jpk/course/layout/newpage/default_demonstrate.jsp?courseId=31600",
+      "method": "ordinary anonymous HTML GET, strict declared charset decode",
+      "http_status": 200,
+      "declared_charset": "gbk",
+      "decode_encoding": "gb18030",
+      "content_sha256": "e02089060a28a6386ee09f8b7fa0d639f4cf518381ffd436a41637e8656bfcd6",
+      "evidence_matches": [
+        {
+          "html_source_line": 1316,
+          "excerpt": "西北农林科技大学网络教学综合平台https://eol.nwafu.edu.cn/eol/homepage/common/"
+        }
+      ],
+      "raw_html_saved": false,
+      "pdf_get": false
+    },
+    {
+      "source_id": "REGION-HPU-LAB-IDENTITY-20261017",
+      "proof_url": "https://tmky.hpu.edu.cn/",
+      "checked_at": "2026-10-17T15:28:56+08:00",
+      "method": "ordinary anonymous HTML GET",
+      "pdf_get": false,
+      "raw_html_saved": false,
+      "evidence_matches": [
+        {
+          "needle": "www.hpu.edu.cn",
+          "html_source_line": 33,
+          "excerpt": "学校主页"
+        },
+        {
+          "needle": "www.hpu.edu.cn",
+          "html_source_line": 275,
+          "excerpt": "河南理工大学"
+        },
+        {
+          "needle": "河南理工大学生态建筑与环境构建工程实验室",
+          "html_source_line": 6,
+          "excerpt": "河南理工大学生态建筑与环境构建工程实验室"
+        }
+      ],
+      "http_status": 200,
+      "content_sha256": "be4600d8c8f5afa343235cdeb9fdf6bc285867d849f580e3b581ab4e600fdbe7"
+    }
+  ]
+}

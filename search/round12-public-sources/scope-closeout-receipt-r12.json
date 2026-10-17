@@ -1,0 +1,46 @@
+{
+  "source_id": "SEARCH-R12-SUBAGENT-CLOSEOUT-20261017",
+  "recorded_at": "2026-10-17T15:04:37+08:00",
+  "statement_type": "原文事实（子代理本地收尾回执）",
+  "files": [
+    {
+      "path": "search/round12-public-sources/transport/excluded-transport-closeout.json",
+      "sha256": "cd81a5c95c2dc334773ad83feace854d2e4524ad4fa30b86958d397d2b096d4f"
+    },
+    {
+      "path": "search/round12-public-sources/material-products/round12-house-structure-scope.json",
+      "sha256": "195ce7a2ffcfd7fcbd137f93ee1847546ee41cb90c4d5ff47ccd4203a0c3504f"
+    }
+  ],
+  "transport": {
+    "status": "已停止，无在途工具",
+    "isolated_records": 5,
+    "current_candidates": 0,
+    "source_ids": [
+      "SEARCH-R12-TRANSPORT-EXCLUDED-001",
+      "SEARCH-R12-TRANSPORT-EXCLUDED-002",
+      "SEARCH-R12-TRANSPORT-EXCLUDED-003",
+      "SEARCH-R12-TRANSPORT-EXCLUDED-004",
+      "SEARCH-R12-TRANSPORT-EXCLUDED-005"
+    ],
+    "refined_exclusion_reason": {
+      "001": "公路CECS，排除",
+      "002": "地方公路标准，非CECS且排除",
+      "003": "地方标准草案，非CECS；不从被引用CECS推为CECS全文，不沿用笼统交通适用结论",
+      "004": "桥梁检查项目文件，非CECS正文",
+      "005": "科技奖名单，非CECS正文"
+    }
+  },
+  "products": {
+    "status": "已停止",
+    "formal_candidates": 0,
+    "pending_structural_drafts": 1,
+    "draft_id": "R12-STRUCT-DRAFT-001",
+    "download_enabled": false,
+    "boundary": "五位占位2022征求意见稿不得改挂T/CECS10300-2023正式号；房屋适用边界待判。"
+  },
+  "post_stop_new_searches": 0,
+  "post_stop_new_gets": 0,
+  "post_stop_new_downloads": 0,
+  "old_frozen_inputs_modified": false
+}

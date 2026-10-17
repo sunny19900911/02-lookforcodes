@@ -1,0 +1,19 @@
+{
+  "recorded_at": "2026-10-17T15:09:23+08:00",
+  "active_source_id": "USER-20261017-CECS-ENGINEERING-ALL",
+  "instruction_order": [
+    {
+      "source_id": "USER-20261017-CECS-BUILDING-STRUCTURE-ONLY",
+      "recorded_at": "2026-10-17T15:00:47+08:00",
+      "record": "scope-change-building-structure-20261017.json",
+      "state": "superseded, history retained"
+    },
+    {
+      "source_id": "USER-20261017-CECS-ENGINEERING-ALL",
+      "recorded_at": "2026-10-17T15:09:23+08:00",
+      "record": "scope-change-engineering-all-20261017.json",
+      "state": "active"
+    }
+  ],
+  "scope_only_change_no_quality_or_file_rollback": true
+}

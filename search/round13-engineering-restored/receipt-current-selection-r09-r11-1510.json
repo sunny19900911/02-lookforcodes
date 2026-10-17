@@ -1,0 +1,256 @@
+{
+  "source_id": "SEARCH-R09-R11-CURRENT-SELECTION-1510-20261017",
+  "checked_at": "2026-10-17T15:13:01+08:00",
+  "selected_manifests": [
+    {
+      "path": "search/freeze-inputs-1420.json",
+      "sha256": "cc3118242ffa6b13e530ef48678adacb5a6fc9a2d0fe553f39be2ca6e66df2ed",
+      "selected_current_input": true,
+      "files": [
+        {
+          "path": "search/round09-new-sources/candidates-r09-root-share.json",
+          "sha256": "e06bc88574152717b0aa0e49bcce149f436f19701079be3e9ece13c297856ef3",
+          "bytes": 12326,
+          "sha_matches": true
+        },
+        {
+          "path": "search/round09-new-sources/query-ledger-r09-root.json",
+          "sha256": "5ad5cd6072dea89f002ca2eb9e707432a288377804a60965a42505f20b04d526",
+          "bytes": 3582,
+          "sha_matches": true
+        },
+        {
+          "path": "search/round09-new-sources/public-route-observations-r09.json",
+          "sha256": "67865e6ca44bfdc9d71e52a06ebe24aaa9de69b47be366a035b7ef95a96bd2c6",
+          "bytes": 1864,
+          "sha_matches": true
+        },
+        {
+          "path": "search/round09-new-sources/quality-feedback-r09-audit-1410.json",
+          "sha256": "bca69bee62f62dcfe0dac3f1ce6d787baae27b8771094d41359e254fb35b5ae9",
+          "bytes": 11452,
+          "sha_matches": true
+        },
+        {
+          "path": "search/round09-new-sources/audit-observation-69-r09.json",
+          "sha256": "5799c9ab8d89ba357c5446b9c80b748dd70ee0b020718cde195a9be1f4c444af",
+          "bytes": 942,
+          "sha_matches": true
+        },
+        {
+          "path": "search/round09-new-sources/validation-r09-root.json",
+          "sha256": "afecc9418caa12e85e68905810d777b320d6cc00077edbb2f3ca4d29fd65a430",
+          "bytes": 1015,
+          "sha_matches": true
+        },
+        {
+          "path": "search/round09-new-sources/water-mep/round09-water-mep-candidates.json",
+          "sha256": "172817225816b9cfcfbb52a591ef87ea15e4a551bd360a2e22a42dbe50beaadd",
+          "bytes": 15251,
+          "sha_matches": true
+        },
+        {
+          "path": "search/round09-new-sources/recent-directory/recent-directory-r09.json",
+          "sha256": "91436f5d85fa8df1861994d71566f38a72e3a126a3b6c84ac3f02a5ef470436d",
+          "bytes": 234257,
+          "sha_matches": true
+        },
+        {
+          "path": "search/round09-new-sources/recent-directory/validation-r09.json",
+          "sha256": "cbf05885958c9f70f5c73d12ec2cde2a3b6e06e1cc33a667aae4e5e54673924c",
+          "bytes": 1782,
+          "sha_matches": true
+        },
+        {
+          "path": "search/round09-new-sources/state-r09.json",
+          "sha256": "9d0cccd353a3e78bf503159bbf5558ba67db73396d46c6759cd3eac8c850a77e",
+          "bytes": 2520,
+          "sha_matches": true
+        },
+        {
+          "path": "search/discussion-1420.md",
+          "sha256": "90d0d510e438bdbb3dea28ad12a58c85c692fe75c0373272197ebbf7f91dd502",
+          "bytes": 2563,
+          "sha_matches": true
+        }
+      ]
+    },
+    {
+      "path": "search/freeze-inputs-1430.json",
+      "sha256": "3974c2d6470358bce3c086132f783d963e351988ab4bf18450def551067d5722",
+      "selected_current_input": true,
+      "files": [
+        {
+          "path": "search/round10-public-sources/candidates-r10-detection.json",
+          "sha256": "0c6ec696308986f650354115279d84384acc920cb63633440b97dd88489e7df0",
+          "bytes": 4559,
+          "sha_matches": true
+        },
+        {
+          "path": "search/round10-public-sources/instrument-observations-r10.json",
+          "sha256": "8d042eb83ea05262761e7d634d3d9d197b05721e53d3341544249390c5b9e16b",
+          "bytes": 2548,
+          "sha_matches": true
+        },
+        {
+          "path": "search/round10-public-sources/query-ledger-r10-root.json",
+          "sha256": "37adcd0fcb18d832e4e5ce01683bd44e14a7bf100e8fc3b25f0db4bb99e35d91",
+          "bytes": 3325,
+          "sha_matches": true
+        },
+        {
+          "path": "search/round10-public-sources/foundation/round10-foundation-search.json",
+          "sha256": "3a713fae13242298124a9dd7c3ec79e4641448a69c02cb5af09de2c843fb43fd",
+          "bytes": 13424,
+          "sha_matches": true
+        },
+        {
+          "path": "search/round10-public-sources/monthly-directory/monthly-directory-r10.json",
+          "sha256": "d457d36600059e68a7c30377bfa2b73091ce1f42b8bd6de41f9417a8be32911c",
+          "bytes": 242254,
+          "sha_matches": true
+        },
+        {
+          "path": "search/round10-public-sources/monthly-directory/validation-r10.json",
+          "sha256": "97b7920cf80e9ec1a3753b4d7e58fb81d99fab097203525ab8e7a364ff476ac7",
+          "bytes": 5155,
+          "sha_matches": true
+        },
+        {
+          "path": "search/round10-public-sources/validation-r10-root.json",
+          "sha256": "136b7382c3453e6be61b1c718cda40617dd5909847c0ec5e8f19668590c0881d",
+          "bytes": 551,
+          "sha_matches": true
+        },
+        {
+          "path": "search/round10-public-sources/audit-canonical-1410-receipt-r10.json",
+          "sha256": "97d1e63aa8258b86e3b17b9198663434728d9cbcc8ae336d60e3e1c8fdd71c00",
+          "bytes": 839,
+          "sha_matches": true
+        },
+        {
+          "path": "search/round10-public-sources/state-r10.json",
+          "sha256": "c7c0802cd6c4dc5e508a7c03dc6a1b5854eeb73a7f2e383cd643d7b3a3e60997",
+          "bytes": 2343,
+          "sha_matches": true
+        },
+        {
+          "path": "search/discussion-1430.md",
+          "sha256": "b0c72e6956a87c8e88d00c9d3872ce3c6243361873f361ab4a41aa6690906378",
+          "bytes": 2736,
+          "sha_matches": true
+        }
+      ]
+    },
+    {
+      "path": "search/freeze-inputs-1440.json",
+      "sha256": "c6da85fcbe8c2c3a5a54166ee03eacee36f0c1b5f7de58eadb398686525d0be7",
+      "selected_current_input": true,
+      "files": [
+        {
+          "path": "search/round11-public-sources/candidates-r11-root.json",
+          "sha256": "781acda888f40af1be55f824fc22e6f25225c1c4d8e295450ed4dda1fbda907a",
+          "bytes": 8799,
+          "sha_matches": true
+        },
+        {
+          "path": "search/round11-public-sources/alternate-route-41-r11.json",
+          "sha256": "9e09f3c145f155dc44571814bd4472e9fabe3b5c996407388efdaaa2e87a77ee",
+          "bytes": 621,
+          "sha_matches": true
+        },
+        {
+          "path": "search/round11-public-sources/query-ledger-r11-root.json",
+          "sha256": "2543b4eceb812045c9ced70ca0e6394d96059e2ca24665be8d18a6bd0636e85b",
+          "bytes": 3839,
+          "sha_matches": true
+        },
+        {
+          "path": "search/round11-public-sources/quality-feedback-r11-audit-1430.json",
+          "sha256": "acad37f1e4a1876543e781a7a2a8bcd88ec34e837b3bf4cf6d731a010a66455c",
+          "bytes": 6489,
+          "sha_matches": true
+        },
+        {
+          "path": "search/round11-public-sources/receipt-85-repeal-r11.json",
+          "sha256": "8b924531102f5d4d9734f239063ad28a9b582e775bc271902c0c01c259129fd3",
+          "bytes": 1897,
+          "sha_matches": true
+        },
+        {
+          "path": "search/round11-public-sources/monthly-directory/monthly-directory-r11.json",
+          "sha256": "141e8c0428f268cabb0bc9d4a4503f0b2c66739a74423e9c037af1444de18e45",
+          "bytes": 226022,
+          "sha_matches": true
+        },
+        {
+          "path": "search/round11-public-sources/monthly-directory/validation-r11.json",
+          "sha256": "eea6b65f0624854ee9496855913b53855e8b132eb3a0a2f3e9d8ef569a722689",
+          "bytes": 4166,
+          "sha_matches": true
+        },
+        {
+          "path": "search/round11-public-sources/instrument-pages/round11-instrument-pages.json",
+          "sha256": "c2e76731ffe5d5a025af8f688ddfd672028ce6aa5a40ea8d1c63fbedbcba7c96",
+          "bytes": 20617,
+          "sha_matches": true
+        },
+        {
+          "path": "search/round11-public-sources/validation-r11-root.json",
+          "sha256": "531e2ff36e13bbe6571d6785a4b7b2362a87dcd886dc5f13f9fbea50af930b60",
+          "bytes": 605,
+          "sha_matches": true
+        },
+        {
+          "path": "search/round11-public-sources/state-r11.json",
+          "sha256": "580a30622e64de1a6f3a15110bb4985ca81139e593951394daa480be473bd6ac",
+          "bytes": 2691,
+          "sha_matches": true
+        },
+        {
+          "path": "search/discussion-1440.md",
+          "sha256": "d9e460b30aa346753f1825a1366145c80f2e0a1d08ca38001607c1ad0ea1bb10",
+          "bytes": 2763,
+          "sha_matches": true
+        }
+      ]
+    }
+  ],
+  "selected_audit_and_backup": [
+    {
+      "path": "pdf-audit/audit-pending-round07-freeze-1430.json",
+      "sha256": "1f75a6b1536d5265a2a8cb814e1c2d1c7630de38d9dd49ec707650a174aebe0f"
+    },
+    {
+      "path": "pdf-audit/audit-pending-round08-fixed-r10.json",
+      "sha256": "b85f429140403811b90b5215ca38ab9c45d420705073ccb55c93f072805843e5"
+    },
+    {
+      "path": "pdf-audit/audit-pending-round09-freeze-1450-v2.json",
+      "sha256": "339a53ad776599ca4181a75633dd0479b1f040d293e9bf35d02dd762937196ef"
+    },
+    {
+      "path": "pdf-audit/candidates-r11-alt31-share.json",
+      "sha256": "2aa5cd96cfcc3f9d3848c7046575bb72e53b7426fb602f8b58b191558b94a61d"
+    },
+    {
+      "path": "pdf-audit/audit-round09-publication-selection-1450.json",
+      "sha256": "91744369ebd0b0916afa791012dd3ab6ca3dedbaa0b57c061d92848d41523e44"
+    }
+  ],
+  "historical_not_current": [
+    "search/round09-new-sources/candidates-r09-root.json",
+    "pdf-audit/audit-pending-round09-freeze-1450.json",
+    "pdf-audit/candidates-r11-alt31.json",
+    "search/freeze-inputs-1500-scope-transition.json"
+  ],
+  "mandatory_rules": [
+    "R09只用root-share；原root不再作当前分享选择",
+    "R11审查用1450-v2，备用31只用alt31-share且web_pages=null，不继承主64页",
+    "161三页短文件不作完整全文，21 DOC不计PDF，41只是既有版本备链不另增标准/完整数",
+    "R09青岛网页标题2024年9月与33行实施2025-09-01冲突保留，网页发布日期不写成标准发布日期",
+    "最新ENGINEERING-ALL生效；旧结构-only范围冻结只是历史，不筛除本批"
+  ],
+  "new_r12_r13_pending": true,
+  "old_frozen_inputs_modified": false
+}

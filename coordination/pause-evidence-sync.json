@@ -1,0 +1,99 @@
+{
+  "collection_paused": true,
+  "purpose": "Copy only previously selected immutable evidence; catalog workbook kept at last verified release until cleanup seals",
+  "files_checked": 56,
+  "copied": [
+    {
+      "path": "pdf-audit/audit-pending-round09-freeze-1450-v2.json",
+      "sha256": "339a53ad776599ca4181a75633dd0479b1f040d293e9bf35d02dd762937196ef"
+    },
+    {
+      "path": "pdf-audit/audit-results-freeze-1510.json",
+      "sha256": "815565100ff8959e609b223af1c64e43451b98fbb4cb1dfc83ddcd5f778c4449"
+    },
+    {
+      "path": "pdf-audit/audit-round09-publication-selection-1450.json",
+      "sha256": "91744369ebd0b0916afa791012dd3ab6ca3dedbaa0b57c061d92848d41523e44"
+    },
+    {
+      "path": "pdf-audit/candidates-r11-alt31-share.json",
+      "sha256": "2aa5cd96cfcc3f9d3848c7046575bb72e53b7426fb602f8b58b191558b94a61d"
+    },
+    {
+      "path": "pdf-audit/freeze-1510-receipt.json",
+      "sha256": "3ddfa9ee6cffaeff6fa23d0eb60e12097b8f0283c1d8ca301aa77fda36dc403c"
+    },
+    {
+      "path": "pdf-audit/independent-check-1510.json",
+      "sha256": "74b7aa30b72d4662a267dac237ca902c9629d63068b9fbac8e3cf25617095717"
+    },
+    {
+      "path": "search/discussion-1440.md",
+      "sha256": "d9e460b30aa346753f1825a1366145c80f2e0a1d08ca38001607c1ad0ea1bb10"
+    },
+    {
+      "path": "search/discussion-1530-source-region.md",
+      "sha256": "c77eb7648beadecb36e269d8afb88e5b3a46775cd1104a36d7c804a6cd0ef702"
+    },
+    {
+      "path": "search/freeze-inputs-1440.json",
+      "sha256": "c6da85fcbe8c2c3a5a54166ee03eacee36f0c1b5f7de58eadb398686525d0be7"
+    },
+    {
+      "path": "search/freeze-region-metadata-1530.json",
+      "sha256": "a2f5754e0962f20204fd05fcd17cabaec077e16035fb9cc6d08ad6e7184c1772"
+    },
+    {
+      "path": "search/region-metadata-20261017/ancillary-observations-selection.json",
+      "sha256": "98080a19d015781ab9bbdb57decf609b8d2d4dbdb4b3a7214f9c4a0f37661367"
+    },
+    {
+      "path": "search/region-metadata-20261017/query-ledger-region.json",
+      "sha256": "8998f146cb40c05b6937dd776f77c8d81caa68f50f9265dc5ccd759693578d83"
+    },
+    {
+      "path": "search/region-metadata-20261017/state-region-1530.json",
+      "sha256": "daa479d6bba3db810c3dc307d65de7832af1c1ebae721eaebd236130a02acb58"
+    },
+    {
+      "path": "search/region-metadata-20261017/tjad/tjad-identity-pending.json",
+      "sha256": "4c624c3376867b6ab2ed5e1e79b09519486b1a192cd57d33a7d4516f012c4d37"
+    },
+    {
+      "path": "search/region-metadata-20261017/universities/official-html-observations.json",
+      "sha256": "e6c878d58e112bba28868e323512b0308cd60b41bcebbc8b48510837648e5801"
+    },
+    {
+      "path": "search/region-metadata-20261017/universities/platform-identity-observations-v2.json",
+      "sha256": "f487ff087c66b1cfe698c0386a6dfd9a8ba947799bc67582a48c6d8940b540ec"
+    },
+    {
+      "path": "search/region-metadata-20261017/university-independent-qa.json",
+      "sha256": "4b2fa1c0392bc77ab3ba7582474844df41816f6fd7b692f9fcd377449a80602d"
+    },
+    {
+      "path": "search/region-metadata-20261017/university-region-evidence-proposal.json",
+      "sha256": "6588447360ea54ad0aff23e2992d0811c9d295824289bf2a5a7fcff04245fc60"
+    },
+    {
+      "path": "search/region-metadata-20261017/validation-region-1530.json",
+      "sha256": "1b1fe8c2f3d3c9670383bf1a40d7ca4079551558c0c47f978b72837551e67911"
+    },
+    {
+      "path": "search/round11-public-sources/instrument-pages/round11-instrument-pages.json",
+      "sha256": "c2e76731ffe5d5a025af8f688ddfd672028ce6aa5a40ea8d1c63fbedbcba7c96"
+    },
+    {
+      "path": "search/round11-public-sources/receipt-85-repeal-r11.json",
+      "sha256": "8b924531102f5d4d9734f239063ad28a9b582e775bc271902c0c01c259129fd3"
+    },
+    {
+      "path": "search/round11-public-sources/state-r11.json",
+      "sha256": "580a30622e64de1a6f3a15110bb4985ca81139e593951394daa480be473bd6ac"
+    },
+    {
+      "path": "search/round11-public-sources/validation-r11-root.json",
+      "sha256": "531e2ff36e13bbe6571d6785a4b7b2362a87dcd886dc5f13f9fbea50af930b60"
+    }
+  ]
+}

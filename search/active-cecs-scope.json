@@ -1,0 +1,10 @@
+{
+  "source_id": "SEARCH-ACTIVE-SCOPE-20261017",
+  "updated_at": "2026-10-17T15:10:45+08:00",
+  "active_scope_source_id": "USER-20261017-CECS-ENGINEERING-ALL",
+  "path": "search/round13-engineering-restored/scope-engineering-all-20261017.json",
+  "sha256": "2d3265d6ffb35ec42642cc5a44bc5efb5031844d624ba9832f402f2c8bdea54f",
+  "superseded_scope_source_id": "USER-20261017-CECS-BUILDING-STRUCTURE-ONLY",
+  "superseded_manifest": "search/freeze-inputs-1500-scope-transition.json",
+  "note": "当前范围只选ENGINEERING-ALL；原结构-only冻结保留历史，不作当前队列筛除依据。"
+}

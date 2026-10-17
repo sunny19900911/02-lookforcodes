@@ -1,0 +1,266 @@
+{
+  "schema_version": "cecs-r13-engineering-material-products-v1",
+  "batch_id": "R13-MATERIAL-PRODUCTS-FIRST",
+  "source_id": "SEARCH-R13-MATERIAL-PRODUCTS-20261017",
+  "scope_authority": "USER-20261017-CECS-ENGINEERING-ALL",
+  "scope": "工程相关CECS恢复可收集，房屋结构优先；本批仅公开URL及结构化证据",
+  "started_at": "2026-10-17T15:08:02+08:00",
+  "frozen_at_utc": "2026-10-17 07:11:51 UTC",
+  "candidate_count": 1,
+  "published_candidate_count": 0,
+  "draft_candidate_count": 1,
+  "candidates": [
+    {
+      "candidate_id": "R13-MP-DRAFT-001",
+      "source_id": "SRC-R13-MP-DRAFT-001",
+      "seed_ids": [],
+      "standard_number": "T/CECS XXXX—2025",
+      "standard_name": "高承压螺纹式球墨铸铁管路连接件",
+      "year": 2025,
+      "is_draft": true,
+      "draft_type": "征求意见稿",
+      "format": "PDF",
+      "download_url": "https://mystuff.com.cn/files/word/2024%E5%B9%B411%E6%9C%88/%E3%80%8A%E9%AB%98%E6%89%BF%E5%8E%8B%E7%90%83%E5%A2%A8%E9%93%B8%E9%93%81%E7%AE%A1%E8%B7%AF%E8%BF%9E%E6%8E%A5%E4%BB%B6%E3%80%8B%EF%BC%88%E5%BE%81%E6%B1%82%E6%84%8F%E8%A7%81%E7%A8%BF%EF%BC%89.pdf",
+      "direct_url": "https://mystuff.com.cn/files/word/2024%E5%B9%B411%E6%9C%88/%E3%80%8A%E9%AB%98%E6%89%BF%E5%8E%8B%E7%90%83%E5%A2%A8%E9%93%B8%E9%93%81%E7%AE%A1%E8%B7%AF%E8%BF%9E%E6%8E%A5%E4%BB%B6%E3%80%8B%EF%BC%88%E5%BE%81%E6%B1%82%E6%84%8F%E8%A7%81%E7%A8%BF%EF%BC%89.pdf",
+      "original_url": "https://mystuff.com.cn/files/word/2024%E5%B9%B411%E6%9C%88/%E3%80%8A%E9%AB%98%E6%89%BF%E5%8E%8B%E7%90%83%E5%A2%A8%E9%93%B8%E9%93%81%E7%AE%A1%E8%B7%AF%E8%BF%9E%E6%8E%A5%E4%BB%B6%E3%80%8B%EF%BC%88%E5%BE%81%E6%B1%82%E6%84%8F%E8%A7%81%E7%A8%BF%EF%BC%89.pdf",
+      "final_url": "https://mystuff.com.cn/files/word/2024%E5%B9%B411%E6%9C%88/%E3%80%8A%E9%AB%98%E6%89%BF%E5%8E%8B%E7%90%83%E5%A2%A8%E9%93%B8%E9%93%81%E7%AE%A1%E8%B7%AF%E8%BF%9E%E6%8E%A5%E4%BB%B6%E3%80%8B%EF%BC%88%E5%BE%81%E6%B1%82%E6%84%8F%E8%A7%81%E7%A8%BF%EF%BC%89.pdf",
+      "source_page": "https://mystuff.com.cn/files/word/2024%E5%B9%B411%E6%9C%88/%E3%80%8A%E9%AB%98%E6%89%BF%E5%8E%8B%E7%90%83%E5%A2%A8%E9%93%B8%E9%93%81%E7%AE%A1%E8%B7%AF%E8%BF%9E%E6%8E%A5%E4%BB%B6%E3%80%8B%EF%BC%88%E5%BE%81%E6%B1%82%E6%84%8F%E8%A7%81%E7%A8%BF%EF%BC%89.pdf",
+      "detail_url": null,
+      "parent_page_status": "具体PDF附件父页未定位；source_page为实际PDF。机构立项新闻仅为背景，不能当作附件父页。",
+      "engineering_scope": "管路连接产品的设计、生产、检验；工程产品类。未推断为房屋主体结构产品。",
+      "number_boundary": "正文/封面均为XXXX占位编号，不赋正式号，不根据目录猜10xxx编号；目录2024年11月不替代封面2025年",
+      "metadata_evidence": [
+        {
+          "source_id": "SRC-R13-MP-DRAFT-001-COVER",
+          "url": "https://mystuff.com.cn/files/word/2024%E5%B9%B411%E6%9C%88/%E3%80%8A%E9%AB%98%E6%89%BF%E5%8E%8B%E7%90%83%E5%A2%A8%E9%93%B8%E9%93%81%E7%AE%A1%E8%B7%AF%E8%BF%9E%E6%8E%A5%E4%BB%B6%E3%80%8B%EF%BC%88%E5%BE%81%E6%B1%82%E6%84%8F%E8%A7%81%E7%A8%BF%EF%BC%89.pdf",
+          "kind": "中断前索引、R13 web PDF首页解析",
+          "evidence": "封面显示T/CECS XXXX—2025、题名及征求意见稿标识。"
+        },
+        {
+          "source_id": "SRC-R13-MP-DRAFT-001-COMPILER",
+          "url": "https://mystuff.com.cn/files/word/2024%E5%B9%B411%E6%9C%88/%E3%80%8A%E9%AB%98%E6%89%BF%E5%8E%8B%E7%90%83%E5%A2%A8%E9%93%B8%E9%93%81%E7%AE%A1%E8%B7%AF%E8%BF%9E%E6%8E%A5%E4%BB%B6%E3%80%8B%EF%BC%88%E5%BE%81%E6%B1%82%E6%84%8F%E8%A7%81%E7%A8%BF%EF%BC%89.pdf",
+          "kind": "PDF前言及范围解析",
+          "evidence": "起草单位含晋中市太谷区市场监督管理局、铸造协会、多家管道铸造企业及麦斯达夫标准化服务（山西）有限公司；范围为高承压螺纹式球墨铸铁管件设计生产检验。"
+        },
+        {
+          "source_id": "SRC-R13-MP-DRAFT-001-GET",
+          "url": "https://mystuff.com.cn/files/word/2024%E5%B9%B411%E6%9C%88/%E3%80%8A%E9%AB%98%E6%89%BF%E5%8E%8B%E7%90%83%E5%A2%A8%E9%93%B8%E9%93%81%E7%AE%A1%E8%B7%AF%E8%BF%9E%E6%8E%A5%E4%BB%B6%E3%80%8B%EF%BC%88%E5%BE%81%E6%B1%82%E6%84%8F%E8%A7%81%E7%A8%BF%EF%BC%89.pdf",
+          "kind": "普通GET前16bytes",
+          "evidence": "200/application/pdf；Content-Length1688443；%PDF-签名；未保存PDF。"
+        },
+        {
+          "source_id": "SRC-R13-MP-DRAFT-001-CONTEXT",
+          "url": "https://www.mystuff.com.cn/NewShow.aspx?CatalogId=11&RecordId=1277",
+          "kind": "机构公开新闻背景",
+          "evidence": "2024-05-16立项新闻题名同该产品标准，主编为晋中市太谷区市场监督管理局；未发现此PDF href，不能作附件父页。"
+        }
+      ],
+      "access": {
+        "method": "GET",
+        "checked_at": "2026-10-17T15:10:25.022392+08:00",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "content_length": "1688443",
+        "bytes_read": 16,
+        "pdf_signature": true,
+        "pdf_saved": false,
+        "tool_reported_page_count": 25,
+        "page_count_scope": "web工具解析报告值，未逐页审查"
+      },
+      "permissions": {
+        "source_type": "标准化服务机构品牌网站公开静态文件",
+        "compiler_relation": "PDF前言列麦斯达夫标准化服务（山西）有限公司；站点自称麦斯达夫标准化事务所，同品牌背景但法人一致性未核",
+        "authentication_used": false,
+        "challenge_bypassed": false,
+        "reprint_authorization": "未核实，公开可访问不等于转载授权"
+      },
+      "full_text_review_status": "仅候选，未判断全文完整或正式有效；不混入正式版集合",
+      "dedup": {
+        "exact_url_duplicate": false,
+        "against": "当前master requested_url及search全JSON递归download_url",
+        "snapshot": "2026-10-17T15:08:02+08:00"
+      },
+      "alternates": []
+    }
+  ],
+  "formal_metadata_only": [
+    {
+      "source_id": "SRC-R13-FORMAL-10300",
+      "standard_number": "T/CECS 10300-2023",
+      "standard_name": "钢网格结构螺栓球节点用封板、锥头和套筒",
+      "source_page": "https://m.cnass.cn/site/content/356.html",
+      "download_url": null,
+      "access": {
+        "method": "GET",
+        "checked_at": "2026-10-17T15:08:24+08:00",
+        "http_status": 200,
+        "content_type": "text/html; charset=UTF-8"
+      },
+      "observation": "协会目录及实际详情页列正式编号/题名；详情页只显示三张PNG图片，无a.href PDF附件或iframe/embed/object文件地址。未取PNG。",
+      "status": "正式版元数据路线，未获得新PDF，不当标准全文"
+    },
+    {
+      "source_id": "SRC-R13-FORMAL-1010",
+      "standard_number": "T/CECS 1010-2022",
+      "standard_name": "建筑索结构节点设计标准",
+      "source_page": "https://m.cnass.cn/site/content/341.html",
+      "download_url": null,
+      "access": {
+        "method": "GET",
+        "checked_at": "2026-10-17T15:08:24+08:00",
+        "http_status": 200,
+        "content_type": "text/html; charset=UTF-8"
+      },
+      "observation": "协会目录引到详情页，普通GET未检出PDF href或嵌入文件；web工具再开失败，区分工具失败与GET200",
+      "status": "结构节点元数据线索，不当全文"
+    }
+  ],
+  "existing_routes_preserved": [
+    {
+      "source_id": "SRC-R13-KEEP-2022-NODE-DRAFT",
+      "standard_number": "T/CECS ×××××-2022",
+      "standard_name": "钢网格结构螺栓球节点用封板、锥头和套筒",
+      "is_draft": true,
+      "url": "https://cnass.cn/upload/gjgfenhui/file/20221006/1665033581390787.pdf",
+      "original_record": "C:/Users/mj528/Documents/004 工作/web-demo/outputs/cecs-master-20261017/search/round12-public-sources/material-products/round12-house-structure-scope.json",
+      "status": "旧2022占位征求稿独立保留，不重计，不挂10300正式号；未在R13重GET"
+    },
+    {
+      "source_id": "SRC-R13-KEEP-GREEN",
+      "standard_numbers": [
+        "T/CECS 10025-2019",
+        "T/CECS 10032-2019"
+      ],
+      "status": "按工程全部范围保留原记录及原审查结论；本批仅去重，未重GET或自评完整",
+      "urls": [
+        "https://aimg8.dlssyht.cn/u/2150462/ueditor/file/1076/2150462/1723183276280200.pdf",
+        "https://aimg8.dlssyht.cn/u/2150462/ueditor/file/1076/2150462/1723185464783487.pdf"
+      ]
+    },
+    {
+      "source_id": "SRC-R13-NORETRY-10045",
+      "standard_number": "T/CECS 10045-2019",
+      "status": "工程绿色材料范围已恢复，但旧URL证书失败，不重试、不当本批新候选",
+      "url": "https://zqc.apisms.com/soft/bmt/uploads/setting/prod_ver/169890492595.pdf"
+    }
+  ],
+  "dedup": {
+    "master_path": "C:/Users/mj528/Documents/004 工作/web-demo/outputs/cecs-master-20261017/catalog/cecs-master.json",
+    "search_scope": "search/**/*.json递归download_url",
+    "checked_at": "2026-10-17T15:08:02+08:00",
+    "unique_existing_urls": 176,
+    "search_json_files": 155,
+    "parse_errors": 0,
+    "technique": "精确URL内存哈希比较，不输出旧瞬时参数值",
+    "new_pdf_exact_matches": 0
+  },
+  "source_route_checks": {
+    "catalog": {
+      "url": "https://m.cnass.cn/site/term/37.html",
+      "checked_at": "2026-10-17T15:08:02.910412+08:00",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://m.cnass.cn/site/term/37.html",
+      "content_type": "text/html; charset=UTF-8",
+      "links": [
+        {
+          "href": "https://m.cnass.cn/site/content/359.html",
+          "text": "充气膜结构技术规程（T/CECS 1323-2023）"
+        },
+        {
+          "href": "https://m.cnass.cn/site/content/358.html",
+          "text": "建筑索结构工程施工质量验收标准（T/CECS 1301-2023）"
+        },
+        {
+          "href": "https://m.cnass.cn/site/content/357.html",
+          "text": "建筑索结构工程施工标准（T/CECS 1341-2023）"
+        },
+        {
+          "href": "https://m.cnass.cn/site/content/356.html",
+          "text": "钢网格结构螺栓球节点用封板、锥头和套筒（T/CECS 10300-2023）"
+        },
+        {
+          "href": "https://m.cnass.cn/site/content/341.html",
+          "text": "建筑索结构节点设计标准（T/CECS 1010-2022）"
+        },
+        {
+          "href": "https://m.cnass.cn/site/content/116.html",
+          "text": "膜结构工程施工质量验收规程（T/CECS 664-2020）"
+        }
+      ],
+      "raw_html_saved": false
+    },
+    "formal_detail_checks": [
+      {
+        "url": "https://m.cnass.cn/site/content/356.html",
+        "checked_at": "2026-10-17T15:08:24.100502+08:00",
+        "method": "GET",
+        "status": 200,
+        "final_url": "https://m.cnass.cn/site/content/356.html",
+        "content_type": "text/html; charset=UTF-8",
+        "links": [],
+        "embeds": [],
+        "gate_terms": [],
+        "raw_html_saved": false
+      },
+      {
+        "url": "https://m.cnass.cn/site/content/341.html",
+        "checked_at": "2026-10-17T15:08:24.100502+08:00",
+        "method": "GET",
+        "status": 200,
+        "final_url": "https://m.cnass.cn/site/content/341.html",
+        "content_type": "text/html; charset=UTF-8",
+        "links": [],
+        "embeds": [],
+        "gate_terms": [],
+        "raw_html_saved": false
+      }
+    ]
+  },
+  "query_count": 12,
+  "queries": [
+    "\"10300-2023\" filetype:pdf -site:ttbz.org.cn",
+    "\"钢网格结构螺栓球节点用封板\" \"下载\" -site:ttbz.org.cn -site:guifanku.com -site:bzko.com -site:book118.com",
+    "\"CECS\" filetype:pdf \"10032\" -site:ttbz.org.cn -认证 -规则 -报告",
+    "\"CECS\" filetype:pdf \"10025\" -site:ttbz.org.cn -认证 -规则 -报告",
+    "site:aimg8.dlssyht.cn \"CECS\" filetype:pdf -10025 -10032",
+    "\"T/CECS\" \"10028\" filetype:pdf -site:ttbz.org.cn -认证 -规则 -细则 -目录",
+    "\"T/CECS\" \"10030\" filetype:pdf -site:ttbz.org.cn -认证 -规则 -细则 -目录",
+    "\"T/CECS\" \"10073\" filetype:pdf -site:ttbz.org.cn -认证 -规则 -细则 -目录",
+    "\"CECS\" \"10107\" filetype:pdf -site:ttbz.org.cn -年报 -报告 -目录 -公告",
+    "\"CECS\" \"10109\" filetype:pdf -site:ttbz.org.cn -年报 -报告 -目录 -公告",
+    "\"CECS\" \"10085\" filetype:pdf -site:ttbz.org.cn -年报 -报告 -目录 -公告",
+    "\"CECS\" \"产品标准\" filetype:pdf -site:ttbz.org.cn -计划 -目录 -报告 -年报 -认证"
+  ],
+  "negative_findings": [
+    {
+      "standards": [
+        "T/CECS 10300-2023",
+        "T/CECS 1010-2022"
+      ],
+      "result": "实际协会详情未定位PDF href，不能用图片或2022草稿替代正式PDF"
+    },
+    {
+      "standards": [
+        "T/CECS 10028-2019",
+        "T/CECS 10030-2019",
+        "T/CECS 10073-2019",
+        "T/CECS 10107-2020",
+        "T/CECS 10109-2020"
+      ],
+      "result": "多为认证细则、目录、公告、报告、第三方预览；未获得可计数的公开标准PDF，不跟随付费/登录路线"
+    }
+  ],
+  "restrictions": {
+    "ttbz_opened": false,
+    "login_used": false,
+    "challenge_bypassed": false,
+    "certificate_verification_disabled": false,
+    "pdf_saved": false,
+    "html_saved": false,
+    "png_saved": false,
+    "transient_parameter_values_saved": false,
+    "git_used": false,
+    "old_frozen_inputs_modified": false
+  }
+}

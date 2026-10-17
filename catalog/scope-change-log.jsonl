@@ -1,0 +1,2 @@
+{"at_utc":"2026-10-17 07:07:38 UTC","source_id":"USER-20261017-CECS-BUILDING-STRUCTURE-ONLY","sequence":1,"status":"superseded","scope":"仅房屋结构设计相关","action":"停止旧范围追加/并库并通知schema子角色；未改master、Excel或active标记","master_exclusions_applied":0}
+{"at_utc":"2026-10-17 07:07:38 UTC","source_id":"USER-20261017-CECS-ENGINEERING-ALL","sequence":2,"status":"active","scope":"工程相关CECS均可先收集下载，房屋结构优先","action":"恢复工程队列及按冻结QA分批接入；旧专业数据继续保留，不需回滚重建","master_exclusions_applied":0}

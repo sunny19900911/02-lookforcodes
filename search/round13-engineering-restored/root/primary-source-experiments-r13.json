@@ -1,0 +1,80 @@
+{
+  "source_id": "SEARCH-R13-STRUCTURAL-PRIMARY-EXPERIMENTS-20261017",
+  "recorded_at": "2026-10-17T15:15:09+08:00",
+  "target_standard_count": 3,
+  "target_standards": [
+    "CECS 28:2012",
+    "T/CECS 1009-2022",
+    "CECS 325:2012"
+  ],
+  "scope_rule_source_id": "USER-20261017-CECS-ENGINEERING-ALL",
+  "query_group": "主编/参编公开原站定向PDF查询，一组，四个query；限定三个编号",
+  "experiments": [
+    {
+      "standard_number": "CECS 28:2012",
+      "method": "哈尔滨工业大学/中国建筑科学研究院原站定向查询",
+      "observation": "定位HIT主编新闻与教师主页；仅访问新闻页面附件属性，未发现可确认为本标准的PDF。济南403失败路径不重试。",
+      "pdf_candidate_added": 0
+    },
+    {
+      "standard_number": "T/CECS 1009-2022",
+      "method": "中国建筑科学研究院原站定向PDF查询，协会公开页只读核对",
+      "observation": "本组未取得cabr原站PDF命中；云南检测协会GET200但无相关PDF/DOC/download属性，仍仅元数据。",
+      "pdf_candidate_added": 0,
+      "metadata_conflict": "协会页声称替代GB/T50621-2010，未独立确认；不能用协会网页替换关系证明国家标准失效。"
+    },
+    {
+      "standard_number": "CECS 325:2012",
+      "method": "同济大学主编成果/专业机构目录的实际附件属性检查",
+      "observation": "检索见实际高校成果表；本组仅正文目录记录，没有被验证为该标准的PDF附件。个人站旧索引PDF本轮GET404，已停止。",
+      "pdf_candidate_added": 0
+    }
+  ],
+  "actual_primary_page_gets": [
+    {
+      "source_id": "SEARCH-R13-PRIMARY-28-997f8f0a",
+      "target_number": "28",
+      "source_page": "https://civil.hit.edu.cn/2018/1210/c8438a219201/page.htm",
+      "source_kind": "主编高校原站新闻",
+      "checked_at": "2026-10-17T15:15:08+08:00",
+      "method": "ordinary anonymous GET",
+      "raw_html_saved": false,
+      "http_status": 200,
+      "bytes_read": 54839,
+      "content_sha256_at_read": "c5fe3e8efa048960291927f7c6eea2148069dfa1f9c8b8ec87b5d319c2a0bd98",
+      "observed_document_attributes": [],
+      "pdf_download_requests": 0
+    },
+    {
+      "source_id": "SEARCH-R13-PRIMARY-325-9dbf56a4",
+      "target_number": "325",
+      "source_page": "https://tjfj.tongji.edu.cn/20596/list.htm",
+      "source_kind": "参编/主编相关高校专业机构标准目录",
+      "checked_at": "2026-10-17T15:15:08+08:00",
+      "method": "ordinary anonymous GET",
+      "raw_html_saved": false,
+      "http_status": 200,
+      "bytes_read": 23675,
+      "content_sha256_at_read": "4d496249a903a56ab9539fdbe3c312be1bcb9403f6bd9478c9102cdd9eebd52b",
+      "observed_document_attributes": [],
+      "pdf_download_requests": 0
+    },
+    {
+      "source_id": "SEARCH-R13-PRIMARY-325-63423fad",
+      "target_number": "325",
+      "source_page": "https://structure.tongji.edu.cn/kxyj/kycg/gui_fan_ba/zggcjsbzhxhbz.htm",
+      "source_kind": "主编高校工程系标准成果表",
+      "checked_at": "2026-10-17T15:15:08+08:00",
+      "method": "ordinary anonymous GET",
+      "raw_html_saved": false,
+      "http_status": 200,
+      "bytes_read": 60405,
+      "content_sha256_at_read": "2b22d15741a05208e0b3517b86a06bae4b78d94448bf69ab6176d9121e2071d7",
+      "observed_document_attributes": [],
+      "pdf_download_requests": 0
+    }
+  ],
+  "new_complete_claims": 0,
+  "new_full_pdf_claims": 0,
+  "boundary": "负面结论仅限本组查询及这三页，不代表全校/全院站点穷尽。未猜下载API、未访问账户、未绕过403或证书。"
+}

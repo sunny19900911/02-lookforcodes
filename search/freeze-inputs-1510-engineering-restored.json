@@ -1,0 +1,187 @@
+{
+  "producer": "search",
+  "checkpoint": "15:10 工程范围恢复/旧批次交叉核对/新草案隔离",
+  "checked_at": "2026-10-17T15:17:02+08:00",
+  "frozen": true,
+  "active_scope_source_id": "USER-20261017-CECS-ENGINEERING-ALL",
+  "input_file_count": 17,
+  "previous_freeze_integrity": [
+    {
+      "path": "search/freeze-inputs-1320.json",
+      "sha256": "dba3baee49dcbfcdf5711f3175dfdc986b5369b55103a1034a2d8d1e2338024c",
+      "files": 19,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "path": "search/freeze-inputs-1330.json",
+      "sha256": "cbaca0e020a0490acd481ca458253bfa76f12d4f2504ef12723e274dd5d30ff4",
+      "files": 12,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "path": "search/freeze-inputs-1340-water-mep-addendum-v2.json",
+      "sha256": "508185ceab7f8930993e1f0dfe37c6f1551350165134417f898eafc735609dda",
+      "files": 4,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "path": "search/freeze-inputs-1340-water-mep-addendum.json",
+      "sha256": "1e25d7f559f47368e3f17446ba2bccb0d13a8260231df7a44e40cbc394fed609",
+      "files": 3,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "path": "search/freeze-inputs-1340.json",
+      "sha256": "964794e5ab1f8b044d495907e2da04a559fb0b211466708ce963b8c643472fb9",
+      "files": 12,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "path": "search/freeze-inputs-1400.json",
+      "sha256": "a02d910b3e4f1db769eda1d11e68ff7a9adb005ae2ed834bc0284f0e3b749519",
+      "files": 13,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "path": "search/freeze-inputs-1420.json",
+      "sha256": "cc3118242ffa6b13e530ef48678adacb5a6fc9a2d0fe553f39be2ca6e66df2ed",
+      "files": 11,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "path": "search/freeze-inputs-1430.json",
+      "sha256": "3974c2d6470358bce3c086132f783d963e351988ab4bf18450def551067d5722",
+      "files": 10,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "path": "search/freeze-inputs-1440.json",
+      "sha256": "c6da85fcbe8c2c3a5a54166ee03eacee36f0c1b5f7de58eadb398686525d0be7",
+      "files": 11,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "path": "search/freeze-inputs-1500-scope-transition.json",
+      "sha256": "19ccfcdd7f137dbfee2f279799c2edda793ac08a1a39bb92e2691f86c596e148",
+      "files": 11,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "path": "search/freeze-inputs-g2-round02-share-1350.json",
+      "sha256": "42506bcb9964f302335cff5524621bdda7a9d0091dc876a9e126a67e02cfdd31",
+      "files": 1,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "path": "search/freeze-inputs-round04.json",
+      "sha256": "b80eac1da1fe05fb68b9566b25a24c9fce38a37a4d8be1366a7061ecceeeeca7",
+      "files": 9,
+      "unchanged": true,
+      "failures": []
+    }
+  ],
+  "files": [
+    {
+      "path": "search/round13-engineering-restored/directory-net-crosscheck-1510.json",
+      "sha256": "67eebf3d465cafc29df5d2e7e16b2fa220f9dd96eb389f8cb01ce7908a0fddc9",
+      "bytes": 8592
+    },
+    {
+      "path": "search/round13-engineering-restored/independent-qa-receipt-1510.json",
+      "sha256": "d1c8ba48ed6ae6d56f86cb986d3bd9b72382ac78b7d6392df217faee3c796dbe",
+      "bytes": 1035
+    },
+    {
+      "path": "search/round13-engineering-restored/material-products/round13-material-products.json",
+      "sha256": "7460eaa51d592155225c602e4321d5470583e138652a011a613f5db7ebd9eaa9",
+      "bytes": 13439
+    },
+    {
+      "path": "search/round13-engineering-restored/new-drafts-r12-r13-share.json",
+      "sha256": "a51e8d3a076b6a3f7417352b64c67404e88d6f840f31a9daf4d8922d5954cca8",
+      "bytes": 10976
+    },
+    {
+      "path": "search/round13-engineering-restored/queue-engineering-restored-r12.json",
+      "sha256": "56eaf77f2110e97111dfc6bf839687d7545e5b643b79a216eb0926c767bb4718",
+      "bytes": 23716
+    },
+    {
+      "path": "search/round13-engineering-restored/receipt-current-selection-r09-r11-1510.json",
+      "sha256": "29c1e1ae4f22927b1f7a0f6e8107a45c8ed30ad9f121fb58b30a59210e4db8cf",
+      "bytes": 10477
+    },
+    {
+      "path": "search/round13-engineering-restored/root/access-28-r13.json",
+      "sha256": "796e8e151f9fa8ed29e57ed0610af4e5692a4876cb983a99271f3f2b1ccfdb3b",
+      "bytes": 634
+    },
+    {
+      "path": "search/round13-engineering-restored/root/candidates-r13-root.json",
+      "sha256": "a8528eb4e7a12f0bd01362e0a29b73cfdc2420a8d872a1adb0ed59247a0b5c0c",
+      "bytes": 2712
+    },
+    {
+      "path": "search/round13-engineering-restored/root/page-observation-r13-1009.json",
+      "sha256": "627d6094b90f0234a6deba6a548d277a4286cdaaaf4531dfbddfdd0ef3681f5c",
+      "bytes": 514
+    },
+    {
+      "path": "search/round13-engineering-restored/root/primary-source-experiments-r13.json",
+      "sha256": "8fa38922c2f3dce83f24b67de503a693d6c498f5eeac9d5988209ffc00d3a8d2",
+      "bytes": 3703
+    },
+    {
+      "path": "search/round13-engineering-restored/root/query-ledger-r13-root.json",
+      "sha256": "298f1b40ca1db902acf76af9f5444cf0487f29236dacbd0951507f76c4c72bc8",
+      "bytes": 2989
+    },
+    {
+      "path": "search/round13-engineering-restored/scope-engineering-all-20261017.json",
+      "sha256": "2d3265d6ffb35ec42642cc5a44bc5efb5031844d624ba9832f402f2c8bdea54f",
+      "bytes": 1804
+    },
+    {
+      "path": "search/round13-engineering-restored/state-r13.json",
+      "sha256": "e916187ed904d0b5250492abf169fdf985e36fe8849a0b335c380e14e4d076ab",
+      "bytes": 1740
+    },
+    {
+      "path": "search/round13-engineering-restored/transport/transport-round13.json",
+      "sha256": "79f9399ecf1cd19c01112f5e4c642d133b8566f6ea337d2e9533333e5cdfdf6b",
+      "bytes": 19367
+    },
+    {
+      "path": "search/scope-instruction-timeline-20261017.json",
+      "sha256": "673c0022cee017bc928f5f7e8a94e7c122da99d2354d7d6baadc52dd7ca3f040",
+      "bytes": 771
+    },
+    {
+      "path": "search/round13-engineering-restored/validation-r13.json",
+      "sha256": "191f952fdd1773dc9374e1b2bf3be1bf5be75baf1622800c54ea1c67a4f116b7",
+      "bytes": 3260
+    },
+    {
+      "path": "search/discussion-1510-engineering-restored.md",
+      "sha256": "504cdc714d4936c02d4855c098167d60c2d8b4f7af8f1cc342b1f55adccce007",
+      "bytes": 1866
+    }
+  ],
+  "pending_audit_candidate_selection": "search/round13-engineering-restored/new-drafts-r12-r13-share.json",
+  "main_current_batch_unchanged": [
+    "search/freeze-inputs-1420.json",
+    "search/freeze-inputs-1430.json",
+    "search/freeze-inputs-1440.json"
+  ]
+}

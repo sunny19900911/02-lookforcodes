@@ -1,0 +1,18 @@
+{
+  "source_id": "SEARCH-R13-28-2012-GET-20261017",
+  "requested_url": "https://jncc.jinan.gov.cn/module/download/downfile.jsp?classid=0&filename=6f531b872d124585b888c4bcfde0616b.pdf",
+  "checked_at": "2026-10-17T15:08:59+08:00",
+  "method": "ordinary anonymous GET (public indexed URL)",
+  "file_saved": false,
+  "error_type": "HTTPError",
+  "error_status": 403,
+  "pdf_signature": false,
+  "exact_url_already_in_master": false,
+  "matching_standard_records": [
+    {
+      "standard_id": "CECS-28-2012-FORMAL",
+      "standard_number": "CECS 28-2012",
+      "name": "钢管混凝土结构技术规程"
+    }
+  ]
+}

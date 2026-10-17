@@ -1,0 +1,20 @@
+{
+  "source_id": "SEARCH-SCOPE-TIMELINE-20261017",
+  "recorded_at": "2026-10-17T15:10:45+08:00",
+  "events": [
+    {
+      "source_id": "USER-20261017-CECS-BUILDING-STRUCTURE-ONLY",
+      "acknowledged_at": "2026-10-17T15:00:39+08:00",
+      "active": false,
+      "superseded_by": "USER-20261017-CECS-ENGINEERING-ALL",
+      "effect": "仅search新增停止与范围投影，未改主索引/Excel/原件/质量；原冻结保留历史"
+    },
+    {
+      "source_id": "USER-20261017-CECS-ENGINEERING-ALL",
+      "acknowledged_at": "2026-10-17T15:07:12+08:00",
+      "active": true,
+      "effect": "工程CECS队列立即恢复；只因非房屋结构的停用/排除/待判撤销"
+    }
+  ],
+  "no_master_or_excel_scope_changes_to_rollback": true
+}

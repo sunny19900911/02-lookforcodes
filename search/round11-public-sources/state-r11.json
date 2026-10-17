@@ -1,0 +1,93 @@
+{
+  "source_id": "SEARCH-R11-CHECKPOINT-1440",
+  "recorded_at": "2026-10-17T14:43:32+08:00",
+  "new_pdf_candidates": 6,
+  "root_candidates": 5,
+  "instrument_new_pdf_candidates": 1,
+  "non_pdf_doc_routes": 1,
+  "short_pdf_routes": 1,
+  "existing_41_alternate_routes": 1,
+  "new_directory_source_rows": 117,
+  "directory_complete_unique_number_years": 116,
+  "directory_unresolved": 1,
+  "government_rows": 77,
+  "institute_supplement_rows": 40,
+  "new_keys_vs_master_r09_r10": [
+    "1861/2025",
+    "1865/2025",
+    "1867/2025",
+    "1870/2025"
+  ],
+  "actual_merge_count": 0,
+  "audit_canonical_at_read": {
+    "results": 48,
+    "sha256": "a81a40dfff05c0bd437b99875baba5efc7f540c05ae9c59437aceb66d5aa65e2",
+    "updated_at": "2026-10-17T14:24:41+08:00"
+  },
+  "pending_1430_boundary": "R09新增正式完整0、内容完整草案3；需主控批准，不先计54。R10两条固定C/D另批，不先计56。",
+  "search_added_complete_count": 0,
+  "historical_event_verified_by_audit": "69:94自2011-10-01同时废止，见receipt-85-repeal-r11.json；不推断2011版2026现行。",
+  "old_freeze_integrity": [
+    {
+      "manifest": "search/freeze-inputs-1320.json",
+      "files": 19,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-round04.json",
+      "files": 9,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-1330.json",
+      "files": 12,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-1340.json",
+      "files": 12,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-1340-water-mep-addendum.json",
+      "files": 3,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-1340-water-mep-addendum-v2.json",
+      "files": 4,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-g2-round02-share-1350.json",
+      "files": 1,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-1400.json",
+      "files": 13,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-1420.json",
+      "files": 11,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-1430.json",
+      "files": 10,
+      "unchanged": true,
+      "failures": []
+    }
+  ],
+  "boundary": "所有新输入仅metadata与实际来源路由；无PDF/PNG/原HTML/瞬时参数值/Git/账户操作。"
+}

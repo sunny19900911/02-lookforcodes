@@ -1,0 +1,32 @@
+{
+  "source_id": "SEARCH-INDEPENDENT-QA-R13-20261017",
+  "recorded_at": "2026-10-17T15:17:02+08:00",
+  "statement_type": "AI独立只读复核回执",
+  "reviewer": "/root/baseline_external_routes",
+  "results": {
+    "hash_checks_passed": 40,
+    "manifests": 3,
+    "source_files": 32,
+    "audit_or_backup_files": 5,
+    "master_snapshot_standards": 1008,
+    "master_snapshot_links": 146,
+    "directory_union_keys": 381,
+    "already_in_master": 113,
+    "absent_master": 268,
+    "sequential_net": [
+      137,
+      127,
+      4
+    ],
+    "g_professional_keys_included": 8,
+    "short_161_not_complete": true,
+    "doc_21_not_pdf": true,
+    "alternate_41_not_new_version": true,
+    "qingdao_33_title_effective_date_conflicts_preserved": true
+  },
+  "scope_current": "USER-20261017-CECS-ENGINEERING-ALL",
+  "boundaries": [
+    "268是目录key差集，不是主索引已验收净新增或完整PDF数",
+    "未联网、未改文件、未操作Git；复核不增加全文完整性结论"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "checked_at": "2026-10-17T14:56:56+08:00",
+  "selected_audit_snapshot": {
+    "path": "audit-pending-round09-freeze-1450-v2.json",
+    "sha256": "339a53ad776599ca4181a75633dd0479b1f040d293e9bf35d02dd762937196ef"
+  },
+  "selected_audit_receipt": "audit-round09-receipt-1450-v2.json",
+  "current_alternate_share_projection": {
+    "path": "candidates-r11-alt31-share.json",
+    "sha256": "2aa5cd96cfcc3f9d3848c7046575bb72e53b7426fb602f8b58b191558b94a61d"
+  },
+  "historical_request_input": {
+    "path": "candidates-r11-alt31.json",
+    "sha256": "4e420a740958b2fbbbbdfb357fc65a77912a20421f5f53d05c424aa6c1e7ff9d",
+    "historical_only": true,
+    "publish_as_current_observation": false,
+    "scope": "原请求上下文，不作为备用URL页数或可达事实"
+  },
+  "superseded_internal_snapshot": {
+    "path": "audit-pending-round09-freeze-1450.json",
+    "sha256": "cf0dd59afb35b348b277f5b2b1437741dd995f947cc3c327faa002970b9572ff",
+    "publish_as_current_observation": false
+  },
+  "counts_unchanged": {
+    "records": 7,
+    "main_candidates": 6,
+    "additional_alternate": 1,
+    "parseable_pdf_links": 4,
+    "ratings": {
+      "C": 1,
+      "D": 6
+    },
+    "new_complete": 0
+  },
+  "note": "固定审查v2数据不变；此补充只明确当前分享投影及历史输入发布范围，所有旧文件保留未改。"
+}

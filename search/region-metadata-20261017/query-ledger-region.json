@@ -1,0 +1,85 @@
+{
+  "source_id": "SEARCH-REGION-METADATA-QUERIES-20261017",
+  "instruction_source_id": "USER-20261017-CECS-DOWNLOAD-SOURCE-REGION",
+  "requests": [
+    {
+      "store_key": "region-web01",
+      "request": {
+        "search_query": [
+          {
+            "q": "site:nwafu.edu.cn \"地址\" \"杨凌\" \"712100\""
+          },
+          {
+            "q": "site:tmky.hpu.edu.cn \"地址\" \"焦作\""
+          },
+          {
+            "q": "site:eol.nwafu.edu.cn \"西北农林科技大学\""
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "store_key": "region-web02",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.nwafu.edu.cn/"
+          },
+          {
+            "ref_id": "https://eol.nwafu.edu.cn/meol/homepage/course/listview.jsp?_colId=null&_style=new03&acttype=enter&folderid=283225&lid=47196"
+          },
+          {
+            "ref_id": "https://tmky.hpu.edu.cn/"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "store_key": "region-web03",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"eol.nwafu.edu.cn\" site:nwafu.edu.cn -filetype:pdf"
+          },
+          {
+            "q": "\"河南理工大学\" \"焦作市\" \"地址\" site:hpu.edu.cn -filetype:pdf"
+          }
+        ],
+        "open": [
+          {
+            "ref_id": "https://www.hpu.edu.cn/"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "store_key": "region-web04",
+      "request": {
+        "click": [
+          {
+            "ref_id": "turn218view0",
+            "id": 40
+          }
+        ],
+        "open": [
+          {
+            "ref_id": "https://eol.nwafu.edu.cn/"
+          },
+          {
+            "ref_id": "https://www.hpu.edu.cn/xxgk/xxjj.htm"
+          }
+        ],
+        "response_length": "long"
+      }
+    }
+  ],
+  "source_requests_only": true,
+  "responses_saved": false,
+  "pdf_get_count": 0,
+  "new_standard_candidates": 0,
+  "scope_boundary": "仅已登记高校来源主体及官方地址，不扩地方标准；catalog分工后停止其他机构新查询。",
+  "encoding_note": "EOL身份页原声明gbk；补一次严格gb18030解码读取，仅选择platform-identity-observations-v2，不分享初次UTF-8乱码观察。"
+}
