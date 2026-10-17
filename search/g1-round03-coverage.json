@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "producer": "search",
+  "date": "2026-10-17",
+  "topic_group": "G1",
+  "round": "R03-G1-exact-coverage",
+  "query_count": 20,
+  "query_rounds": [
+    {
+      "round": "r20",
+      "queries": [
+        "\"喷扩锥台压灌桩技术标准\" pdf",
+        "\"木桩工程技术规程\" pdf",
+        "\"多节钻扩灌注桩技术规程\" pdf",
+        "\"笼芯囊锚杆技术规程\" pdf"
+      ]
+    },
+    {
+      "round": "r21",
+      "queries": [
+        "\"CECS 889\" filetype:pdf",
+        "\"CECS 831-2021\" filetype:pdf",
+        "\"多节钻扩灌注桩技术规程\" \"主编\"",
+        "\"喷扩锥台压灌桩技术标准\" \"倍特力\""
+      ]
+    },
+    {
+      "round": "r22",
+      "queries": [
+        "\"北京荣创岩土\" \"多节钻扩灌注桩技术规程\" pdf",
+        "\"山东倍特力\" \"技术标准\" \"下载\"",
+        "\"笼芯囊锚杆技术规程\" \"主编\"",
+        "\"木桩工程技术规程\" \"福建省建筑科学研究院\" 下载"
+      ]
+    },
+    {
+      "round": "r23",
+      "queries": [
+        "\"囊式扩体锚杆技术规程\" filetype:pdf",
+        "\"预制混凝土板桩式挡土墙技术规程\" filetype:pdf",
+        "\"工程建设水文地质勘察标准\" filetype:pdf",
+        "\"挤扩支盘灌注桩技术规程\" filetype:pdf -site:antpedia.com -site:doc88.com -site:docin.com -site:scribd.com"
+      ]
+    },
+    {
+      "round": "r24",
+      "queries": [
+        "\"T/CECS 192-2022\" \"原\"",
+        "\"CECS 241:2008\" filetype:pdf",
+        "\"T/CECS1259-2023\" filetype:pdf",
+        "\"笼芯囊锚杆技术规程\" \"深圳钜联\" 下载"
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "standard_number": "T/CECS 657-2020",
+      "seed_ids": [
+        "S023"
+      ],
+      "name": "喷扩锥台压灌桩技术标准",
+      "status": "出版社试读；第三方20点/VIP；未得公开全文",
+      "sources": [
+        "https://ebook.chinabuilding.com.cn/zbooklib/bookpdf/probation?SiteID=1&bookID=129997",
+        "https://www.safehoo.com/Item/1606209.aspx",
+        "https://www.11bz.com/a/631603.html"
+      ],
+      "compiler_lead": "山东倍特力地基工程技术有限公司、山东大学；政府科技成果目录支持该标准编制单位路线，非全文",
+      "next_test": "查主编单位公开标准附件；非登录下载按钮没有明确href，不逆向绕过"
+    },
+    {
+      "standard_number": "T/CECS 831-2021",
+      "seed_ids": [
+        "S026"
+      ],
+      "name": "木桩工程技术规程",
+      "status": "VIP/介绍；biaozhuns实际帖子已被管理员屏蔽",
+      "sources": [
+        "https://www.bzko.com/std/263047.html",
+        "https://www.biaozhuns.com/archives/20211118/show-302192-108-1.html",
+        "https://bbs.biaozhuns.com/forum.php?mod=viewthread&tid=323254"
+      ],
+      "compiler_lead": "福建省建筑科学研究院、福州第七建筑工程有限公司；地方木桩标准不是CECS全文",
+      "next_test": "编制单位官网明确公开附件"
+    },
+    {
+      "standard_number": "T/CECS 601-2019",
+      "seed_ids": [
+        "S027"
+      ],
+      "name": "多节钻扩灌注桩技术规程",
+      "status": "出版平台目录及2018送审会新闻；未得公开全文",
+      "sources": [
+        "https://www.gongbiaoku.com/book/u0z19803g3f?query=%E9%92%BB%E8%8A%AF",
+        "https://www.jcgcw.com/index/news/detail?id=58972"
+      ],
+      "compiler_lead": "北京荣创岩土、中国铁路设计集团（出版平台列名；原单位源待核）",
+      "next_test": "主编单位公开附件；2018送审稿不冒充2019正式版"
+    },
+    {
+      "standard_number": "T/CECS 889-2021",
+      "seed_ids": [
+        "S024",
+        "S028"
+      ],
+      "name": "笼芯囊锚杆技术规程",
+      "status": "出版平台目录及第三方下载页；无已提取直链；正式/报批稿仍分开",
+      "sources": [
+        "https://www.gongbiaoku.com/book/m1e23511md8",
+        "https://www.freebz.net/tuanti/259523.html"
+      ],
+      "compiler_lead": "深圳钜联锚杆、中国水利水电科学研究院（出版平台列名）",
+      "next_test": "检查主编机构明确公开附件，Q/JLL005-2020同名企标不误收CECS"
+    },
+    {
+      "standard_number": "T/CECS 1259-2023",
+      "seed_ids": [
+        "S029"
+      ],
+      "name": "囊式扩体锚杆技术规程",
+      "status": "引用资料/出版介绍；未得全文",
+      "sources": [
+        "https://www.geokey.com.cn/newsListyw.html?id=1659"
+      ],
+      "compiler_lead": "工勘集团公开新闻提到规范发布，未给PDF",
+      "next_test": "编制单位下载/出版方详情再追附件"
+    },
+    {
+      "standard_number": "T/CECS 582-2019",
+      "seed_ids": [
+        "S030"
+      ],
+      "name": "预制混凝土板桩式挡土墙技术规程",
+      "status": "出版方明确1/10试读及VIP转载；未得完整全文",
+      "sources": [
+        "https://ebook.chinabuilding.com.cn/zbooklib/bookpdf/probation?SiteID=1&bookID=131752"
+      ],
+      "compiler_lead": "建华建材（中国）、上海勘测设计研究院；联合T/CHES28-2019编号必须保留",
+      "next_test": "主编单位及中国水利学会公开下载；不能把试读正文误计全文"
+    },
+    {
+      "standard_number": "CECS 241:2008",
+      "seed_ids": [
+        "S031"
+      ],
+      "name": "工程建设水文地质勘察标准",
+      "status": "大量政府合同/环评引用，未命中本标准全文",
+      "sources": [
+        "https://td.gd.gov.cn/attachment/0/556/556319/4463781.pdf",
+        "https://www.wenkub.com/doc-313779129.html"
+      ],
+      "compiler_lead": "政府引用只支持文献存在，不说明现行性或提供全文",
+      "next_test": "建设综合勘察研究设计院公开资料/旧版单位附件"
+    },
+    {
+      "standard_number": "CECS 192:2005",
+      "seed_ids": [
+        "S018"
+      ],
+      "name": "挤扩支盘灌注桩技术规程",
+      "status": "未得旧全文；发现T/CECS192-2022替代线索",
+      "sources": [
+        "https://www.nanjing.gov.cn/xxgkn/jytabljggk/2024njytabl/shirddbjy/202411/t20241114_5009306.html",
+        "https://www.gongbiaoku.com/book/6sc24709fqa"
+      ],
+      "compiler_lead": "南京官方建议答复引用192-2022；出版平台第1369号公告转载称旧2005同时废止，需协会原文确认",
+      "next_test": "北京交通大学主编路线与协会第1369公告；保留2005历史"
+    }
+  ],
+  "new_direct_candidate_count": 0,
+  "full_pdf_verified_by_search": 0,
+  "note": "20查询覆盖8种编号年份及种子9条文件映射（889正式/报批两原记录），并非已得全文。所有失败是本轮未得，不能推断全网不存在。网页下载链接的权限与受限理由按实际页面记录；不绕过。",
+  "metadata_only": [
+    {
+      "standard_number": "T/CECS 192-2022",
+      "year": "2022",
+      "name": "挤扩支盘灌注桩技术规程",
+      "source_page": "https://www.nanjing.gov.cn/xxgkn/jytabljggk/2024njytabl/shirddbjy/202411/t20241114_5009306.html",
+      "note": "该source URL以coverage.sources中实际南京官方URL为准；仅政府引用新编号，需核协会原公告的替代关系"
+    }
+  ]
+}

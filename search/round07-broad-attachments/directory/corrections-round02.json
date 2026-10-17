@@ -1,0 +1,17 @@
+{
+  "checked_at": "2026-10-17T13:38:43.461129+08:00",
+  "corrections": [
+    {
+      "standard_number": "T/CECS 608-2019",
+      "old_file_read_only": "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\search\\baseline-external-routes\\directory-round02.json",
+      "old_name": "绿色建筑运营后评价标准",
+      "new_direct_pdf_name": "绿色建筑运营后评估标准",
+      "source_pdf": "https://zjt.hubei.gov.cn/zfxxgk/zc/gfxwj/202212/P020221229428659512527.pdf",
+      "pdf_page_one_based": 22,
+      "source_printed_page": 21,
+      "source_row_id": "3.1.3-8",
+      "reason": "直接PDF原格与前轮搜索索引解析不一致，catalog应保留更正记录并优先直接原件依据；未改冻结文件"
+    }
+  ],
+  "note": "新增证据更正，不改旧文件；全部有政府PDF物理页码"
+}

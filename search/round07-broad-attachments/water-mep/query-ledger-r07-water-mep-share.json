@@ -1,0 +1,89 @@
+{
+  "source_id": "SEARCH-R07-WATER-MEP-QUERY-LEDGER",
+  "recorded_at": "2026-10-17T13:43:22+08:00",
+  "observation_checked_at": "2026-10-17T05:40:15Z",
+  "queries": [
+    "CECS 给水排水 下载 site:edu.cn",
+    "CECS 暖通 pdf site:org.cn",
+    "CECS 标准下载 管道",
+    "CECS 水处理 pdf",
+    "site:yonggao.com CECS pdf",
+    "CECS 下载中心 不锈钢",
+    "CECS 资料下载 不锈钢",
+    "CECS 下载中心 规程 管业",
+    "CECS 高效制冷机房 filetype:pdf",
+    "CECS 虹吸式 filetype:pdf",
+    "CECS 技术下载 管",
+    "CECS 资料下载 虹吸",
+    "CECS 下载中心 给水",
+    "CECS 机电 技术规程 filetype:pdf",
+    "高模量聚丙烯一体化预制泵站 T/CECS",
+    "一体化智能截流井 T/CECS"
+  ],
+  "coverage_numbers": [
+    "41-2004",
+    "164-2004",
+    "1012-2022",
+    "828-2021",
+    "10267-2023",
+    "10309-2023",
+    "10222-2022",
+    "10403-2024",
+    "1100-2022",
+    "1544-2024",
+    "846-2021",
+    "183-2005",
+    "183-2015",
+    "277-2010",
+    "153-2003",
+    "151-2003"
+  ],
+  "failed_or_excluded": [
+    {
+      "source_page": "https://www.zgbim.cn/Download/4.html",
+      "standard_numbers": [
+        "T/CECS 1544-2024",
+        "T/CECS 1100-2022"
+      ],
+      "status": "搜索可索引同站目录，但web.open403，未取PDF；未尝试绕过访问限制"
+    },
+    {
+      "source_page": "https://www.zgbim.cn/Download_1/20.html",
+      "status": "web.click403；0附件"
+    },
+    {
+      "source_page": "https://meiyapipe.com/list_29/131.html",
+      "standard_numbers": [
+        "CECS277:2010",
+        "CECS153:2003",
+        "CECS151:2003"
+      ],
+      "status": "介绍页引用规范，无PDF；后续读取超时/EOF；0附件"
+    },
+    {
+      "source_page": "https://www.antinstall.com/?a=index&c=Lists&m=home&tid=17",
+      "standard_numbers": [
+        "CECS420:2015"
+      ],
+      "status": "列表502；0附件"
+    },
+    {
+      "source_page": "https://www.car.org.cn/ueditor/php/upload/file/20210413/1618299682954944.pdf",
+      "standard_numbers": [
+        "T/CECS487-2017"
+      ],
+      "status": "制冷白皮书仅引用，排除为标准全文"
+    },
+    {
+      "source_page": "https://down.foodmate.net/standard/sort/12/178239.html",
+      "standard_numbers": [
+        "T/CECS2065-2025"
+      ],
+      "status": "明确暂无文本，0附件"
+    }
+  ],
+  "method_revision": "同站参编厂家列表一次带出4项，但按钮返回成功JSON仍不等于PDF：菲源四目标HEAD均HTML，抽查112实际GET是过期提示。暂不交为直链PDF，保留详情页和正常会话重试步骤。兆冠下载URL藏于公开HTML checkbox value，可直接引用实际链接，无需猜资源ID。公元厂家域名检索可补历史版本。",
+  "method_boundary": "日志为本轮检索人员记录，非独立PDF质量审查。原始web响应仅本地保留，不列入同步manifest。",
+  "raw_candidates_local_sha256": "b853621d986a3c85b317b2c6b96151db2e620d59c99aff32ac0a4ab357866fa4",
+  "raw_web_response_local_sha256": "6c4a00870aa81c5dc0fbc90e85d05f2bfa65b344c674c600aa6751fbb86f3658"
+}

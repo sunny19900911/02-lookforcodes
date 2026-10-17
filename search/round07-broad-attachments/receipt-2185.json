@@ -1,0 +1,18 @@
+{
+  "source_id": "SEARCH-R07-RECEIPT-2185-20261017",
+  "statement_type": "原文事实（审查角色独立证据回执；检索侧未重复GET或独立目视）",
+  "recorded_at": "2026-10-17T13:41:04+08:00",
+  "evidence_path": "pdf-audit/evidence-2185-repeal-cecs22-2005.json",
+  "evidence_file_sha256": "63d4823169a46a0cd462c4c79a2b06e2a1f513aea79137afe14eeda5a2c4f321",
+  "source_id_received": "PDF-CECS-2185-REPEAL-20261017",
+  "claim": "第2185号公告载明T/CECS 22-2024自2025-04-01起施行，原CECS 22:2005同时废止。",
+  "locator": {
+    "pdf_page_1based": 5,
+    "printed_page_number": null,
+    "printed_page_note": "公告页未印页码；5为PDF顺序页，不称打印页5。",
+    "within_page": "第2185号公告正文段落最后两句；末尾落款为2024-11-12。"
+  },
+  "pdf_sha256": "a9d45e1f5be3eb86e498185b02738a92ee51dcd1c6bfe862d2ea25faf1e46491",
+  "source_url": "https://www.zhanggenbao.com/wp-content/uploads/2026/03/TCECS-22-2024-%E5%B2%A9%E5%9C%9F%E9%94%9A%E6%9D%86%E6%8A%80%E6%9C%AF%E8%A7%84%E7%A8%8B.pdf",
+  "boundary": "只登记历史废止事件；不据此确认2024版在2026仍现行。原PDF及PNG只留本地，不纳入冻结同步。"
+}

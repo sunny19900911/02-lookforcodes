@@ -1,5 +1,47 @@
 # CECS 总表管理交接
 
+## 13:49机器分享投影修正（优先于下文机器SHA）
+
+主控TEMP_QUERY发现external/search/43/redirect_entry的瞬时query，仅machine外部分享投影清理，原冻结来源保持本地SHA不变。参数值未打印或搬入日志。候选G2-R02-117-2017-315368-ZIP；原来源search/g2-public-routes/round02-candidates.json，SHA c74bf7bafad8492bc055426a7b66340b14db42c00727cf574a06e4f45da64cf0。
+
+最终分享machine SHA256=`4f66c453fdaafe58878d696fc8fd6d4802d9fc4b235785f51b8642ee6ed9a2c1`；generated_at仍05:37:51.370Z。XLSX仍SHA=`05da49e829a2ac73232bd9205ae750090f6fe26ffba33fd1e4ae3a3d129e2414`，811/127/33/9完整7版本7hash均不变。sharing-validation.json及sharing-projection-receipt.json保存零命中、幂等和来源原SHA核对。catalog/share-inputs/g2-round02-candidates.share.json可作为分享源副本；旧raw master history和原输入仅本地保留，不出版。
+
+builder已自动清外部投影，清理脚本不再对当前master重复运行（它要求旧路径存在且需改一处）。两项合成query语义验证通过。详见discussion-1350.md。下文旧机器SHA属本地原始历史，当前出版应使用本节分享SHA。
+
+---
+
+## 13:30最终纠错封版（2026-10-17 13:37，优先于下文）
+
+独立复核检出796-2021创建时被公告文档名污染，已同时修正metadata_only创建/更新逻辑，并从原冲突组规范名恢复“屋面结构雪荷载设计标准”。公告文件名仍留审查字段，metadata_only防御性排除完整清单。未改任何冻结输入，重建33审查同批数据。
+
+最终generated_at=`2026-10-17T05:37:51.370Z`；811身份、127链接、710目录行、81映射、934证据；33结果、9完整链接=7版本7hash，102 E2012及3无编号隔离不变。XLSX SHA256=`05da49e829a2ac73232bd9205ae750090f6fe26ffba33fd1e4ae3a3d129e2414`，506186字节；master SHA256=`e7ecb1e38185c5bafdeb456b4ea90b6edc2ab192061a7673f7b6c3c0b6761f70`。9表重开、2899原生超链接、0错误及名称/版次语义断言通过。当前冻结供主控同步，下文05:34输出属于初构建历史。
+
+下一轮：直接出版物2185号公告内页证据、湖北/新疆直接PDF目录及原58索引题名更正，先只留pending；保留原始索引证据，不静默抹历史。评级是AI基于实测的判断，须与原文事实区分，不当发布方认证。
+
+---
+
+## 13:30轮次最新封版（2026-10-17 13:34，优先于下文）
+
+已一次运行`build-catalog.mjs --checkpoint1330`，合前19与新12文件manifest，31回执SHA/大小校验；audit1330的33结果全部合入。generated_at=`2026-10-17T05:34:44.700Z`。811身份、127链接、710目录行、81映射、934证据；33审查A0/B9/C11/D13，含1公告metadata_only。完整9链接=7版本=7hash；3无编号在编仍隔离。
+
+22-2024新路径B完整，152页/57章节书签；OCR错误、原图重复条号及非出版社原生证明限制均显示。796一页公告D，不进完整且不污染规范名。新增102的E2012身份，编号年份仍2002，旧无版次未匹配前不共享link/best；网页/书内日期分层、不猜废止日。
+
+XLSX SHA256=`5fb11c3a2e73c14cf9c49b229cbdf04222832c11b8e68cf2364b2b5353471e70`，505925字节；master SHA256=`148269f90f104ef1edc3ac7d3f0cfcf7adf73772696f9e02c59c364691f9db77`。重开9表通过、2899原生超链接、0错误；81映射/完整表URL与SHA匹配。新22/102目标范围已从保存后的XLSX重新导入渲染目视。详见workbook-validation.json、discussion-1330.md。上轮Excel已归档history/CECS可下载PDF总表-20261017-132450.xlsx。
+
+本轮生成后冻结供主控同步，不追新批。角色不操作Git；主控通知上轮c50f56d在本地但push网络失败，远端成功状态以主控后续报告为准。
+
+---
+
+## 13:20轮次最新封版（2026-10-17 13:24，优先于下文）
+
+已按主控授权回灌search19文件冻结manifest与audit1320冻结31结果；运行`build-catalog.mjs --checkpoint1320`。当前generated_at=`2026-10-17T05:24:50.658Z`。810身份、126链接、710目录行、81映射、926证据；3无编号在编另列。31审查=8B/11C/12D，完整8链接=6版本=6hash。49混合日期格只保留raw；CREA与CBIMU独立；22的2025废止/实施关系事件可见，但2026状态未知。
+
+XLSX SHA256=`527f247db91479c6671eaa1b71799a5583652129af418a0ea6175c452f04f169`，498356字节；补齐讨论MD来源回执后的最终master SHA256=`f716e9b868864a038e7e2c2c01cdce6873784e2b1d804903ea44c0259a829889`。9表重开通过、2881原生超链接、0错误；81映射/完整表URL与SHA核对通过。19输入回执已齐，原构建及补回执两历史快照均保留，Excel内容未改。详见workbook-validation.json、inputs-1320-receipt.json及discussion-1320.md。上轮Excel已归档history/CECS可下载PDF总表-20261017-131407.xlsx，release收据亦保留。
+
+本轮生成后冻结供主控同步，不追入pending-round04的152页22或102的2012年版元数据。后续研究仍分队列，主控协调下一轮时才合入。角色未操作Git。
+
+---
+
 ## 本轮最终封版（2026-10-17 13:14，优先于下文）
 
 主控要求将冻结28审查的8条完整链接全部回灌，本轮已完成最后重建并重新冻结。generated_at=`2026-10-17T05:14:07.858Z`。753个初步身份、119链接、652目录行、81原始映射、842证据；28审查为8B/10C/10D。完整8链接=6规范版本=6不同SHA256；69:94与48:93各主备同hash，全部保留且每版有效备用数1。

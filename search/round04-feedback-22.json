@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "producer": "search",
+  "checked_at": "2026-10-17T13:22:10+08:00",
+  "checkpoint": "pending_after_1320",
+  "candidate_id": "R03-G1-22-2024-ZGB-202603",
+  "standard_number": "T/CECS 22-2024",
+  "source_id": "AUDIT-PENDING-ROUND04-20261017",
+  "evidence_reference": "pdf-audit/audit-pending-round04.json",
+  "statement_type": "独立审查反馈，非检索自行核验",
+  "observation": {
+    "download_status": "已实测GET可解析PDF；完整性待核",
+    "http_status": 200,
+    "pages": 152,
+    "bytes": 6150514,
+    "sha256": "a9d45e1f5be3eb86e498185b02738a92ee51dcd1c6bfe862d2ea25faf1e46491",
+    "final_url": "https://www.zhanggenbao.com/wp-content/uploads/2026/03/TCECS-22-2024-%E5%B2%A9%E5%9C%9F%E9%94%9A%E6%9D%86%E6%8A%80%E6%9C%AF%E8%A7%84%E7%A8%8B.pdf",
+    "outline_count": 57,
+    "outline_valid_targets": 57,
+    "link_annotation_count": 0,
+    "recommendation": "C",
+    "complete_pdf": false,
+    "version_verified": false
+  },
+  "method_revision": "同一host旧路径返回HTML不能推断所有路径失效；保留每个URL级证据。新152页/57有效Outline仅是文件特征，不是完整性/复制质量或最优结论。",
+  "old_link_retained": {
+    "candidate_id": "R01-G1-001",
+    "path": "/wp-content/uploads/2025/12/",
+    "observed_status": "HTML非全文"
+  },
+  "freeze_boundary": "只新增此round04文件；不改freeze-inputs-1320.json列明19文件、catalog或canonical"
+}

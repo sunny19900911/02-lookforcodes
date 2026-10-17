@@ -1,0 +1,24 @@
+{
+  "producer": "search",
+  "round": "R04",
+  "date": "2026-10-17",
+  "standard_number": "CECS 102:2002",
+  "related_candidate_id": "R02-G3-NWAFU-102-2002",
+  "source_id": "SEARCH-R04-102-RELIABLE-COPY",
+  "query_rounds": [
+    "round04-web-r29.json",
+    "round04-web-r31.json",
+    "round04-web-r32.json"
+  ],
+  "query_boundary": "10个精确/定域102查询（r29中2、r31中4、r32中4），另r29两个661出版线索查询；总12查询。r30为出版平台详情和试读打开，不是搜索查询。",
+  "queries_corrected_count": 10,
+  "new_reliable_full_pdf_candidates": 0,
+  "metadata_found": "CECS102:2002（2012年版）出版平台条目，另存round04-metadata-102-edition.json；仅试读，无可用完整下载",
+  "rejected_as_full": [
+    "论文/项目报告中的CECS102引用",
+    "GB51022-2015及其图示是不同编号，不冒充CECS102全文",
+    "Scribd/文库预览不作公开完整PDF",
+    "第三方打包/介绍页尚无明确可用直链，未猜附件URL"
+  ],
+  "next_test": "在有原始公开href证据的单位下载页继续找完整扫描本；版次与重排/转录错误分别核验；不按摘要页数给旧83页本判缺页数量"
+}

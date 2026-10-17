@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-10-17T05:14:07.858Z",
+  "generated_at": "2026-10-17T05:37:51.370Z",
   "path": "catalog/CECS可下载PDF总表.xlsx",
   "sheets": [
     {
       "name": "规范总表",
-      "records": 753,
+      "records": 811,
       "columns": 23
     },
     {
       "name": "已验完整PDF",
-      "records": 8,
+      "records": 9,
       "columns": 19
     },
     {
       "name": "链接明细",
-      "records": 119,
+      "records": 127,
       "columns": 40
     },
     {
@@ -24,41 +24,43 @@
     },
     {
       "name": "待查与问题",
-      "records": 678,
+      "records": 749,
       "columns": 10
     },
     {
       "name": "状态与来源依据",
-      "records": 842,
+      "records": 934,
       "columns": 12
     },
     {
       "name": "检索记录",
-      "records": 35,
+      "records": 71,
       "columns": 12
     },
     {
       "name": "说明与覆盖",
-      "records": 25,
+      "records": 31,
       "columns": 2
     },
     {
       "name": "变更记录",
-      "records": 919,
+      "records": 1019,
       "columns": 8
     }
   ],
   "coverage": {
     "baseline_records_registered": 81,
     "baseline_standard_versions": 74,
-    "registered_standard_versions": 753,
-    "registered_links": 119,
-    "verified_complete_pdf_links": 8,
-    "verified_complete_standard_versions": 6,
-    "authority_records": 652,
-    "independent_audit_results": 28,
-    "downloaded_parseable_pending": 8,
-    "verified_complete_unique_sha256": 6
+    "registered_standard_versions": 811,
+    "registered_links": 127,
+    "verified_complete_pdf_links": 9,
+    "verified_complete_standard_versions": 7,
+    "authority_records": 710,
+    "independent_audit_results": 33,
+    "downloaded_parseable_pending": 9,
+    "verified_complete_unique_sha256": 7,
+    "unresolved_unnumbered_drafts": 3,
+    "supplemental_directory_records": 58
   },
   "formula_errors": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
   "authoring_library": "@oai/artifact-tool",

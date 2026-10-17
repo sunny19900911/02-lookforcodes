@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "producer": "search",
+  "round": "R04",
+  "checked_date": "2026-10-17",
+  "source_id": "CABP-BOOK-105427-20261017",
+  "statement_type": "原文事实（出版平台条目与试读标题）",
+  "standard_number": "CECS 102:2002",
+  "edition_note": "2012年版；不能静默折叠成无版次的2002原版",
+  "name": "门式刚架轻型房屋钢结构技术规程",
+  "source_page": "https://ebook.chinabuilding.com.cn/zbooklib/book/detail/show?SiteID=1&bookID=105427",
+  "preview_page": "https://ebook.chinabuilding.com.cn/zbooklib/bookpdf/probation?SiteID=1&bookID=105427",
+  "permission": "出版方公开详情及1/10试读；不是完整PDF下载",
+  "metadata_evidence": [
+    {
+      "locator": "网页标题及元数据区",
+      "claim": "条目明确CECS102:2002（2012年版）；网页标废止但废止日期为横线；发/实施日期字段均2012-04-24。它是网页字段原值，不当成2002原版发/实施日期，也不补猜废止日"
+    },
+    {
+      "locator": "试读版权页搜索解析",
+      "claim": "封面/扉页带2012年版，施行日期仍2003-03-01；版权页标2012年7月第3版、2015年1月第11次印刷。网页元数据与书内施行日期应分层保留，待audit直接目核"
+    },
+    {
+      "locator": "公开目录末段",
+      "claim": "目录包括条文说明及附录A-F；末项附录F列127，但这是2012年版目录，不可反推大学无版次83页重排本的确切缺页数"
+    }
+  ],
+  "download_url": null,
+  "quality_boundary": "不消除大学102实质转录错误；未得可靠完整扫描本；不能依据付费/试读目录认定另一副本完整",
+  "next_test": "找同版可靠扫描本，并在标准身份中保留edition/版次。大学2002原版与2012局部修订版未完成逐条版次匹配前分开记录"
+}

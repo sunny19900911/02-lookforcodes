@@ -1,0 +1,31 @@
+{
+  "producer": "search",
+  "checkpoint": "13:40-water-mep-addendum-v2",
+  "checked_at": "2026-10-17T13:47:38+08:00",
+  "frozen": true,
+  "input_file_count": 4,
+  "supersedes_share_selection": "search/freeze-inputs-1340-water-mep-addendum.json（保留旧文件不改；出版分享请选v2候选，不选v1候选）",
+  "note": "只修失败路线证据强度，不增加候选/全文；仅结构化元数据，无PDF/PNG/HTML/瞬时参数值。",
+  "files": [
+    {
+      "path": "search/round07-broad-attachments/water-mep/candidates-round07-water-mep-share-v2.json",
+      "sha256": "89e6f9ba3544c40986ad790f602a3b7d457db039d90a6eacc132f9aa2333dbcd",
+      "bytes": 18850
+    },
+    {
+      "path": "search/round07-broad-attachments/water-mep/query-ledger-r07-water-mep-share.json",
+      "sha256": "604fa38ac3b64be7f8d68711f9f6d4a0fe32b9bb50705fd09c60c6a3b7acb9d9",
+      "bytes": 3209
+    },
+    {
+      "path": "search/round07-broad-attachments/water-mep/addendum-r07-water-mep.json",
+      "sha256": "48974da1a0d0e8646a97e98d8268128096abfa2a7f9e9709b7f0e645c2e8b167",
+      "bytes": 941
+    },
+    {
+      "path": "search/round07-broad-attachments/water-mep/share-review-v2.json",
+      "sha256": "908d5ab9722ba0bc817641ba8b6173a1913fa45337bcb374c451c30571759377",
+      "bytes": 1110
+    }
+  ]
+}

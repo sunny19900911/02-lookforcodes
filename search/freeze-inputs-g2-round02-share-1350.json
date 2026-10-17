@@ -1,0 +1,18 @@
+{
+  "producer": "search",
+  "checkpoint": "13:50-g2-round02-share-projection",
+  "checked_at": "2026-10-17T13:50:20+08:00",
+  "frozen": true,
+  "source_id": "SEARCH-G2-R02-SHARE-MANIFEST-20261017",
+  "original_frozen_input_unchanged": true,
+  "input_file_count": 1,
+  "sharing_selection": "此文件仅替代external分享选择，不替代本地原始证据；旧round02-candidates.json不分享、不重计。",
+  "note": "无PDF/PNG/HTML/公开下载瞬时参数值；稳定去参数地址未访问，不能当作已验PDF/ZIP。",
+  "files": [
+    {
+      "path": "search/g2-public-routes/round02-candidates-share.json",
+      "sha256": "ee529abf50038f080c441ba529370caa476ee21e442446ca8b638de86970111a",
+      "bytes": 14481
+    }
+  ]
+}

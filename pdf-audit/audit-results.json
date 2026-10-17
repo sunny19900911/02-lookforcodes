@@ -1256,7 +1256,7 @@
       "audit_id": "R02-G1-010",
       "download_status": "已实测GET可解析PDF；完整性待核",
       "recommendation": "C",
-      "recommendation_reason": "实际GET和全部页面解析通过，等待版本、目录末项与终页、抽样图像核验",
+      "recommendation_reason": "比3页封面预览有全部主要技术章节与条文说明，仍须核60空白页性质/装帧页；不能因105书签升级A",
       "evidence_paths": [
         "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G1-010\\parse-evidence.json",
         "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G1-010\\page-001.png",
@@ -1265,11 +1265,14 @@
         "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G1-010\\page-053.png",
         "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G1-010\\page-103.png",
         "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G1-010\\page-105.png",
-        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G1-010\\contact-sheet.jpg"
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G1-010\\contact-sheet.jpg",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G1-010\\supplement-contact.jpg",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G1-010\\rendered-footers-001.jpg",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G1-010\\rendered-footers-061.jpg"
       ],
       "audit_rules_version": "2026-10-17.2",
       "complete_pdf": false,
-      "version_verified": false,
+      "version_verified": true,
       "standard_key": "CECS 22:2005",
       "http_status": 200,
       "final_url": "https://download.s21i.faimallusr.com/4214640/0/0/ABUIABA9GAAg9ZnIrAUoleqJxQI.pdf?f=CECS+22-2005+%E5%B2%A9%E5%9C%9F%E9%94%9A%E6%9D%86%EF%BC%88%E7%B4%A2%EF%BC%89%E6%8A%80%E6%9C%AF%E8%A7%84%E7%A8%8B.pdf&v=1435634932",
@@ -1289,23 +1292,40 @@
       "text_characters": 0,
       "cjk_characters": 0,
       "text_layer": false,
-      "body_searchable": null,
-      "body_text_layer": "待正文中文与图像对照；少量导航文字或乱码不能证明正文可搜索",
-      "searchable": "无文本层，不能直接搜索复制",
+      "body_searchable": false,
+      "body_text_layer": "105页扫描，无正文可抽取文本",
+      "searchable": "无正文文本层",
       "bookmark_count": 105,
       "bookmark_valid_target_count": 105,
-      "bookmark_navigation": "全部目标有效",
-      "clickable_toc": "未发现任何Link注释；目录不可点击",
+      "bookmark_navigation": "105个GIF文件名逐页书签，目标依次PDF1-105有效；没有章节标题",
+      "clickable_toc": "无Link注释，纸面目录不可点击",
       "link_annotation_count": 0,
       "rotation_summary": {
         "0": 105
       },
       "cropbox_diff_pages": [],
-      "version_match": "待封面人工核验",
-      "completeness": "可下载，完整性待核",
-      "clarity": "待封面/目录/正文/表图/末页目视抽查",
+      "version_match": "封面CECS22:2005，岩土锚杆（索）技术规程，2005-08-01施行；未把红色现行标准旧印记作2026现行性证据",
+      "completeness": "总目录列正文1-58、条文说明59；PDF65为说明扉页，PDF66/67目录打印61/62，PDF68正文63，PDF105末打印100、11.3.3与目录末项吻合。打印60可能是空白背页但未旁证；装帧封面/版权页亦不全。全文105页渲染成功，当前不直接判缺正文或完整全书。",
+      "clarity": "扫描黑白文字、表格、曲线可读，少量噪点；封面红色现行标准印记不遮正文；105个逐页书签不能替代章节定位",
       "contact_sheet": "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G1-010\\contact-sheet.jpg",
-      "elapsed_seconds": 4.23
+      "elapsed_seconds": 4.23,
+      "completeness_status": "条文说明扉页后打印60未见，需同版对照",
+      "bookmark_provenance": "下载文件自带逐页GIF书签，添加者未知；不称出版社原生章节书签",
+      "independent_review": "内部只读复核者独立核对书签全部GIF名及正文/说明边界，与审查者结论一致",
+      "local_reviewed_at": "2026-10-17T13:18:00+08:00",
+      "merge_action": "replace_existing_candidate_after_freeze",
+      "audit_history": [
+        {
+          "checked_at": "2026-10-17T13:18:00+08:00",
+          "method": "冻结后本地增量：目录/终页、全页渲染、逐页页脚、文本与导航核验，canonical未改",
+          "outcome": "总目录列正文1-58、条文说明59；PDF65为说明扉页，PDF66/67目录打印61/62，PDF68正文63，PDF105末打印100、11.3.3与目录末项吻合。打印60可能是空白背页但未旁证；装帧封面/版权页亦不全。全文105页渲染成功，当前不直接判缺正文或完整全书。"
+        },
+        {
+          "checked_at": "2026-10-17T13:21:39+08:00",
+          "method": "主控13:20固定截点回灌；保留原GET与逐次审查history",
+          "outcome": "替换既有审查"
+        }
+      ]
     },
     {
       "candidate_id": "G2-20261017-604-YDD17",
@@ -1348,7 +1368,7 @@
       "audit_id": "G2-20261017-604-YDD17",
       "download_status": "已实测GET可解析PDF；完整性待核",
       "recommendation": "C",
-      "recommendation_reason": "实际GET和全部页面解析通过，等待版本、目录末项与终页、抽样图像核验",
+      "recommendation_reason": "可下载可读，但年份/编号与编制信息不一致，不能作为正式标准完整全文推荐",
       "evidence_paths": [
         "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\G2-20261017-604-YDD17\\parse-evidence.json",
         "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\G2-20261017-604-YDD17\\page-001.png",
@@ -1357,7 +1377,8 @@
         "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\G2-20261017-604-YDD17\\page-026.png",
         "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\G2-20261017-604-YDD17\\page-049.png",
         "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\G2-20261017-604-YDD17\\page-051.png",
-        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\G2-20261017-604-YDD17\\contact-sheet.jpg"
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\G2-20261017-604-YDD17\\contact-sheet.jpg",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\G2-20261017-604-YDD17\\supplement-contact.jpg"
       ],
       "audit_rules_version": "2026-10-17.2",
       "complete_pdf": false,
@@ -1381,8 +1402,8 @@
       "text_characters": 0,
       "cjk_characters": 0,
       "text_layer": false,
-      "body_searchable": null,
-      "body_text_layer": "待正文中文与图像对照；少量导航文字或乱码不能证明正文可搜索",
+      "body_searchable": false,
+      "body_text_layer": "无文本层",
       "searchable": "无文本层，不能直接搜索复制",
       "bookmark_count": 0,
       "bookmark_valid_target_count": 0,
@@ -1393,11 +1414,28 @@
         "0": 51
       },
       "cropbox_diff_pages": [],
-      "version_match": "待封面人工核验",
-      "completeness": "可下载，完整性待核",
-      "clarity": "待封面/目录/正文/表图/末页目视抽查",
+      "version_match": "封面CECS604-2019（缺T/）同时写2017北京，扉页2020-01-01施行；前言编制名单空白。无法确认其为正式出版2019版",
+      "completeness": "51页从封面、扉页、前言、目录、正文1-46到引用标准末页；章节夹注条文说明，但不能证明与正式发布版全部内容相同。未把页数短于第三方89页介绍直接当截断证据。",
+      "clarity": "扫描/图像正文可读，多处max.book118.com原力文档水印跨正文与图形",
       "contact_sheet": "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\G2-20261017-604-YDD17\\contact-sheet.jpg",
-      "elapsed_seconds": 1.78
+      "elapsed_seconds": 1.78,
+      "version_class": "非出版排版/疑似草稿，待正式版本对照",
+      "completeness_status": "本文件目录技术内容闭合，正式版身份未闭环",
+      "watermark": "重复原力文档水印遮挡正文/图形",
+      "local_reviewed_at": "2026-10-17T13:18:00+08:00",
+      "merge_action": "replace_existing_candidate_after_freeze",
+      "audit_history": [
+        {
+          "checked_at": "2026-10-17T13:18:00+08:00",
+          "method": "冻结后本地增量：目录/终页、全页渲染、逐页页脚、文本与导航核验，canonical未改",
+          "outcome": "51页从封面、扉页、前言、目录、正文1-46到引用标准末页；章节夹注条文说明，但不能证明与正式发布版全部内容相同。未把页数短于第三方89页介绍直接当截断证据。"
+        },
+        {
+          "checked_at": "2026-10-17T13:21:39+08:00",
+          "method": "主控13:20固定截点回灌；保留原GET与逐次审查history",
+          "outcome": "替换既有审查"
+        }
+      ]
     },
     {
       "candidate_id": "G2-20261017-604-PRECAST",
@@ -1552,7 +1590,7 @@
       "audit_id": "G2-20261017-640-ONEHIKER",
       "download_status": "已实测GET可解析PDF；完整性待核",
       "recommendation": "C",
-      "recommendation_reason": "实际GET和全部页面解析通过，等待版本、目录末项与终页、抽样图像核验",
+      "recommendation_reason": "当前有清楚扫描及章节导航，比无导航本更便于定位；OCR不准确且30页性质待核，不宣称最优或完整",
       "evidence_paths": [
         "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\G2-20261017-640-ONEHIKER\\parse-evidence.json",
         "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\G2-20261017-640-ONEHIKER\\page-001.png",
@@ -1561,11 +1599,14 @@
         "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\G2-20261017-640-ONEHIKER\\page-037.png",
         "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\G2-20261017-640-ONEHIKER\\page-071.png",
         "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\G2-20261017-640-ONEHIKER\\page-073.png",
-        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\G2-20261017-640-ONEHIKER\\contact-sheet.jpg"
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\G2-20261017-640-ONEHIKER\\contact-sheet.jpg",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\G2-20261017-640-ONEHIKER\\supplement-contact.jpg",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\G2-20261017-640-ONEHIKER\\rendered-footers-001.jpg",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\G2-20261017-640-ONEHIKER\\rendered-footers-061.jpg"
       ],
       "audit_rules_version": "2026-10-17.2",
       "complete_pdf": false,
-      "version_verified": false,
+      "version_verified": true,
       "standard_key": "T/CECS 640-2019",
       "http_status": 200,
       "final_url": "https://www.onehiker.com/wp-content/uploads/2023/07/adfcfb87f1081357.pdf",
@@ -1585,23 +1626,39 @@
       "text_characters": 69003,
       "cjk_characters": 25466,
       "text_layer": true,
-      "body_searchable": null,
-      "body_text_layer": "待正文中文与图像对照；少量导航文字或乱码不能证明正文可搜索",
+      "body_searchable": false,
+      "body_text_layer": "OCR文本层有中文但明显错字/空格；全文短语搜索不可靠",
       "searchable": "待抽查中文抽取准确性",
       "bookmark_count": 50,
       "bookmark_valid_target_count": 50,
-      "bookmark_navigation": "全部目标有效",
-      "clickable_toc": "未发现任何Link注释；目录不可点击",
+      "bookmark_navigation": "50个Outline含章节、节和说明；50目标有效，抽核正文1/3/4/5/6/7、附录及说明各章目标相符",
+      "clickable_toc": "未发现Link注释；Outline导航与页面目录链接分开",
       "link_annotation_count": 0,
       "rotation_summary": {
         "0": 73
       },
       "cropbox_diff_pages": [],
-      "version_match": "待封面人工核验",
-      "completeness": "可下载，完整性待核",
-      "clarity": "待封面/目录/正文/表图/末页目视抽查",
+      "version_match": "封面/扉页/版权和第515号公告匹配T/CECS640-2019，2020-04-01实施",
+      "completeness": "总目录PDF7-10列1-7章、附录A、用词/引用及说明29。PDF38为说明扉页29，PDF39目录31；说明末项附录A63与PDF71打印63对应，PDF72版权信息/PDF73封底。全73页渲染成功。打印30未见，可能省空白页但未证，暂C。",
+      "clarity": "扫描正文、表格可视清楚，无遮挡水印；OCR层存在剐匕仓等错字与异常空格，不能当准确可复制正文",
       "contact_sheet": "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\G2-20261017-640-ONEHIKER\\contact-sheet.jpg",
-      "elapsed_seconds": 15.39
+      "elapsed_seconds": 15.39,
+      "completeness_status": "技术正文和终页对应，但打印30未见待对照",
+      "bookmark_provenance": "含关注公众号等推广Outline，属于第三方导航加工痕迹；不能称出版社原生书签",
+      "local_reviewed_at": "2026-10-17T13:18:00+08:00",
+      "merge_action": "replace_existing_candidate_after_freeze",
+      "audit_history": [
+        {
+          "checked_at": "2026-10-17T13:18:00+08:00",
+          "method": "冻结后本地增量：目录/终页、全页渲染、逐页页脚、文本与导航核验，canonical未改",
+          "outcome": "总目录PDF7-10列1-7章、附录A、用词/引用及说明29。PDF38为说明扉页29，PDF39目录31；说明末项附录A63与PDF71打印63对应，PDF72版权信息/PDF73封底。全73页渲染成功。打印30未见，可能省空白页但未证，暂C。"
+        },
+        {
+          "checked_at": "2026-10-17T13:21:39+08:00",
+          "method": "主控13:20固定截点回灌；保留原GET与逐次审查history",
+          "outcome": "替换既有审查"
+        }
+      ]
     },
     {
       "candidate_id": "R01-G4-006-ALT",
@@ -2042,7 +2099,7 @@
       "audit_id": "R02-G3-NWAFU-200-2006",
       "download_status": "已实测GET可解析PDF；完整性待核",
       "recommendation": "C",
-      "recommendation_reason": "实际GET和全部页面解析通过，等待版本、目录末项与终页、抽样图像核验",
+      "recommendation_reason": "版本匹配、技术正文/附录与说明可读；打印120/122性质待对照，导航与文本检索不足",
       "evidence_paths": [
         "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G3-NWAFU-200-2006\\parse-evidence.json",
         "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G3-NWAFU-200-2006\\page-001.png",
@@ -2051,11 +2108,15 @@
         "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G3-NWAFU-200-2006\\page-089.png",
         "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G3-NWAFU-200-2006\\page-175.png",
         "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G3-NWAFU-200-2006\\page-177.png",
-        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G3-NWAFU-200-2006\\contact-sheet.jpg"
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G3-NWAFU-200-2006\\contact-sheet.jpg",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G3-NWAFU-200-2006\\supplement-contact.jpg",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G3-NWAFU-200-2006\\rendered-footers-001.jpg",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G3-NWAFU-200-2006\\rendered-footers-061.jpg",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G3-NWAFU-200-2006\\rendered-footers-121.jpg"
       ],
       "audit_rules_version": "2026-10-17.2",
       "complete_pdf": false,
-      "version_verified": false,
+      "version_verified": true,
       "standard_key": "CECS 200:2006",
       "http_status": 200,
       "final_url": "https://eol.nwafu.edu.cn/meol/analytics/resPdfShow.do?resId=283228&lid=47196",
@@ -2075,8 +2136,8 @@
       "text_characters": 0,
       "cjk_characters": 0,
       "text_layer": false,
-      "body_searchable": null,
-      "body_text_layer": "待正文中文与图像对照；少量导航文字或乱码不能证明正文可搜索",
+      "body_searchable": false,
+      "body_text_layer": "扫描无正文文本层",
       "searchable": "无文本层，不能直接搜索复制",
       "bookmark_count": 0,
       "bookmark_valid_target_count": 0,
@@ -2087,11 +2148,27 @@
         "0": 177
       },
       "cropbox_diff_pages": [],
-      "version_match": "待封面人工核验",
-      "completeness": "可下载，完整性待核",
-      "clarity": "待封面/目录/正文/表图/末页目视抽查",
+      "version_match": "封面、扉页CECS200:2006建筑钢结构防火技术规范，2006-08-01施行，前言2006-06-23",
+      "completeness": "177页全渲染成功，正文打印1-119连续，目录列条文说明121，说明目录PDF127打印123、说明末章10于PDF176/177打印172/173结束；打印120/122未见，疑为空白页但无独立旁证。不能据电子页数177认定无缺页。",
+      "clarity": "黑白扫描文字、密集表格基本清楚，少量噪点，无显著遮挡水印",
       "contact_sheet": "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G3-NWAFU-200-2006\\contact-sheet.jpg",
-      "elapsed_seconds": 2.27
+      "elapsed_seconds": 2.27,
+      "completeness_status": "条文说明前打印120/122未见，需对照",
+      "bookmark_provenance": "下载文件无Outline",
+      "local_reviewed_at": "2026-10-17T13:18:00+08:00",
+      "merge_action": "replace_existing_candidate_after_freeze",
+      "audit_history": [
+        {
+          "checked_at": "2026-10-17T13:18:00+08:00",
+          "method": "冻结后本地增量：目录/终页、全页渲染、逐页页脚、文本与导航核验，canonical未改",
+          "outcome": "177页全渲染成功，正文打印1-119连续，目录列条文说明121，说明目录PDF127打印123、说明末章10于PDF176/177打印172/173结束；打印120/122未见，疑为空白页但无独立旁证。不能据电子页数177认定无缺页。"
+        },
+        {
+          "checked_at": "2026-10-17T13:21:39+08:00",
+          "method": "主控13:20固定截点回灌；保留原GET与逐次审查history",
+          "outcome": "替换既有审查"
+        }
+      ]
     },
     {
       "candidate_id": "R02-G3-NWAFU-280-2010",
@@ -2128,7 +2205,7 @@
       "audit_id": "R02-G3-NWAFU-280-2010",
       "download_status": "已实测GET可解析PDF；完整性待核",
       "recommendation": "C",
-      "recommendation_reason": "实际GET和全部页面解析通过，等待版本、目录末项与终页、抽样图像核验",
+      "recommendation_reason": "版本匹配、主要内容/终页可读；打印90性质待同版证明，无书签/正文复制便利",
       "evidence_paths": [
         "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G3-NWAFU-280-2010\\parse-evidence.json",
         "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G3-NWAFU-280-2010\\page-001.png",
@@ -2137,11 +2214,18 @@
         "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G3-NWAFU-280-2010\\page-081.png",
         "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G3-NWAFU-280-2010\\page-159.png",
         "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G3-NWAFU-280-2010\\page-161.png",
-        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G3-NWAFU-280-2010\\contact-sheet.jpg"
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G3-NWAFU-280-2010\\contact-sheet.jpg",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G3-NWAFU-280-2010\\supplement-contact.jpg",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G3-NWAFU-280-2010\\rendered-footers-001.jpg",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G3-NWAFU-280-2010\\rendered-footers-061.jpg",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G3-NWAFU-280-2010\\rendered-footers-121.jpg",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G3-NWAFU-280-2010\\adaptive-footers-001.jpg",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G3-NWAFU-280-2010\\adaptive-footers-061.jpg",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G3-NWAFU-280-2010\\adaptive-footers-121.jpg"
       ],
       "audit_rules_version": "2026-10-17.2",
       "complete_pdf": false,
-      "version_verified": false,
+      "version_verified": true,
       "standard_key": "CECS 280:2010",
       "http_status": 200,
       "final_url": "https://eol.nwafu.edu.cn/meol/analytics/resPdfShow.do?resId=283230&lid=47196",
@@ -2161,8 +2245,8 @@
       "text_characters": 216,
       "cjk_characters": 0,
       "text_layer": true,
-      "body_searchable": null,
-      "body_text_layer": "待正文中文与图像对照；少量导航文字或乱码不能证明正文可搜索",
+      "body_searchable": false,
+      "body_text_layer": "正文扫描，无正常中文层",
       "searchable": "待抽查中文抽取准确性",
       "bookmark_count": 0,
       "bookmark_valid_target_count": 0,
@@ -2335,11 +2419,27 @@
         160,
         161
       ],
-      "version_match": "待封面人工核验",
-      "completeness": "可下载，完整性待核",
-      "clarity": "待封面/目录/正文/表图/末页目视抽查",
+      "version_match": "封面、扉页、版权及发布公告匹配CECS280:2010钢管结构技术规程",
+      "completeness": "全161页渲染成功。适应扫描内嵌版心后逐页查看页脚，正文打印1-88、条文说明扉页89、目录91/92、说明93-150及版权/封底；打印90未见。说明末章9施工与打印150结尾可对应；未直接把可能省空白页认定缺正文或完整全书。",
+      "clarity": "扫描版心居中缩小、留白较大；放大可读，少量扫描噪点，公式表图可视。页边浅站点字不遮正文",
       "contact_sheet": "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G3-NWAFU-280-2010\\contact-sheet.jpg",
-      "elapsed_seconds": 2.28
+      "elapsed_seconds": 2.28,
+      "completeness_status": "打印90未见，条文说明扉页后缺口性质待核",
+      "bookmark_provenance": "下载文件无Outline",
+      "local_reviewed_at": "2026-10-17T13:18:00+08:00",
+      "merge_action": "replace_existing_candidate_after_freeze",
+      "audit_history": [
+        {
+          "checked_at": "2026-10-17T13:18:00+08:00",
+          "method": "冻结后本地增量：目录/终页、全页渲染、逐页页脚、文本与导航核验，canonical未改",
+          "outcome": "全161页渲染成功。适应扫描内嵌版心后逐页查看页脚，正文打印1-88、条文说明扉页89、目录91/92、说明93-150及版权/封底；打印90未见。说明末章9施工与打印150结尾可对应；未直接把可能省空白页认定缺正文或完整全书。"
+        },
+        {
+          "checked_at": "2026-10-17T13:21:39+08:00",
+          "method": "主控13:20固定截点回灌；保留原GET与逐次审查history",
+          "outcome": "替换既有审查"
+        }
+      ]
     },
     {
       "candidate_id": "R02-G3-NWAFU-323-2012",
@@ -2374,9 +2474,9 @@
       "download_check_status": "候选未审",
       "requested_url": "https://eol.nwafu.edu.cn/meol/analytics/resPdfShow.do?resId=283247&lid=47196",
       "audit_id": "R02-G3-NWAFU-323-2012",
-      "download_status": "已实测GET可解析PDF；完整性待核",
+      "download_status": "已实测GET可解析PDF；Outline结构异常，全文完整性待核",
       "recommendation": "C",
-      "recommendation_reason": "实际GET和全部页面解析通过，等待版本、目录末项与终页、抽样图像核验",
+      "recommendation_reason": "扫描可读，版本匹配；完整性尚待目录闭环，文件自带Outline损坏不推荐作高质量导航版",
       "evidence_paths": [
         "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G3-NWAFU-323-2012\\parse-evidence.json",
         "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G3-NWAFU-323-2012\\page-001.png",
@@ -2385,11 +2485,14 @@
         "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G3-NWAFU-323-2012\\page-044.png",
         "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G3-NWAFU-323-2012\\page-085.png",
         "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G3-NWAFU-323-2012\\page-087.png",
-        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G3-NWAFU-323-2012\\contact-sheet.jpg"
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G3-NWAFU-323-2012\\contact-sheet.jpg",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G3-NWAFU-323-2012\\supplement-contact.jpg",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G3-NWAFU-323-2012\\rendered-footers-001.jpg",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G3-NWAFU-323-2012\\rendered-footers-061.jpg"
       ],
       "audit_rules_version": "2026-10-17.2",
       "complete_pdf": false,
-      "version_verified": false,
+      "version_verified": true,
       "standard_key": "CECS 323:2012",
       "http_status": 200,
       "final_url": "https://eol.nwafu.edu.cn/meol/analytics/resPdfShow.do?resId=283247&lid=47196",
@@ -2409,8 +2512,8 @@
       "text_characters": 0,
       "cjk_characters": 0,
       "text_layer": false,
-      "body_searchable": null,
-      "body_text_layer": "待正文中文与图像对照；少量导航文字或乱码不能证明正文可搜索",
+      "body_searchable": false,
+      "body_text_layer": "无正文文本层",
       "searchable": "无文本层，不能直接搜索复制",
       "elapsed_seconds": 0.56,
       "download_checked_at": "2026-10-17T13:08:54+08:00",
@@ -2418,7 +2521,7 @@
       "outline_error": "PdfReadError: Outline Entry Missing /Title attribute: {'/Subtype': '/XML', '/Type': '/Metadata'}",
       "bookmark_count": 0,
       "bookmark_valid_target_count": 0,
-      "bookmark_navigation": "Outline结构异常，不能使用",
+      "bookmark_navigation": "Outline对象指向Metadata且缺Title，结构坏，不能导航；不能据计数0称没有损坏书签",
       "clickable_toc": "未发现任何Link注释；目录不可点击",
       "link_annotation_count": 0,
       "rotation_summary": {
@@ -2513,9 +2616,9 @@
         86,
         87
       ],
-      "version_match": "待封面人工核验",
-      "completeness": "可下载，完整性待核",
-      "clarity": "待封面/目录/正文/表图/末页目视抽查",
+      "version_match": "封面、扉页、公告匹配CECS323:2012交错桁架钢框架结构技术规程",
+      "completeness": "封面、前言、总目录及正文第9章、说明第12章末打印78与版权封底可见。87页均成功渲染，但完整页码序列及目录末项仍待人工闭环，维持C。",
+      "clarity": "黑白扫描可读，左侧有装订黑边但抽查未遮正文；无文本层",
       "contact_sheet": "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G3-NWAFU-323-2012\\contact-sheet.jpg",
       "audit_history": [
         {
@@ -2523,8 +2626,22 @@
           "method": "只重读已下载文件，不新发GET；捕获Outline异常继续解析及抽样渲染",
           "prior_error": "PdfReadError: Outline Entry Missing /Title attribute: {'/Subtype': '/XML', '/Type': '/Metadata'}",
           "outcome": "已实测GET可解析PDF；完整性待核"
+        },
+        {
+          "checked_at": "2026-10-17T13:18:00+08:00",
+          "method": "冻结后本地增量：目录/终页、全页渲染、逐页页脚、文本与导航核验，canonical未改",
+          "outcome": "封面、前言、总目录及正文第9章、说明第12章末打印78与版权封底可见。87页均成功渲染，但完整页码序列及目录末项仍待人工闭环，维持C。"
+        },
+        {
+          "checked_at": "2026-10-17T13:21:39+08:00",
+          "method": "主控13:20固定截点回灌；保留原GET与逐次审查history",
+          "outcome": "替换既有审查"
         }
-      ]
+      ],
+      "completeness_status": "已得PDF且全87页渲染成功，内容页码/说明目录待最终闭环",
+      "bookmark_provenance": "下载文件Outline结构异常，未修复原件",
+      "local_reviewed_at": "2026-10-17T13:18:00+08:00",
+      "merge_action": "replace_existing_candidate_after_freeze"
     },
     {
       "candidate_id": "R02-G3-NWAFU-102-2002",
@@ -2561,7 +2678,7 @@
       "audit_id": "R02-G3-NWAFU-102-2002",
       "download_status": "已实测GET可解析PDF；完整性待核",
       "recommendation": "C",
-      "recommendation_reason": "实际GET和全部页面解析通过，等待版本、目录末项与终页、抽样图像核验",
+      "recommendation_reason": "仅作历史检索与比对。虽有章节书签/目录Link，但转录错误、图表无文字和无说明，优先找同版可靠扫描本",
       "evidence_paths": [
         "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G3-NWAFU-102-2002\\parse-evidence.json",
         "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G3-NWAFU-102-2002\\page-001.png",
@@ -2570,11 +2687,12 @@
         "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G3-NWAFU-102-2002\\page-042.png",
         "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G3-NWAFU-102-2002\\page-081.png",
         "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G3-NWAFU-102-2002\\page-083.png",
-        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G3-NWAFU-102-2002\\contact-sheet.jpg"
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G3-NWAFU-102-2002\\contact-sheet.jpg",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G3-NWAFU-102-2002\\supplement-contact.jpg"
       ],
       "audit_rules_version": "2026-10-17.2",
       "complete_pdf": false,
-      "version_verified": false,
+      "version_verified": true,
       "standard_key": "CECS 102:2002",
       "http_status": 200,
       "final_url": "https://eol.nwafu.edu.cn/meol/analytics/resPdfShow.do?resId=283246&lid=47196",
@@ -2594,26 +2712,586 @@
       "text_characters": 57782,
       "cjk_characters": 22278,
       "text_layer": true,
-      "body_searchable": null,
-      "body_text_layer": "待正文中文与图像对照；少量导航文字或乱码不能证明正文可搜索",
+      "body_searchable": false,
+      "body_text_layer": "普通正文可搜索但有错字；13页图表文本仅页边导航，公式上下标错序，不是全书准确复制",
       "searchable": "待抽查中文抽取准确性",
       "bookmark_count": 42,
       "bookmark_valid_target_count": 42,
-      "bookmark_navigation": "全部目标有效",
-      "clickable_toc": "待人工核对目录页Link注释",
+      "bookmark_navigation": "42个章节/节/附录Outline层级和目标匹配，28个不同目标页；目录42个GoTo链接顺序与书签目标一致",
+      "clickable_toc": "PDF5有27、PDF6有15个GoTo目录链接，目标与42书签逐项相同",
       "link_annotation_count": 42,
       "rotation_summary": {
         "0": 83
       },
       "cropbox_diff_pages": [],
-      "version_match": "待封面人工核验",
-      "completeness": "可下载，完整性待核",
-      "clarity": "待封面/目录/正文/表图/末页目视抽查",
+      "version_match": "封面CECS102:2002；2003北京和2003-03-01施行与标准年份2002分存。第三方重排本，不是出版社原版已证事实",
+      "completeness": "83页涵盖九章、附录A-F、用词说明，目录末项83与末页闭合；没有条文说明。不称含说明完整全书，待原出版范围对照。",
+      "clarity": "章节导航可用，但真实页面有错标题与单位异常，不能当可靠标准原文",
       "contact_sheet": "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R02-G3-NWAFU-102-2002\\contact-sheet.jpg",
-      "elapsed_seconds": 2.28
+      "elapsed_seconds": 2.28,
+      "completeness_status": "技术正文/附录目录闭合，但不含条文说明且有转录错误",
+      "content_errors": [
+        {
+          "pdf_page": 2,
+          "observed": "标题写水力控制阀应用设计规程，同时仍保留CECS102:2002与钢结构英文标题"
+        },
+        {
+          "pdf_page": 20,
+          "observed": "平均高度单位实际排为4.5～9.0mm，存在单位转录风险"
+        },
+        {
+          "pdf_page": 21,
+          "observed": "标题墙架来布置，段落有错接"
+        },
+        {
+          "pdf_page": 23,
+          "observed": "变截面写成变戳面，书签同样错字"
+        }
+      ],
+      "bookmark_provenance": "第三方Word重排PDF自带章节导航，出版社原生未证",
+      "independent_review": "只读独立复核者实际解析/目视书签、目录和错字/单位页，与主审保守结论一致",
+      "local_reviewed_at": "2026-10-17T13:18:00+08:00",
+      "merge_action": "replace_existing_candidate_after_freeze",
+      "audit_history": [
+        {
+          "checked_at": "2026-10-17T13:18:00+08:00",
+          "method": "冻结后本地增量：目录/终页、全页渲染、逐页页脚、文本与导航核验，canonical未改",
+          "outcome": "83页涵盖九章、附录A-F、用词说明，目录末项83与末页闭合；没有条文说明。不称含说明完整全书，待原出版范围对照。"
+        },
+        {
+          "checked_at": "2026-10-17T13:21:39+08:00",
+          "method": "主控13:20固定截点回灌；保留原GET与逐次审查history",
+          "outcome": "替换既有审查"
+        }
+      ]
+    },
+    {
+      "candidate_id": "EXT-R01-661-2020",
+      "seed_ids": [],
+      "topic_group": "G5",
+      "standard_number": "T/CECS 661-2020",
+      "number": "661",
+      "year": "2020",
+      "name": "新型冠状病毒感染的肺炎传染病应急医疗设施设计标准",
+      "version_stage": "正式版（附件封面和第551号公告）",
+      "source_page": "https://www.chinaasc.org.cn/news/127038.html",
+      "download_url": "https://js.shaanxi.gov.cn/sy/zcwj/stwj/202002/P020241009665216889729.pdf",
+      "alternate_urls": [],
+      "source_page_gap": "陕西住建厅PDF所属详情页尚未定位；source_page为中国建筑学会全文公开说明和编号证据，不是该PDF的父页面。",
+      "metadata_evidence": [
+        {
+          "url": "https://www.chinaasc.org.cn/news/127038.html",
+          "kind": "协会转载正式发布及免费公开说明",
+          "locator": "网页正文，发布日期2020-02-20，说明编号661-2020、2020-02-06实施；明确协会向全社会免费公开标准"
+        },
+        {
+          "url": "https://js.shaanxi.gov.cn/sy/zcwj/stwj/202002/P020241009665216889729.pdf",
+          "kind": "政府附件封面/公告",
+          "locator": "PDF P1/P2，T/CECS661-2020，第551号公告"
+        }
+      ],
+      "search_observation": {
+        "tool": "web open",
+        "content_type": "application/pdf",
+        "reported_page_count": 44,
+        "reported_final_url": "https://js.shaanxi.gov.cn/sy/zcwj/stwj/202002/P020241009665216889729.pdf",
+        "note": "web解析到封面、公告、目录和正文；不是独立下载或完整性结论。"
+      },
+      "permission": "公开政府附件；关联协会声明免费向全社会开放，不需要认证",
+      "download_status": "已实测GET可解析PDF；完整性待核",
+      "current_status": "未知（未核2026现行性）",
+      "requested_url": "https://js.shaanxi.gov.cn/sy/zcwj/stwj/202002/P020241009665216889729.pdf",
+      "checked_at": "2026-10-17T13:13:34+08:00",
+      "audit_id": "EXT-R01-661-2020",
+      "recommendation": "C",
+      "recommendation_reason": "官方附件及免费公开说明可信，正文可读且有说明；18/20空白页性质未用同版旁证闭环，当前C",
+      "evidence_paths": [
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\EXT-R01-661-2020\\parse-evidence.json",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\EXT-R01-661-2020\\page-001.png",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\EXT-R01-661-2020\\page-005.png",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\EXT-R01-661-2020\\page-007.png",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\EXT-R01-661-2020\\page-023.png",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\EXT-R01-661-2020\\page-042.png",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\EXT-R01-661-2020\\page-044.png",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\EXT-R01-661-2020\\contact-sheet.jpg",
+        "web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\EXT-R01-661-2020\\supplement-contact.jpg",
+        "web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\EXT-R01-661-2020\\adaptive-footers-001.jpg",
+        "web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\EXT-R01-661-2020\\adaptive-footer-geometry.json"
+      ],
+      "audit_rules_version": "2026-10-17.2",
+      "complete_pdf": false,
+      "version_verified": true,
+      "standard_key": "T/CECS 661-2020",
+      "http_status": 200,
+      "final_url": "https://js.shaanxi.gov.cn/sy/zcwj/stwj/202002/P020241009665216889729.pdf",
+      "content_type": "application/pdf",
+      "content_length_header": "1319658",
+      "bytes": 1319658,
+      "transfer_size_matches_header": true,
+      "pdf_header_valid": true,
+      "sha256": "c506ede42f0fb04ffcdb2c5d28783d1f121f2750282d15756c648eb2554784ea",
+      "local_path": "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\downloads-temp\\EXT-R01-661-2020.pdf",
+      "encrypted": false,
+      "encryption_permissions": null,
+      "pages": 44,
+      "pdf_parse": "页面树可遍历；已尝试逐页文本提取。图像/字体/内容流可读性另以渲染与目视记录判断",
+      "eof_marker_present": true,
+      "text_pages": 43,
+      "text_characters": 26455,
+      "cjk_characters": 16138,
+      "text_layer": true,
+      "body_searchable": true,
+      "body_text_layer": "正文中文可抽取，少量异常空格/全角字符影响短语检索",
+      "searchable": "待抽查中文抽取准确性",
+      "bookmark_count": 2,
+      "bookmark_valid_target_count": 2,
+      "bookmark_navigation": "2个文件名WQ.pdf和ZW.pdf书签，仅跳封面/正文，不是章节目录",
+      "clickable_toc": "未发现任何Link注释；目录不可点击",
+      "link_annotation_count": 0,
+      "rotation_summary": {
+        "0": 44
+      },
+      "cropbox_diff_pages": [],
+      "version_match": "封面/扉页T/CECS661-2020，与第551号公告2020-02-06实施一致",
+      "completeness": "总目录至条文说明17；说明扉页PDF23、说明目录PDF24打印19，第一章PDF25打印21，最后第9章PDF44打印40与说明目录末项40一致。打印18/20未见，可能省空白但未独立证明。44页全渲染成功，不直接称缺正文或完整全书。",
+      "clarity": "矢量文字与表格可读，无明显遮挡水印；抽查文字中文正常，提取有全角字符和异常空格，搜索需注意",
+      "contact_sheet": "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\EXT-R01-661-2020\\contact-sheet.jpg",
+      "elapsed_seconds": 3.19,
+      "completeness_status": "主要内容和终页对应，但打印18/20未见待同版旁证",
+      "bookmark_provenance": "下载文件自带两文件名Outline，添加者未知",
+      "source_permission_evidence": {
+        "url": "https://www.chinaasc.org.cn/news/127038.html",
+        "checked_at": "2026-10-17T13:19:04+08:00",
+        "claim": "中国建筑学会2020-02-20转载协会说明免费公开标准内容；不推断2026现行性",
+        "image_check": "原配第一/最后图片链接本轮404，未完成图片对比"
+      },
+      "audit_history": [
+        {
+          "checked_at": "2026-10-17T13:21:39+08:00",
+          "method": "主控13:20固定截点回灌；保留原GET与逐次审查history",
+          "outcome": "追加新候选实测"
+        },
+        {
+          "checked_at": "2026-10-17T13:28:52+08:00",
+          "method": "独立第二审+页脚裁图证据纠错，canonical未变",
+          "outcome": "第二审独立核79条连续及说明八章起页/终页，仍认为18/20空白缺旁证而保留C；原白色页脚裁图不作证据，已重建实际墨迹定位页脚"
+        },
+        {
+          "checked_at": "2026-10-17T13:32:48+08:00",
+          "method": "主控13:30固定截点回灌；保留原GET、双审及证据纠错history",
+          "outcome": "替换既有审查"
+        }
+      ],
+      "local_reviewed_at": "2026-10-17T13:28:52+08:00",
+      "merge_action": "replace_existing_candidate_after_freeze",
+      "clause_continuity_evidence": {
+        "chapter_clause_counts": [
+          3,
+          13,
+          3,
+          16,
+          5,
+          10,
+          13,
+          12,
+          4
+        ],
+        "total": 79,
+        "number_gaps": 0,
+        "number_duplicates": 0,
+        "scope": "九章条款编号连续，不是逐字与原出版物对校"
+      },
+      "explanation_start_pages": {
+        "1": 21,
+        "3": 23,
+        "4": 25,
+        "5": 28,
+        "6": 29,
+        "7": 35,
+        "8": 38,
+        "9": 40
+      },
+      "excluded_evidence_paths": [
+        "web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\EXT-R01-661-2020\\rendered-footers-001.jpg"
+      ],
+      "independent_review": "第二审独立核79条连续及说明八章起页/终页，仍认为18/20空白缺旁证而保留C；原白色页脚裁图不作证据，已重建实际墨迹定位页脚"
+    },
+    {
+      "candidate_id": "EXT-R01-465-2017",
+      "seed_ids": [],
+      "topic_group": "G5",
+      "standard_number": "T/CECS 465-2017",
+      "number": "465",
+      "year": "2017",
+      "name": "既有建筑绿色改造技术规程",
+      "version_stage": "正式版候选（PDF公告及官方历史目录交叉支持）",
+      "source_page": "https://lwec.net/article/detail-107",
+      "download_url": "https://pro5323b5d3-pic11.ysjianzhan.cn/upload/5TCECS465-2017JYJZLSGZJSGC.pdf",
+      "alternate_urls": [],
+      "source_page_gap": "source_page仅为2018历史机构目录证据；PDF发布者及父页面尚未定位，公开建站附件域本身不能确定发布者。",
+      "metadata_evidence": [
+        {
+          "local_reference": "../master-authority/authority-directory-records.json",
+          "source_id": "LWEC-20180611-CECS-CATALOG",
+          "kind": "2018年历史机构目录记录",
+          "note": "仅编号、名称及历史收录依据，不确认2026现行性"
+        },
+        {
+          "url": "https://pro5323b5d3-pic11.ysjianzhan.cn/upload/5TCECS465-2017JYJZLSGZJSGC.pdf",
+          "kind": "附件公告",
+          "locator": "web解析PDF P3，有T/CECS465-2017和2017-06-01实施日期；OCR存在明显错误"
+        }
+      ],
+      "search_observation": {
+        "tool": "web open",
+        "content_type": "application/pdf",
+        "reported_page_count": 136,
+        "reported_final_url": "https://pro5323b5d3-pic11.ysjianzhan.cn/upload/5TCECS465-2017JYJZLSGZJSGC.pdf",
+        "note": "web可解析，但OCR大量乱码；页数不能证明完整。"
+      },
+      "permission": "公网附件未见认证门槛；发布者及授权说明待核",
+      "download_status": "本次HTTP403访问受限，是否需登录未知",
+      "current_status": "未知（2018历史收录不能证明2026现行性）",
+      "requested_url": "https://pro5323b5d3-pic11.ysjianzhan.cn/upload/5TCECS465-2017JYJZLSGZJSGC.pdf",
+      "checked_at": "2026-10-17T13:13:34+08:00",
+      "audit_id": "EXT-R01-465-2017",
+      "recommendation": "D",
+      "recommendation_reason": "实际GET/解析未成功；不推断永久失效",
+      "evidence_paths": [],
+      "audit_rules_version": "2026-10-17.2",
+      "complete_pdf": false,
+      "version_verified": false,
+      "standard_key": "T/CECS 465-2017",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "http_status": 403,
+      "elapsed_seconds": 0.14,
+      "audit_history": [
+        {
+          "checked_at": "2026-10-17T13:21:39+08:00",
+          "method": "主控13:20固定截点回灌；保留原GET与逐次审查history",
+          "outcome": "追加新候选实测"
+        }
+      ]
+    },
+    {
+      "candidate_id": "EXT-R01-68-1994",
+      "seed_ids": [],
+      "topic_group": "G1",
+      "standard_number": "CECS 68-1994",
+      "number": "68",
+      "year": "1994",
+      "name": "氢氧化钠溶液(碱液)加固湿陷性黄土地基技术规程",
+      "version_stage": "正式版候选（仅历史目录与搜索解析，待封面独立核对）",
+      "source_page": "https://lwec.net/article/detail-107",
+      "download_url": "https://pro5323b5d3-pic11.ysjianzhan.cn/upload/172CECS68-94QYHNRYJYJGSXXHTDJJSGC.pdf",
+      "alternate_urls": [],
+      "source_page_gap": "source_page仅为2018历史目录；附件发布者与父页面未定位。",
+      "metadata_evidence": [
+        {
+          "local_reference": "../master-authority/authority-directory-records.json",
+          "source_id": "LWEC-20180611-CECS-CATALOG:CECS68",
+          "kind": "2018历史机构目录",
+          "note": "名称、编号、年份交叉依据"
+        },
+        {
+          "url": "https://pro5323b5d3-pic11.ysjianzhan.cn/upload/172CECS68-94QYHNRYJYJGSXXHTDJJSGC.pdf",
+          "kind": "搜索引擎解析命中",
+          "note": "搜索解析有协会标准及中文标题；web open本轮Internal Error，未认定可下载"
+        }
+      ],
+      "search_observation": {
+        "tool": "web search/open",
+        "open_result": "Internal Error",
+        "note": "本次网络失败未验证，不判永久失效"
+      },
+      "permission": "公网候选未见认证门槛；发布者及授权说明待核",
+      "download_status": "本次HTTP403访问受限，是否需登录未知",
+      "current_status": "未知（2026现行性待核）",
+      "requested_url": "https://pro5323b5d3-pic11.ysjianzhan.cn/upload/172CECS68-94QYHNRYJYJGSXXHTDJJSGC.pdf",
+      "checked_at": "2026-10-17T13:13:34+08:00",
+      "audit_id": "EXT-R01-68-1994",
+      "recommendation": "D",
+      "recommendation_reason": "实际GET/解析未成功；不推断永久失效",
+      "evidence_paths": [],
+      "audit_rules_version": "2026-10-17.2",
+      "complete_pdf": false,
+      "version_verified": false,
+      "standard_key": "CECS 68-1994",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "http_status": 403,
+      "elapsed_seconds": 0.12,
+      "audit_history": [
+        {
+          "checked_at": "2026-10-17T13:21:39+08:00",
+          "method": "主控13:20固定截点回灌；保留原GET与逐次审查history",
+          "outcome": "追加新候选实测"
+        }
+      ]
+    },
+    {
+      "candidate_id": "R03-G1-22-2024-ZGB-202603",
+      "seed_ids": [
+        "S025"
+      ],
+      "topic_group": "G1",
+      "standard_number": "T/CECS 22-2024",
+      "year": "2024",
+      "name": "岩土锚杆技术规程",
+      "draft_stage": "正式版候选，PDF身份未审",
+      "source_page": "https://www.zhanggenbao.com/wp-content/uploads/2026/03/TCECS-22-2024-%E5%B2%A9%E5%9C%9F%E9%94%9A%E6%9D%86%E6%8A%80%E6%9C%AF%E8%A7%84%E7%A8%8B.pdf",
+      "download_url": "https://www.zhanggenbao.com/wp-content/uploads/2026/03/TCECS-22-2024-%E5%B2%A9%E5%9C%9F%E9%94%9A%E6%9D%86%E6%8A%80%E6%9C%AF%E8%A7%84%E7%A8%8B.pdf",
+      "alternative_urls": [],
+      "source_id": "SEARCH-R27-G1-22-2024-ALT",
+      "download_check_status": "候选未审；本次web open超时",
+      "permission_status": "搜索索引公开附件；第三方授权未核；无登录行为",
+      "relation_to_existing": "R01-G1-001为2025/12路径，实返HTML；本URL为真实搜索发现2026/03路径，不是猜测或强制访问。仅低优先级普通GET，若同HTML则停止此host路线。",
+      "metadata_evidence": [
+        {
+          "source_url": "https://www.hnbzw.com/Docs/NewsHtml/GenerateFile/20241115/88b5c580-37fd-4e19-b71f-2d617ac7e362.html",
+          "source_id": "HNIS-CECS-2185-20241115",
+          "evidence_type": "原文事实（省级标准化机构转载协会公告）",
+          "claim": "湖南省质量和标准化研究院公共服务页转载协会第2185号公告，载2024-11-12发布，22-2024自2025-04-01实施，原CECS22:2005同时废止。该事实不同于确认2026无后续替代"
+        }
+      ],
+      "requested_url": "https://www.zhanggenbao.com/wp-content/uploads/2026/03/TCECS-22-2024-%E5%B2%A9%E5%9C%9F%E9%94%9A%E6%9D%86%E6%8A%80%E6%9C%AF%E8%A7%84%E7%A8%8B.pdf",
+      "checked_at": "2026-10-17T13:19:53+08:00",
+      "audit_id": "R03-G1-22-2024-ZGB-202603",
+      "download_status": "实测可下载完整PDF（清楚扫描/OCR，57章节书签）",
+      "recommendation": "B",
+      "recommendation_reason": "版本与全文完整性闭环，扫描正文表图清楚且57章节书签可定位；ABBYY OCR有错字/数值识别问题，原图另有重复条号疑点，不评A或宣称出版社原生书签最优。",
+      "evidence_paths": [
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R03-G1-22-2024-ZGB-202603\\parse-evidence.json",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R03-G1-22-2024-ZGB-202603\\page-001.png",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R03-G1-22-2024-ZGB-202603\\page-005.png",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R03-G1-22-2024-ZGB-202603\\page-007.png",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R03-G1-22-2024-ZGB-202603\\page-077.png",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R03-G1-22-2024-ZGB-202603\\page-150.png",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R03-G1-22-2024-ZGB-202603\\page-152.png",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R03-G1-22-2024-ZGB-202603\\contact-sheet.jpg",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R03-G1-22-2024-ZGB-202603\\supplement-contact.jpg",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R03-G1-22-2024-ZGB-202603\\rendered-footers-001.jpg",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R03-G1-22-2024-ZGB-202603\\rendered-footers-061.jpg",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R03-G1-22-2024-ZGB-202603\\rendered-footers-121.jpg",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R03-G1-22-2024-ZGB-202603\\bookmark-title-evidence.json"
+      ],
+      "audit_rules_version": "2026-10-17.2",
+      "complete_pdf": true,
+      "version_verified": true,
+      "standard_key": "T/CECS 22-2024",
+      "http_status": 200,
+      "final_url": "https://www.zhanggenbao.com/wp-content/uploads/2026/03/TCECS-22-2024-%E5%B2%A9%E5%9C%9F%E9%94%9A%E6%9D%86%E6%8A%80%E6%9C%AF%E8%A7%84%E7%A8%8B.pdf",
+      "content_type": "application/pdf",
+      "content_length_header": "6150514",
+      "bytes": 6150514,
+      "transfer_size_matches_header": true,
+      "pdf_header_valid": true,
+      "sha256": "a9d45e1f5be3eb86e498185b02738a92ee51dcd1c6bfe862d2ea25faf1e46491",
+      "local_path": "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\downloads-temp\\R03-G1-22-2024-ZGB-202603.pdf",
+      "encrypted": false,
+      "encryption_permissions": null,
+      "pages": 152,
+      "pdf_parse": "页面树可遍历；已尝试逐页文本提取。图像/字体/内容流可读性另以渲染与目视记录判断",
+      "eof_marker_present": true,
+      "text_pages": 143,
+      "text_characters": 84367,
+      "cjk_characters": 52971,
+      "text_layer": true,
+      "body_searchable": true,
+      "body_text_layer": "ABBYY FineReader OCR；普通中文可检索，但封面铀/锚、版权9b/95及数字/单位/标点有误，公式复制需对照原图",
+      "searchable": "有OCR可搜索复制普通中文，但识别并非准确原文，短语空格/数字/公式须核图",
+      "bookmark_count": 57,
+      "bookmark_valid_target_count": 57,
+      "bookmark_navigation": "57章节/节/附录/前后置书签目标均有效；50标题标准化后在目标文字匹配，其余7整页目视确认，真实章节导航",
+      "clickable_toc": "0个Link注释，页面目录不可点击；Outline章节导航可用，二者分开",
+      "link_annotation_count": 0,
+      "rotation_summary": {
+        "0": 2,
+        "90": 1,
+        "180": 149
+      },
+      "cropbox_diff_pages": [
+        2
+      ],
+      "version_match": "封面、扉页、版权及第2185号公告匹配T/CECS22-2024岩土锚杆技术规程；2025-03出版与2024标准年份分别保存",
+      "completeness": "152页全部Poppler渲染成功，无渲染错误。PDF17-151按打印1-135位置顺序完整保留，打印96/98/100/102真实空白页在文件内；PDF113说明扉页97，115修订说明99，117说明目录101，119说明首章2（打印103），PDF149-151说明附录F打印133-135、图2跨页衔接且F.0.10自然收束，PDF152空白尾页。主目录十一章、附录A-F、用词、引用及说明齐全。版权1/32开4.75印张与152页相符仅作辅助，不单独判完整。",
+      "clarity": "扫描文字、公式、表格与波形图清楚，抽查无裁去正文或遮挡水印；封底在PDF2，正文顺序正常",
+      "contact_sheet": "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R03-G1-22-2024-ZGB-202603\\contact-sheet.jpg",
+      "elapsed_seconds": 21.59,
+      "standard_year": 2024,
+      "publication_edition": "2025年3月第1版/第1次印刷",
+      "publication_year": 2025,
+      "implementation_date": "2025-04-01",
+      "completeness_status": "正文/附录/条文说明、全页码与实际空白页闭环",
+      "watermark": "抽查未见遮挡性水印",
+      "bookmark_provenance": "下载文件自带57个章节Outline，ABBYY加工生成痕迹；出版社原生制作身份未证，审查未自行添加",
+      "native_outline_present": true,
+      "publisher_original_bookmarks": null,
+      "visual_review_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        35,
+        40,
+        63,
+        69,
+        74,
+        86,
+        90,
+        98,
+        104,
+        106,
+        109,
+        110,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        148,
+        149,
+        150,
+        151,
+        152
+      ],
+      "visual_checked_at": "2026-10-17T13:31:32+08:00",
+      "quality_anomalies": [
+        {
+          "pdf_pages": [
+            149,
+            151
+          ],
+          "printed_pages": [
+            133,
+            135
+          ],
+          "observed": "原图两处均标F.0.8，末页随后F.0.10；可能为同条号分处说明或排版疑点，未查出版社勘误，不自动改F.0.9、不据此判缺页",
+          "statement_type": "原文事实（文件图像所示）及待核解释"
+        }
+      ],
+      "independent_review": "第二审独立复算129个预期页脚OCR可直接匹配，打印53图像可见，说明扉页/真实空白页全部对应；57书签50文本+7目视复核。独立支持B并发现重复条号疑点，已双审目视确认。",
+      "source_page_gap": "source_page目前为PDF直链，所属独立详情页未定位；公开第三方托管，转载授权未核",
+      "comparison": {
+        "same_standard_key": "T/CECS 22-2024",
+        "other_candidate_id": "R01-G1-001",
+        "preference": "本候选实得完整可读152页及章节导航，旧2025/12路径返回HTML；当前已审中优先此链，不代表全网最优",
+        "different_versions_not_compared": "CECS22:2005另保历史版本，不以新旧版页数作质量优劣判断"
+      },
+      "merge_action": "append_new_candidate_after_1320_freeze",
+      "audit_history": [
+        {
+          "checked_at": "2026-10-17T13:31:32+08:00",
+          "method": "双审独立全文边界/目录/全部页脚、全页渲染、57书签目标、OCR与原图、版权辅助验证",
+          "outcome": "版本与全文完整性闭环，扫描正文表图清楚且57章节书签可定位；ABBYY OCR有错字/数值识别问题，原图另有重复条号疑点，不评A或宣称出版社原生书签最优。"
+        },
+        {
+          "checked_at": "2026-10-17T13:32:48+08:00",
+          "method": "主控13:30固定截点回灌；保留原GET、双审及证据纠错history",
+          "outcome": "追加新候选实测"
+        }
+      ]
+    },
+    {
+      "candidate_id": "AUD-796-ANNOUNCEMENT-QIXIN",
+      "seed_ids": [
+        "S009"
+      ],
+      "standard_number": "T/CECS 796-2021",
+      "name": "屋面结构雪荷载设计标准发布公告",
+      "document_kind": "发布公告元数据证据，不能作标准全文",
+      "source_page": "https://qxb-img-osscache.qixin.com/standards/a3ae6a861cab59788b7c093ef8ed1ffe.pdf",
+      "download_url": "https://qxb-img-osscache.qixin.com/standards/a3ae6a861cab59788b7c093ef8ed1ffe.pdf",
+      "conflict_group": "CECS-796-YEAR-CONFLICT",
+      "discovery_evidence": "search此前取得公告候选，但版本冲突须独立实际GET/目视；不把单页公告当全文或独立新标准版本",
+      "permission_status": "公开索引附件，未提供账号或绕过认证；转载授权未独立核实",
+      "requested_url": "https://qxb-img-osscache.qixin.com/standards/a3ae6a861cab59788b7c093ef8ed1ffe.pdf",
+      "checked_at": "2026-10-17T13:27:56+08:00",
+      "audit_id": "AUD-796-ANNOUNCEMENT-QIXIN",
+      "download_status": "仅发布公告1页，不是标准正文全文",
+      "recommendation": "D",
+      "recommendation_reason": "公告可下载且年份可目视核实，但无标准正文/目录/附录，不能作完整标准PDF",
+      "evidence_paths": [
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\AUD-796-ANNOUNCEMENT-QIXIN\\parse-evidence.json",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\AUD-796-ANNOUNCEMENT-QIXIN\\page-001.png",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\AUD-796-ANNOUNCEMENT-QIXIN\\contact-sheet.jpg"
+      ],
+      "audit_rules_version": "2026-10-17.2",
+      "complete_pdf": false,
+      "version_verified": true,
+      "standard_key": "T/CECS 796-2021",
+      "http_status": 200,
+      "final_url": "https://qxb-img-osscache.qixin.com/standards/a3ae6a861cab59788b7c093ef8ed1ffe.pdf",
+      "content_type": "application/pdf",
+      "content_length_header": "49741",
+      "bytes": 49741,
+      "transfer_size_matches_header": true,
+      "pdf_header_valid": true,
+      "sha256": "2694e46ffed0f9e7879ea97347d44b11f69ae3ddc3f654c0fea6195a89b3330e",
+      "local_path": "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\downloads-temp\\AUD-796-ANNOUNCEMENT-QIXIN.pdf",
+      "encrypted": false,
+      "encryption_permissions": null,
+      "pages": 1,
+      "pdf_parse": "页面树可遍历；已尝试逐页文本提取。图像/字体/内容流可读性另以渲染与目视记录判断",
+      "eof_marker_present": true,
+      "text_pages": 1,
+      "text_characters": 208,
+      "cjk_characters": 135,
+      "text_layer": true,
+      "body_searchable": true,
+      "body_text_layer": "公告中文可抽取",
+      "searchable": "待抽查中文抽取准确性",
+      "bookmark_count": 0,
+      "bookmark_valid_target_count": 0,
+      "bookmark_navigation": "无原生书签",
+      "clickable_toc": "未发现任何Link注释；目录不可点击",
+      "link_annotation_count": 0,
+      "rotation_summary": {
+        "0": 1
+      },
+      "cropbox_diff_pages": [],
+      "version_match": "第757号公告正文明确T/CECS796—2021、2021-06-01施行、2021-01-05落款；来源为第三方托管公告副本",
+      "completeness": "1页完整公告，非完整标准；与出版方796-2020证据冲突仍未解决",
+      "clarity": "矢量文字清楚，可搜索复制，无遮挡水印",
+      "contact_sheet": "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\AUD-796-ANNOUNCEMENT-QIXIN\\contact-sheet.jpg",
+      "elapsed_seconds": 0.33,
+      "completeness_status": "非标准全文；仅公告元数据证据",
+      "visual_review_pages": [
+        1
+      ],
+      "visual_checked_at": "2026-10-17T13:28:52+08:00",
+      "statement_type": "原文事实（第三方托管公告副本所示文本）",
+      "metadata_only": true,
+      "audit_history": [
+        {
+          "checked_at": "2026-10-17T13:28:52+08:00",
+          "method": "真实GET+PDF头/页数/哈希+整页目视+文本对照",
+          "outcome": "第757号公告正文明确T/CECS796—2021、2021-06-01施行、2021-01-05落款；来源为第三方托管公告副本"
+        },
+        {
+          "checked_at": "2026-10-17T13:32:48+08:00",
+          "method": "主控13:30固定截点回灌；保留原GET、双审及证据纠错history",
+          "outcome": "追加新候选实测"
+        }
+      ]
     }
   ],
-  "updated_at": "2026-10-17T13:11:18+08:00",
-  "handoff_state": "接手对话唯一写入，持续审查",
-  "explicit_complete_flags": true
+  "updated_at": "2026-10-17T13:32:48+08:00",
+  "handoff_state": "13:30冻结，待主控同步或本地封版完成",
+  "explicit_complete_flags": true,
+  "checkpoint": "1330"
 }

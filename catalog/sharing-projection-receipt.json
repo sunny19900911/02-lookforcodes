@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-10-17T05:49:03.934Z",
+  "snapshot_generated_at": "2026-10-17T05:37:51.370Z",
+  "source": {
+    "path": "search/g2-public-routes/round02-candidates.json",
+    "sha256": "c74bf7bafad8492bc055426a7b66340b14db42c00727cf574a06e4f45da64cf0"
+  },
+  "changed_paths": [
+    "/external/search/43/redirect_entry"
+  ],
+  "raw_master_sha256": "e7ecb1e38185c5bafdeb456b4ea90b6edc2ab192061a7673f7b6c3c0b6761f70",
+  "sharing_master_sha256": "4f66c453fdaafe58878d696fc8fd6d4802d9fc4b235785f51b8642ee6ed9a2c1",
+  "xlsx_sha256": "05da49e829a2ac73232bd9205ae750090f6fe26ffba33fd1e4ae3a3d129e2414",
+  "xlsx_unchanged": true
+}

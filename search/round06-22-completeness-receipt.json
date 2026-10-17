@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "producer": "search",
+  "checked_at": "2026-10-17T13:31:51+08:00",
+  "source_id": "AUDIT-R04-22-CLOSURE-20261017",
+  "statement_type": "独立审查结论回执，检索不自行提升质量",
+  "candidate_id": "R03-G1-22-2024-ZGB-202603",
+  "standard_number": "T/CECS 22-2024",
+  "name": "岩土锚杆技术规程",
+  "seed_ids": [
+    "S025"
+  ],
+  "audit_source": "pdf-audit/audit-pending-round04.json",
+  "audit_source_updated_at": "2026-10-17T13:31:32+08:00",
+  "final_pdf_url": "https://www.zhanggenbao.com/wp-content/uploads/2026/03/TCECS-22-2024-%E5%B2%A9%E5%9C%9F%E9%94%9A%E6%9D%86%E6%8A%80%E6%9C%AF%E8%A7%84%E7%A8%8B.pdf",
+  "bytes": 6150514,
+  "sha256": "a9d45e1f5be3eb86e498185b02738a92ee51dcd1c6bfe862d2ea25faf1e46491",
+  "pages": 152,
+  "complete_pdf": true,
+  "version_verified": true,
+  "recommendation": "B",
+  "quality_evidence": {
+    "kind": "审查者双审闭环",
+    "completeness": "全部152页渲染成功；打印1-135位置顺序保留，含96/98/100/102真实空白；主目录十一章、附录A-F、用词、引用及条文说明齐全，F.0.10自然收束，末页为空白",
+    "navigation": "57条章节Outline目标有效；无目录Link注释，不称可点击目录",
+    "text": "正文有ABBYY OCR文字层且可搜索，但错字、数值识别问题保留，不评A",
+    "edition_observation": "原图两处F.0.8重复条号疑点保留，不擅改为F.0.9",
+    "locator_correction": "打印99为修订说明，打印101才是说明目录"
+  },
+  "retained_other_findings": {
+    "old_2025_12_path": "R01-G1-001实返HTML，保持旧结论",
+    "standard_796": "公告副本D、非完整标准，2020/2021冲突保留",
+    "standard_661": "C；79条及说明八章首末页已核，18/20空白性质仍缺独立旁证"
+  },
+  "projection_after_controller_merge": {
+    "audit_record_count": 33,
+    "complete_link_count": 9,
+    "complete_version_count": 7,
+    "complete_sha256_count": 7,
+    "note": "仅审查角色给出的合入后预计值；canonical当前31条仍冻结，须由主控/catalog统一回灌"
+  },
+  "freeze_boundary": "此文件为13:31独立补充，不修改freeze-inputs-1330.json的12输入、Round04的9输入或13:20的19输入；不操作Git。"
+}

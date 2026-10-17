@@ -44,7 +44,16 @@ assert collections.Counter(complete_sheet.cell(r,3).hyperlink.target for r in ra
 assert collections.Counter(complete_sheet.cell(r,17).value for r in range(9,9+len(complete_links)))==collections.Counter(link['sha256'] for link in complete_links)
 for link in master['links']:
     if link.get('complete_pdf'):
+        assert not link.get('metadata_only')
         assert link.get('version_verified') and link.get('final_url') and link.get('sha256') and link.get('pages') and link.get('pdf_bytes') and link.get('audit_id') and link.get('audit_evidence_paths'), link['link_id']
+standards={s['standard_id']:s for s in master['standards']}
+if 'CECS-102-2002-FORMAL-E2012' in standards:
+    edition=standards['CECS-102-2002-FORMAL-E2012']
+    assert edition['year']==2002 and edition['edition_label']=='2012年版'
+    assert not set(edition['link_ids']) & set(standards['CECS-102-2002-FORMAL']['link_ids'])
+    assert edition['published_date'] is None and edition['effective_date'] is None
+if 'CECS-796-2021-FORMAL' in standards:
+    assert standards['CECS-796-2021-FORMAL']['name']=='屋面结构雪荷载设计标准'
 receipt={'checked_at_utc':__import__('datetime').datetime.now(__import__('datetime').timezone.utc).isoformat(),'xlsx_sha256':hashlib.sha256(book.read_bytes()).hexdigest(),'bytes':book.stat().st_size,'sheets':[{ 'name':s.title,'rows':s.max_row,'columns':s.max_column,'freeze_panes':s.freeze_panes} for s in workbook], 'native_hyperlinks':len(hyperlinks),'error_cells':len(errors),'all_81_original_mappings':True,'counts_reconciled':True,'complete_pdf_required_fields':True}
 (root/'workbook-validation.json').write_text(json.dumps(receipt,ensure_ascii=False,indent=2),encoding='utf-8')
 print(json.dumps(receipt,ensure_ascii=False))

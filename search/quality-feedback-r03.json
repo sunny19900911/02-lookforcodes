@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "producer": "search",
+  "received_date": "2026-10-17",
+  "source_id": "PDF-AUDIT-THREAD-01a14838-9d35-74d1-8de7-5683103ad144",
+  "evidence_type": "独立审查反馈；检索方法据此调整，不自行改canonical",
+  "feedback": [
+    {
+      "standard_number": "CECS 102:2002",
+      "candidate_id": "R02-G3-NWAFU-102-2002",
+      "finding": "虽有可用章节书签和目录Link，但有真实转录错字、标题混入另一规程、高度单位错误；无条文说明。保持C，只作历史检索",
+      "method_change": "大学域名与可搜索文字不自动代表原文准确；有OCR/重排迹象先抽公式单位和条文，与原出版物比较",
+      "next_test": "寻找同版扫描出版物对照；不得把错单位复制为工程参数"
+    },
+    {
+      "standard_number": "CECS 22:2005",
+      "candidate_id": "R02-G1-010",
+      "finding": "105书签均为GIF页名，目标有效但非语义章节；打印60缺口未核，无正文文本层",
+      "method_change": "书签类型、目标和名称语义分开；数量不能当最佳指标",
+      "next_test": "同版出版页序对照；无需重复下载同一附件"
+    },
+    {
+      "standard_number": "CECS 21:2000",
+      "candidate_id": "R01-G4-008",
+      "finding": "目录与正文重排分页不符，C",
+      "method_change": "保留候选为内容线索，目录页数不吻合不自动判整本原版"
+    },
+    {
+      "standard_number": "CECS 02:2005",
+      "candidate_id": "R01-G4-009",
+      "finding": "目录含条文说明，实际缺失，D",
+      "method_change": "补同版完整条文说明来源；主备同hash不算两份独立内容证据"
+    },
+    {
+      "standard_number": "T/CECS 661-2020",
+      "candidate_id": "EXT-R01-661-2020",
+      "finding": "政府附件实际GET44页成功，完整性审查在冻结canonical外进行",
+      "method_change": "优先有明确免费公开声明和政府附件的路线，但仍等目录末页闭环"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "round": "R03-G1-22-alternative",
+  "producer": "search",
+  "date": "2026-10-17",
+  "candidates": [
+    {
+      "candidate_id": "R03-G1-22-2024-ZGB-202603",
+      "seed_ids": [
+        "S025"
+      ],
+      "topic_group": "G1",
+      "standard_number": "T/CECS 22-2024",
+      "year": "2024",
+      "name": "岩土锚杆技术规程",
+      "draft_stage": "正式版候选，PDF身份未审",
+      "source_page": "https://www.zhanggenbao.com/wp-content/uploads/2026/03/TCECS-22-2024-%E5%B2%A9%E5%9C%9F%E9%94%9A%E6%9D%86%E6%8A%80%E6%9C%AF%E8%A7%84%E7%A8%8B.pdf",
+      "download_url": "https://www.zhanggenbao.com/wp-content/uploads/2026/03/TCECS-22-2024-%E5%B2%A9%E5%9C%9F%E9%94%9A%E6%9D%86%E6%8A%80%E6%9C%AF%E8%A7%84%E7%A8%8B.pdf",
+      "alternative_urls": [],
+      "source_id": "SEARCH-R27-G1-22-2024-ALT",
+      "download_check_status": "候选未审；本次web open超时",
+      "permission_status": "搜索索引公开附件；第三方授权未核；无登录行为",
+      "relation_to_existing": "R01-G1-001为2025/12路径，实返HTML；本URL为真实搜索发现2026/03路径，不是猜测或强制访问。仅低优先级普通GET，若同HTML则停止此host路线。",
+      "metadata_evidence": [
+        {
+          "source_url": "https://www.hnbzw.com/Docs/NewsHtml/GenerateFile/20241115/88b5c580-37fd-4e19-b71f-2d617ac7e362.html",
+          "source_id": "HNIS-CECS-2185-20241115",
+          "evidence_type": "原文事实（省级标准化机构转载协会公告）",
+          "claim": "湖南省质量和标准化研究院公共服务页转载协会第2185号公告，载2024-11-12发布，22-2024自2025-04-01实施，原CECS22:2005同时废止。该事实不同于确认2026无后续替代"
+        }
+      ]
+    }
+  ]
+}

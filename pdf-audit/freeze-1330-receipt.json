@@ -1,0 +1,30 @@
+{
+  "checkpoint": "2026-10-17T13:30:00+08:00",
+  "frozen_at": "2026-10-17T13:32:48+08:00",
+  "before_sha256": "28e9f89c8134d5933aef28565efc2ddf22a8e4aaa5eb5691ccd09f5283063f25",
+  "sha256": "84e4361fbbcdee054efb3ac89e5610001df33e049db3271ba2f2fd1616686629",
+  "updated_at": "2026-10-17T13:32:48+08:00",
+  "result_count": 33,
+  "complete_link_count": 9,
+  "complete_version_count": 7,
+  "complete_hash_count": 7,
+  "rating_counts": {
+    "A": 0,
+    "B": 9,
+    "C": 11,
+    "D": 13
+  },
+  "metadata_only_count": 1,
+  "replacements": 1,
+  "additions": 2,
+  "merged_candidate_ids": [
+    "R03-G1-22-2024-ZGB-202603",
+    "AUD-796-ANNOUNCEMENT-QIXIN",
+    "EXT-R01-661-2020"
+  ],
+  "old_freeze": "audit-results-freeze-1320.json",
+  "current_freeze": "audit-results-freeze-1330.json",
+  "history_preserved": true,
+  "new_complete_candidate": "R03-G1-22-2024-ZGB-202603",
+  "quality_limit": "22-2024双审支持B；OCR有误，原图有重复条号疑点；不称出版社原生书签或全网最优。796单页公告非标准全文；661仍C。"
+}

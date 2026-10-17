@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "source_file": "search/g1-round03-coverage.json",
+  "stage": "已按主控授权并入13:20轮次；不重复作为新增",
+  "query_count": 20,
+  "new_direct_candidate_count": 0,
+  "coverage": [
+    {
+      "standard_number": "T/CECS 657-2020",
+      "seed_ids": [
+        "S023"
+      ],
+      "existing_standard_ids": [
+        "CECS-657-2020-FORMAL"
+      ],
+      "reported_status": "出版社试读；第三方20点/VIP；未得公开全文",
+      "sources": [
+        "https://ebook.chinabuilding.com.cn/zbooklib/bookpdf/probation?SiteID=1&bookID=129997",
+        "https://www.safehoo.com/Item/1606209.aspx",
+        "https://www.11bz.com/a/631603.html"
+      ],
+      "next_test": "查主编单位公开标准附件；非登录下载按钮没有明确href，不逆向绕过"
+    },
+    {
+      "standard_number": "T/CECS 831-2021",
+      "seed_ids": [
+        "S026"
+      ],
+      "existing_standard_ids": [
+        "CECS-831-2021-FORMAL"
+      ],
+      "reported_status": "VIP/介绍；biaozhuns实际帖子已被管理员屏蔽",
+      "sources": [
+        "https://www.bzko.com/std/263047.html",
+        "https://www.biaozhuns.com/archives/20211118/show-302192-108-1.html",
+        "https://bbs.biaozhuns.com/forum.php?mod=viewthread&tid=323254"
+      ],
+      "next_test": "编制单位官网明确公开附件"
+    },
+    {
+      "standard_number": "T/CECS 601-2019",
+      "seed_ids": [
+        "S027"
+      ],
+      "existing_standard_ids": [
+        "CECS-601-2019-FORMAL"
+      ],
+      "reported_status": "出版平台目录及2018送审会新闻；未得公开全文",
+      "sources": [
+        "https://www.gongbiaoku.com/book/u0z19803g3f?query=%E9%92%BB%E8%8A%AF",
+        "https://www.jcgcw.com/index/news/detail?id=58972"
+      ],
+      "next_test": "主编单位公开附件；2018送审稿不冒充2019正式版"
+    },
+    {
+      "standard_number": "T/CECS 889-2021",
+      "seed_ids": [
+        "S024",
+        "S028"
+      ],
+      "existing_standard_ids": [
+        "CECS-889-2021-APPROVAL-DRAFT",
+        "CECS-889-2021-FORMAL"
+      ],
+      "reported_status": "出版平台目录及第三方下载页；无已提取直链；正式/报批稿仍分开",
+      "sources": [
+        "https://www.gongbiaoku.com/book/m1e23511md8",
+        "https://www.freebz.net/tuanti/259523.html"
+      ],
+      "next_test": "检查主编机构明确公开附件，Q/JLL005-2020同名企标不误收CECS"
+    },
+    {
+      "standard_number": "T/CECS 1259-2023",
+      "seed_ids": [
+        "S029"
+      ],
+      "existing_standard_ids": [
+        "CECS-1259-2023-FORMAL"
+      ],
+      "reported_status": "引用资料/出版介绍；未得全文",
+      "sources": [
+        "https://www.geokey.com.cn/newsListyw.html?id=1659"
+      ],
+      "next_test": "编制单位下载/出版方详情再追附件"
+    },
+    {
+      "standard_number": "T/CECS 582-2019",
+      "seed_ids": [
+        "S030"
+      ],
+      "existing_standard_ids": [
+        "CECS-582-2019-FORMAL"
+      ],
+      "reported_status": "出版方明确1/10试读及VIP转载；未得完整全文",
+      "sources": [
+        "https://ebook.chinabuilding.com.cn/zbooklib/bookpdf/probation?SiteID=1&bookID=131752"
+      ],
+      "next_test": "主编单位及中国水利学会公开下载；不能把试读正文误计全文"
+    },
+    {
+      "standard_number": "CECS 241:2008",
+      "seed_ids": [
+        "S031"
+      ],
+      "existing_standard_ids": [
+        "CECS-241-2008-FORMAL"
+      ],
+      "reported_status": "大量政府合同/环评引用，未命中本标准全文",
+      "sources": [
+        "https://td.gd.gov.cn/attachment/0/556/556319/4463781.pdf",
+        "https://www.wenkub.com/doc-313779129.html"
+      ],
+      "next_test": "建设综合勘察研究设计院公开资料/旧版单位附件"
+    },
+    {
+      "standard_number": "CECS 192:2005",
+      "seed_ids": [
+        "S018"
+      ],
+      "existing_standard_ids": [
+        "CECS-192-2005-FORMAL"
+      ],
+      "reported_status": "未得旧全文；发现T/CECS192-2022替代线索",
+      "sources": [
+        "https://www.nanjing.gov.cn/xxgkn/jytabljggk/2024njytabl/shirddbjy/202411/t20241114_5009306.html",
+        "https://www.gongbiaoku.com/book/6sc24709fqa"
+      ],
+      "next_test": "北京交通大学主编路线与协会第1369公告；保留2005历史"
+    }
+  ],
+  "metadata_only": [
+    {
+      "standard_number": "T/CECS 192-2022",
+      "year": "2022",
+      "name": "挤扩支盘灌注桩技术规程",
+      "source_page": "https://www.nanjing.gov.cn/xxgkn/jytabljggk/2024njytabl/shirddbjy/202411/t20241114_5009306.html",
+      "note": "该source URL以coverage.sources中实际南京官方URL为准；仅政府引用新编号，需核协会原公告的替代关系"
+    }
+  ],
+  "replacement_status": "192-2022存在性与替代2005待核分开",
+  "merged_snapshot_generated_at": "2026-10-17T05:24:50.658Z"
+}

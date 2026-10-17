@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "release": "2026-10-17 first batch",
+  "snapshot_generated_at": "2026-10-17T05:14:07.858Z",
+  "reported_by_controller_thread": "01a1482e-ed9b-70b3-b74c-89867f90d180",
+  "claim_type": "主控同步完成通知；本角色未操作或读取Git远端",
+  "commit": "bcdd5b4a139902ec040bfe19db193d8a68dcf350",
+  "controller_reported_status": "push成功",
+  "xlsx_sha256": "f6ce838ec33e704fb942bfc63e24c1c641ba177251fb4e62f08e6c50a01b2aac",
+  "master_sha256": "ae68170f97aa448f19c8f3693334268b0fb9a52c2ace5c3da2b437a915ad9256",
+  "counts": {
+    "identity_records": 753,
+    "links": 119,
+    "original_mappings": 81,
+    "audit_results": 28,
+    "complete_pdf_links": 8,
+    "complete_standard_versions": 6,
+    "complete_unique_hashes": 6
+  },
+  "state": "冻结；后续新输入单存增量，待主控协调下一轮"
+}

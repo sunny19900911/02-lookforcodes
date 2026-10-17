@@ -1,34 +1,36 @@
 {
-  "checked_at": "2026-10-17T13:15:14.633198+08:00",
-  "xlsx_sha256": "f6ce838ec33e704fb942bfc63e24c1c641ba177251fb4e62f08e6c50a01b2aac",
-  "bytes": 450385,
+  "checked_at": "2026-10-17T13:51:27.389046+08:00",
+  "xlsx_sha256": "05da49e829a2ac73232bd9205ae750090f6fe26ffba33fd1e4ae3a3d129e2414",
+  "bytes": 506186,
   "sheets": {
-    "规范总表": 753,
-    "已验完整PDF": 8,
-    "链接明细": 119,
+    "规范总表": 811,
+    "已验完整PDF": 9,
+    "链接明细": 127,
     "原始映射": 81,
-    "待查与问题": 678,
-    "状态与来源依据": 842,
-    "检索记录": 35,
-    "说明与覆盖": 25,
-    "变更记录": 919
+    "待查与问题": 749,
+    "状态与来源依据": 934,
+    "检索记录": 71,
+    "说明与覆盖": 31,
+    "变更记录": 1019
   },
   "coverage": {
     "baseline_records_registered": 81,
     "baseline_standard_versions": 74,
-    "registered_standard_versions": 753,
-    "registered_links": 119,
-    "verified_complete_pdf_links": 8,
-    "verified_complete_standard_versions": 6,
-    "authority_records": 652,
-    "independent_audit_results": 28,
-    "downloaded_parseable_pending": 8,
-    "verified_complete_unique_sha256": 6
+    "registered_standard_versions": 811,
+    "registered_links": 127,
+    "verified_complete_pdf_links": 9,
+    "verified_complete_standard_versions": 7,
+    "authority_records": 710,
+    "independent_audit_results": 33,
+    "downloaded_parseable_pending": 9,
+    "verified_complete_unique_sha256": 7,
+    "unresolved_unnumbered_drafts": 3,
+    "supplemental_directory_records": 58
   },
-  "native_hyperlinks": 2649,
+  "native_hyperlinks": 2899,
   "error_cells": 0,
   "grade_counts_for_complete": {
-    "B": 8
+    "B": 9
   },
   "checks": [
     "ZIP integrity",
@@ -39,6 +41,7 @@
     "link IDs unique and no orphan",
     "only verified complete links recommended",
     "required PDF evidence fields",
+    "standard title excludes announcement document names",
     "all sheet counts reconcile",
     "native hyperlinks",
     "no Excel errors"

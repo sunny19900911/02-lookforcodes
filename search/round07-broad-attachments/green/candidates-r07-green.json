@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "producer": "search/green-expansion",
+  "round": "R07",
+  "checked_date": "2026-10-17",
+  "boundary": "公开检索候选；具体下载、版本完整性和质量由独立audit核验。草案单列，第三方附件不背书再分发授权。",
+  "candidates": [
+    {
+      "candidate_id": "R07-G4-10025-2019-DLSSYHT",
+      "seed_ids": [],
+      "topic_group": "G4",
+      "standard_number": "T/CECS 10025-2019",
+      "year": "2019",
+      "name": "绿色建材评价 预制构件",
+      "draft_stage": "正式历史版候选，待封面核",
+      "source_id": "SEARCH-R36-10025-2019",
+      "source_page": "https://aimg8.dlssyht.cn/u/2150462/ueditor/file/1076/2150462/1723183276280200.pdf",
+      "download_url": "https://aimg8.dlssyht.cn/u/2150462/ueditor/file/1076/2150462/1723183276280200.pdf",
+      "alternative_urls": [],
+      "permission_status": "公开搜索索引PDF；web open本次Internal Error，独立GET待审；第三方上传授权未核",
+      "metadata_evidence": [
+        {
+          "source_url": "https://www.dlhitech.gov.cn/resources/news/newsConstantImages/20210518105712253.pdf",
+          "source_id": "DLHIT-20210518-GREEN-LIST",
+          "evidence_type": "原文事实（政府历史目录）",
+          "claim": "附件4绿色建材评价标准清单第1条列10025-2019/绿色建材评价-预制构件，支持编号名称历史记录，不能确认2026现行性；此目录非标准全文"
+        }
+      ],
+      "quality_warning": "与已审10032带橙水印副本同CDN路径簇，不能预断本件有无水印或完整",
+      "download_check_status": "候选未审"
+    },
+    {
+      "candidate_id": "R07-G5-727-2020-YSJIANZHAN",
+      "seed_ids": [
+        "S005"
+      ],
+      "topic_group": "G5",
+      "standard_number": "T/CECS 727-2020",
+      "year": "2020",
+      "name": "绿色超高层建筑评价标准",
+      "draft_stage": "正式版候选，待封面核",
+      "source_id": "SEARCH-R34-727-2020",
+      "source_page": "https://pro5323b5d3-pic11.ysjianzhan.cn/upload/48TCECS727-2020LSCGCJZPJBZ.pdf",
+      "download_url": "https://pro5323b5d3-pic11.ysjianzhan.cn/upload/48TCECS727-2020LSCGCJZPJBZ.pdf",
+      "alternative_urls": [],
+      "permission_status": "公开搜索索引附件；同host其他件曾403，不泛化本件；第三方上传授权未核",
+      "metadata_evidence": [],
+      "discovery_evidence": "搜索索引封面/条文文本命中，但PDF扩展名与文本不能证明完整，独立普通GET待审",
+      "download_check_status": "候选未审"
+    },
+    {
+      "candidate_id": "R07-G5-DRAFT-ZERO-2025",
+      "seed_ids": [],
+      "topic_group": "G5",
+      "standard_number": "T/CECS ××××-2025",
+      "number": null,
+      "year": "2025",
+      "name": "零碳工业建筑评价标准",
+      "draft_stage": "编号占位草稿；不与正式编号合并；具体征求意见/报批阶段待原稿核准",
+      "source_id": "SEARCH-R34-ZERO-INDUSTRIAL-DRAFT",
+      "source_page": "https://25978851.s21i.faiusr.com/61/ABUIABA9GAAg2qzRwwYooP7w_gQ.pdf",
+      "download_url": "https://25978851.s21i.faiusr.com/61/ABUIABA9GAAg2qzRwwYooP7w_gQ.pdf",
+      "alternative_urls": [],
+      "permission_status": "公开索引PDF，web解析报84页；不算完整独立审查，上传单位/再分发授权待核",
+      "metadata_evidence": [
+        {
+          "source_url": "https://www.carbon2060.org/nd.jsp?id=5",
+          "source_id": "CARBON2060-20250610-RESEARCH-LIST",
+          "evidence_type": "原文事实（协同网络历史在研清单）",
+          "claim": "2025-06-10清单第5项同名，列管理机构CECS、主编中国电子工程设计院、编制进度报批。该页非PDF父页证据，不证明当前附件就是该报批版本或2026状态"
+        }
+      ],
+      "web_observation": {
+        "pages_reported": 84,
+        "pdf_foreword": "中国电子工程设计院股份有限公司负责技术解释；封面编号占位"
+      },
+      "download_check_status": "草案候选未审"
+    }
+  ],
+  "metadata_only": [
+    {
+      "standard_number": "T/CECS 10026-2025",
+      "year": "2025",
+      "name": "绿色建材评价 建筑门窗及配件",
+      "source_id": "TTBZ-10026-2025-20261017",
+      "source_page": "https://www.ttbz.org.cn/standardDetail.html?id=jfttufbhlnhf5u7kavmhj9ak72h9lf4",
+      "download_url": null,
+      "metadata_evidence": [
+        {
+          "source_url": "https://www.ttbz.org.cn/standardDetail.html?id=jfttufbhlnhf5u7kavmhj9ak72h9lf4",
+          "evidence_type": "原文事实（团标平台网页）",
+          "claim": "条目编号名称可读，网页标现行；元数据公布2025-12-05、发布2025-09-08、实施2026-02-01；页头却写2025-12-05发布，日期冲突原样保留，不静默统一"
+        }
+      ],
+      "blocked_link": "https://www.ttbz.org.cn/UploadFiles/StandardFpdFile/20251205094456452.pdf",
+      "blocked_observation": "正常点击标准发布公告被重定向ms/login.do；未继续认证/绕过，也不是标准全文链接"
+    }
+  ],
+  "excluded": [
+    {
+      "url": "https://www.ttbz.org.cn/Home/PdfFileStreamGet/c3QsMTQxNTY0",
+      "reason": "P1扉页实际T/WJX004-2024《绿色建材推广应用技术指南》，仅引用CECS系列，排除为CECS全文"
+    },
+    {
+      "url": "http://gupa.gbsware.cn/upload/system/doc/%E9%A2%84%E6%8B%8C%E6%B7%B7%E5%87%9D%E5%9C%9F.pdf",
+      "reason": "第三方文章引用附件，web open本次失败，编号身份未得，暂不建CECS候选"
+    },
+    {
+      "query": "10047/10048/10027",
+      "reason": "本轮命中付费英文译本、Scribd、认证细则及报告，未得明确公开完整PDF，不冒充全文"
+    }
+  ]
+}

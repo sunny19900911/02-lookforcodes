@@ -1,0 +1,316 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-10-17T05:18:42Z",
+  "source_id": "SEARCH-G2-ROUND02-20261017",
+  "coverage": [
+    "S003",
+    "S033",
+    "S036",
+    "S037"
+  ],
+  "quality_boundary": "新附件均为检索候选，无独立GET/哈希/完整性判定。ZIP归档候选、PDF候选、公告元数据及已知Preview分开计数。",
+  "candidates": [
+    {
+      "candidate_id": "G2-R02-795-YSJIANZHAN",
+      "source_id": "SEARCH-G2-R02-S037-YSJIANZHAN",
+      "seed_ids": [
+        "S037"
+      ],
+      "standard_number": "T/CECS 795-2021",
+      "year": 2021,
+      "name": "竖向分布钢筋不连接装配整体式混凝土剪力墙结构技术规程",
+      "download_url": "https://pro5323b5d3-pic11.ysjianzhan.cn/upload/81TCECS795-2021SXFBGJBLJZPZTSHNTJLQJGJSGC.pdf",
+      "source_page": "https://pro5323b5d3-pic11.ysjianzhan.cn/upload/81TCECS795-2021SXFBGJBLJZPZTSHNTJLQJGJSGC.pdf",
+      "detail_url": null,
+      "final_redirect_url": null,
+      "backup_urls": [],
+      "format_candidate": "PDF",
+      "draft_status": "formal_publication_candidate_pending_audit",
+      "permission_observed": "公开搜索可索引封面及第756号公告；web.open本轮Internal Error，未做GET",
+      "source_type": "第三方建站对象存储附件；发布者和转载授权未核",
+      "metadata_evidence": [
+        {
+          "source_id": "PUBLISHER-GONGBIAOKU-795-2021",
+          "url": "https://www.gongbiaoku.com/book/24z21989kj7",
+          "type": "出版平台转载第756号公告",
+          "evidence": "2021-01-05发布，2021-06-01施行；主编中国建筑第八工程局有限公司、中国建筑股份有限公司",
+          "limit": "协会原公告未定位，不证2026现行性"
+        }
+      ],
+      "query": "\"T∕CECS\" \"795\"",
+      "checked_at_utc": "2026-10-17T05:18:42Z"
+    },
+    {
+      "candidate_id": "G2-R02-117-2017-315368-ZIP",
+      "source_id": "SEARCH-G2-R02-S003-315368",
+      "seed_ids": [
+        "S003"
+      ],
+      "standard_number": "T/CECS 117-2017",
+      "year": 2017,
+      "name": "给水排水工程混凝土构筑物变形缝技术规范",
+      "download_url": "https://down5.315368.com/file/2025/1/T_CECS117-2017.zip",
+      "source_page": "https://www.315368.com/a/hangyebiaozhun/cecs/127447.html",
+      "detail_url": "https://www.315368.com/a/hangyebiaozhun/cecs/127447.html",
+      "download_page": "https://www.315368.com/apps/download.php?aid=127447&cid=3&open=0",
+      "redirect_entry": null,
+      "final_redirect_url": "https://down5.315368.com/file/2025/1/T_CECS117-2017.zip",
+      "final_redirect_observation": "web.click本地下载得到最终ZIP URL；工具不能访问目标，未独立GET，不能判成功下载",
+      "backup_urls": [],
+      "format_candidate": "ZIP archive; PDF contents unknown",
+      "draft_status": "formal_number_claim_pending_audit",
+      "permission_observed": "公开介绍/下载页，本地下载无需登录提示；目标工具不支持访问。转载授权未核",
+      "source_type": "第三方互联网转载站",
+      "metadata_evidence": [
+        {
+          "source_id": "PUBLISHER-GONGBIAOKU-117-2017",
+          "url": "https://www.gongbiaoku.com/book/oub19753xq9",
+          "type": "出版平台转载协会公告",
+          "evidence": "第292号公告，2017-06-27发布，2017-10-01施行；称CECS117:2000同时废止",
+          "limit": "协会原公告本轮未定位，替代关系待primary再核，不据平台现行标签确定2026现行性"
+        }
+      ],
+      "checked_at_utc": "2026-10-17T05:18:42Z",
+      "stable_redirect_route_without_transient_parameters": "https://www.315368.com/apps/download.php?id=127447&open=2",
+      "stable_redirect_route_verification": "仅从当时公开跳转入口删除瞬时参数所得的路线结构；去参数后未访问、未验证，不是可用下载URL。",
+      "redirect_entry_redaction": "分享投影移除了公开下载脚本生成的瞬时地址值；原始冻结记录仅本地保留。"
+    },
+    {
+      "candidate_id": "G2-R02-117-2000-YLVTC",
+      "source_id": "SEARCH-G2-R02-HIST117-YLVTC",
+      "seed_ids": [],
+      "related_seed_ids": [
+        "S003"
+      ],
+      "standard_number": "CECS 117:2000",
+      "year": 2000,
+      "name": "给水排水工程混凝土构筑物变形缝设计规程",
+      "download_url": "https://slgcfy.ylvtc.cn/__local/1/3C/11/AE664AB7AE8DDEFA5EDE859B2AE_E772539D_F9C61.pdf",
+      "source_page": "https://slgcfy.ylvtc.cn/__local/1/3C/11/AE664AB7AE8DDEFA5EDE859B2AE_E772539D_F9C61.pdf",
+      "detail_url": null,
+      "final_redirect_url": null,
+      "backup_urls": [],
+      "format_candidate": "PDF",
+      "draft_status": "historical_formal_candidate_pending_audit",
+      "permission_observed": "高校公开可索引文件；web.open本轮工具不可访问，不判失效；转载授权未核",
+      "source_type": "杨凌职业技术学院域名公开资料",
+      "version_note": "2000历史版；不是S003的2017版，单列版本，不充抵2017全文",
+      "metadata_evidence": [
+        {
+          "source_id": "PUBLISHER-GONGBIAOKU-117-2017",
+          "url": "https://www.gongbiaoku.com/book/oub19753xq9",
+          "type": "出版平台转载协会公告",
+          "evidence": "第292号公告，2017-06-27发布，2017-10-01施行；称CECS117:2000同时废止",
+          "limit": "协会原公告本轮未定位，替代关系待primary再核，不据平台现行标签确定2026现行性"
+        }
+      ],
+      "checked_at_utc": "2026-10-17T05:18:42Z"
+    },
+    {
+      "candidate_id": "G2-R02-117-2000-BOOK118",
+      "source_id": "SEARCH-G2-R02-HIST117-BOOK118",
+      "seed_ids": [],
+      "related_seed_ids": [
+        "S003"
+      ],
+      "standard_number": "CECS 117:2000",
+      "year": 2000,
+      "name": "给水排水工程混凝土构筑物变形缝设计规程",
+      "download_url": "https://shigongdaquan.max.book118.com/%E5%BB%BA%E7%AD%91%E8%A7%84%E8%8C%83/%E5%BB%BA%E7%AD%91%E8%A7%84%E8%8C%83CECS/CECS117-2000%E7%BB%99%E6%B0%B4%E6%8E%92%E6%B0%B4%E5%B7%A5%E7%A8%8B%E6%B7%B7%E5%87%9D%E5%9C%9F%E6%9E%84%E7%AD%91%E7%89%A9%E5%8F%98%E5%BD%A2%E7%BC%9D%E8%AE%BE%E8%AE%A1%E8%A7%84%E7%A8%8B.pdf",
+      "source_page": "https://shigongdaquan.max.book118.com/",
+      "detail_url": null,
+      "final_redirect_url": null,
+      "backup_urls": [],
+      "format_candidate": "PDF",
+      "draft_status": "historical_formal_candidate_pending_audit",
+      "permission_observed": "搜索可索引PDF正文；web.open本轮Internal Error，未GET、未绕登录",
+      "source_type": "第三方施工资料公开PDF路径，与Book118 VIP介绍页分开",
+      "version_note": "2000历史版，不充抵S003的2017全文",
+      "metadata_evidence": [
+        {
+          "source_id": "PUBLISHER-GONGBIAOKU-117-2017",
+          "url": "https://www.gongbiaoku.com/book/oub19753xq9",
+          "type": "出版平台转载协会公告",
+          "evidence": "第292号公告，2017-06-27发布，2017-10-01施行；称CECS117:2000同时废止",
+          "limit": "协会原公告本轮未定位，替代关系待primary再核，不据平台现行标签确定2026现行性"
+        }
+      ],
+      "checked_at_utc": "2026-10-17T05:18:42Z"
+    }
+  ],
+  "metadata_only": [
+    {
+      "seed_ids": [
+        "S033"
+      ],
+      "standard_number": "T/CECS 1069-2022",
+      "name": "钢筋桁架楼承板应用技术规程",
+      "year": 2022,
+      "source_id": "CECS-ANNOUNCEMENT-1180-TTBZ",
+      "download_url": null,
+      "metadata_evidence": [
+        {
+          "source_id": "CECS-ANNOUNCEMENT-1180-TTBZ",
+          "url": "https://www.ttbz.org.cn/Home/PdfFileStreamGet/c3RuLDYyODYx?t=1655050620",
+          "type": "官方团标平台协会公告PDF",
+          "evidence": "第1180号公告；2022-05-18发布；2022-10-01施行；主编中国建筑科学研究院有限公司、杭萧钢构股份有限公司",
+          "limit": "发布实施元数据，不证2026现行性；web.open仅1页"
+        }
+      ],
+      "other_primary": [
+        {
+          "source_id": "QINGDAO-20220922-1069",
+          "url": "https://sjw.qingdao.gov.cn/cxjsj3/cxjsj200/cxjsj_hydt2/202209/t20220922_6398497.html",
+          "evidence": "青岛住建局2022年10月实施目录记2022-10-01施行"
+        }
+      ]
+    }
+  ],
+  "draft_candidates": [],
+  "coverage_gaps": [
+    {
+      "seed_id": "S003",
+      "standard_number": "T/CECS 117-2017",
+      "full_pdf_status": "仅ZIP目标待审；未得可独立验证PDF直链",
+      "routes_checked": [
+        "全名+编号PDF",
+        "全名+主编",
+        "山东蓝盟参编路线",
+        "edu.cn",
+        "ttbz.org.cn",
+        "onehiker.com",
+        "CECS_T/CECS117-2017/T∕变体"
+      ],
+      "compilers_lead": [
+        "北京市市政工程设计研究总院有限公司",
+        "山东蓝盟防腐科技股份有限公司"
+      ],
+      "restrictions": [
+        {
+          "url": "https://www.freebz.net/tuanti/276447.html",
+          "status": "本轮下载按钮返回同页，未提取文件href"
+        },
+        {
+          "url": "https://max.book118.com/html/2019/1107/7200004041002101.shtm",
+          "status": "VIP预览，不绕过"
+        }
+      ]
+    },
+    {
+      "seed_id": "S033",
+      "standard_number": "T/CECS 1069-2022",
+      "full_pdf_status": "未得公开完整PDF直链",
+      "routes_checked": [
+        "全名+编号PDF",
+        "主编中国建筑科学研究院/杭萧",
+        "hangxiao.com及实际主域hxss.com.cn",
+        "汉德邦/厦门中构参编路线",
+        "T∕变体",
+        "附件精确检索"
+      ],
+      "restrictions": [
+        {
+          "url": "https://www.qbw86.com/forum.php?action=attachpay&aid=240138&mod=misc&tid=240151",
+          "status": "实际点击提示游客不能操作"
+        },
+        {
+          "url": "https://www.duodown.com/down/2019633.html",
+          "status": "实际点击提示未登录"
+        },
+        {
+          "url": "https://www.bimzyw.com/5477.html",
+          "status": "下载6.88元/VIP，未继续；此页声称2023-04-01施行与官方2022-10-01冲突，不能据此更改元数据"
+        }
+      ]
+    },
+    {
+      "seed_id": "S036",
+      "standard_number": "T/CECS 722-2020",
+      "full_pdf_status": "未新增完整PDF直链，原天华Preview仍待审",
+      "routes_checked": [
+        "全名+主编山东建筑大学/山东万斯达",
+        "sdjzu.edu.cn",
+        "万斯达下载/附件",
+        "ysjianzhan.cn",
+        "TCECS/CECS_T/T∕变体"
+      ],
+      "restrictions": [
+        {
+          "url": "https://www.jinbiaozhun.com/tuantibiaozhun/65796.html",
+          "status": "10积分/会员下载"
+        },
+        {
+          "url": "https://max.book118.com/html/2025/0917/8036063042007133.shtm",
+          "status": "VIP预览；标题错写钢筋而正文钢管，元数据应看封面"
+        },
+        {
+          "url": "https://www.hangzhoujx.com/association-dynamics/2404.html",
+          "status": "协会介绍与封面图片，不是标准全文"
+        }
+      ],
+      "metadata_evidence": [
+        {
+          "source_id": "SDJZU-KEYLAB-722",
+          "url": "https://www.sdjzu.edu.cn/keylab/info/1032/1177.htm",
+          "evidence": "主编大学教师公开成果页记T/CECS722-2020，仅编号名称旁证"
+        },
+        {
+          "source_id": "PUBLISHER-GONGBIAOKU-722",
+          "url": "https://www.gongbiaoku.com/mobile/book/5r621854ipd",
+          "evidence": "出版平台转载第641号公告；2020-07-02发布，2020-09-01施行；非协会原公告"
+        }
+      ]
+    },
+    {
+      "seed_id": "S037",
+      "standard_number": "T/CECS 795-2021",
+      "full_pdf_status": "已新增公开直链候选，待独立GET和完整性核验",
+      "routes_checked": [
+        "全名+PDF",
+        "中国建筑第八工程局/中国建筑股份有限公司",
+        "cscec.com公开新闻",
+        "ttbz.org.cn",
+        "T∕变体",
+        "征求意见PDF"
+      ],
+      "restrictions": [
+        {
+          "url": "https://xycost.com/archives/236166",
+          "status": "第三方介绍页，下载收费线索，未取公开全文"
+        }
+      ]
+    }
+  ],
+  "excluded_similar": [
+    {
+      "url": "https://fjkcsj.com/upload/202412/31/202412311659575679.pdf",
+      "reason": "T/FJKS002-2022修订相关福建协会标准，非CECS722，不纳本轮CECS候选"
+    },
+    {
+      "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3162/site/attach/0/75b4a0dbb8b7401484bb8f61983936e1.pdf",
+      "reason": "工法仅引用722，非722全文"
+    },
+    {
+      "url": "https://www.bipt.edu.cn/pub/pdepe/docs/20190520103515063237.pdf",
+      "reason": "环境标准仅引用117历史版，非117全文"
+    }
+  ],
+  "method_revision": "保留CECS与全名避免外国文书噪声；变体检索能带出795直链。公开下载按钮必须跟到终点，1069两站实际为游客/登录限制；117可跟到ZIP目标，但归档目标与PDF成功下载必须分开。",
+  "share_projection": {
+    "source_id": "SEARCH-G2-R02-SHARE-PROJECTION-20261017",
+    "prepared_at": "2026-10-17T13:50:20+08:00",
+    "original_read_only_path": "search/g2-public-routes/round02-candidates.json",
+    "original_sha256": "c74bf7bafad8492bc055426a7b66340b14db42c00727cf574a06e4f45da64cf0",
+    "purpose": "用于external分享；不修改原冻结文件或旧封版，不增加候选、不重复计数。",
+    "redactions": [
+      {
+        "candidate_id": "G2-R02-117-2017-315368-ZIP",
+        "field_path": "candidates[1].redirect_entry",
+        "action": "原始瞬时URL值置null，另留稳定路由结构及未验证说明。",
+        "parameter_kind": "公开下载瞬时校验参数；仅移除，不保留值。"
+      }
+    ],
+    "preserved": "4个候选ID、来源页、实际观察的ZIP最终地址、旧时间戳、未成功GET事实及全部元数据均保留。",
+    "stable_route_boundary": "去参数路由不作为已验下载；117-2017仍是ZIP候选，内部PDF未知，不是完整PDF。"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "checkpoint": "2026-10-17T13:20:00+08:00",
+  "frozen_at": "2026-10-17T13:21:39+08:00",
+  "before_sha256": "46147add21cc3ab5453f683ac816c8763fddc31a845baa2908adf2e902642f1d",
+  "sha256": "28e9f89c8134d5933aef28565efc2ddf22a8e4aaa5eb5691ccd09f5283063f25",
+  "updated_at": "2026-10-17T13:21:39+08:00",
+  "result_count": 31,
+  "complete_link_count": 8,
+  "complete_version_count": 6,
+  "complete_hash_count": 6,
+  "merged_candidate_ids": [
+    "EXT-R01-661-2020",
+    "EXT-R01-465-2017",
+    "EXT-R01-68-1994",
+    "R02-G1-010",
+    "G2-20261017-640-ONEHIKER",
+    "G2-20261017-604-YDD17",
+    "R02-G3-NWAFU-280-2010",
+    "R02-G3-NWAFU-200-2006",
+    "R02-G3-NWAFU-323-2012",
+    "R02-G3-NWAFU-102-2002"
+  ],
+  "replacements": 7,
+  "additions": 3,
+  "deferred_candidate_ids": [
+    "R03-G1-22-2024-ZGB-202603"
+  ],
+  "old_freeze": "audit-results-freeze-1310.json",
+  "current_freeze": "audit-results-freeze-1320.json",
+  "history_preserved": true
+}

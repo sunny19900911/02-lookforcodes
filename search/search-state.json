@@ -1,0 +1,37 @@
+{
+  "checked_at": "2026-10-17T13:20:42+08:00",
+  "producer": "search",
+  "validated_json_count": 51,
+  "json_errors": [],
+  "candidate_file_count": 10,
+  "unique_search_candidate_id_count": 35,
+  "supplemented_existing_ids": {
+    "R01-G4-006": [
+      "candidates-round02.json",
+      "candidates-round03-tj-links.json"
+    ],
+    "R01-G4-007": [
+      "candidates-round02.json",
+      "candidates-round03-tj-links.json"
+    ],
+    "R01-G4-008": [
+      "candidates-round02.json",
+      "candidates-round03-tj-links.json"
+    ],
+    "R01-G4-009": [
+      "candidates-round02.json",
+      "candidates-round03-tj-links.json"
+    ]
+  },
+  "audit_canonical_snapshot": {
+    "result_count": 28,
+    "complete_version_verified_link_count": 8,
+    "unique_complete_sha256_count": 6
+  },
+  "limits": [
+    "候选不等于全文；HTTP首字节探测不算独立完整性核验",
+    "目录池650编号年份不是逐项全文检索覆盖",
+    "当前完整数来自冻结canonical；后续审查增量另存，不能据此假定没有新增",
+    "原81条只读，未宣称穷尽全网"
+  ]
+}

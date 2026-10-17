@@ -1,0 +1,14 @@
+{
+  "checked_at": "2026-10-17T05:50:05.386Z",
+  "master_sha256": "4f66c453fdaafe58878d696fc8fd6d4802d9fc4b235785f51b8642ee6ed9a2c1",
+  "transient_query_matches": 0,
+  "redaction_idempotent": true,
+  "identity_link_audit_complete_counts_unchanged": true,
+  "original_source_hash_unchanged": true,
+  "source_sharing_projection": "catalog/share-inputs/g2-round02-candidates.share.json",
+  "source_fields_redacted": [
+    "/external/candidates/1/redirect_entry"
+  ],
+  "source_record_count": 4,
+  "xlsx_sha256": "05da49e829a2ac73232bd9205ae750090f6fe26ffba33fd1e4ae3a3d129e2414"
+}

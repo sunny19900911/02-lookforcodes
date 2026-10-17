@@ -1,0 +1,21 @@
+{
+  "source_id": "SEARCH-R07-WATER-MEP-ADDENDUM",
+  "recorded_at": "2026-10-17T13:43:22+08:00",
+  "candidate_count": 4,
+  "historical_formal_candidates": 2,
+  "draft_count": 0,
+  "failed_manufacturer_routes": 4,
+  "standard_keys": [
+    "CECS 41:2004",
+    "CECS 164:2004",
+    "T/CECS 1012-2022",
+    "T/CECS 828-2021"
+  ],
+  "r07_combined_candidate_count": 7,
+  "r07_numbered_candidates": 6,
+  "r07_placeholder_drafts": 1,
+  "standard_complete_pdf_count_added_by_search": 0,
+  "prior_1340_manifest_sha256": "964794e5ab1f8b044d495907e2da04a559fb0b211466708ce963b8c643472fb9",
+  "parent_source_correction": "公元41/164具体父页未定位；source_page为实际PDF，首页只作域名背景；1012由公开HTML checkbox value取得实际地址。",
+  "boundary": "正式/历史均为候选，最终URL与完整性留给审查角色；失败按钮路线不计PDF。主库净新增数由目录角色去重决定。"
+}

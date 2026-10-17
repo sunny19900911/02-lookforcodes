@@ -1,0 +1,40 @@
+{
+  "source_id": "SEARCH-CHECKPOINT-1340-20261017",
+  "recorded_at": "2026-10-17T13:41:04+08:00",
+  "new_pdf_candidates": 3,
+  "numbered_pdf_candidates": 2,
+  "placeholder_draft_pdf_candidates": 1,
+  "new_metadata_only_records": 1,
+  "directory_source_records": 137,
+  "directory_unique_number_years": 135,
+  "directory_rows_all_have_actual_pdf_physical_page": true,
+  "not_in_old_round02_unique_count": 85,
+  "not_in_old_round02_note": "仅相对该旧输入；不等于主控总库净新增数。",
+  "actual_title_correction_count": 1,
+  "title_correction": "608-2019 绿色建筑运营后评价标准 -> 绿色建筑运营后评估标准",
+  "correction_to_early_verbal_report": "10065/10066旧冻结JSON原名称正确，本轮只重核，不是更正。",
+  "standard_complete_pdf_count_added_by_search": 0,
+  "audit_latest_received_checkpoint": "13:30: 9条完整链接/7版本/7哈希，具体以审查冻结为准。R07候选未包含在该数。",
+  "pending_separate_batch": "water-mep",
+  "previous_freeze_integrity": [
+    {
+      "manifest": "search/freeze-inputs-1320.json",
+      "file_count": 19,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-round04.json",
+      "file_count": 9,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-1330.json",
+      "file_count": 12,
+      "unchanged": true,
+      "failures": []
+    }
+  ],
+  "boundary": "不穷尽；目录不是全文，历史目录状态不是2026现行性；未执行Git、外部账户访问或上传PDF原件。"
+}

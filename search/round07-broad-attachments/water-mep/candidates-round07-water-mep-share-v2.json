@@ -1,0 +1,375 @@
+{
+  "schema_version": 1,
+  "round": "R07-water-mep-broad-attachments",
+  "checked_at": "2026-10-17T05:40:15Z",
+  "frozen": true,
+  "boundary": "只写新water-mep目录；不做全文质量判定；新增4 PDF候选（2历史），另4参编厂家下载路线失败/待修复，不计PDF候选。",
+  "counts": {
+    "new_pdf_candidates": 4,
+    "new_draft_candidates": 0,
+    "site_download_routes_without_pdf": 4,
+    "independently_audited_complete_pdfs": null
+  },
+  "candidates": [
+    {
+      "candidate_id": "R07-WATER-MEP-41-2004",
+      "source_id": "SEARCH-R07-WATER-MEP-41-2004",
+      "standard_number": "CECS 41:2004",
+      "name": "建筑给水硬聚氯乙烯管管道工程技术规程",
+      "year": 2004,
+      "seed_ids": [],
+      "source_page": "https://web.yonggao.com/upload/2016/01/25/145368482007647jwul.pdf",
+      "detail_url": null,
+      "download_url": "https://web.yonggao.com/upload/2016/01/25/145368482007647jwul.pdf",
+      "original_url": "https://web.yonggao.com/upload/2016/01/25/145368482007647jwul.pdf",
+      "final_url": null,
+      "final_redirect_url": null,
+      "alternative_urls": [],
+      "download_format": "PDF",
+      "draft_stage": "historical_formal_candidate",
+      "download_check_status": "候选未审",
+      "complete_pdf": null,
+      "permission_status": "无登录/付费提示的公开检索候选；未证明转载授权",
+      "source_kind": "公元管道（原永高）官网域名公开附件；转载授权未独立核实",
+      "checked_at": "2026-10-17T05:40:15Z",
+      "access_observation": "搜索索引封面编号CECS41:2004；web.open本轮Internal Error，未GET",
+      "metadata_evidence": [
+        {
+          "source_url": "https://web.yonggao.com/upload/2016/01/25/145368482007647jwul.pdf",
+          "evidence_type": "原文事实（公开搜索索引/本轮web解析观察；未作独立GET审查）",
+          "claim": "搜索索引封面编号CECS41:2004；web.open本轮Internal Error，未GET；不作2026现行性证据"
+        }
+      ],
+      "dedupe": {
+        "checked_against": "catalog/cecs-master.json nonseed requested_url at 2026-10-17 13:33",
+        "duplicate_url": false
+      },
+      "domain_context_homepage": "https://web.yonggao.com/",
+      "parent_page_status": "未定位具体附件父页；原记录首页仅作域名背景。PDF URL由公开搜索索引发现。"
+    },
+    {
+      "candidate_id": "R07-WATER-MEP-164-2004",
+      "source_id": "SEARCH-R07-WATER-MEP-164-2004",
+      "standard_number": "CECS 164:2004",
+      "name": "埋地聚乙烯排水管管道工程技术规程",
+      "year": 2004,
+      "seed_ids": [],
+      "source_page": "https://web.yonggao.com/upload/2016/01/25/14536852038932egik5.pdf",
+      "detail_url": null,
+      "download_url": "https://web.yonggao.com/upload/2016/01/25/14536852038932egik5.pdf",
+      "original_url": "https://web.yonggao.com/upload/2016/01/25/14536852038932egik5.pdf",
+      "final_url": null,
+      "final_redirect_url": null,
+      "alternative_urls": [],
+      "download_format": "PDF",
+      "draft_stage": "historical_formal_candidate",
+      "download_check_status": "候选未审",
+      "complete_pdf": null,
+      "permission_status": "无登录/付费提示的公开检索候选；未证明转载授权",
+      "source_kind": "公元管道（原永高）官网域名公开附件；原件含免费标准网转载标记，授权未核",
+      "checked_at": "2026-10-17T05:40:15Z",
+      "access_observation": "web.open可解析73页/1284行，仅网页观察，非独立完整性审查",
+      "metadata_evidence": [
+        {
+          "source_url": "https://web.yonggao.com/upload/2016/01/25/14536852038932egik5.pdf",
+          "evidence_type": "原文事实（公开搜索索引/本轮web解析观察；未作独立GET审查）",
+          "claim": "web.open可解析73页/1284行，仅网页观察，非独立完整性审查；不作2026现行性证据"
+        }
+      ],
+      "dedupe": {
+        "checked_against": "catalog/cecs-master.json nonseed requested_url at 2026-10-17 13:33",
+        "duplicate_url": false
+      },
+      "domain_context_homepage": "https://web.yonggao.com/",
+      "parent_page_status": "未定位具体附件父页；原记录首页仅作域名背景。PDF URL由公开搜索索引发现。"
+    },
+    {
+      "candidate_id": "R07-WATER-MEP-1012-2022",
+      "source_id": "SEARCH-R07-WATER-MEP-1012-2022",
+      "standard_number": "T/CECS 1012-2022",
+      "name": "高效制冷机房技术规程",
+      "year": 2022,
+      "seed_ids": [],
+      "source_page": "https://www.zgbim.cn/Download_1/19.html",
+      "detail_url": "https://www.zgbim.cn/Download_1/19.html",
+      "download_url": "https://omo-oss-file110.thefastfile.com/portal-saasxin/wlctj50egpwxebdfpz7r/cms/file/t-cecs%201012-2022%20%E9%AB%98%E6%95%88%E5%88%B6%E5%86%B7%E6%9C%BA%E6%88%BF%E6%8A%80%E6%9C%AF%E8%A7%84%E7%A8%8B.pdf",
+      "original_url": "https://omo-oss-file110.thefastfile.com/portal-saasxin/wlctj50egpwxebdfpz7r/cms/file/t-cecs%201012-2022%20%E9%AB%98%E6%95%88%E5%88%B6%E5%86%B7%E6%9C%BA%E6%88%BF%E6%8A%80%E6%9C%AF%E8%A7%84%E7%A8%8B.pdf",
+      "final_url": null,
+      "final_redirect_url": null,
+      "alternative_urls": [],
+      "download_format": "PDF",
+      "draft_stage": "formal_publication_candidate",
+      "download_check_status": "候选未审",
+      "complete_pdf": null,
+      "permission_status": "无登录/付费提示的公开检索候选；未证明转载授权",
+      "source_kind": "杭州兆冠建筑科技公开资源下载页；是否起草单位及转载授权未核",
+      "checked_at": "2026-10-17T05:40:15Z",
+      "access_observation": "公开HTML下载复选框value提供本PDF地址，标21.7MB；无账号访问该HTML。PDF未GET，邻近列表与1100页403停止继续取链",
+      "metadata_evidence": [
+        {
+          "source_url": "https://www.zgbim.cn/Download_1/19.html",
+          "evidence_type": "原文事实",
+          "claim": "公开HTML下载复选框value提供本PDF地址，标21.7MB；无账号访问该HTML。PDF未GET，邻近列表与1100页403停止继续取链；不作2026现行性证据"
+        }
+      ],
+      "dedupe": {
+        "checked_against": "catalog/cecs-master.json nonseed requested_url at 2026-10-17 13:33",
+        "duplicate_url": false
+      }
+    },
+    {
+      "candidate_id": "R07-WATER-MEP-828-2021",
+      "source_id": "SEARCH-R07-WATER-MEP-828-2021",
+      "standard_number": "T/CECS 828-2021",
+      "name": "建筑工程非结构构件抗震锚固技术规程",
+      "year": 2021,
+      "seed_ids": [
+        "S013"
+      ],
+      "source_page": "https://pro5323b5d3-pic11.ysjianzhan.cn/upload/25TCECS828-2021JZGCFJGGJKZMGJSGC.pdf",
+      "detail_url": null,
+      "download_url": "https://pro5323b5d3-pic11.ysjianzhan.cn/upload/25TCECS828-2021JZGCFJGGJKZMGJSGC.pdf",
+      "original_url": "https://pro5323b5d3-pic11.ysjianzhan.cn/upload/25TCECS828-2021JZGCFJGGJKZMGJSGC.pdf",
+      "final_url": null,
+      "final_redirect_url": null,
+      "alternative_urls": [],
+      "download_format": "PDF",
+      "draft_stage": "formal_publication_candidate",
+      "download_check_status": "候选未审",
+      "complete_pdf": null,
+      "permission_status": "无登录/付费提示的公开检索候选；未证明转载授权",
+      "source_kind": "第三方建站对象存储公开附件，发布者及转载授权未核",
+      "checked_at": "2026-10-17T05:40:15Z",
+      "access_observation": "搜索索引封面编号及标题；正文提及机电设备/管线抗震锚固，未GET",
+      "metadata_evidence": [
+        {
+          "source_url": "https://pro5323b5d3-pic11.ysjianzhan.cn/upload/25TCECS828-2021JZGCFJGGJKZMGJSGC.pdf",
+          "evidence_type": "原文事实",
+          "claim": "搜索索引封面编号及标题；正文提及机电设备/管线抗震锚固，未GET；不作2026现行性证据"
+        }
+      ],
+      "dedupe": {
+        "checked_against": "catalog/cecs-master.json nonseed requested_url at 2026-10-17 13:33",
+        "duplicate_url": false
+      }
+    }
+  ],
+  "draft_candidates": [],
+  "zero_candidate_or_pending_routes": [
+    {
+      "standard_number": "T/CECS 10267-2023",
+      "name": "高模量聚丙烯一体化预制泵站",
+      "year": 2023,
+      "seed_ids": [],
+      "source_id": "FIRONE-PUBLIC-DOWNLOAD-325",
+      "source_page": "https://www.firone.cn/tuji/325.html",
+      "download_url": null,
+      "download_format_claim": "PDF",
+      "draft_stage": "formal_publication_claim_pending_audit",
+      "permission_status": "参编厂家免费在线下载页；页面无账号提示；公开下载脚本正常返回开始下载，但目标HEAD为HTML，112实际GET提示下载地址已失效；未绕过",
+      "metadata_evidence": [
+        {
+          "source_url": "https://www.firone.cn/tuji/325.html",
+          "evidence_type": "原文事实",
+          "claim": "参编标准页对应标题并提供下载按钮；不是成功取得PDF"
+        }
+      ],
+      "head_observation": {
+        "source_page": "https://www.firone.cn/tuji/325.html",
+        "http_status": 200,
+        "content_type": [
+          "text/html; charset=utf-8"
+        ],
+        "content_disposition": null,
+        "method": "HEAD only, no completeness check"
+      },
+      "status": "0条实得PDF，保留可复现路线；应浏览器正常会话重试，若仍失效则换参编源",
+      "stable_public_endpoint_without_transient_parameter": "https://www.firone.cn/index.php?m=home&c=View&a=downfile&id=74&_ajax=1",
+      "public_button_response_observation": "公开下载按钮脚本返回开始下载；瞬时响应/参数不纳入分享版。",
+      "transient_parameter_note": "下载地址随正常页面请求生成；本项仅HEAD返回HTML，本轮未取得可用PDF，未以实际GET证明其已失效。需正常会话复核，不应把瞬时地址当持久PDF URL。"
+    },
+    {
+      "standard_number": "T/CECS 10309-2023",
+      "name": "一体化智能截流井",
+      "year": 2023,
+      "seed_ids": [],
+      "source_id": "FIRONE-PUBLIC-DOWNLOAD-469",
+      "source_page": "https://www.firone.cn/tuji/469.html",
+      "download_url": null,
+      "download_format_claim": "PDF",
+      "draft_stage": "formal_publication_claim_pending_audit",
+      "permission_status": "参编厂家免费在线下载页；页面无账号提示；公开下载脚本正常返回开始下载，但目标HEAD为HTML，112实际GET提示下载地址已失效；未绕过",
+      "metadata_evidence": [
+        {
+          "source_url": "https://www.firone.cn/tuji/469.html",
+          "evidence_type": "原文事实",
+          "claim": "参编标准页对应标题并提供下载按钮；不是成功取得PDF"
+        }
+      ],
+      "head_observation": {
+        "source_page": "https://www.firone.cn/tuji/469.html",
+        "http_status": 200,
+        "content_type": [
+          "text/html; charset=utf-8"
+        ],
+        "content_disposition": null,
+        "method": "HEAD only, no completeness check"
+      },
+      "status": "0条实得PDF，保留可复现路线；应浏览器正常会话重试，若仍失效则换参编源",
+      "stable_public_endpoint_without_transient_parameter": "https://www.firone.cn/index.php?m=home&c=View&a=downfile&id=111&_ajax=1",
+      "public_button_response_observation": "公开下载按钮脚本返回开始下载；瞬时响应/参数不纳入分享版。",
+      "transient_parameter_note": "下载地址随正常页面请求生成；本项仅HEAD返回HTML，本轮未取得可用PDF，未以实际GET证明其已失效。需正常会话复核，不应把瞬时地址当持久PDF URL。"
+    },
+    {
+      "standard_number": "T/CECS 10222-2022",
+      "name": "下开式堰门",
+      "year": 2022,
+      "seed_ids": [],
+      "source_id": "FIRONE-PUBLIC-DOWNLOAD-262",
+      "source_page": "https://www.firone.cn/tuji/262.html",
+      "download_url": null,
+      "download_format_claim": "PDF",
+      "draft_stage": "formal_publication_claim_pending_audit",
+      "permission_status": "参编厂家免费在线下载页；页面无账号提示；公开下载脚本正常返回开始下载，但目标HEAD为HTML，112实际GET提示下载地址已失效；未绕过",
+      "metadata_evidence": [
+        {
+          "source_url": "https://www.firone.cn/tuji/262.html",
+          "evidence_type": "原文事实",
+          "claim": "参编标准页对应标题并提供下载按钮；不是成功取得PDF"
+        }
+      ],
+      "head_observation": {
+        "source_page": "https://www.firone.cn/tuji/262.html",
+        "http_status": 200,
+        "content_type": [
+          "text/html; charset=utf-8"
+        ],
+        "content_disposition": null,
+        "method": "HEAD only, no completeness check"
+      },
+      "status": "0条实得PDF，保留可复现路线；应浏览器正常会话重试，若仍失效则换参编源",
+      "stable_public_endpoint_without_transient_parameter": "https://www.firone.cn/index.php?m=home&c=View&a=downfile&id=112&_ajax=1",
+      "public_button_response_observation": "公开下载按钮脚本返回开始下载；瞬时响应/参数不纳入分享版。",
+      "transient_parameter_note": "下载地址随正常页面请求生成；本项file_id=112实际GET提示地址已失效。不应把瞬时地址当持久PDF URL。"
+    },
+    {
+      "standard_number": "T/CECS 10403-2024",
+      "name": "一体化泵闸",
+      "year": 2024,
+      "seed_ids": [],
+      "source_id": "FIRONE-PUBLIC-DOWNLOAD-567",
+      "source_page": "https://www.firone.cn/tuji/567.html",
+      "download_url": null,
+      "download_format_claim": "PDF",
+      "draft_stage": "formal_publication_claim_pending_audit",
+      "permission_status": "参编厂家免费在线下载页；页面无账号提示；公开下载脚本正常返回开始下载，但目标HEAD为HTML，112实际GET提示下载地址已失效；未绕过",
+      "metadata_evidence": [
+        {
+          "source_url": "https://www.firone.cn/tuji/567.html",
+          "evidence_type": "原文事实",
+          "claim": "参编标准页对应标题并提供下载按钮；不是成功取得PDF"
+        }
+      ],
+      "head_observation": {
+        "source_page": "https://www.firone.cn/tuji/567.html",
+        "http_status": 200,
+        "content_type": [
+          "text/html; charset=utf-8"
+        ],
+        "content_disposition": null,
+        "method": "HEAD only, no completeness check"
+      },
+      "status": "0条实得PDF，保留可复现路线；应浏览器正常会话重试，若仍失效则换参编源",
+      "stable_public_endpoint_without_transient_parameter": "https://www.firone.cn/index.php?m=home&c=View&a=downfile&id=130&_ajax=1",
+      "public_button_response_observation": "公开下载按钮脚本返回开始下载；瞬时响应/参数不纳入分享版。",
+      "transient_parameter_note": "下载地址随正常页面请求生成；本项仅HEAD返回HTML，本轮未取得可用PDF，未以实际GET证明其已失效。需正常会话复核，不应把瞬时地址当持久PDF URL。"
+    }
+  ],
+  "coverage_numbers": [
+    "41-2004",
+    "164-2004",
+    "1012-2022",
+    "828-2021",
+    "10267-2023",
+    "10309-2023",
+    "10222-2022",
+    "10403-2024",
+    "1100-2022",
+    "1544-2024",
+    "846-2021",
+    "183-2005",
+    "183-2015",
+    "277-2010",
+    "153-2003",
+    "151-2003"
+  ],
+  "failed_or_excluded": [
+    {
+      "source_page": "https://www.zgbim.cn/Download/4.html",
+      "standard_numbers": [
+        "T/CECS 1544-2024",
+        "T/CECS 1100-2022"
+      ],
+      "status": "搜索可索引同站目录，但web.open403，未取PDF；未尝试绕过访问限制"
+    },
+    {
+      "source_page": "https://www.zgbim.cn/Download_1/20.html",
+      "status": "web.click403；0附件"
+    },
+    {
+      "source_page": "https://meiyapipe.com/list_29/131.html",
+      "standard_numbers": [
+        "CECS277:2010",
+        "CECS153:2003",
+        "CECS151:2003"
+      ],
+      "status": "介绍页引用规范，无PDF；后续读取超时/EOF；0附件"
+    },
+    {
+      "source_page": "https://www.antinstall.com/?a=index&c=Lists&m=home&tid=17",
+      "standard_numbers": [
+        "CECS420:2015"
+      ],
+      "status": "列表502；0附件"
+    },
+    {
+      "source_page": "https://www.car.org.cn/ueditor/php/upload/file/20210413/1618299682954944.pdf",
+      "standard_numbers": [
+        "T/CECS487-2017"
+      ],
+      "status": "制冷白皮书仅引用，排除为标准全文"
+    },
+    {
+      "source_page": "https://down.foodmate.net/standard/sort/12/178239.html",
+      "standard_numbers": [
+        "T/CECS2065-2025"
+      ],
+      "status": "明确暂无文本，0附件"
+    }
+  ],
+  "queries": [
+    "CECS 给水排水 下载 site:edu.cn",
+    "CECS 暖通 pdf site:org.cn",
+    "CECS 标准下载 管道",
+    "CECS 水处理 pdf",
+    "site:yonggao.com CECS pdf",
+    "CECS 下载中心 不锈钢",
+    "CECS 资料下载 不锈钢",
+    "CECS 下载中心 规程 管业",
+    "CECS 高效制冷机房 filetype:pdf",
+    "CECS 虹吸式 filetype:pdf",
+    "CECS 技术下载 管",
+    "CECS 资料下载 虹吸",
+    "CECS 下载中心 给水",
+    "CECS 机电 技术规程 filetype:pdf",
+    "高模量聚丙烯一体化预制泵站 T/CECS",
+    "一体化智能截流井 T/CECS"
+  ],
+  "method_revision": "同站参编厂家列表一次带出4项，但按钮返回成功JSON仍不等于PDF：菲源四目标HEAD均HTML，抽查112实际GET是过期提示。暂不交为直链PDF，保留详情页和正常会话重试步骤。兆冠下载URL藏于公开HTML checkbox value，可直接引用实际链接，无需猜资源ID。公元厂家域名检索可补历史版本。",
+  "share_prepared_at": "2026-10-17T13:47:38+08:00",
+  "derived_from_local_sha256": "b853621d986a3c85b317b2c6b96151db2e620d59c99aff32ac0a4ab357866fa4",
+  "sharing_note": "分享派生版；原始固定输入不改。公开下载脚本的瞬时uhash/原始响应不分享，保留稳定详情页、普通访问方法及失败结果。未取得具体父页时不以首页冒充父页。",
+  "share_revision": "v2",
+  "supersedes_share_file": "search/round07-broad-attachments/water-mep/candidates-round07-water-mep-share.json",
+  "revision_reason": "独立只读复核收窄失败证据：只有file_id=112实测GET过期，其余三项仅HEAD为HTML，不称已失效。4候选URL/身份/数量与v1完全不变。"
+}

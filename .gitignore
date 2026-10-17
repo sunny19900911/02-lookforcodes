@@ -18,3 +18,9 @@ downloads-temp/
 **/renders/
 **/snapshots/
 ~$*
+**/web-*.json
+**/*-web-*.json
+**/page-extraction.json
+**/table-rows.json
+**/candidates-round07-water-mep.json
+/search/g2-public-routes/round02-candidates.json

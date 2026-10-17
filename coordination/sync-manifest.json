@@ -1,50 +1,183 @@
 {
-  "checked_at": "2026-10-17T13:16:27.296770+08:00",
+  "checked_at": "2026-10-17T13:52:19.376267+08:00",
   "copied": [
     {
-      "path": "catalog/delivery-final-1314.md",
-      "size": 1278,
-      "sha256": "6b6fbfb5788a6fe79a41e1d4f33d684ead08760c4b416a0c741dbdcefa2636ed"
+      "path": "catalog/sharing-projection-core.test.mjs",
+      "size": 1073,
+      "sha256": "9013d4911f61cc297777d0ab73e25018bcab515141941c77592f5516a7faac04"
     },
     {
-      "path": "catalog/handoff.md",
-      "size": 9626,
-      "sha256": "b5709854fb774b3aafc750677bb4dcdc017a7c35a3c41399963646e7ba278660"
+      "path": "catalog/sharing-projection-receipt.json",
+      "size": 628,
+      "sha256": "f6fe6e97d617bfca800297548e253df2c34f8696a20a6fb3d739cace9ded99f2"
+    },
+    {
+      "path": "catalog/sharing-validation.json",
+      "size": 576,
+      "sha256": "31ec6dcb371ade56d85b5b5b2a1c8d6483954f59eac890cca98fa525593b6c40"
+    },
+    {
+      "path": "catalog/verify-sharing-projection.mjs",
+      "size": 2150,
+      "sha256": "1985e87951f01ecc2a8778673d53e8ba990350e197eeca2dc0d0c187a1675678"
+    },
+    {
+      "path": "catalog/workbook-validation.json",
+      "size": 1402,
+      "sha256": "bc0b73e249c9bba05605dc2946d775bd46cf16ba924ff59bf76dde200020ac64"
+    },
+    {
+      "path": "pdf-audit/audit-pending-round05.json",
+      "size": 27920,
+      "sha256": "092f5c4e3876df19ac00f8ac9f6f8bde09c078c9f6589034e415f6db8b5c1268"
+    },
+    {
+      "path": "pdf-audit/audit_increment.py",
+      "size": 1884,
+      "sha256": "3af214566fbf35b7288d3f8d7a5376f1d97552afb446b1d27deeed8b568c9996"
+    },
+    {
+      "path": "pdf-audit/finalize_round05.py",
+      "size": 13235,
+      "sha256": "851da82c81e003f2ffed2e82600dd59d92070b6e3b47358f66a326e5994a6566"
+    },
+    {
+      "path": "search/discussion-1350.md",
+      "size": 2325,
+      "sha256": "09603b4a308359a4becd0dc6dadc5e0fd207b8e010221237e0f17945679cf1e2"
+    },
+    {
+      "path": "search/freeze-inputs-1340-water-mep-addendum-v2.json",
+      "size": 1336,
+      "sha256": "508185ceab7f8930993e1f0dfe37c6f1551350165134417f898eafc735609dda"
+    },
+    {
+      "path": "search/freeze-inputs-1340-water-mep-addendum.json",
+      "size": 1002,
+      "sha256": "1e25d7f559f47368e3f17446ba2bccb0d13a8260231df7a44e40cbc394fed609"
+    },
+    {
+      "path": "search/freeze-inputs-g2-round02-share-1350.json",
+      "size": 760,
+      "sha256": "42506bcb9964f302335cff5524621bdda7a9d0091dc876a9e126a67e02cfdd31"
+    },
+    {
+      "path": "search/g2-public-routes/project-round02-share.py",
+      "size": 4154,
+      "sha256": "3ec0fb9dd52b7e52f0ecf52745dac8ce432886173cda8d238c34c6b3da2f4dcd"
+    },
+    {
+      "path": "search/g2-public-routes/round02-candidates-share.json",
+      "size": 14481,
+      "sha256": "ee529abf50038f080c441ba529370caa476ee21e442446ca8b638de86970111a"
+    },
+    {
+      "path": "search/receipt-r07-audit-get-1345.json",
+      "size": 7208,
+      "sha256": "3b6e9beb614c2e6f39ad7b099ca7b9cc3e69f85958189a8911c89c3401f6835e"
+    },
+    {
+      "path": "search/receipt-r07-audit-get-1345.py",
+      "size": 2629,
+      "sha256": "345a58f48c17c2c0531543d5e574c5d6a1e7ea89bd8f94b9ddcff9040587ab72"
+    },
+    {
+      "path": "search/round07-broad-attachments/freeze-water-addendum.py",
+      "size": 5285,
+      "sha256": "aeff504f2653e13c63d93794682ce29be122fcc338867318ecb2b773cf5bc591"
+    },
+    {
+      "path": "search/round07-broad-attachments/refine-water-share-v2.py",
+      "size": 3905,
+      "sha256": "4e92ae1cbc86efd9e5e390dd776004807972b2f62cadfa9e4ccac2a0b23aa33c"
+    },
+    {
+      "path": "search/round07-broad-attachments/water-mep/addendum-r07-water-mep.json",
+      "size": 941,
+      "sha256": "48974da1a0d0e8646a97e98d8268128096abfa2a7f9e9709b7f0e645c2e8b167"
+    },
+    {
+      "path": "search/round07-broad-attachments/water-mep/candidates-round07-water-mep-share-v2.json",
+      "size": 18850,
+      "sha256": "89e6f9ba3544c40986ad790f602a3b7d457db039d90a6eacc132f9aa2333dbcd"
+    },
+    {
+      "path": "search/round07-broad-attachments/water-mep/candidates-round07-water-mep-share.json",
+      "size": 18201,
+      "sha256": "ba0218f14ef9f6fec91ae772398a2f090beb5df30a4f941db21cb387419e2321"
+    },
+    {
+      "path": "search/round07-broad-attachments/water-mep/query-ledger-r07-water-mep-share.json",
+      "size": 3209,
+      "sha256": "604fa38ac3b64be7f8d68711f9f6d4a0fe32b9bb50705fd09c60c6a3b7acb9d9"
+    },
+    {
+      "path": "search/round07-broad-attachments/water-mep/share-review-v2.json",
+      "size": 1110,
+      "sha256": "908d5ab9722ba0bc817641ba8b6173a1913fa45337bcb374c451c30571759377"
     }
   ],
   "unchanged": [
+    "catalog/audit-identity-core.mjs",
+    "catalog/audit-identity-core.test.mjs",
     "catalog/build-catalog.mjs",
     "catalog/cecs-master.json",
     "catalog/CECS可下载PDF总表.xlsx",
     "catalog/change-log.jsonl",
+    "catalog/clean-sharing-projection.mjs",
     "catalog/delivery-1308.md",
+    "catalog/delivery-final-1314.md",
     "catalog/discussion-1300.md",
     "catalog/discussion-1310.md",
+    "catalog/discussion-1320.md",
+    "catalog/discussion-1330.md",
+    "catalog/discussion-1350.md",
+    "catalog/finalize-receipts1320.mjs",
+    "catalog/handoff.md",
+    "catalog/inputs-1320-receipt.json",
+    "catalog/inspect-saved-workbook.mjs",
     "catalog/maintenance-input.json",
     "catalog/native-hyperlinks.json",
+    "catalog/next-round-staging.json",
     "catalog/patch-hyperlinks.py",
+    "catalog/pending-next-round.md",
+    "catalog/release-receipt.json",
     "catalog/seed-index.json",
+    "catalog/sharing-projection-core.mjs",
     "catalog/verify-workbook.py",
     "catalog/workbook-build-receipt.json",
     "catalog/workbook-inspection.json",
-    "catalog/workbook-validation.json",
     "pdf-audit/audit-pending-round03.json",
+    "pdf-audit/audit-pending-round04.json",
     "pdf-audit/audit-results-freeze-1310.json",
+    "pdf-audit/audit-results-freeze-1320.json",
+    "pdf-audit/audit-results-freeze-1330.json",
     "pdf-audit/audit-results.json",
-    "pdf-audit/audit_increment.py",
     "pdf-audit/audit_pdf.py",
+    "pdf-audit/candidate-796-announcement.json",
     "pdf-audit/candidates-direct-round02.json",
     "pdf-audit/candidates-own-round01.json",
     "pdf-audit/candidates-tj-backups.json",
     "pdf-audit/discussion-1300.md",
     "pdf-audit/discussion-1310.md",
+    "pdf-audit/discussion-1320.md",
+    "pdf-audit/discussion-1330.md",
+    "pdf-audit/evidence-2185-repeal-cecs22-2005.json",
     "pdf-audit/finalize_handoff.py",
     "pdf-audit/finalize_round02.py",
+    "pdf-audit/finalize_round04.py",
     "pdf-audit/finalize_tj_batch.py",
+    "pdf-audit/freeze-1320-receipt.json",
+    "pdf-audit/freeze-1330-receipt.json",
     "pdf-audit/handoff.md",
+    "pdf-audit/merge_round03_checkpoint.py",
+    "pdf-audit/merge_round04_checkpoint.py",
     "pdf-audit/render_footer_check.py",
+    "pdf-audit/round03-status.md",
+    "pdf-audit/save_round03_pending.py",
     "pdf-audit/supplement_review.py",
     "search/baseline-external-routes/candidates-round01.json",
+    "search/baseline-external-routes/directory-round02.json",
     "search/baseline-external-routes/followup-661-links.json",
     "search/baseline-external-routes/query-log-round01.json",
     "search/build-search-seed.ps1",
@@ -53,12 +186,22 @@
     "search/candidates-round03-tj-links.json",
     "search/candidates-round04-g1-replacement.json",
     "search/candidates-round05-nwafu.json",
+    "search/candidates-round06-g1-22-alternative.json",
     "search/check-nwafu.py",
     "search/conflict-796-years.json",
     "search/discussion-1300.md",
     "search/discussion-1310.md",
+    "search/discussion-1320.md",
+    "search/discussion-1330.md",
+    "search/discussion-1340.md",
     "search/extract-nwafu-links.py",
     "search/extract-tj-links.py",
+    "search/freeze-inputs-1320.json",
+    "search/freeze-inputs-1330.json",
+    "search/freeze-inputs-1340.json",
+    "search/freeze-inputs-round04.json",
+    "search/freeze-search-inputs.py",
+    "search/g1-round03-coverage.json",
     "search/g2-public-routes/extension-preview-routes.json",
     "search/g2-public-routes/round01-candidates.json",
     "search/g2-public-routes/round01-method-log.json",
@@ -69,14 +212,37 @@
     "search/master-authority/history/authority-directory-records-4cc796b8d0e1.json",
     "search/master-authority/lwec-2018-catalog-extraction.json",
     "search/nwafu-route-check.json",
+    "search/quality-feedback-r03.json",
     "search/query-ledger-r02.json",
+    "search/round04-102-route-gap.json",
+    "search/round04-661/routes-round04.json",
+    "search/round04-feedback-22.json",
+    "search/round04-handoff.md",
+    "search/round04-metadata-102-edition.json",
+    "search/round05-796-conflict-supplement.json",
+    "search/round06-22-completeness-receipt.json",
+    "search/round07-broad-attachments/directory/build-directory-records.py",
+    "search/round07-broad-attachments/directory/corrections-round02.json",
+    "search/round07-broad-attachments/directory/directory-round07.json",
+    "search/round07-broad-attachments/directory/extract-directory-tables.py",
+    "search/round07-broad-attachments/directory/fetch-directory-pages.py",
+    "search/round07-broad-attachments/freeze-r07.py",
+    "search/round07-broad-attachments/green/candidates-r07-green.json",
+    "search/round07-broad-attachments/receipt-2185.json",
+    "search/round07-broad-attachments/state-r07.json",
     "search/sanitize-search-evidence.py",
+    "search/search-state.json",
     "search/seed-groups.json",
-    "search/update-conflict-primary.py"
+    "search/update-conflict-primary.py",
+    "search/validate-search-state.py"
   ],
   "skipped": [
     {
       "path": "catalog\\CECS可下载PDF总表.xlsx.inspect.ndjson",
+      "reason": "outside metadata allowlist"
+    },
+    {
+      "path": "search\\g2-public-routes\\round02-candidates.json",
       "reason": "outside metadata allowlist"
     },
     {
@@ -88,11 +254,95 @@
       "reason": "outside metadata allowlist"
     },
     {
+      "path": "search\\g2-public-routes\\web-round02.json",
+      "reason": "outside metadata allowlist"
+    },
+    {
       "path": "search\\nwafu-200-preview.html",
       "reason": "outside metadata allowlist"
     },
     {
       "path": "search\\nwafu-public-list.html",
+      "reason": "outside metadata allowlist"
+    },
+    {
+      "path": "search\\round04-web-r29.json",
+      "reason": "outside metadata allowlist"
+    },
+    {
+      "path": "search\\round04-web-r30.json",
+      "reason": "outside metadata allowlist"
+    },
+    {
+      "path": "search\\round04-web-r31.json",
+      "reason": "outside metadata allowlist"
+    },
+    {
+      "path": "search\\round04-web-r32.json",
+      "reason": "outside metadata allowlist"
+    },
+    {
+      "path": "search\\round05-web-r33.json",
+      "reason": "outside metadata allowlist"
+    },
+    {
+      "path": "search\\round07-broad-attachments\\directory\\local-qa-hubei-p20.png",
+      "reason": "outside metadata allowlist"
+    },
+    {
+      "path": "search\\round07-broad-attachments\\directory\\local-qa-hubei-p21.png",
+      "reason": "outside metadata allowlist"
+    },
+    {
+      "path": "search\\round07-broad-attachments\\directory\\local-qa-hubei-p24.png",
+      "reason": "outside metadata allowlist"
+    },
+    {
+      "path": "search\\round07-broad-attachments\\directory\\local-qa-hubei-p37.png",
+      "reason": "outside metadata allowlist"
+    },
+    {
+      "path": "search\\round07-broad-attachments\\directory\\local-qa-hubei-p38.png",
+      "reason": "outside metadata allowlist"
+    },
+    {
+      "path": "search\\round07-broad-attachments\\directory\\page-extraction.json",
+      "reason": "outside metadata allowlist"
+    },
+    {
+      "path": "search\\round07-broad-attachments\\directory\\table-rows.json",
+      "reason": "outside metadata allowlist"
+    },
+    {
+      "path": "search\\round07-broad-attachments\\green\\web-r34.json",
+      "reason": "outside metadata allowlist"
+    },
+    {
+      "path": "search\\round07-broad-attachments\\green\\web-r35.json",
+      "reason": "outside metadata allowlist"
+    },
+    {
+      "path": "search\\round07-broad-attachments\\green\\web-r36.json",
+      "reason": "outside metadata allowlist"
+    },
+    {
+      "path": "search\\round07-broad-attachments\\green\\web-r37.json",
+      "reason": "outside metadata allowlist"
+    },
+    {
+      "path": "search\\round07-broad-attachments\\green\\web-r38.json",
+      "reason": "outside metadata allowlist"
+    },
+    {
+      "path": "search\\round07-broad-attachments\\green\\web-r39.json",
+      "reason": "outside metadata allowlist"
+    },
+    {
+      "path": "search\\round07-broad-attachments\\water-mep\\candidates-round07-water-mep.json",
+      "reason": "outside metadata allowlist"
+    },
+    {
+      "path": "search\\round07-broad-attachments\\water-mep\\web-round07-water-mep.json",
       "reason": "outside metadata allowlist"
     },
     {
@@ -193,6 +443,42 @@
     },
     {
       "path": "search\\web-r19.json",
+      "reason": "outside metadata allowlist"
+    },
+    {
+      "path": "search\\web-r20.json",
+      "reason": "outside metadata allowlist"
+    },
+    {
+      "path": "search\\web-r21.json",
+      "reason": "outside metadata allowlist"
+    },
+    {
+      "path": "search\\web-r22.json",
+      "reason": "outside metadata allowlist"
+    },
+    {
+      "path": "search\\web-r23.json",
+      "reason": "outside metadata allowlist"
+    },
+    {
+      "path": "search\\web-r24.json",
+      "reason": "outside metadata allowlist"
+    },
+    {
+      "path": "search\\web-r25.json",
+      "reason": "outside metadata allowlist"
+    },
+    {
+      "path": "search\\web-r26.json",
+      "reason": "outside metadata allowlist"
+    },
+    {
+      "path": "search\\web-r27.json",
+      "reason": "outside metadata allowlist"
+    },
+    {
+      "path": "search\\web-r28.json",
       "reason": "outside metadata allowlist"
     }
   ],

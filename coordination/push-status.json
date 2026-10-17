@@ -1,0 +1,17 @@
+{
+  "checked_at": "2026-10-17T13:29:49+08:00",
+  "status": "local_commit_preserved_push_pending",
+  "local_commit": "c50f56d",
+  "last_confirmed_remote_commit": "bcdd5b4a139902ec040bfe19db193d8a68dcf350",
+  "attempts_this_checkpoint": 2,
+  "error": "Could not connect to github.com port 443 after about 21 seconds on each attempt",
+  "local_delivery": {
+    "generated_at_beijing": "2026-10-17T13:24:50+08:00",
+    "xlsx_sha256": "527f247db91479c6671eaa1b71799a5583652129af418a0ea6175c452f04f169",
+    "initial_identities": 810,
+    "links": 126,
+    "complete_links": 8,
+    "complete_unique_pdfs": 6
+  },
+  "next_action": "下一检查点先普通push重试；失败仍保留本地，不强推、不改remote、不读取凭据。"
+}

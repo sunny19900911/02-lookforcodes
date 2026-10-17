@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "evidence_id": "PDF-CECS-2185-REPEAL-20261017",
+  "source_id": "PDF-CECS-2185-REPEAL-20261017",
+  "statement_type": "原文事实（出版物内协会公告图像，已双审目视）",
+  "candidate_id": "R03-G1-22-2024-ZGB-202603",
+  "standard_key": "T/CECS 22-2024",
+  "historical_standard_key": "CECS 22:2005",
+  "historical_standard_name": "岩土锚杆（索）技术规程",
+  "event": {
+    "type": "旧版同时废止",
+    "announcement_authority": "中国工程建设标准化协会",
+    "announcement_number": "第2185号",
+    "announcement_title": "关于发布《岩土锚杆技术规程》的公告",
+    "announcement_date": "2024-11-12",
+    "effective_date": "2025-04-01",
+    "claim": "第2185号公告载明T/CECS 22-2024自2025-04-01起施行，原CECS 22:2005同时废止。",
+    "date_linkage": "旧版废止日依据同一段落中的新版施行日及“同时废止”关系记录。"
+  },
+  "short_quote": "自2025年4月1日起施行。原《岩土锚杆（索）技术规程》CECS 22：2005同时废止。",
+  "transcription_method": "双审目视转录；去除原排版换行并统一空格，不依赖OCR日期识别。",
+  "locator": {
+    "pdf_page_1based": 5,
+    "printed_page_number": null,
+    "printed_page_note": "公告页未印页码；5为PDF顺序页，不称打印页5。",
+    "within_page": "第2185号公告正文段落最后两句；末尾落款为2024-11-12。"
+  },
+  "document": {
+    "local_path": "C:/Users/mj528/Documents/004 工作/web-demo/outputs/cecs-master-20261017/downloads-temp/R03-G1-22-2024-ZGB-202603.pdf",
+    "sha256": "a9d45e1f5be3eb86e498185b02738a92ee51dcd1c6bfe862d2ea25faf1e46491",
+    "bytes": 6150514,
+    "pages": 152,
+    "requested_url": "https://www.zhanggenbao.com/wp-content/uploads/2026/03/TCECS-22-2024-%E5%B2%A9%E5%9C%9F%E9%94%9A%E6%9D%86%E6%8A%80%E6%9C%AF%E8%A7%84%E7%A8%8B.pdf",
+    "final_url": "https://www.zhanggenbao.com/wp-content/uploads/2026/03/TCECS-22-2024-%E5%B2%A9%E5%9C%9F%E9%94%9A%E6%9D%86%E6%8A%80%E6%9C%AF%E8%A7%84%E7%A8%8B.pdf",
+    "provenance": "实际已下载的第三方公开托管出版物PDF，内含协会第2185号公告；不是仅据介绍网页或搜索摘要转述。"
+  },
+  "visual_evidence_local_only": "C:/Users/mj528/Documents/004 工作/web-demo/outputs/cecs-master-20261017/pdf-audit/R03-G1-22-2024-ZGB-202603/page-005.png",
+  "independent_review": {
+    "result": "独立第二审确认相同短引、2025-04-01施行日、PDF第5页且未印页码；本地PDF哈希匹配。",
+    "visual_uncertainty": "关键日期和废止措辞无辨读不确定性。"
+  },
+  "status_boundary": {
+    "event_supported": "可作为CECS 22:2005自2025-04-01同时废止的文件内事件证据。",
+    "new_edition_2026_current_status": "未据此确认；本公告不能排除2024版之后存在修订、勘误或替代。",
+    "historical_pdf_retention": "继续保留2005版历史下载及质量记录，不因废止事件删除。"
+  },
+  "canonical_action": "独立证据文件供下一轮catalog吸收；不修改13:30冻结的audit-results.json。",
+  "frozen_canonical_sha256": "84e4361fbbcdee054efb3ac89e5610001df33e049db3271ba2f2fd1616686629",
+  "sharing_boundary": "只同步此短引元数据与定位；PDF原件及页面PNG保持本地，不上传。",
+  "checked_at": "2026-10-17T13:37:15+08:00"
+}

@@ -1,0 +1,55 @@
+{
+  "producer": "search",
+  "round": "R04",
+  "checked_at": "2026-10-17T05:27:43.6875884Z",
+  "timezone": "UTC; user timezone Asia/Shanghai",
+  "frozen": true,
+  "files": [
+    {
+      "path": "search/round04-feedback-22.json",
+      "sha256": "2062939f8d227fa03aaa2349deef6f32cd43809b6f2aec4ef902548746ea9220",
+      "bytes": 1448
+    },
+    {
+      "path": "search/round04-metadata-102-edition.json",
+      "sha256": "0482bf38e3b8b4bea175cb4145e6f45b30ac494e0c7a5f0cd6485a7913d2e3a6",
+      "bytes": 1832
+    },
+    {
+      "path": "search/round04-102-route-gap.json",
+      "sha256": "9cf0c675b912c2b0fb87b2bc8c7b1bde2917c5d4fbd341d15888f82641403da4",
+      "bytes": 1186
+    },
+    {
+      "path": "search/round04-web-r29.json",
+      "sha256": "cb11a3078eda7cb040eb045ac9150727a0e477cb35f7e14170e73558aea8657a",
+      "bytes": 28491
+    },
+    {
+      "path": "search/round04-web-r30.json",
+      "sha256": "fc49a7398769acf934dcac3b77dc3159de8c92874512546dfd2ed84bf8d650a2",
+      "bytes": 13791
+    },
+    {
+      "path": "search/round04-web-r31.json",
+      "sha256": "d0c3745d7d86ce1c470bc9368aca7c5f214983eb1b8f575d8e6e8f16110f3a0a",
+      "bytes": 25854
+    },
+    {
+      "path": "search/round04-web-r32.json",
+      "sha256": "25d8e6721bb53203d4f41bbb75c2d35a350dbe32029f3dd8f0dd25ef4d93f678",
+      "bytes": 512
+    },
+    {
+      "path": "search/round04-661/routes-round04.json",
+      "sha256": "e32ccb6f2c84c28990f9a7c0c53f66ff20893be6b7c4b63e20133a863b1a19c4",
+      "bytes": 5987
+    },
+    {
+      "path": "search/round04-handoff.md",
+      "sha256": "fab23e02e56038c64adff12295ca7ad34ab8356d4cb02bab1dd52f8c26382a2b",
+      "bytes": 1758
+    }
+  ],
+  "note": "Round04 immutable inputs. No new full-PDF candidate; metadata and audit feedback only. Original13:20 freeze remains unchanged."
+}

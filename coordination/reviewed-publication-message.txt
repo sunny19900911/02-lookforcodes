@@ -1,0 +1,3 @@
+Publish reviewed CECS catalog through 13:30 without temporary download parameters
+
+Include the verified 811-identity Excel snapshot, 33 actual GET reviews and 9 complete PDF links for 7 versions. Keep independent audit, directory and 10-minute discussion evidence. Exclude PDF originals, page images, raw extraction and unsanitized temporary download routes. Preserve all prior local commits on the local main branch; publish this reviewed tree as a fast-forward from the last confirmed remote main.

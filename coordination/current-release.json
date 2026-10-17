@@ -1,0 +1,22 @@
+{
+  "generated_at": "2026-10-17T05:37:51.370Z",
+  "generated_at_beijing": "2026-10-17T13:37:51.370000+08:00",
+  "xlsx": "catalog\\CECS可下载PDF总表.xlsx",
+  "xlsx_sha256": "05da49e829a2ac73232bd9205ae750090f6fe26ffba33fd1e4ae3a3d129e2414",
+  "coverage": {
+    "baseline_records_registered": 81,
+    "baseline_standard_versions": 74,
+    "registered_standard_versions": 811,
+    "registered_links": 127,
+    "verified_complete_pdf_links": 9,
+    "verified_complete_standard_versions": 7,
+    "authority_records": 710,
+    "independent_audit_results": 33,
+    "downloaded_parseable_pending": 9,
+    "verified_complete_unique_sha256": 7,
+    "unresolved_unnumbered_drafts": 3,
+    "supplemental_directory_records": 58
+  },
+  "verification": "coordination/delivery-validation.json",
+  "limits": "初步身份不等于确认正式标准，不是全集；目录不是规范全文；完整性不确认现行性。"
+}

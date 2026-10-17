@@ -1,0 +1,90 @@
+{
+  "producer": "search",
+  "checkpoint": "13:40",
+  "checked_at": "2026-10-17T13:41:04+08:00",
+  "frozen": true,
+  "input_file_count": 12,
+  "previous_freeze_integrity": [
+    {
+      "manifest": "search/freeze-inputs-1320.json",
+      "file_count": 19,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-round04.json",
+      "file_count": 9,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-1330.json",
+      "file_count": 12,
+      "unchanged": true,
+      "failures": []
+    }
+  ],
+  "note": "固定后不再改。本批仅元数据/查询响应/定位/回执，无PDF、PNG、HTML或凭据。water-mep另批；目录非全文；候选未审。",
+  "files": [
+    {
+      "path": "search/round07-broad-attachments/directory/directory-round07.json",
+      "sha256": "27ce91e260b48c6a60c6e51a883b7cfc0ed93a1b99b7d728e2d47c4c96d80e9f",
+      "bytes": 278162
+    },
+    {
+      "path": "search/round07-broad-attachments/directory/corrections-round02.json",
+      "sha256": "06ebd0ad2bc78d035cf4891a69e99b050afeeddda40a550de866b258dbb690ab",
+      "bytes": 870
+    },
+    {
+      "path": "search/round07-broad-attachments/green/candidates-r07-green.json",
+      "sha256": "1347f035b1de8b8bdbe13ed0b3cee53e6a9a96de960bdd0812172993b344d4a9",
+      "bytes": 5730
+    },
+    {
+      "path": "search/round07-broad-attachments/green/web-r34.json",
+      "sha256": "8a67848a219e82f6d7231d10763b35b1f0529afcbec528201720e2edeb638602",
+      "bytes": 31291
+    },
+    {
+      "path": "search/round07-broad-attachments/green/web-r35.json",
+      "sha256": "0245038a73d457460076ef0d0a3610bdf184fd947d23cf01c893a3c184740325",
+      "bytes": 25081
+    },
+    {
+      "path": "search/round07-broad-attachments/green/web-r36.json",
+      "sha256": "f100e5cede2c7ef01e33e68f50d179ca80a5fa7f090cbb1885b9d0c92ed036af",
+      "bytes": 24790
+    },
+    {
+      "path": "search/round07-broad-attachments/green/web-r37.json",
+      "sha256": "fba3a4bb2754c1b98e17f180428f695a9cb3b90d7da7faa28049bf9ccf172f99",
+      "bytes": 23061
+    },
+    {
+      "path": "search/round07-broad-attachments/green/web-r38.json",
+      "sha256": "1b492e54def73294afffa4cd9859e77c6c5d4a4a7d024ef0ff4947d802a82f60",
+      "bytes": 4170
+    },
+    {
+      "path": "search/round07-broad-attachments/green/web-r39.json",
+      "sha256": "6910ccd299bf12e4c45aa0bc206fea6c71a7b5c53eaf47f5c3ad61b0f6ea3525",
+      "bytes": 15256
+    },
+    {
+      "path": "search/round07-broad-attachments/receipt-2185.json",
+      "sha256": "45b05a158f49ddcb767de76e5d82c0345a123c54d2762b2710d8d6bb7bf59087",
+      "bytes": 1208
+    },
+    {
+      "path": "search/round07-broad-attachments/state-r07.json",
+      "sha256": "c73e535a0b67c05ee36d3284a0dc24e48ff6d3bee3d8cf83e57b411b068c400e",
+      "bytes": 1629
+    },
+    {
+      "path": "search/discussion-1340.md",
+      "sha256": "4471938d30c5e85e3aea8adfc7763936985e3eefb3f944ebd2bbcfeaf73f8aa7",
+      "bytes": 1647
+    }
+  ]
+}

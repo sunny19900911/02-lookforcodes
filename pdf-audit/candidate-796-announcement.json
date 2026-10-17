@@ -1,0 +1,16 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "AUD-796-ANNOUNCEMENT-QIXIN",
+      "seed_ids": ["S009"],
+      "standard_number": "T/CECS 796-2021",
+      "name": "屋面结构雪荷载设计标准发布公告",
+      "document_kind": "发布公告元数据证据，不能作标准全文",
+      "source_page": "https://qxb-img-osscache.qixin.com/standards/a3ae6a861cab59788b7c093ef8ed1ffe.pdf",
+      "download_url": "https://qxb-img-osscache.qixin.com/standards/a3ae6a861cab59788b7c093ef8ed1ffe.pdf",
+      "conflict_group": "CECS-796-YEAR-CONFLICT",
+      "discovery_evidence": "search此前取得公告候选，但版本冲突须独立实际GET/目视；不把单页公告当全文或独立新标准版本",
+      "permission_status": "公开索引附件，未提供账号或绕过认证；转载授权未独立核实"
+    }
+  ]
+}

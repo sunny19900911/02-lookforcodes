@@ -1,0 +1,25 @@
+{
+  "producer": "search",
+  "checkpoint": "13:40-water-mep-addendum",
+  "checked_at": "2026-10-17T13:43:22+08:00",
+  "frozen": true,
+  "input_file_count": 3,
+  "note": "仅同步本manifest列出的3个结构化分享文件；原始web/candidates不纳入，不含PDF/PNG/HTML/瞬时uhash。1340及更早冻结不改。",
+  "files": [
+    {
+      "path": "search/round07-broad-attachments/water-mep/candidates-round07-water-mep-share.json",
+      "sha256": "ba0218f14ef9f6fec91ae772398a2f090beb5df30a4f941db21cb387419e2321",
+      "bytes": 18201
+    },
+    {
+      "path": "search/round07-broad-attachments/water-mep/query-ledger-r07-water-mep-share.json",
+      "sha256": "604fa38ac3b64be7f8d68711f9f6d4a0fe32b9bb50705fd09c60c6a3b7acb9d9",
+      "bytes": 3209
+    },
+    {
+      "path": "search/round07-broad-attachments/water-mep/addendum-r07-water-mep.json",
+      "sha256": "48974da1a0d0e8646a97e98d8268128096abfa2a7f9e9709b7f0e645c2e8b167",
+      "bytes": 941
+    }
+  ]
+}

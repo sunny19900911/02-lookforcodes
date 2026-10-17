@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-17T13:27:00+08:00",
+  "producer": "search-baseline-external-routes",
+  "target": "T/CECS661-2020另一同版公开PDF/纸本页序",
+  "question": "说明扉页17背面的18、说明目录19背面的20是否空白",
+  "result": "本小轮尚无另一同版政府/协会/起草单位PDF或可核纸本页序证据；空白性质保持待核。",
+  "query_count": 24,
+  "queries": [
+    "\"新型冠状病毒肺炎传染病应急医疗设施设计标准\" pdf -site:js.shaanxi.gov.cn -site:scribd.com",
+    "\"T/CECS661\" pdf -site:js.shaanxi.gov.cn -site:scribd.com",
+    "\"661-2020\" filetype:pdf -site:js.shaanxi.gov.cn -site:scribd.com",
+    "\"应急医疗设施设计标准\" site:ippr.com.cn",
+    "\"应急医疗设施设计标准\" \"页数\"",
+    "\"应急医疗设施设计标准\" site:edu.cn pdf",
+    "\"应急医疗设施设计标准\" site:gov.cn pdf -site:js.shaanxi.gov.cn -引用",
+    "\"应急医疗设施设计标准\" site:chinabuilding.com.cn",
+    "\"新型冠状病毒感染的肺炎传染病应急医疗设施设计标准\" \"附件\" -site:js.shaanxi.gov.cn -site:scribd.com",
+    "\"应急医疗设施设计标准\" \"PDF\" \"下载\" -site:js.shaanxi.gov.cn -site:scribd.com -site:waizi.org.cn -site:zhuyitai.com",
+    "\"新型冠状病毒肺炎传染病应急医疗设施设计标准\" \"中国建筑工业\"",
+    "\"T/CECS 661-2020\" \"开本\"",
+    "\"新型冠状病毒肺炎传染病应急医疗设施设计标准\" \"48\"",
+    "\"新型冠状病毒肺炎传染病应急医疗设施设计标准\" \"978\"",
+    "\"新型冠状病毒感染的肺炎传染病应急医疗设施设计标准\" \"条文说明\" \"18\"",
+    "\"新型冠状病毒肺炎传染病应急医疗设施设计标准\" \"出版社\" \"页数\"",
+    "\"新型冠状病毒感染的肺炎传染病应急医疗设施设计标准\" \"ISBN\"",
+    "\"应急医疗设施设计标准\" \"pdf\" site:org.cn -site:cecs.org.cn -site:waizi.org.cn -site:planning.org.cn -site:chinabuilding.com.cn -site:ttbz.org.cn",
+    "\"新型冠状病毒肺炎传染病应急医疗设施设计标准\" site:cip.com.cn",
+    "\"新型冠状病毒肺炎传染病应急医疗设施设计标准\" site:cabp.com.cn",
+    "\"新型冠状病毒感染的肺炎传染病应急医疗设施设计标准\" site:js.shaanxi.gov.cn -filetype:pdf",
+    "\"应急医疗设施设计标准\" \"T/CECS\" \"出版日期\"",
+    "\"应急医疗设施设计标准\" \"T/CECS\" \"35\"",
+    "\"应急医疗设施设计标准\" \"中国中元\" filetype:pdf -site:js.shaanxi.gov.cn -site:scribd.com"
+  ],
+  "new_evidence": [
+    {
+      "source_page": "https://ebook.chinabuilding.com.cn/c/2020-02-06/84964.shtml",
+      "parent_page": "https://ebook.chinabuilding.com.cn/zbooklib/catalog/73/pc/index_11.shtml",
+      "discovered_by": "实际打开公告目录，跟随661对应公告链接5",
+      "source_kind": "中国建筑标准设计研究院国标电子书库公开发布公告",
+      "observed_title": "关于发布《新型冠状病毒感染的肺炎传染病应急医疗设施设计标准》的公告",
+      "web_observation": "公开公告可读。实际GET HTML的附件区域仅有 /plus/img/addon.gif 图标和<u>标准标题</u>，没有对应<a href>或PDF URL；不是可用附件下载。页面没有纸本页序或页数信息。",
+      "download_url": null,
+      "page_sequence_evidence": null,
+      "completeness_claim": null
+    }
+  ],
+  "negative_routes": [
+    {
+      "route": "省厅与政府公共附件，排除陕西源",
+      "observed_urls": [
+        "https://zfcxjst.gd.gov.cn/attachment/0/505/505871/4036560.pdf",
+        "https://zfcxjst.gd.gov.cn/attachment/0/505/505871/4036529.pdf",
+        "https://jsj.zs.gov.cn/attachment/0/491/491241/2181147.pdf",
+        "https://jst.zj.gov.cn/module/download/downfile.jsp?classid=0&filename=2c006da7b6574e6899c087cf8e110c46.pdf"
+      ],
+      "observation": "标题分别为广东平急两用技术指引、浙江呼吸类应急医院建设技术导则，仅引用661；不是另一661原件",
+      "accepted_as_alternate": false
+    },
+    {
+      "route": "出版社/标准院",
+      "observed_urls": [
+        "https://www.chinabuilding.com.cn/web/20z001-1.pdf",
+        "https://ebook.chinabuilding.com.cn/zbooklib/catalog/73/pc/index_11.shtml",
+        "https://ebook.chinabuilding.com.cn/c/2020-02-06/84964.shtml"
+      ],
+      "observation": "20Z001-1是另一图集，仅引用661；标准院目录提供661公告，未得到纸本页序或下载附件",
+      "accepted_as_alternate": false
+    },
+    {
+      "route": "中国中元起草单位域名",
+      "observed_urls": [
+        "https://www.ippr.com.cn/"
+      ],
+      "observation": "主页web open Internal Error；标题site查询未取得可核661附件。没有猜测附件路径。",
+      "accepted_as_alternate": false
+    },
+    {
+      "route": "大学公开页面",
+      "observed_urls": [
+        "https://xyzh.hnu.edu.cn/info/1022/3406.htm"
+      ],
+      "observation": "湖南大学校友报道提起起草工作，无661附件及纸本页序",
+      "accepted_as_alternate": false
+    },
+    {
+      "route": "转载或第三方总页数标签",
+      "observed_urls": [
+        "https://www.waizi.org.cn/bz/121889.html",
+        "https://down.waizi.org.cn/tuanti/1683.html",
+        "https://www.duodown.com/so/52378-0-29.html"
+      ],
+      "observation": "50P/14MB、1.09MB等只是页面自述，来源和扫描版可能不同；未据此判断陕西44页缺页，也不作为空白页证据",
+      "accepted_as_alternate": false
+    },
+    {
+      "route": "既有旧协会uploads/soft/200213 URL",
+      "observation": "本轮未盲重试；沿用先前两协议web失败记录",
+      "accepted_as_alternate": false
+    }
+  ],
+  "handoff": "audit继续直接核对现有44页PDF在说明扉页及目录处的视觉/页序。本文不输出完整性结论；当前新增有效备用PDF数0。"
+}

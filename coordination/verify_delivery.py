@@ -35,6 +35,9 @@ for link in complete:
     assert link['final_url'].startswith(('https://', 'http://'))
     assert link['completeness'] and link['checked_at'] and link['version_match']
 for standard in master['standards']:
+    name = (standard.get('name') or '').strip()
+    if standard.get('standard_number'):
+        assert not (name.startswith('关于发布') or name.endswith('公告')), 'Announcement document title used as standard title'
     best = standard.get('best_link_id')
     if best:
         assert best in links and links[best].get('complete_pdf'), 'Unverified link recommended'
@@ -57,7 +60,8 @@ result = {'checked_at': datetime.datetime.now(datetime.timezone(datetime.timedel
     'grade_counts_for_complete': dict(collections.Counter(l['recommendation'] for l in complete)),
     'checks': ['ZIP integrity', 'catalog SHA256 receipt', '9 readable worksheets', '81 original mappings',
                'stable IDs unique', 'link IDs unique and no orphan', 'only verified complete links recommended',
-               'required PDF evidence fields', 'all sheet counts reconcile', 'native hyperlinks', 'no Excel errors'],
+               'required PDF evidence fields', 'standard title excludes announcement document names',
+               'all sheet counts reconcile', 'native hyperlinks', 'no Excel errors'],
     'scope_limit': 'Output data consistency only. Independent PDF conclusions remain attributable to pdf-audit evidence; not proof of all-web coverage or current standard applicability.'}
 (REPO / 'coordination' / 'delivery-validation.json').write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding='utf-8')
 print(json.dumps({'ok': True, 'sha256': sha, 'links': len(links), 'complete': len(complete), 'native_hyperlinks': native}))

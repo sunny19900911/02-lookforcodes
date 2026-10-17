@@ -1,0 +1,13 @@
+{
+  "source_id": "SEARCH-R07-WATER-SHARE-REVIEW-V2-20261017",
+  "recorded_at": "2026-10-17T13:47:38+08:00",
+  "statement_type": "原文事实（独立只读文件复核及修正回执）",
+  "old_frozen_files_unchanged": true,
+  "verified": "v1 manifest三文件SHA/字节匹配；四候选原始与download URL未变；分享无瞬时参数实际值、原始响应或PDF；41/164父页归因准确。",
+  "problem_found": "v1四项transient_parameter_note均称本轮已失效，证据仅支持112实际GET过期。",
+  "v2_fix": "74/111/130收窄为仅HEAD HTML、未证明失效；112保留GET过期。四候选不变。",
+  "supersedes_for_catalog_and_publication": "search/round07-broad-attachments/water-mep/candidates-round07-water-mep-share.json",
+  "preferred_share_file": "search/round07-broad-attachments/water-mep/candidates-round07-water-mep-share-v2.json",
+  "independent_reviewer": "subagent /root/g2_public_routes read-only followup",
+  "boundary": "公开下载端点去瞬时参数仅是待修路线，不是验证可用PDF；download_url维持null。未改旧冻结输入。"
+}

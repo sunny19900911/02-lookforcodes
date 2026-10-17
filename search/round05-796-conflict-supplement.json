@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "producer": "search",
+  "round": "R05-796-conflict",
+  "checked_at": "2026-10-17T13:29:03+08:00",
+  "conflict_group_id": "SEARCH-CONFLICT-796-20261017",
+  "seed_ids": [
+    "S009"
+  ],
+  "subject_name": "屋面结构雪荷载设计标准",
+  "status": "2020出版物与2021公告仍冲突；不统一年份，不认定两个实际版本",
+  "evidence_type": "独立审查实GET、文本及整页目视的反馈",
+  "source_id": "AUD-796-ANNOUNCEMENT-QIXIN-20261017",
+  "audit_reference": "pdf-audit/audit-pending-round04.json#AUD-796-ANNOUNCEMENT-QIXIN",
+  "source_url": "https://qxb-img-osscache.qixin.com/standards/a3ae6a861cab59788b7c093ef8ed1ffe.pdf",
+  "source_kind": "第三方托管协会公告副本；非协会原站",
+  "source_checked_at": "2026-10-17T13:27:56+08:00",
+  "download_observation": {
+    "pages": 1,
+    "bytes": 49741,
+    "sha256": "2694e46ffed0f9e7879ea97347d44b11f69ae3ddc3f654c0fea6195a89b3330e",
+    "final_url": "https://qxb-img-osscache.qixin.com/standards/a3ae6a861cab59788b7c093ef8ed1ffe.pdf",
+    "download_status": "仅发布公告1页，不是标准正文全文",
+    "complete_pdf": false
+  },
+  "metadata_claim": {
+    "statement_type": "原文事实（所见副本）",
+    "announcement_number": "757",
+    "asserted_standard_number": "T/CECS 796-2021",
+    "announced_date": "2021-01-05",
+    "effective_date": "2021-06-01",
+    "locator": "整页公告正文与落款；审查文本/目视一致"
+  },
+  "counter_evidence_retained": [
+    {
+      "source_url": "https://ebook.chinabuilding.com.cn/zbooklib/bookpdf/probation?SiteID=1&bookID=140749",
+      "asserted_standard_number": "T/CECS 796-2020",
+      "kind": "出版平台试读标题与目录"
+    },
+    {
+      "source_url": "https://www.ndls.org.cn/standard/detail/ce1c29ad394dd9d329efef769e4b05d7",
+      "asserted_standard_number": "T/CECS 796-2020",
+      "kind": "国家数字标准馆2020条目"
+    },
+    {
+      "source_url": "https://www.ndls.org.cn/standard/detail/b370e7a720812dae2ef5e9b83c9a07b3",
+      "asserted_standard_number": "T/CECS 796-2021",
+      "kind": "国家数字标准馆2021条目"
+    }
+  ],
+  "new_search": {
+    "query_count": 4,
+    "request_reference": "round05-web-r33.json",
+    "outcome": "本轮限定hnbzw/cabr/cecs及更正查询未得可解释冲突的新权威澄清；DB23/T4000同近似名称结果排除；不以未检得断言不存在"
+  },
+  "freeze_boundary": "只新增此补充，不改13:20原19输入、Round04原9输入和总表封版。不得把这份公告计入完整标准PDF数。"
+}
