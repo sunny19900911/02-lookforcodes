@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-17",
+  "timezone": "Asia/Shanghai",
+  "controller_thread": "01a1482e-ed9b-70b3-b74c-89867f90d180",
+  "roles": [
+    {
+      "role": "catalog",
+      "title": "CECS ①｜规范总表管理",
+      "threadId": "01a14838-25e1-7de2-9595-0b694022aa05",
+      "directory": "catalog",
+      "owns": "Excel及主索引唯一写入"
+    },
+    {
+      "role": "search",
+      "title": "CECS ②｜检索路径与方法迭代",
+      "threadId": "01a14838-987f-7860-b82e-e000fe59ca30",
+      "directory": "search",
+      "owns": "候选与查询路线，master-authority子目录暂由主控写入"
+    },
+    {
+      "role": "pdf-audit",
+      "title": "CECS ③｜PDF 下载与质量审查",
+      "threadId": "01a14838-9d35-74d1-8de7-5683103ad144",
+      "directory": "pdf-audit",
+      "owns": "审查元数据及downloads-temp内核验文件"
+    }
+  ],
+  "cadence_minutes": 10,
+  "git_writer": "主控唯一串行提交推送；角色不操作Git",
+  "notes": "用户2026-10-17明确要求三个agent分别显示为三个独立对话；已替代临时隐藏子agent。"
+}
