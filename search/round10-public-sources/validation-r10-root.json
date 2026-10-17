@@ -1,0 +1,15 @@
+{
+  "source_id": "SEARCH-R10-INDEPENDENT-VALIDATION-20261017",
+  "recorded_at": "2026-10-17T14:31:20+08:00",
+  "source_rows": 142,
+  "unique_complete_number_years": 128,
+  "master_identity_count_at_read": 889,
+  "master_sha256_at_read": "701f9680a958bd2ea8cacdc8bef7d9677e4acdb4536149618785cc7c2938add1",
+  "overlap_master_keys": [
+    "22/2024"
+  ],
+  "overlap_r09_keys": [],
+  "absent_both_snapshots": 127,
+  "merge_count": 0,
+  "boundary": "只去重比较，不写master；机构补充不称政府/协会，日期各自分列。"
+}

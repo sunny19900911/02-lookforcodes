@@ -1,0 +1,116 @@
+{
+  "producer": "search",
+  "checkpoint": "14:30",
+  "checked_at": "2026-10-17T14:31:20+08:00",
+  "frozen": true,
+  "input_file_count": 10,
+  "previous_freeze_integrity": [
+    {
+      "manifest": "search/freeze-inputs-1320.json",
+      "files": 19,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-round04.json",
+      "files": 9,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-1330.json",
+      "files": 12,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-1340.json",
+      "files": 12,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-1340-water-mep-addendum.json",
+      "files": 3,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-1340-water-mep-addendum-v2.json",
+      "files": 4,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-g2-round02-share-1350.json",
+      "files": 1,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-1400.json",
+      "files": 13,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-1420.json",
+      "files": 11,
+      "unchanged": true,
+      "failures": []
+    }
+  ],
+  "note": "仅结构化候选/来源/负结果/回执。PDF签名不等于完整，目录不计全文；0成果如实登记。无PDF/PNG/原HTML/瞬时参数值。",
+  "files": [
+    {
+      "path": "search/round10-public-sources/candidates-r10-detection.json",
+      "sha256": "0c6ec696308986f650354115279d84384acc920cb63633440b97dd88489e7df0",
+      "bytes": 4559
+    },
+    {
+      "path": "search/round10-public-sources/instrument-observations-r10.json",
+      "sha256": "8d042eb83ea05262761e7d634d3d9d197b05721e53d3341544249390c5b9e16b",
+      "bytes": 2548
+    },
+    {
+      "path": "search/round10-public-sources/query-ledger-r10-root.json",
+      "sha256": "37adcd0fcb18d832e4e5ce01683bd44e14a7bf100e8fc3b25f0db4bb99e35d91",
+      "bytes": 3325
+    },
+    {
+      "path": "search/round10-public-sources/foundation/round10-foundation-search.json",
+      "sha256": "3a713fae13242298124a9dd7c3ec79e4641448a69c02cb5af09de2c843fb43fd",
+      "bytes": 13424
+    },
+    {
+      "path": "search/round10-public-sources/monthly-directory/monthly-directory-r10.json",
+      "sha256": "d457d36600059e68a7c30377bfa2b73091ce1f42b8bd6de41f9417a8be32911c",
+      "bytes": 242254
+    },
+    {
+      "path": "search/round10-public-sources/monthly-directory/validation-r10.json",
+      "sha256": "97b7920cf80e9ec1a3753b4d7e58fb81d99fab097203525ab8e7a364ff476ac7",
+      "bytes": 5155
+    },
+    {
+      "path": "search/round10-public-sources/validation-r10-root.json",
+      "sha256": "136b7382c3453e6be61b1c718cda40617dd5909847c0ec5e8f19668590c0881d",
+      "bytes": 551
+    },
+    {
+      "path": "search/round10-public-sources/audit-canonical-1410-receipt-r10.json",
+      "sha256": "97d1e63aa8258b86e3b17b9198663434728d9cbcc8ae336d60e3e1c8fdd71c00",
+      "bytes": 839
+    },
+    {
+      "path": "search/round10-public-sources/state-r10.json",
+      "sha256": "c7c0802cd6c4dc5e508a7c03dc6a1b5854eeb73a7f2e383cd643d7b3a3e60997",
+      "bytes": 2343
+    },
+    {
+      "path": "search/discussion-1430.md",
+      "sha256": "b0c72e6956a87c8e88d00c9d3872ce3c6243361873f361ab4a41aa6690906378",
+      "bytes": 2736
+    }
+  ]
+}

@@ -1,0 +1,325 @@
+{
+  "schema_version": "cecs-public-candidates-r09-water-mep-v1",
+  "batch_id": "R09-WATER-MEP-FIRST",
+  "source_id": "SEARCH-R09-WATER-MEP-20261017",
+  "started_at": "2026-10-17T14:15:42+08:00",
+  "frozen_at": "2026-10-17T14:20:41+08:00",
+  "candidate_count": 1,
+  "preview_route_count": 1,
+  "blocked_pdf_route_count": 5,
+  "scope": "给排水/机电新公开来源；政府标准历史版优先；不继续151/153或旧失败URL",
+  "dedup": {
+    "master_path": "C:/Users/mj528/Documents/004 工作/web-demo/outputs/cecs-master-20261017/catalog/cecs-master.json",
+    "checked_at": "2026-10-17T14:19:43+08:00",
+    "key": "links.requested_url",
+    "matching_urls": 0,
+    "note": "正式候选243及218原始/最终URL均无同URL；不代表同编号未收录"
+  },
+  "candidates": [
+    {
+      "candidate_id": "R09-WM-001",
+      "source_id": "SRC-R09-WM-001",
+      "seed_ids": [],
+      "standard_number": "CECS 243:2008",
+      "standard_name": "园林绿地灌溉工程技术规程",
+      "year": 2008,
+      "format": "PDF",
+      "download_url": "https://www.szgm.gov.cn/attachment/0/624/624014/7564828.pdf",
+      "direct_url": "https://www.szgm.gov.cn/attachment/0/624/624014/7564828.pdf",
+      "original_url": "https://www.szgm.gov.cn/attachment/0/624/624014/7564828.pdf",
+      "final_url": "https://www.szgm.gov.cn/attachment/0/624/624014/7564828.pdf",
+      "source_page": "https://www.szgm.gov.cn/attachment/0/624/624014/7564828.pdf",
+      "detail_url": null,
+      "parent_page_status": "具体附件父页未定位；source_page为实际PDF本身。域名为深圳市光明区政府门户附件域，不能反推原发布栏目。",
+      "is_draft": false,
+      "draft_evidence": "第一页有中国工程建设标准化协会公告第25号及批准发布/2008年10月1日实施表述，未见草案标识",
+      "edition_kind": "historical",
+      "status": "历史正式版本外观候选；工具可见文本重排版，不据此判断全文完整",
+      "current_validity": "未核实",
+      "full_text_review_status": "未审查；未逐页核对，不声明完整",
+      "access": {
+        "method": "GET",
+        "checked_at": "2026-10-17T14:19:43+08:00",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "received_bytes": 288332,
+        "pdf_signature": true,
+        "tool_reported_page_count": 21,
+        "page_count_scope": "web解析报告值，不能作为全文完整依据",
+        "authentication_used": false,
+        "redirect_observed": false,
+        "pdf_saved": false,
+        "earlier_failure": "Python默认TLS栈于14:17:45报BAD_ECPOINT；未关闭证书验证。随后PowerShell默认TLS普通GET200"
+      },
+      "metadata_evidence": [
+        {
+          "source_id": "SRC-R09-WM-001-NUMBER",
+          "url": "https://www.szgm.gov.cn/attachment/0/624/624014/7564828.pdf",
+          "kind": "PDF第一页文字与搜索索引",
+          "evidence": "可见标准编号CECS243:2008及题名《园林绿地灌溉工程技术规程》。"
+        },
+        {
+          "source_id": "SRC-R09-WM-001-PUBLICATION",
+          "url": "https://www.szgm.gov.cn/attachment/0/624/624014/7564828.pdf",
+          "kind": "PDF第一页公告",
+          "evidence": "协会公告第25号表述批准发布，2008年10月1日实施；主编相关文字列中国农业大学。"
+        },
+        {
+          "source_id": "SRC-R09-WM-001-GET",
+          "url": "https://www.szgm.gov.cn/attachment/0/624/624014/7564828.pdf",
+          "kind": "普通GET返回头与文件头",
+          "evidence": "默认HTTPS栈200/application/pdf，288332 bytes，%PDF-签名。未保存PDF。"
+        }
+      ],
+      "permissions": {
+        "public_access_observed": true,
+        "source_type": "政府网站公开静态附件",
+        "publication_or_reprint_authorization": "未核实；公开可访问不等于取得转载许可",
+        "login_or_bypass_used": false
+      },
+      "alternates": [],
+      "limitations": [
+        "具体父页未知",
+        "现行有效性及替代关系未知",
+        "解析为21页的文本重排外观；未核全文/图表/条文说明",
+        "只交公开链接与简要结构化证据"
+      ]
+    }
+  ],
+  "preview_routes": [
+    {
+      "candidate_id": "R09-WM-PREVIEW-001",
+      "source_id": "SRC-R09-WM-PREVIEW-001",
+      "seed_ids": [],
+      "standard_number": "CECS 218:2007",
+      "standard_name": "水景喷泉工程技术规程",
+      "year": 2007,
+      "is_draft": false,
+      "download_url": "https://img.antpedia.com/standard/files/pdfs_ora/CN-CECS/d94/CECS%20218-2007.pdf",
+      "original_url": "https://img.antpedia.com/standard/files/pdfs_ora/CN-CECS/d94/CECS%20218-2007.pdf",
+      "final_url": "https://i7.antpedia.com/standard/files/pdfs_ora/CN-CECS/d94/CECS%20218-2007.pdf",
+      "source_page": "https://img.antpedia.com/standard/files/pdfs_ora/CN-CECS/d94/CECS%20218-2007.pdf",
+      "detail_url": null,
+      "classification": "短预览路线，单列，不计入正式全文候选",
+      "metadata_evidence": [
+        {
+          "source_id": "SRC-R09-WM-PREVIEW-001-INDEX",
+          "kind": "搜索索引",
+          "evidence": "索引列编号、题名及出版社信息；普通GET只得到3页。"
+        }
+      ],
+      "access": {
+        "method": "GET",
+        "checked_at": "2026-10-17T14:19:18+08:00",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "received_bytes": 24013,
+        "pdf_signature": true,
+        "tool_reported_page_count": 3,
+        "pdf_saved": false
+      },
+      "permissions": {
+        "source_type": "第三方标准站公开文件URL",
+        "reprint_authorization": "未核实",
+        "login_or_bypass_used": false
+      },
+      "parent_page_status": "未定位具体附件父页；原始/最终URL保留公开重定向关系"
+    }
+  ],
+  "blocked_routes": [
+    {
+      "source_id": "SRC-R09-WM-BLOCKED-01",
+      "seed_ids": [],
+      "standard_number": "CECS 181:2005",
+      "standard_name_hint": "给水钢丝网骨架塑料（聚乙烯）复合管管道工程技术规程",
+      "url": "https://pro5323b5d3-pic11.ysjianzhan.cn/upload/26CECS181-2005GSGSWGJSLJYXFHGGDGCJSGC.pdf",
+      "source_page": "https://pro5323b5d3-pic11.ysjianzhan.cn/upload/26CECS181-2005GSGSWGJSLJYXFHGGDGCJSGC.pdf",
+      "http_status": 403,
+      "evidence": "web.open初次得到42页解析缓存；随后web.open返回403，因此停止",
+      "checked_at": "2026-10-17T14:17:06+08:00",
+      "action": "遇403后停止，不换会话/Referer/登录方式，不作为本批可访问候选"
+    },
+    {
+      "source_id": "SRC-R09-WM-BLOCKED-02",
+      "seed_ids": [],
+      "standard_number": "T/CECS 838-2021",
+      "standard_name_hint": "城市综合管廊消防技术规程",
+      "url": "https://www.sunyfire.com/uploadfile/2021/1210/20211210044553384.pdf",
+      "source_page": "https://www.sunyfire.com/uploadfile/2021/1210/20211210044553384.pdf",
+      "http_status": 403,
+      "evidence": "搜索索引可见编号，web工具不可访问；普通GET403停止",
+      "checked_at": "2026-10-17T14:17:45+08:00",
+      "action": "遇403后停止，不换会话/Referer/登录方式，不作为本批可访问候选"
+    },
+    {
+      "source_id": "SRC-R09-WM-BLOCKED-03",
+      "seed_ids": [],
+      "standard_number": "CECS 321:2012",
+      "standard_name_hint": null,
+      "url": "https://pro5323b5d3-pic11.ysjianzhan.cn/upload/68CECS321-2012FBLCSJGC.pdf",
+      "source_page": "https://pro5323b5d3-pic11.ysjianzhan.cn/upload/68CECS321-2012FBLCSJGC.pdf",
+      "http_status": 403,
+      "evidence": "搜索索引编号与前言可见；普通GET403停止，未核全名封面",
+      "checked_at": "2026-10-17T14:19:18+08:00",
+      "action": "遇403后停止，不换会话/Referer/登录方式，不作为本批可访问候选"
+    },
+    {
+      "source_id": "SRC-R09-WM-BLOCKED-04",
+      "seed_ids": [],
+      "standard_number": "CECS 139:2002",
+      "standard_name_hint": "给水排水工程水塔结构设计规程",
+      "url": "https://pro5323b5d3-pic11.ysjianzhan.cn/upload/62CECS139-2002GSPSGCSTJGSJGC.pdf",
+      "source_page": "https://pro5323b5d3-pic11.ysjianzhan.cn/upload/62CECS139-2002GSPSGCSTJGSJGC.pdf",
+      "http_status": 403,
+      "evidence": "搜索索引编号题名可见；普通GET403停止",
+      "checked_at": "2026-10-17T14:19:18+08:00",
+      "action": "遇403后停止，不换会话/Referer/登录方式，不作为本批可访问候选"
+    },
+    {
+      "source_id": "SRC-R09-WM-BLOCKED-05",
+      "seed_ids": [],
+      "standard_number": "CECS 184:2005",
+      "standard_name_hint": "给水系统防回流污染技术规程",
+      "url": "https://pro5323b5d3-pic11.ysjianzhan.cn/upload/84CECS184-2005GSXTFHLWRJSGC.pdf",
+      "source_page": "https://pro5323b5d3-pic11.ysjianzhan.cn/upload/84CECS184-2005GSXTFHLWRJSGC.pdf",
+      "http_status": 403,
+      "evidence": "搜索索引编号题名可见；普通GET403停止",
+      "checked_at": "2026-10-17T14:19:18+08:00",
+      "action": "遇403后停止，不换会话/Referer/登录方式，不作为本批可访问候选"
+    }
+  ],
+  "other_failed_routes": [
+    {
+      "source_id": "SRC-R09-WM-CUWA-OLD",
+      "url": "https://old.cuwa.org.cn/Uploads/file/20200407/20200407104126_10660.pdf",
+      "standard_number": "CECS XXXX-XXXX（索引占位）",
+      "title_status": "未核定题名，未挂正式标准",
+      "checked_at": "2026-10-17T14:19:18+08:00",
+      "result": "web工具超时；普通GET证书验证失败：证书过期",
+      "action": "停止，未关闭证书验证，未改HTTP或猜新域名路由"
+    }
+  ],
+  "query_count": 36,
+  "query_batches": [
+    {
+      "batch": "R09-WM-Q01",
+      "queries": [
+        "\"CECS\" \"给水\" filetype:pdf site:edu.cn",
+        "\"CECS\" \"排水\" filetype:pdf site:gov.cn",
+        "\"CECS\" \"机电\" \"pdf\" 下载",
+        "\"CECS\" \"管道\" \"pdf\" site:leso.com"
+      ],
+      "outcome": "命中资料引用、第三方目录和已知兆冠下载列表；未沿已失败URL重试",
+      "time_window": "2026-10-17T14:15:42+08:00/2026-10-17T14:19:43+08:00"
+    },
+    {
+      "batch": "R09-WM-Q02",
+      "queries": [
+        "\"CECS\" \"pdf\" \"给水\" -\"guifanku\" -\"waizi\" -\"duodown\" -\"标准库\" -\"报价\" -\"投标\"",
+        "\"CECS\" \"pdf\" \"排水\" \"下载\" 管业 -yonggao -era.com.cn",
+        "\"CECS\" \"pdf\" \"空调\" \"规程\" site:com.cn -waizi -guifanku",
+        "\"CECS\" \"pdf\" \"给水\" site:edu.cn -article -参考文献"
+      ],
+      "outcome": "结果多为第三方标准目录、论文与环评引用，未形成可访问新全文候选",
+      "time_window": "2026-10-17T14:15:42+08:00/2026-10-17T14:19:43+08:00"
+    },
+    {
+      "batch": "R09-WM-Q03",
+      "queries": [
+        "\"CECS\" filetype:pdf \"管业\" -guifanku -yonggao -era.com.cn",
+        "\"CECS\" filetype:pdf \"虹吸\" -guifanku -doc88 -taodocs",
+        "\"CECS\" filetype:pdf \"薄壁\" -guifanku -doc88 -max.book118",
+        "\"CECS\" filetype:pdf \"支吊架\" -guifanku -max.book118 -doc88 -taodocs"
+      ],
+      "outcome": "发现CECS181:2005索引PDF；复访403停止；其他结果以目录/宣传册/草案为主",
+      "time_window": "2026-10-17T14:15:42+08:00/2026-10-17T14:19:43+08:00"
+    },
+    {
+      "batch": "R09-WM-Q04",
+      "queries": [
+        "site:pro5323b5d3-pic11.ysjianzhan.cn \"CECS\"",
+        "\"CECS\" filetype:pdf \"灌溉\"",
+        "\"CECS\" filetype:pdf \"冷却\"",
+        "\"CECS\" filetype:pdf \"供暖\" -bzko -guifanku -book118 -doc88"
+      ],
+      "outcome": "灌溉查询命中政府CECS243:2008 PDF；另有855等非本轮水机电主体标准，未收",
+      "time_window": "2026-10-17T14:15:42+08:00/2026-10-17T14:19:43+08:00"
+    },
+    {
+      "batch": "R09-WM-Q05",
+      "queries": [
+        "site:szgm.gov.cn \"园林绿地灌溉工程技术规程\"",
+        "\"26CECS181-2005GSGSWGJSLJYXFHGGDGCJSGC.pdf\"",
+        "\"CECS\" filetype:pdf \"雨水\" -guifanku -bzko -doc88 -book118",
+        "\"CECS\" filetype:pdf \"通风\" -guifanku -bzko -doc88 -book118"
+      ],
+      "outcome": "243仅定位PDF，未得具体父页；通风查询发现厂家838附件，后403",
+      "time_window": "2026-10-17T14:15:42+08:00/2026-10-17T14:19:43+08:00"
+    },
+    {
+      "batch": "R09-WM-Q06",
+      "queries": [
+        "site:sunyfire.com \"838\"",
+        "site:szgm.gov.cn \"7564828\" \"灌溉\"",
+        "site:szgm.gov.cn \"CECS\" filetype:pdf",
+        "site:sunyfire.com \"CECS\" filetype:pdf"
+      ],
+      "outcome": "838搜索索引可见，普通GET403；政府243父页仍未定位",
+      "time_window": "2026-10-17T14:15:42+08:00/2026-10-17T14:19:43+08:00"
+    },
+    {
+      "batch": "R09-WM-Q07",
+      "queries": [
+        "\"CECS\" filetype:pdf \"消火栓\" -guifanku -bzko -book118 -doc88",
+        "\"CECS\" filetype:pdf \"水处理\" -guifanku -bzko -book118 -doc88 -参考文献",
+        "\"CECS\" filetype:pdf \"给水排水\" \"中国工程建设标准化协会标准\" -guifanku -bzko -yonggao -era.com.cn",
+        "\"CECS\" filetype:pdf site:cecs.org.cn \"水\""
+      ],
+      "outcome": "发现CECS321/139索引PDF和218第三方直链；321/139均403；218仅3页，单列预览",
+      "time_window": "2026-10-17T14:15:42+08:00/2026-10-17T14:19:43+08:00"
+    },
+    {
+      "batch": "R09-WM-Q08",
+      "queries": [
+        "\"CECS\" filetype:pdf \"水\" site:gov.cn \"中国工程建设协会标准\"",
+        "\"CECS\" filetype:pdf \"污水\" site:org.cn",
+        "\"CECS\" filetype:pdf \"消防\" \"主编单位\" -guifanku -bzko -book118 -doc88",
+        "\"CECS\" filetype:pdf \"给水\" \"技术规程\" -guifanku -bzko -book118 -doc88 -ysjianzhan -yonggao -era.com.cn"
+      ],
+      "outcome": "发现水协旧站未编号CECS PDF；普通GET证书过期停止，未核定题名",
+      "time_window": "2026-10-17T14:15:42+08:00/2026-10-17T14:19:43+08:00"
+    },
+    {
+      "batch": "R09-WM-Q09",
+      "queries": [
+        "site:cuwa.org.cn filetype:pdf \"CECS\" -XXXX -XX",
+        "site:szgm.gov.cn \"园林绿地\" \"243\"",
+        "\"CECS\" filetype:pdf \"泵站\" \"主编\" -guifanku -bzko -doc88 -book118",
+        "\"CECS\" filetype:pdf \"净水\" \"技术规程\" -guifanku -bzko -doc88 -book118"
+      ],
+      "outcome": "未得新可访问正式标准附件；发现184索引PDF后普通GET403；未追151/153",
+      "time_window": "2026-10-17T14:15:42+08:00/2026-10-17T14:19:43+08:00"
+    }
+  ],
+  "coverage_gaps": [
+    {
+      "area": "其他政府/大学给排水附件",
+      "result": "检索多为工程文件、标准引用和目录，未得到第二条可访问正式标准候选"
+    },
+    {
+      "area": "消防/通风厂家附件",
+      "result": "838普通GET403，停止；不保证搜索索引仍可访问"
+    },
+    {
+      "area": "起草单位身份与具体父页",
+      "result": "本批可访问243为政府附件；未定位具体父页，未核网站转载授权"
+    }
+  ],
+  "artifacts_policy": {
+    "pdf_saved": false,
+    "raw_html_saved": false,
+    "transient_parameter_values_saved": false,
+    "old_inputs_modified": false,
+    "git_used": false
+  }
+}

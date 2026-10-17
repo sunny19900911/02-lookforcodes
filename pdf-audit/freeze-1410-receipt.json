@@ -1,0 +1,57 @@
+{
+  "checkpoint": "2026-10-17T14:10:00+08:00",
+  "frozen_at": "2026-10-17T14:24:41+08:00",
+  "updated_at": "2026-10-17T14:24:41+08:00",
+  "before_sha256": "400cf857fd7d1a084bb44cb4f0b387cda220f679e88370784296314f96386d33",
+  "sha256": "a81a40dfff05c0bd437b99875baba5efc7f540c05ae9c59437aceb66d5aa65e2",
+  "input_snapshot": "audit-pending-round06-freeze-1410.json",
+  "input_sha256": "455b212b19fd80b644aa82c64e5592d07e35fc27fd462c99571dbd6fdebb4b57",
+  "result_count": 48,
+  "complete_link_count": 14,
+  "complete_version_count": 12,
+  "complete_hash_count": 12,
+  "complete_draft_count": 2,
+  "complete_drafts": [
+    {
+      "candidate_id": "R07-G5-DRAFT-ZERO-2025",
+      "version_class": "报批稿"
+    },
+    {
+      "candidate_id": "R08-CNASS-DRAFT-INDUSTRIAL-CONVERSION",
+      "version_class": "送审稿"
+    }
+  ],
+  "rating_counts": {
+    "A": 0,
+    "B": 16,
+    "C": 15,
+    "D": 17
+  },
+  "rating_scope_note": "B16包括14正式完整链接及2件完整草案阅读质量（报批/送审各1）",
+  "metadata_only_count": 1,
+  "additions": 8,
+  "replacements": 0,
+  "merged_candidate_ids": [
+    "R08-CNASS-212-2006",
+    "R08-CNASS-235-2008",
+    "R08-CNASS-333-2012",
+    "R08-CNASS-DRAFT-INDUSTRIAL-CONVERSION",
+    "R08-DRAFT-GREEN-RESIDENTIAL-LEJU",
+    "R08-WH-001",
+    "R08-WH-002",
+    "R08-WH-003"
+  ],
+  "old_freeze": "audit-results-freeze-1350.json",
+  "current_freeze": "audit-results-freeze-1410.json",
+  "old40_records_unchanged": true,
+  "history_preserved": true,
+  "new_complete_candidates": [
+    "R08-CNASS-212-2006",
+    "R08-CNASS-235-2008",
+    "R08-WH-001",
+    "R08-WH-002"
+  ],
+  "quality_limits": "数字重排本仅按所述本件目录范围闭合；122页脚裁字限制保留；333/287仍C，287不能仅凭占位号判草案；送审稿原稿问题保留。",
+  "canonical_frozen_until": "主控本轮本地封版；后续新GET另存独立pending",
+  "publication_status": "本角色未操作Git或远端；此1410快照发布状态由主控另登记"
+}

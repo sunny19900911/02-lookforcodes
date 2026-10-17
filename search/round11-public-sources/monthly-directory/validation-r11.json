@@ -1,0 +1,112 @@
+{
+  "generated_at": "2026-10-17T14:38:11.495632+08:00",
+  "file": "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\search\\round11-public-sources\\monthly-directory\\monthly-directory-r11.json",
+  "file_sha256": "141e8c0428f268cabb0bc9d4a4503f0b2c66739a74423e9c037af1444de18e45",
+  "summary": {
+    "source_count": 4,
+    "government_sources": 3,
+    "institute_supplement_sources": 1,
+    "source_row_record_count": 117,
+    "government_observed_record_count": 77,
+    "institute_supplement_record_count": 40,
+    "unique_resolved_number_year_count": 116,
+    "unresolved_number_year_record_count": 1,
+    "distinct_keys_in_master_snapshot": 112,
+    "distinct_keys_in_r09_snapshot": 0,
+    "distinct_keys_in_r10_snapshot": 0,
+    "distinct_candidate_keys_absent_all_three_snapshots": 4,
+    "within_batch_repeated_source_records": 0,
+    "source_location_complete_count": 117,
+    "new_full_text_pdf_count": 0,
+    "merged_into_master_count": 0
+  },
+  "by_source": [
+    {
+      "source_id": "ZIBO-MONTHLY-202510",
+      "source_category": "government",
+      "title_as_published": "2025年10月开始实施的工程建设标准",
+      "webpage_published_date": "2025-12-01",
+      "observed_cecs_row_count": 38
+    },
+    {
+      "source_id": "ZIBO-MONTHLY-202511",
+      "source_category": "government",
+      "title_as_published": "2025年11月开始实施的工程建设标准",
+      "webpage_published_date": "2025-12-01",
+      "observed_cecs_row_count": 25
+    },
+    {
+      "source_id": "ZIBO-MONTHLY-202512",
+      "source_category": "government",
+      "title_as_published": "2025年12月开始实施的工程建设标准",
+      "webpage_published_date": "2025-12-01",
+      "observed_cecs_row_count": 14
+    },
+    {
+      "source_id": "CBSI-MONTHLY-202508",
+      "source_category": "institute_public_information_platform",
+      "title_as_published": "2025年8月开始实施的工程建设标准",
+      "webpage_published_date": "2025-08-01",
+      "observed_cecs_row_count": 40
+    }
+  ],
+  "fresh_candidates": [
+    {
+      "number_year_key": "1861/2025",
+      "standard_name_as_published": "城镇湖泊治理中水生植物种植与养护技术规程",
+      "source_id": "CBSI-MONTHLY-202508",
+      "source_location": {
+        "table_ordinal": 2,
+        "table_row_ordinal": 12,
+        "html_source_line_start": 670,
+        "html_source_line_end": 670,
+        "locator_type": "actual_html_source_lines_and_table_cells",
+        "group_row_sequence": "10"
+      }
+    },
+    {
+      "number_year_key": "1865/2025",
+      "standard_name_as_published": "生活垃圾焚烧厂通风与除尘除臭系统设计标准",
+      "source_id": "CBSI-MONTHLY-202508",
+      "source_location": {
+        "table_ordinal": 2,
+        "table_row_ordinal": 16,
+        "html_source_line_start": 670,
+        "html_source_line_end": 670,
+        "locator_type": "actual_html_source_lines_and_table_cells",
+        "group_row_sequence": "14"
+      }
+    },
+    {
+      "number_year_key": "1867/2025",
+      "standard_name_as_published": "生活垃圾焚烧发电项目工程总承包管理标准",
+      "source_id": "CBSI-MONTHLY-202508",
+      "source_location": {
+        "table_ordinal": 2,
+        "table_row_ordinal": 18,
+        "html_source_line_start": 670,
+        "html_source_line_end": 670,
+        "locator_type": "actual_html_source_lines_and_table_cells",
+        "group_row_sequence": "16"
+      }
+    },
+    {
+      "number_year_key": "1870/2025",
+      "standard_name_as_published": "轻瓷应用技术规程",
+      "source_id": "CBSI-MONTHLY-202508",
+      "source_location": {
+        "table_ordinal": 2,
+        "table_row_ordinal": 21,
+        "html_source_line_start": 670,
+        "html_source_line_end": 670,
+        "locator_type": "actual_html_source_lines_and_table_cells",
+        "group_row_sequence": "19"
+      }
+    }
+  ],
+  "conflict_count": 0,
+  "gap_count": 1,
+  "standard_published_dates_all_null": true,
+  "raw_response_saved": false,
+  "old_inputs_modified": false
+}

@@ -1,0 +1,352 @@
+{
+  "checkpoint": "1410",
+  "checked_at": "2026-10-17T06:37:18.082Z",
+  "manifest_files": [
+    {
+      "path": "search/freeze-inputs-1320.json",
+      "sha256": "dba3baee49dcbfcdf5711f3175dfdc986b5369b55103a1034a2d8d1e2338024c",
+      "imported_at": "2026-10-17T06:31:38.023Z"
+    },
+    {
+      "path": "search/freeze-inputs-1330.json",
+      "sha256": "cbaca0e020a0490acd481ca458253bfa76f12d4f2504ef12723e274dd5d30ff4",
+      "imported_at": "2026-10-17T06:31:38.023Z"
+    },
+    {
+      "path": "search/freeze-inputs-1340.json",
+      "sha256": "964794e5ab1f8b044d495907e2da04a559fb0b211466708ce963b8c643472fb9",
+      "imported_at": "2026-10-17T06:31:38.023Z"
+    },
+    {
+      "path": "search/freeze-inputs-1340-water-mep-addendum-v2.json",
+      "sha256": "508185ceab7f8930993e1f0dfe37c6f1551350165134417f898eafc735609dda",
+      "imported_at": "2026-10-17T06:31:38.023Z"
+    },
+    {
+      "path": "search/freeze-inputs-g2-round02-share-1350.json",
+      "sha256": "42506bcb9964f302335cff5524621bdda7a9d0091dc876a9e126a67e02cfdd31",
+      "imported_at": "2026-10-17T06:31:38.023Z"
+    },
+    {
+      "path": "search/freeze-inputs-1400.json",
+      "sha256": "a02d910b3e4f1db769eda1d11e68ff7a9adb005ae2ed834bc0284f0e3b749519",
+      "imported_at": "2026-10-17T06:31:38.023Z"
+    },
+    {
+      "path": "search/master-authority/freeze-ttbz-p1-1410.json",
+      "sha256": "79b4ee21c539b0750e792c524fba0ae0d850d3112370a02aa3512d280bf6edf7",
+      "imported_at": "2026-10-17T06:31:38.023Z"
+    }
+  ],
+  "selected_file_count": 61,
+  "selected_files": [
+    {
+      "path": "search/candidates-round01.json",
+      "sha256": "269c926c45915d71fbc933cc99c9d4311404f4f474cbf886c0e3c131311d984d",
+      "bytes": 1837
+    },
+    {
+      "path": "search/candidates-round02.json",
+      "sha256": "c5e47067d5ff4b1d35d39eee894ec99639b9189f7a13b4aeae92bb3d7c5135b7",
+      "bytes": 5846
+    },
+    {
+      "path": "search/candidates-round03-tj-links.json",
+      "sha256": "5dd534bc4782aab1e130e304e0ec327967ef0aa8590ab526a5a14feb21476164",
+      "bytes": 5370
+    },
+    {
+      "path": "search/candidates-round04-g1-replacement.json",
+      "sha256": "fe532c56757af321021970d98f8272705f828221b37b4eae8d6ec2be445f615b",
+      "bytes": 1491
+    },
+    {
+      "path": "search/candidates-round05-nwafu.json",
+      "sha256": "355f492ffe5a047f7858b05b7c4ed2962386901a272555406be40a01fc841557",
+      "bytes": 7579
+    },
+    {
+      "path": "search/candidates-round06-g1-22-alternative.json",
+      "sha256": "cbbc32bfae0c3b5e9be146ca72de01db6fc2171a09e42eaf265460b5fa7a24ae",
+      "bytes": 1755
+    },
+    {
+      "path": "search/g2-public-routes/round01-candidates.json",
+      "sha256": "cf1f5ffd58afaf51ce4af17ea82c89a3fe7a7d8fca5d609ffa6b94773c4813a4",
+      "bytes": 12324
+    },
+    {
+      "path": "search/g2-public-routes/extension-preview-routes.json",
+      "sha256": "35d9f31ae6a78e99ccd59d3563ae5366c27e6a164729cef82a922e4b491e980c",
+      "bytes": 9369
+    },
+    {
+      "path": "search/baseline-external-routes/candidates-round01.json",
+      "sha256": "5445b8b9b666bdafddf5218e7f1589a8376ac8983f45faddf07b9f92b40eb5d3",
+      "bytes": 8337
+    },
+    {
+      "path": "search/baseline-external-routes/directory-round02.json",
+      "sha256": "c6da5961f9ec6f33d48d9bee75f5b10412a2cbc9b367ab19bb3c6e49b6bfad5f",
+      "bytes": 110181
+    },
+    {
+      "path": "search/baseline-external-routes/query-log-round01.json",
+      "sha256": "e2e94e5d3b17e439d6fb6c2f07263d75732285f7166d7fa97e18b07fb2b5da1f",
+      "bytes": 4850
+    },
+    {
+      "path": "search/baseline-external-routes/followup-661-links.json",
+      "sha256": "533d72af487070313ca0859a3f914888746aefeaa31775b714df8d1b8f9226a3",
+      "bytes": 2261
+    },
+    {
+      "path": "search/g1-round03-coverage.json",
+      "sha256": "4ee624738bd859cb844de53409e5f85fd97c5e40486e2e95b74b6c1e3a800ce7",
+      "bytes": 7264
+    },
+    {
+      "path": "search/query-ledger-r02.json",
+      "sha256": "3fc3ff0fd76cb7217eb3db4f0f6d0345e0ff93ede77060a85cbad3fec29407f4",
+      "bytes": 4282
+    },
+    {
+      "path": "search/quality-feedback-r03.json",
+      "sha256": "240486fe1cc43ac426a61bd377136bbfbddf4a32bc97bed0c5fe6e3ec5e4f95f",
+      "bytes": 2010
+    },
+    {
+      "path": "search/conflict-796-years.json",
+      "sha256": "9e9a81543bcf91df9242241eeccd527cd6377f925b3b6880fe3bd9a19c04805a",
+      "bytes": 2922
+    },
+    {
+      "path": "search/discussion-1320.md",
+      "sha256": "f71142bffa844ca076436b6d1a9ffae09a7bc87309edec491b81b00412a5f419",
+      "bytes": 4155
+    },
+    {
+      "path": "search/search-state.json",
+      "sha256": "9d5fc37b1a6f4eaa6c7c2d3c07a0bcc6c7c58f3225f9379c0cc66460ced91cba",
+      "bytes": 1125
+    },
+    {
+      "path": "search/round04-feedback-22.json",
+      "sha256": "2062939f8d227fa03aaa2349deef6f32cd43809b6f2aec4ef902548746ea9220",
+      "bytes": 1448
+    },
+    {
+      "path": "search/round04-metadata-102-edition.json",
+      "sha256": "0482bf38e3b8b4bea175cb4145e6f45b30ac494e0c7a5f0cd6485a7913d2e3a6",
+      "bytes": 1832
+    },
+    {
+      "path": "search/round04-102-route-gap.json",
+      "sha256": "9cf0c675b912c2b0fb87b2bc8c7b1bde2917c5d4fbd341d15888f82641403da4",
+      "bytes": 1186
+    },
+    {
+      "path": "search/round04-web-r29.json",
+      "sha256": "cb11a3078eda7cb040eb045ac9150727a0e477cb35f7e14170e73558aea8657a",
+      "bytes": 28491
+    },
+    {
+      "path": "search/round04-web-r30.json",
+      "sha256": "fc49a7398769acf934dcac3b77dc3159de8c92874512546dfd2ed84bf8d650a2",
+      "bytes": 13791
+    },
+    {
+      "path": "search/round04-web-r31.json",
+      "sha256": "d0c3745d7d86ce1c470bc9368aca7c5f214983eb1b8f575d8e6e8f16110f3a0a",
+      "bytes": 25854
+    },
+    {
+      "path": "search/round04-web-r32.json",
+      "sha256": "25d8e6721bb53203d4f41bbb75c2d35a350dbe32029f3dd8f0dd25ef4d93f678",
+      "bytes": 512
+    },
+    {
+      "path": "search/round04-661/routes-round04.json",
+      "sha256": "e32ccb6f2c84c28990f9a7c0c53f66ff20893be6b7c4b63e20133a863b1a19c4",
+      "bytes": 5987
+    },
+    {
+      "path": "search/round04-handoff.md",
+      "sha256": "fab23e02e56038c64adff12295ca7ad34ab8356d4cb02bab1dd52f8c26382a2b",
+      "bytes": 1758
+    },
+    {
+      "path": "search/round05-796-conflict-supplement.json",
+      "sha256": "339131c5eaa77bd64c7d38af676dcf473a4ae422c703fe7c84d98bacb0fb0f63",
+      "bytes": 2574
+    },
+    {
+      "path": "search/round05-web-r33.json",
+      "sha256": "eac97e1e90d09185b77e089e77a4570b068345cb7efc3aac2d9015f31f343108",
+      "bytes": 20774
+    },
+    {
+      "path": "search/discussion-1330.md",
+      "sha256": "6a32e199e26b0e52e2a8fd3a060002fa958bea0662be253e9ac3a09309b840b0",
+      "bytes": 2968
+    },
+    {
+      "path": "search/round07-broad-attachments/directory/directory-round07.json",
+      "sha256": "27ce91e260b48c6a60c6e51a883b7cfc0ed93a1b99b7d728e2d47c4c96d80e9f",
+      "bytes": 278162
+    },
+    {
+      "path": "search/round07-broad-attachments/directory/corrections-round02.json",
+      "sha256": "06ebd0ad2bc78d035cf4891a69e99b050afeeddda40a550de866b258dbb690ab",
+      "bytes": 870
+    },
+    {
+      "path": "search/round07-broad-attachments/green/candidates-r07-green.json",
+      "sha256": "1347f035b1de8b8bdbe13ed0b3cee53e6a9a96de960bdd0812172993b344d4a9",
+      "bytes": 5730
+    },
+    {
+      "path": "search/round07-broad-attachments/green/web-r34.json",
+      "sha256": "8a67848a219e82f6d7231d10763b35b1f0529afcbec528201720e2edeb638602",
+      "bytes": 31291
+    },
+    {
+      "path": "search/round07-broad-attachments/green/web-r35.json",
+      "sha256": "0245038a73d457460076ef0d0a3610bdf184fd947d23cf01c893a3c184740325",
+      "bytes": 25081
+    },
+    {
+      "path": "search/round07-broad-attachments/green/web-r36.json",
+      "sha256": "f100e5cede2c7ef01e33e68f50d179ca80a5fa7f090cbb1885b9d0c92ed036af",
+      "bytes": 24790
+    },
+    {
+      "path": "search/round07-broad-attachments/green/web-r37.json",
+      "sha256": "fba3a4bb2754c1b98e17f180428f695a9cb3b90d7da7faa28049bf9ccf172f99",
+      "bytes": 23061
+    },
+    {
+      "path": "search/round07-broad-attachments/green/web-r38.json",
+      "sha256": "1b492e54def73294afffa4cd9859e77c6c5d4a4a7d024ef0ff4947d802a82f60",
+      "bytes": 4170
+    },
+    {
+      "path": "search/round07-broad-attachments/green/web-r39.json",
+      "sha256": "6910ccd299bf12e4c45aa0bc206fea6c71a7b5c53eaf47f5c3ad61b0f6ea3525",
+      "bytes": 15256
+    },
+    {
+      "path": "search/round07-broad-attachments/receipt-2185.json",
+      "sha256": "45b05a158f49ddcb767de76e5d82c0345a123c54d2762b2710d8d6bb7bf59087",
+      "bytes": 1208
+    },
+    {
+      "path": "search/round07-broad-attachments/state-r07.json",
+      "sha256": "c73e535a0b67c05ee36d3284a0dc24e48ff6d3bee3d8cf83e57b411b068c400e",
+      "bytes": 1629
+    },
+    {
+      "path": "search/discussion-1340.md",
+      "sha256": "4471938d30c5e85e3aea8adfc7763936985e3eefb3f944ebd2bbcfeaf73f8aa7",
+      "bytes": 1647
+    },
+    {
+      "path": "search/round07-broad-attachments/water-mep/candidates-round07-water-mep-share-v2.json",
+      "sha256": "89e6f9ba3544c40986ad790f602a3b7d457db039d90a6eacc132f9aa2333dbcd",
+      "bytes": 18850
+    },
+    {
+      "path": "search/round07-broad-attachments/water-mep/query-ledger-r07-water-mep-share.json",
+      "sha256": "604fa38ac3b64be7f8d68711f9f6d4a0fe32b9bb50705fd09c60c6a3b7acb9d9",
+      "bytes": 3209
+    },
+    {
+      "path": "search/round07-broad-attachments/water-mep/addendum-r07-water-mep.json",
+      "sha256": "48974da1a0d0e8646a97e98d8268128096abfa2a7f9e9709b7f0e645c2e8b167",
+      "bytes": 941
+    },
+    {
+      "path": "search/round07-broad-attachments/water-mep/share-review-v2.json",
+      "sha256": "908d5ab9722ba0bc817641ba8b6173a1913fa45337bcb374c451c30571759377",
+      "bytes": 1110
+    },
+    {
+      "path": "search/g2-public-routes/round02-candidates-share.json",
+      "sha256": "ee529abf50038f080c441ba529370caa476ee21e442446ca8b638de86970111a",
+      "bytes": 14481
+    },
+    {
+      "path": "search/round08-public-expansion/candidates-r08-association.json",
+      "sha256": "71aeda678feab922cbf54ff1f5a1bd7b261dbaffcb72acb2181b49efd46789ca",
+      "bytes": 10909
+    },
+    {
+      "path": "search/round08-public-expansion/query-ledger-r08-root.json",
+      "sha256": "f2e9ac4b80083f9ca8f0dbaa0bc5bd3caf20471e0c45d394434b9b3a4f13d37a",
+      "bytes": 3424
+    },
+    {
+      "path": "search/round08-public-expansion/public-page-observations-r08-share.json",
+      "sha256": "d13e47a2eea062a4279b56e0eaafae87164ea072e514266754e4f47323281f41",
+      "bytes": 4996
+    },
+    {
+      "path": "search/round08-public-expansion/quality-feedback-r08-audit-1350.json",
+      "sha256": "090da252a0bc781b6d160e8d436458c913d96dacefe6fb43b87ab30fb7426bda",
+      "bytes": 8798
+    },
+    {
+      "path": "search/round08-public-expansion/water-historical/round08-water-historical-candidates.json",
+      "sha256": "223658d0a58498a9515d0bfdac01ef726a49da071bf518ba2a95c03cce027b22",
+      "bytes": 19384
+    },
+    {
+      "path": "search/round08-public-expansion/directory2/directory-round08.json",
+      "sha256": "e3bac1d3877707fc32c17c8b15b6d882333272c8f635ba402f0a04eb52786c81",
+      "bytes": 461037
+    },
+    {
+      "path": "search/round08-public-expansion/directory2/directory-conflicts.json",
+      "sha256": "776a6296bbcfa21341e2caf356515b14a244e2b0290c46a24b2c62ff3fcb948b",
+      "bytes": 2464
+    },
+    {
+      "path": "search/round08-public-expansion/directory2/raw-cells.json",
+      "sha256": "0734dd1298fed2b2132697002171c244d2c50c2774ca2bd1c384e8503dc1fc8b",
+      "bytes": 152395
+    },
+    {
+      "path": "search/round08-public-expansion/directory2/validation-summary.json",
+      "sha256": "0f8ae5e82f9f5fcebd6b8db5f321264f00b4cdb69cc58ab87efc5a571d825d33",
+      "bytes": 857
+    },
+    {
+      "path": "search/round08-public-expansion/directory2/front-matter-evidence.json",
+      "sha256": "1034e0698e2dc2898a3990bf94b26a3cc33ce5f34cb5071f95e30d27a446766c",
+      "bytes": 6649
+    },
+    {
+      "path": "search/round08-public-expansion/directory2/conflict-visual-check-r08.json",
+      "sha256": "739d7614421466820b240ff3424fdbdf4eeddd8f53aec0507fe04bc703fec42c",
+      "bytes": 3951
+    },
+    {
+      "path": "search/round08-public-expansion/state-r08.json",
+      "sha256": "8cc8e8046d7c9a49d020f24b783d46d44657870ff7e0827166f3a839d1bdd60d",
+      "bytes": 2479
+    },
+    {
+      "path": "search/discussion-1400.md",
+      "sha256": "74908f3f45b849f1623e62c4d5495cb6599cb883e566aecbba2543d02a14927b",
+      "bytes": 2712
+    },
+    {
+      "path": "search/master-authority/ttbz-ui-observed-20261017-p1.json",
+      "sha256": "da0251d1ee5dfe9dac0cac6721a7d3e793e40f596ebb9b028c38ebf977ad2cd7",
+      "bytes": 13044
+    }
+  ],
+  "selection_note": "Previous47 sharing inputs + frozen1400 thirteen + TTBZ first-page one =61; no R09/R10 or original G2/water raw/v1 inputs read.",
+  "audit_sha256": "a81a40dfff05c0bd437b99875baba5efc7f540c05ae9c59437aceb66d5aa65e2",
+  "all_selected_sha_bytes_verified": true
+}

@@ -1,0 +1,57 @@
+{
+  "source_id": "SEARCH-R10-INSTRUMENT-OBSERVATIONS-20261017",
+  "observations": [
+    {
+      "requested_url": "https://bjhcgk.com/html/61.html",
+      "checked_at": "2026-10-17T14:26:40+08:00",
+      "method": "ordinary anonymous GET; PDF signature prefix only, no full-PDF audit",
+      "http_status": 200,
+      "final_url": "https://bjhcgk.com/html/61.html",
+      "content_type": "text/html",
+      "pdf_prefix": false,
+      "cecs_rows": [
+        {
+          "label": "CECS 69:2011 拔出法检测混凝土强度技术规程.pdf",
+          "actual_pdf_urls": []
+        }
+      ]
+    },
+    {
+      "requested_url": "https://bjhcgk.com/html/1031.html",
+      "checked_at": "2026-10-17T14:26:40+08:00",
+      "method": "ordinary anonymous GET; PDF signature prefix only, no full-PDF audit",
+      "http_status": 200,
+      "final_url": "https://bjhcgk.com/html/1031.html",
+      "content_type": "text/html",
+      "pdf_prefix": false,
+      "cecs_rows": []
+    },
+    {
+      "requested_url": "https://bjhcgk.com/html/115.html",
+      "checked_at": "2026-10-17T14:26:40+08:00",
+      "method": "ordinary anonymous GET; PDF signature prefix only, no full-PDF audit",
+      "http_status": 200,
+      "final_url": "https://bjhcgk.com/html/115.html",
+      "content_type": "text/html",
+      "pdf_prefix": false,
+      "cecs_rows": []
+    },
+    {
+      "requested_url": "https://bjhcgk.com/upload/files/20230113/RWLQPGVG-20230113133107.pdf",
+      "checked_at": "2026-10-17T14:26:40+08:00",
+      "method": "ordinary anonymous GET; PDF signature prefix only, no full-PDF audit",
+      "http_status": 200,
+      "final_url": "https://bjhcgk.com/upload/files/20230113/RWLQPGVG-20230113133107.pdf",
+      "content_type": "application/pdf",
+      "pdf_prefix": true
+    },
+    {
+      "requested_url": "https://www.cctedu.net/lustersoft_file/source_file/e3145e1f-06b6-4c36-848c-ead86d7d39ff/c1c2a313-c99a-4221-a9e6-4f1b8d884edb/c44430cb-0b80-4111-92a2-c0b6f6f177c8.pdf",
+      "checked_at": "2026-10-17T14:26:40+08:00",
+      "method": "ordinary anonymous GET; PDF signature prefix only, no full-PDF audit",
+      "error_type": "URLError",
+      "error_summary": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.cctedu.net'. (_ssl.c:1032)>"
+    }
+  ],
+  "boundary": "Only structured labels/observed PDF routes and GET facts. No HTML, PDF bodies, transient parameters, credentials or completeness judgment."
+}

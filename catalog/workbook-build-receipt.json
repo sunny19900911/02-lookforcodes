@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-10-17T06:06:54.893Z",
+  "generated_at": "2026-10-17T06:31:38.023Z",
   "path": "catalog/CECS可下载PDF总表.xlsx",
   "sheets": [
     {
       "name": "规范总表",
-      "records": 889,
-      "columns": 25
+      "records": 1008,
+      "columns": 26
     },
     {
       "name": "已验完整PDF",
-      "records": 10,
+      "records": 14,
       "columns": 19
     },
     {
       "name": "完整草案PDF",
-      "records": 1,
+      "records": 2,
       "columns": 22
     },
     {
       "name": "链接明细",
-      "records": 134,
+      "records": 146,
       "columns": 43
     },
     {
@@ -29,52 +29,59 @@
     },
     {
       "name": "待查与问题",
-      "records": 828,
+      "records": 977,
       "columns": 10
     },
     {
       "name": "状态与来源依据",
-      "records": 1144,
+      "records": 1381,
       "columns": 14
     },
     {
       "name": "检索记录",
-      "records": 83,
+      "records": 93,
       "columns": 12
     },
     {
       "name": "说明与覆盖",
-      "records": 37,
+      "records": 42,
       "columns": 2
     },
     {
       "name": "变更记录",
-      "records": 1949,
+      "records": 2154,
       "columns": 8
     }
   ],
   "coverage": {
     "baseline_records_registered": 81,
     "baseline_standard_versions": 74,
-    "registered_standard_versions": 889,
-    "registered_links": 134,
-    "verified_complete_pdf_links": 10,
-    "verified_complete_standard_versions": 8,
-    "authority_records": 798,
-    "independent_audit_results": 40,
+    "registered_standard_versions": 1008,
+    "registered_links": 146,
+    "verified_complete_pdf_links": 14,
+    "verified_complete_standard_versions": 12,
+    "authority_records": 973,
+    "independent_audit_results": 48,
     "downloaded_parseable_pending": 9,
-    "verified_complete_unique_sha256": 8,
+    "verified_complete_unique_sha256": 12,
     "unresolved_unnumbered_drafts": 3,
-    "verified_complete_draft_pdf_links": 1,
-    "verified_complete_draft_versions": 1,
+    "unresolved_directory_version_gaps": 15,
+    "directory_nonstandard_or_parse_gaps": 3,
+    "verified_complete_draft_pdf_links": 2,
+    "verified_complete_draft_versions": 2,
     "supplemental_directory_records": 58,
     "round07_directory_observations": 137,
-    "directory_observation_count": 847,
+    "round08_directory_observations": 165,
+    "ttbz_observed_records": 10,
+    "directory_observation_count": 1022,
     "round07_directory_unique_identities": 135,
     "round07_directory_new_identities_against_frozen_master": 72,
-    "merge_net_new_identities": 78
+    "round08_directory_unique_identities": 156,
+    "round08_directory_new_identities_against_frozen_master": 112,
+    "ttbz_new_identities_against_frozen_master": 1,
+    "merge_net_new_identities": 119
   },
   "formula_errors": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
   "authoring_library": "@oai/artifact-tool",
-  "visual_review": "saved XLSX reimported and rendered: draft identity/scope/navigation, old22 status/basis, new22 navigation and 102 edition; visually checked"
+  "visual_review": "Saved XLSX reimported/rendered and visually checked: both draft identities/stages, four new formal B entries, TTBZ status/three separate dates, and both directory title conflicts."
 }

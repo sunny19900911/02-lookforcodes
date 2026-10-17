@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "source_id": "SEARCH-R10-DETECTION-20261017",
+  "recorded_at": "2026-10-17T14:28:00+08:00",
+  "boundary": "公开PDF候选，不声明完整/现行或转载授权；本轮普通GET只读PDF签名前64bytes，全文与公告仍由audit独立核验。",
+  "candidates": [
+    {
+      "candidate_id": "R10-69-2011-BJHCGK",
+      "source_id": "SEARCH-R10-69-2011-BJHCGK",
+      "seed_ids": [],
+      "standard_number": "CECS 69:2011",
+      "year": 2011,
+      "name": "拔出法检测混凝土强度技术规程",
+      "topic_group": "G4",
+      "draft_stage": "正式历史版候选，全文封面及版本待审；2026现行性未核",
+      "source_page": "https://bjhcgk.com/upload/files/20230113/RWLQPGVG-20230113133107.pdf",
+      "parent_page_status": "具体附件父页未确定；source_page为实际PDF。企业产品相关下载页有同名项，但本轮未从该项取到此PDF的明确href。",
+      "related_same_name_page": "https://bjhcgk.com/html/61.html",
+      "download_url": "https://bjhcgk.com/upload/files/20230113/RWLQPGVG-20230113133107.pdf",
+      "final_url": "https://bjhcgk.com/upload/files/20230113/RWLQPGVG-20230113133107.pdf",
+      "alternative_urls": ["https://pro5323b5d3-pic11.ysjianzhan.cn/upload/45CECS69-2011BCFJCHNTQDJSGC.pdf"],
+      "alternative_status": "公开搜索索引到的另一直接PDF，未GET；同host其他件曾403，不预断本URL状态，不等同已审备链。",
+      "permission_status": "北京海创高科企业官网托管公开附件，普通匿名GET200/application/pdf及PDF签名；未证明转载授权。",
+      "access_checked_at": "2026-10-17T14:26:40+08:00",
+      "access_method": "普通匿名GET，只读64bytes；非完整下载/完整性审查",
+      "complete_pdf": null,
+      "download_check_status": "实测PDF签名，全文与第85号公告待独立审查",
+      "relation_to_previous_candidate": "R09-HPU-69-2011本次GET404仍保留；本件是新的独立公开托管源，不覆盖旧失败记录。旧69:94历史本继续保留。"
+    },
+    {
+      "candidate_id": "R10-02-2005-CCTEDU",
+      "source_id": "SEARCH-R10-02-2005-CCTEDU",
+      "seed_ids": [],
+      "standard_number": "CECS 02:2005",
+      "year": 2005,
+      "name": "超声回弹综合法检测混凝土强度技术规程",
+      "topic_group": "G4",
+      "draft_stage": "正式历史版候选，封面/完整性未审",
+      "source_page": "https://www.cctedu.net/lustersoft_file/source_file/e3145e1f-06b6-4c36-848c-ead86d7d39ff/c1c2a313-c99a-4221-a9e6-4f1b8d884edb/c44430cb-0b80-4111-92a2-c0b6f6f177c8.pdf",
+      "download_url": "https://www.cctedu.net/lustersoft_file/source_file/e3145e1f-06b6-4c36-848c-ead86d7d39ff/c1c2a313-c99a-4221-a9e6-4f1b8d884edb/c44430cb-0b80-4111-92a2-c0b6f6f177c8.pdf",
+      "final_url": null,
+      "alternative_urls": [],
+      "parent_page_status": "未定位附件父页；source_page为公开索引PDF。",
+      "permission_status": "第三方公开索引托管路线；web超时，普通GET本次证书主机名不匹配而停止，未关闭TLS验证。转载授权未核。",
+      "access_checked_at": "2026-10-17T14:26:40+08:00",
+      "complete_pdf": null,
+      "download_check_status": "候选未取得；TLS证书失败不是永久失效结论。",
+      "quality_boundary": "既有02:2005本缺说明，本新索引不能仅据名称就认定更完整或是正式原排版。"
+    }
+  ],
+  "metadata_only": [
+    {
+      "source_id": "SEARCH-R10-21-2024-INSTRUMENT-ROUTE",
+      "standard_number": "T/CECS 21-2024",
+      "name": "超声法检测混凝土缺陷技术规程",
+      "source_page": "https://www.instrument.com.cn/download/shtml/1312365.shtml",
+      "download_url": null,
+      "observation": "检索可见17MB及前3页预览的介绍，web打开只返回图片，本轮未得公开直接PDF；仅元数据/待修路线，不计PDF候选。"
+    },
+    {
+      "source_id": "SEARCH-R10-CESHI17-DOWNLOAD-CENTER",
+      "source_page": "https://www.ceshi17.cn/download/",
+      "download_url": null,
+      "observation": "索引列CECS02:2005、220:2007、69:94；web本次502，未得实际附件href，不猜资源ID。"
+    }
+  ],
+  "excluded": [
+    {"source_url": "https://y-link.cn/uploads/20230703/3d1ef7ccb51f3aa501e645def0c2d7fc.pdf", "reason": "DB32/T4115-2021仅引用CECS596/597，非CECS全文。"},
+    {"source_url": "https://www.cecs.uci.edu/technical_report/TR03-02.pdf", "reason": "CECS为美国大学嵌入式系统中心缩写，不是中国工程建设标准化协会标准。"}
+  ]
+}

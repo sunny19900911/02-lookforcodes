@@ -1,0 +1,96 @@
+{
+  "source_id": "SEARCH-R11-QUERY-LEDGER-20261017",
+  "recorded_at_utc": "2026-10-17 06:40:16 UTC",
+  "calls": [
+    {
+      "source_id": "SEARCH-R11-WEB-54",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"CECS\" \"批准单位\" filetype:pdf -site:scribd.com -site:ebook.chinabuilding.com.cn"
+          },
+          {
+            "q": "\"CECS\" \"中国建筑工业出版社\" filetype:pdf -site:scribd.com -site:ebook.chinabuilding.com.cn"
+          },
+          {
+            "q": "\"CECS\" \"中国计划出版社\" \"前言\" filetype:pdf -site:scribd.com -site:ebook.chinabuilding.com.cn -学报"
+          },
+          {
+            "q": "\"CECS\" \"主编单位\" \"2017\" filetype:pdf -site:scribd.com -site:ebook.chinabuilding.com.cn"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "source_id": "SEARCH-R11-WEB-55",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://apextray.com/wp-content/uploads/2024/11/TCECS31-2017-Technical-Specification-for-Steel-Cable-Tray-Engineering.pdf"
+          },
+          {
+            "ref_id": "https://25978851.s21i.faiusr.com/61/ABUIABA9GAAgldCDsAYonZeS2gY.pdf"
+          },
+          {
+            "ref_id": "https://img.antpedia.com/standard/files/pdfs_ora/CN-CECS/762/CECS%20161-2004.pdf"
+          },
+          {
+            "ref_id": "https://www.cctc.cn/ttbz/bzgf/kjcg/kjcx/2017n/index.shtml"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "source_id": "SEARCH-R11-WEB-56",
+      "request": {
+        "search_query": [
+          {
+            "q": "site:apextray.com CECS filetype:pdf"
+          },
+          {
+            "q": "\"CECS\" \"施行日期\" \"2004\" filetype:pdf -site:scribd.com -site:ebook.chinabuilding.com.cn"
+          },
+          {
+            "q": "\"CECS\" \"施行日期\" \"2018\" filetype:pdf -site:scribd.com -site:ebook.chinabuilding.com.cn"
+          },
+          {
+            "q": "\"CECS\" \"施行日期\" \"2006\" filetype:pdf -site:scribd.com -site:ebook.chinabuilding.com.cn"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "source_id": "SEARCH-R11-WEB-57",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://aimg8.dlssyht.cn/u/1746078/ueditor/file/874/1746078/1637213419201475.pdf"
+          },
+          {
+            "ref_id": "https://12889079.s21i.faiusr.com/61/ABUIABA9GAAgp4vS0gUojLf40QQ.pdf"
+          },
+          {
+            "ref_id": "https://guangyuxc.com/app/3/16%E9%92%A2%E5%88%B6%E7%94%B5%E7%BC%86%E6%A1%A5%E6%9E%B6%E5%B7%A5%E7%A8%8B%E6%8A%80%E6%9C%AF%E8%A7%84%E7%A8%8BT_CECS31-2017.pdf"
+          },
+          {
+            "ref_id": "https://pro5323b5d3-pic11.ysjianzhan.cn/upload/94CECS165-2004CSDXTXSLGDGCSJGF.pdf"
+          }
+        ],
+        "response_length": "short"
+      }
+    }
+  ],
+  "query_count": 8,
+  "open_count": 8,
+  "results_summary": [
+    "封面主编/批准/施行词并排除出版试读与Scribd后，找到31-2017、1555-2024、200:2006、197:2006、165:2004五新实际PDF URL。web分别报64/30/96/34页，165本次Internal Error；不自评完整。",
+    "31另有guangyuxc真实索引备链未GET；41:2004另有ysj真实索引备用路线，已有版本不重计。",
+    "Antpedia161:2004 web报3页0文字，只单列短PDF路线，正文范围未独立核图。",
+    "CCTC2017编制成果表作为primary机构元数据路线，未本轮逐条结构化；已用绿色住区失败路线与489公告不重复为新标准全文。",
+    "搜索中出现被博彩内容替换的协会名介绍页、付费/会员/公众号验证码路线，未当权威来源或可用PDF。"
+  ],
+  "sharing_boundary": "只公开请求与结构化摘要；无原HTML/PDF、瞬时参数值、外部账户或Git。"
+}

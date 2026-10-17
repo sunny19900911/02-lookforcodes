@@ -1,0 +1,629 @@
+{
+  "checkpoint": "1410",
+  "checked_at": "2026-10-17T06:36:37.860Z",
+  "hashes": {
+    "master_sha256": "c78cabf007821b7bf79e0f7946fc84a5241c9cddb3c72ec83efadb7e1a4dce5d",
+    "xlsx_sha256": "d43f48f992396601ca9d5b35f25dafd86bc89ef3fc0aa2c32a78da6f26d77324",
+    "audit_sha256": "a81a40dfff05c0bd437b99875baba5efc7f540c05ae9c59437aceb66d5aa65e2",
+    "pending_audit_sha256": "455b212b19fd80b644aa82c64e5592d07e35fc27fd462c99571dbd6fdebb4b57"
+  },
+  "counts": {
+    "standards": 1008,
+    "links": 146,
+    "audits": 48,
+    "selected_files": 61,
+    "original_records": 81,
+    "formal_complete_links": 14,
+    "formal_complete_versions": 12,
+    "formal_complete_sha256": 12,
+    "complete_drafts": 2,
+    "directory_unique_source_rows": 973,
+    "directory_observations": 1022,
+    "round08_rows": 165,
+    "round08_unique_identities": 156,
+    "directory_net_new_identities": 112,
+    "ttbz_rows": 10,
+    "ttbz_net_new_identities": 1,
+    "unresolved_directory_entries": 18,
+    "non_pdf_new_identities": 2,
+    "total_net_new_identities": 119
+  },
+  "checks": [
+    {
+      "path": "/scope/checkpoint",
+      "passed": true
+    },
+    {
+      "path": "/identity/counts",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1candidates-round01.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1candidates-round02.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1candidates-round03-tj-links.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1candidates-round04-g1-replacement.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1candidates-round05-nwafu.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1candidates-round06-g1-22-alternative.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1g2-public-routes~1round01-candidates.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1g2-public-routes~1extension-preview-routes.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1g2-public-routes~1round02-candidates.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1baseline-external-routes~1candidates-round01.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1baseline-external-routes~1directory-round02.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1baseline-external-routes~1query-log-round01.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1baseline-external-routes~1followup-661-links.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1g1-round03-coverage.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1query-ledger-r02.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1quality-feedback-r03.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1conflict-796-years.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1discussion-1320.md",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1search-state.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round04-feedback-22.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round04-metadata-102-edition.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round04-102-route-gap.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round04-web-r29.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round04-web-r30.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round04-web-r31.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round04-web-r32.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round04-661~1routes-round04.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round04-handoff.md",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round05-796-conflict-supplement.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round05-web-r33.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1discussion-1330.md",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round07-broad-attachments~1directory~1directory-round07.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round07-broad-attachments~1directory~1corrections-round02.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round07-broad-attachments~1green~1candidates-r07-green.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round07-broad-attachments~1green~1web-r34.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round07-broad-attachments~1green~1web-r35.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round07-broad-attachments~1green~1web-r36.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round07-broad-attachments~1green~1web-r37.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round07-broad-attachments~1green~1web-r38.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round07-broad-attachments~1green~1web-r39.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round07-broad-attachments~1receipt-2185.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round07-broad-attachments~1state-r07.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1discussion-1340.md",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round07-broad-attachments~1water-mep~1candidates-round07-water-mep-share-v2.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round07-broad-attachments~1water-mep~1query-ledger-r07-water-mep-share.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round07-broad-attachments~1water-mep~1addendum-r07-water-mep.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round07-broad-attachments~1water-mep~1share-review-v2.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1g2-public-routes~1round02-candidates-share.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round08-public-expansion~1candidates-r08-association.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round08-public-expansion~1query-ledger-r08-root.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round08-public-expansion~1public-page-observations-r08-share.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round08-public-expansion~1quality-feedback-r08-audit-1350.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round08-public-expansion~1water-historical~1round08-water-historical-candidates.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round08-public-expansion~1directory2~1directory-round08.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round08-public-expansion~1directory2~1directory-conflicts.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round08-public-expansion~1directory2~1raw-cells.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round08-public-expansion~1directory2~1validation-summary.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round08-public-expansion~1directory2~1front-matter-evidence.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round08-public-expansion~1directory2~1conflict-visual-check-r08.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1round08-public-expansion~1state-r08.json",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1discussion-1400.md",
+      "passed": true
+    },
+    {
+      "path": "/manifests/duplicate/search~1master-authority~1ttbz-ui-observed-20261017-p1.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/count_and_scope",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1candidates-round01.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1candidates-round02.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1candidates-round03-tj-links.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1candidates-round04-g1-replacement.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1candidates-round05-nwafu.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1candidates-round06-g1-22-alternative.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1g2-public-routes~1round01-candidates.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1g2-public-routes~1extension-preview-routes.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1baseline-external-routes~1candidates-round01.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1baseline-external-routes~1directory-round02.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1baseline-external-routes~1query-log-round01.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1baseline-external-routes~1followup-661-links.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1g1-round03-coverage.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1query-ledger-r02.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1quality-feedback-r03.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1conflict-796-years.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1discussion-1320.md",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1search-state.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round04-feedback-22.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round04-metadata-102-edition.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round04-102-route-gap.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round04-web-r29.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round04-web-r30.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round04-web-r31.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round04-web-r32.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round04-661~1routes-round04.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round04-handoff.md",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round05-796-conflict-supplement.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round05-web-r33.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1discussion-1330.md",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round07-broad-attachments~1directory~1directory-round07.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round07-broad-attachments~1directory~1corrections-round02.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round07-broad-attachments~1green~1candidates-r07-green.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round07-broad-attachments~1green~1web-r34.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round07-broad-attachments~1green~1web-r35.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round07-broad-attachments~1green~1web-r36.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round07-broad-attachments~1green~1web-r37.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round07-broad-attachments~1green~1web-r38.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round07-broad-attachments~1green~1web-r39.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round07-broad-attachments~1receipt-2185.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round07-broad-attachments~1state-r07.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1discussion-1340.md",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round07-broad-attachments~1water-mep~1candidates-round07-water-mep-share-v2.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round07-broad-attachments~1water-mep~1query-ledger-r07-water-mep-share.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round07-broad-attachments~1water-mep~1addendum-r07-water-mep.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round07-broad-attachments~1water-mep~1share-review-v2.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1g2-public-routes~1round02-candidates-share.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round08-public-expansion~1candidates-r08-association.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round08-public-expansion~1query-ledger-r08-root.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round08-public-expansion~1public-page-observations-r08-share.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round08-public-expansion~1quality-feedback-r08-audit-1350.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round08-public-expansion~1water-historical~1round08-water-historical-candidates.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round08-public-expansion~1directory2~1directory-round08.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round08-public-expansion~1directory2~1directory-conflicts.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round08-public-expansion~1directory2~1raw-cells.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round08-public-expansion~1directory2~1validation-summary.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round08-public-expansion~1directory2~1front-matter-evidence.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round08-public-expansion~1directory2~1conflict-visual-check-r08.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1round08-public-expansion~1state-r08.json",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1discussion-1400.md",
+      "passed": true
+    },
+    {
+      "path": "/selected_files/receipt/search~1master-authority~1ttbz-ui-observed-20261017-p1.json",
+      "passed": true
+    },
+    {
+      "path": "/sharing/transient_query",
+      "passed": true
+    },
+    {
+      "path": "/audit/frozen_48",
+      "passed": true
+    },
+    {
+      "path": "/audit/old_40_unchanged",
+      "passed": true
+    },
+    {
+      "path": "/audit/new_eight_history_only",
+      "passed": true
+    },
+    {
+      "path": "/audit/ratings_and_caution",
+      "passed": true
+    },
+    {
+      "path": "/formal/counts",
+      "passed": true
+    },
+    {
+      "path": "/formal/gates_and_relations",
+      "passed": true
+    },
+    {
+      "path": "/draft/two_classes_separate",
+      "passed": true
+    },
+    {
+      "path": "/evidence/quality_is_ai_inference",
+      "passed": true
+    },
+    {
+      "path": "/directory/counts",
+      "passed": true
+    },
+    {
+      "path": "/ttbz/ten_observed_rows",
+      "passed": true
+    },
+    {
+      "path": "/directory/unresolved_entries",
+      "passed": true
+    },
+    {
+      "path": "/directory/same_number_title_conflicts",
+      "passed": true
+    },
+    {
+      "path": "/draft/industrial_identity_is_unique",
+      "passed": true
+    },
+    {
+      "path": "/non_pdf/two_metadata_only_routes",
+      "passed": true
+    },
+    {
+      "path": "/identity/net_addition_categories",
+      "passed": true
+    },
+    {
+      "path": "/regression/608_and_10065_10066",
+      "passed": true
+    },
+    {
+      "path": "/regression/102_edition",
+      "passed": true
+    },
+    {
+      "path": "/regression/22_status",
+      "passed": true
+    },
+    {
+      "path": "/regression/796_announcement",
+      "passed": true
+    },
+    {
+      "path": "/regression/81_mapping_and_four_metadata_routes",
+      "passed": true
+    },
+    {
+      "path": "/snapshot/unchanged_during_validation",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "snapshot_generated_at": "2026-10-17T06:31:38.023Z",
+  "transient_query_paths": [],
+  "passed": true
+}

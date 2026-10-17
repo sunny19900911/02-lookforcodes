@@ -1,0 +1,15 @@
+{
+  "source_id": "SEARCH-R09-69-GET-NEGATIVE-RECEIPT-20261017",
+  "recorded_at": "2026-10-17T14:23:24+08:00",
+  "statement_type": "原文事实（审查角色实际GET负结果回执；检索侧不重复GET）",
+  "source_file": "pdf-audit/audit-pending-round07.json",
+  "source_file_sha256_at_read": "639bce6a807b7785a0a7c91c8e5bcd585b3a85e08bc21a5f77b15230b836ce01",
+  "source_mutability": "仍pending；哈希只锁定读取时刻，不称已冻结。",
+  "candidate_id": "R09-HPU-69-2011",
+  "requested_url": "https://tmky.hpu.edu.cn/__local/C/50/C1/BC5CAAF66018396E9CD63FC4EDE_B2D81413_DFC9E.pdf?e=.pdf",
+  "checked_at": "2026-10-17T14:20:50+08:00",
+  "http_status": 404,
+  "observation": "web能解析23页不替代本次独立实际GET；本次404未得本地PDF，不说永久失效。",
+  "historical_event_boundary": "第85号公告尚未核图，不据本候选确认69:94废止事件。",
+  "complete_pdf": false
+}

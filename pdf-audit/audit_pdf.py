@@ -46,8 +46,13 @@ def inspect(c):
       r['pdf_header_valid']=bool(re.search(br'%PDF-\d\.\d',header))
       if not r['pdf_header_valid']:
         data=p.read_bytes()[:3000].decode('utf-8','replace')
-        r.update(download_status='HTML伪PDF或非PDF响应',error=data[:350],recommendation_reason='实际GET响应没有PDF文件头')
-        if re.search(r'login|登录|signin',data,re.I):r['download_status']='需登录'
+        r.update(download_status='HTML或其他非PDF响应',error='NonPDFResponse: response lacks PDF signature',recommendation_reason='实际GET响应没有PDF文件头',non_pdf_response_sha256=hashlib.sha256(p.read_bytes()).hexdigest())
+        # Do not copy raw HTML or transient challenge/query values into reports.
+        if re.search(r'captcha|sgcaptcha|人机验证|验证码',data,re.I):
+          r.update(download_status='本次返回HTML验证页面，未取得PDF',non_pdf_response_class='verification_challenge',access_requirement='未尝试操作或绕过页面验证')
+        elif re.search(r'login|登录|signin',data,re.I):
+          r.update(non_pdf_response_class='html_with_login_markers',access_requirement='HTML含登录标记；是否必须登录未核')
+        else:r['non_pdf_response_class']='html_or_other_non_pdf'
         return r
       r['sha256']=hashlib.sha256(p.read_bytes()).hexdigest(); r['local_path']=str(p)
       reader=PdfReader(str(p),strict=True)
@@ -130,7 +135,8 @@ def inspect(c):
       if r.get('pdf_header_valid'):r['download_status']='PDF已取得，但解析异常待核（非网络失败）'
       if isinstance(e,urllib.error.HTTPError):
         r['http_status']=e.code
-        r['download_status']='需登录或访问受限' if e.code in [401,403] else ('失效HTTP404' if e.code==404 else 'HTTP错误未获得PDF')
+        r['http_error_response_url']=e.geturl()
+        r['download_status']=f'本次HTTP{e.code}访问受限，是否需登录未知' if e.code in [401,403] else ('本次HTTP404未取得PDF' if e.code==404 else 'HTTP错误未获得PDF')
     r['elapsed_seconds']=round(time.monotonic()-started,2)
     return r
 

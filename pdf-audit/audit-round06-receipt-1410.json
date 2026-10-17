@@ -1,0 +1,56 @@
+{
+  "checkpoint": "1410",
+  "frozen_at": "2026-10-17T14:13:34+08:00",
+  "status": "independent_pending_freeze_not_canonical",
+  "snapshot": "audit-pending-round06-freeze-1410.json",
+  "sha256": "455b212b19fd80b644aa82c64e5592d07e35fc27fd462c99571dbd6fdebb4b57",
+  "updated_at": "2026-10-17T14:12:53+08:00",
+  "pending_count": 8,
+  "new_get_count": 8,
+  "new_parseable_pdfs": 7,
+  "new_tls_failures": 1,
+  "formal_complete_added": 4,
+  "complete_draft_added": 1,
+  "pending_ratings": {
+    "B": 5,
+    "C": 2,
+    "D": 1
+  },
+  "source_inputs": [
+    {
+      "path": "search/round08-public-expansion/candidates-r08-association.json",
+      "sha256": "71aeda678feab922cbf54ff1f5a1bd7b261dbaffcb72acb2181b49efd46789ca"
+    },
+    {
+      "path": "search/round08-public-expansion/water-historical/round08-water-historical-candidates.json",
+      "sha256": "223658d0a58498a9515d0bfdac01ef726a49da071bf518ba2a95c03cce027b22"
+    },
+    {
+      "path": "search/freeze-inputs-1400.json",
+      "sha256": "a02d910b3e4f1db769eda1d11e68ff7a9adb005ae2ed834bc0284f0e3b749519"
+    }
+  ],
+  "canonical_count": 40,
+  "canonical_sha256": "400cf857fd7d1a084bb44cb4f0b387cda220f679e88370784296314f96386d33",
+  "prospective_after_authorized_merge": {
+    "result_count": 48,
+    "formal_complete_links": 14,
+    "formal_complete_versions": 12,
+    "formal_complete_hashes": 12,
+    "complete_drafts": 2,
+    "ratings": {
+      "D": 17,
+      "C": 15,
+      "B": 16
+    }
+  },
+  "boundaries": [
+    "No canonical merge until a new master checkpoint authorization.",
+    "PDF/image evidence remains local; no Git or publication operations by audit role.",
+    "4 formal B=212:2006/235:2008/122:2001/17:2000, qualified by per-file scope.",
+    "Complete63-page送审稿 is reading-quality B, excluded from formal complete set.",
+    "333 stays C: unproved omitted blank pages and12 wrong links;287 stays C: nominal formal number with publication identity unclosed and5 wrong links.",
+    "TLS failure does not imply permanent dead link or login.",
+    "Original GET PDF reused after fixing surrogate-safe evidence serialization; no redownload and no false damaged-PDF conclusion."
+  ]
+}

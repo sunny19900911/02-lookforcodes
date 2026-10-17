@@ -1,0 +1,18 @@
+{
+  "checked_at": "2026-10-17T14:16:19+08:00",
+  "reviewer": "audit_method_check独立只读第二审",
+  "pending_sha256": "455b212b19fd80b644aa82c64e5592d07e35fc27fd462c99571dbd6fdebb4b57",
+  "canonical_sha256": "400cf857fd7d1a084bb44cb4f0b387cda220f679e88370784296314f96386d33",
+  "result": "通过：8唯一新增ID、7PDF/1TLS、正式完整4/完整送审1、B5C2D1；来源三哈希与回执匹配；287未误计草案、122裁字限制保留",
+  "prospective_result_count": 48,
+  "prospective_formal_complete_links": 14,
+  "prospective_formal_versions": 12,
+  "prospective_formal_hashes": 12,
+  "prospective_complete_drafts": 2,
+  "prospective_ratings": {
+    "B": 16,
+    "C": 15,
+    "D": 17
+  },
+  "canonical_modified": false
+}

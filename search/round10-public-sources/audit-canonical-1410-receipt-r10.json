@@ -1,0 +1,17 @@
+{
+  "source_id": "SEARCH-R10-AUDIT-CANONICAL-1410-RECEIPT",
+  "recorded_at": "2026-10-17T14:31:20+08:00",
+  "statement_type": "原文事实（审查冻结及其回执读取）",
+  "source_path": "pdf-audit/audit-results-freeze-1410.json",
+  "sha256": "a81a40dfff05c0bd437b99875baba5efc7f540c05ae9c59437aceb66d5aa65e2",
+  "result_count": 48,
+  "source_receipt_path": "pdf-audit/freeze-1410-receipt.json",
+  "source_receipt_sha256": "d71f1bc3f3dd5089cfe1b5baac22d652b8cfd8dea23585950c05d5ef7b9b3943",
+  "audit_reported_counts": {
+    "formal_complete_links": 14,
+    "formal_complete_versions": 12,
+    "formal_complete_hashes": 12,
+    "complete_drafts_separate": 2
+  },
+  "boundary": "此为14:24:41审查canonical；不是本R10新候选已审，也不代表该canonical已发布GitHub。R09/R10继续独立pending。"
+}

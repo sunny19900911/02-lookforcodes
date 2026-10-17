@@ -1,0 +1,50 @@
+{
+  "generated_at": "2026-10-17T14:20:16.767126+08:00",
+  "file": "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\search\\round09-new-sources\\recent-directory\\recent-directory-r09.json",
+  "file_sha256": "91436f5d85fa8df1861994d71566f38a72e3a126a3b6c84ac3f02a5ef470436d",
+  "summary": {
+    "record_count": 138,
+    "unique_resolved_number_year_count": 137,
+    "unresolved_number_year_record_count": 1,
+    "source_count": 3,
+    "records_already_in_master_snapshot": 0,
+    "records_not_in_master_snapshot": 137,
+    "source_location_complete_count": 138,
+    "title_date_conflict_records": 33,
+    "new_full_text_pdf_count": 0,
+    "merged_into_master_count": 0
+  },
+  "by_source": [
+    {
+      "source_id": "QD-MONTHLY-202501",
+      "title_as_published": "2025年1月开始实施的工程建设标准",
+      "webpage_published_date": "2024-12-27",
+      "cecs_table_row_count": 43,
+      "effective_dates": [
+        "2025-01-01"
+      ]
+    },
+    {
+      "source_id": "QD-MONTHLY-202505",
+      "title_as_published": "2025年5月开始实施的工程建设标准",
+      "webpage_published_date": "2025-04-27",
+      "cecs_table_row_count": 62,
+      "effective_dates": [
+        "2025-05-01"
+      ]
+    },
+    {
+      "source_id": "QD-PAGE-20250821-10071258",
+      "title_as_published": "2024年9月开始实施的工程建设标准",
+      "webpage_published_date": "2025-08-21",
+      "cecs_table_row_count": 33,
+      "effective_dates": [
+        "2025-09-01"
+      ]
+    }
+  ],
+  "duplicate_keys": {},
+  "standard_published_dates_all_null": true,
+  "raw_response_saved": false,
+  "note": "numbers not in the catalog snapshot are candidates only, not newly merged master records"
+}

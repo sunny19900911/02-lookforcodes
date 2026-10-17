@@ -70,7 +70,7 @@ if 'CECS-102-2002-FORMAL-E2012' in standards:
     assert edition['published_date'] is None and edition['effective_date'] is None
 if 'CECS-796-2021-FORMAL' in standards:
     assert standards['CECS-796-2021-FORMAL']['name']=='屋面结构雪荷载设计标准'
-if master['scope'].get('checkpoint')=='1350':
+if master['scope'].get('checkpoint') in ('1350','1410'):
     assert standards['CECS-22-2005-FORMAL']['withdrawal_date']=='2025-04-01'
     assert standards['CECS-22-2005-FORMAL']['current_status'].startswith('已废止')
     standard_rows={workbook['规范总表'].cell(r,17).value:r for r in range(9,9+len(master['standards']))}
@@ -78,6 +78,16 @@ if master['scope'].get('checkpoint')=='1350':
     assert workbook['规范总表'].cell(row,5).value.startswith('已废止')
     assert workbook['规范总表'].cell(row,24).value.date().isoformat()=='2025-04-01'
     assert '第5页' in workbook['规范总表'].cell(row,25).value
+if master['scope'].get('checkpoint')=='1410':
+    assert len(draft_links)==2
+    assert {l['version_class'] for l in draft_links}=={'报批稿','送审稿'}
+    for d in master['external']['ttbz_public_dom']['standards']:
+        row=standard_rows[next(s['standard_id'] for s in master['standards'] if s.get('public_announcement_date')==d['public_announcement_date'] and s['year']==int(d['year']) and s['standard_number'].replace(' ','')==d['standard_number'].replace(' ',''))]
+        assert workbook['规范总表'].cell(row,5).value=='现行（全国团体平台标注）'
+        assert workbook['规范总表'].cell(row,26).value.date().isoformat()==d['public_announcement_date']
+    for sid in ('CECS-1137-2022-FORMAL','CECS-22-2012-FORMAL'):
+        row=standard_rows[sid]
+        assert '待核' in workbook['规范总表'].cell(row,2).value
 receipt={'checked_at_utc':__import__('datetime').datetime.now(__import__('datetime').timezone.utc).isoformat(),'xlsx_sha256':hashlib.sha256(book.read_bytes()).hexdigest(),'bytes':book.stat().st_size,'sheets':[{ 'name':s.title,'rows':s.max_row,'columns':s.max_column,'freeze_panes':s.freeze_panes} for s in workbook], 'native_hyperlinks':len(hyperlinks),'error_cells':len(errors),'all_81_original_mappings':True,'counts_reconciled':True,'complete_pdf_required_fields':True}
 (root/'workbook-validation.json').write_text(json.dumps(receipt,ensure_ascii=False,indent=2),encoding='utf-8')
 print(json.dumps(receipt,ensure_ascii=False))

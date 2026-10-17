@@ -24,7 +24,10 @@ if search.exists():
                    and not set(p.relative_to(search).parts).intersection({'node_modules', '__pycache__', 'downloads-temp', 'renders'}))
 for src in sorted(sources):
     rel = src.relative_to(OUTPUT)
-    if (rel.as_posix() in PRIVATE_INPUTS or src.suffix.lower() not in ALLOWED or re.search(r'(^|[-_])(web|raw)[-_]', src.name)
+    has_share_projection = (src.suffix.lower() == '.json' and '-share' not in src.stem
+        and (src.with_name(src.stem + '-share.json').exists()
+             or any(src.parent.glob(src.stem + '-share-v*.json'))))
+    if (has_share_projection or rel.as_posix() in PRIVATE_INPUTS or src.suffix.lower() not in ALLOWED or re.search(r'(^|[-_])(web|raw)[-_]', src.name)
             or src.name in {'page-extraction.json', 'table-rows.json', 'candidates-round07-water-mep.json'} or src.is_symlink()):
         skipped.append({'path': str(rel), 'reason': 'outside metadata allowlist'})
         continue

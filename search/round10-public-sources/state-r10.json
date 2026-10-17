@@ -1,0 +1,80 @@
+{
+  "source_id": "SEARCH-R10-CHECKPOINT-1430-20261017",
+  "recorded_at": "2026-10-17T14:31:20+08:00",
+  "new_pdf_candidate_routes": 2,
+  "new_foundation_candidates": 0,
+  "detection_get_200_pdf_prefix": 1,
+  "detection_tls_hostname_failure": 1,
+  "foundation_query_count": 40,
+  "source_rows": 142,
+  "government_rows": 13,
+  "institute_supplement_rows": 129,
+  "resolved_unique_number_years": 128,
+  "unresolved_code_rows": 1,
+  "cross_source_repeated_records": 13,
+  "number_years_absent_master_and_r09": 127,
+  "merge_count": 0,
+  "root_candidate_header_time_resolution": "候选文件14:28:00为分钟级记录时间；实际访问14:26:40见instrument-observations。",
+  "audit_canonical_count": 48,
+  "audit_formal_complete_links": 14,
+  "audit_formal_versions": 12,
+  "audit_complete_drafts_separate": 2,
+  "search_added_complete_count": 0,
+  "old_freeze_integrity": [
+    {
+      "manifest": "search/freeze-inputs-1320.json",
+      "files": 19,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-round04.json",
+      "files": 9,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-1330.json",
+      "files": 12,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-1340.json",
+      "files": 12,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-1340-water-mep-addendum.json",
+      "files": 3,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-1340-water-mep-addendum-v2.json",
+      "files": 4,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-g2-round02-share-1350.json",
+      "files": 1,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-1400.json",
+      "files": 13,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-1420.json",
+      "files": 11,
+      "unchanged": true,
+      "failures": []
+    }
+  ],
+  "boundary": "历史状态不确认2026现行，公开可取不证明转载授权；无Git、账户访问、原PDF/PNG/HTML共享或瞬时参数值。"
+}

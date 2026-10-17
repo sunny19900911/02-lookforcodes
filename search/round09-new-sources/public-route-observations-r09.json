@@ -1,0 +1,39 @@
+{
+  "source_id": "SEARCH-R09-PUBLIC-ROUTE-OBSERVATIONS-20261017",
+  "statement_type": "原文事实（匿名GET签名观察，非全文审查）",
+  "observations": [
+    {
+      "requested_url": "https://www.uibim.com/wp-content/uploads/2025/02/8e20c59990bd0f2.pdf",
+      "checked_at": "2026-10-17T14:18:06+08:00",
+      "method": "ordinary anonymous GET, first64bytes only, not full-PDF audit",
+      "error_type": "URLError",
+      "error_summary": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+    },
+    {
+      "requested_url": "https://www.ttbz.org.cn/Home/PdfFileStreamGet/c3RuLDE1MTIxNA%28eq%29%28eq%29",
+      "checked_at": "2026-10-17T14:18:06+08:00",
+      "method": "ordinary anonymous GET, first64bytes only, not full-PDF audit",
+      "http_status": 403,
+      "error_type": "HTTPError",
+      "observation": "本次访问状态；不推断登录要求或永久失效。"
+    },
+    {
+      "requested_url": "https://www.ttbz.org.cn/Home/PdfFileStreamGet/c3QsMTUxMDQ5",
+      "checked_at": "2026-10-17T14:18:06+08:00",
+      "method": "ordinary anonymous GET, first64bytes only, not full-PDF audit",
+      "http_status": 403,
+      "error_type": "HTTPError",
+      "observation": "本次访问状态；不推断登录要求或永久失效。"
+    },
+    {
+      "requested_url": "https://static1.tianyancha.com/czd_file/standard/30d8c78389ad4736c5f36a3b8365f980.pdf",
+      "checked_at": "2026-10-17T14:18:06+08:00",
+      "method": "ordinary anonymous GET, first64bytes only, not full-PDF audit",
+      "http_status": 200,
+      "final_url": "https://static1.tianyancha.com/czd_file/standard/30d8c78389ad4736c5f36a3b8365f980.pdf",
+      "content_type": "application/pdf",
+      "pdf_prefix": true,
+      "observation": "仅签名/响应类型；不证明版本或完整性。"
+    }
+  ]
+}

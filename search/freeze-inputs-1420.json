@@ -1,0 +1,115 @@
+{
+  "producer": "search",
+  "checkpoint": "14:20",
+  "checked_at": "2026-10-17T14:23:24+08:00",
+  "frozen": true,
+  "input_file_count": 11,
+  "previous_freeze_integrity": [
+    {
+      "manifest": "search/freeze-inputs-1320.json",
+      "files": 19,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-round04.json",
+      "files": 9,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-1330.json",
+      "files": 12,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-1340.json",
+      "files": 12,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-1340-water-mep-addendum.json",
+      "files": 3,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-1340-water-mep-addendum-v2.json",
+      "files": 4,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-g2-round02-share-1350.json",
+      "files": 1,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-1400.json",
+      "files": 13,
+      "unchanged": true,
+      "failures": []
+    }
+  ],
+  "note": "仅结构化分享。根候选选share，不复制原文件；6候选不增加完整数，预览/403元数据/138目录行分开。原PDF/PNG/HTML/瞬时下载参数值不入manifest。",
+  "files": [
+    {
+      "path": "search/round09-new-sources/candidates-r09-root-share.json",
+      "sha256": "e06bc88574152717b0aa0e49bcce149f436f19701079be3e9ece13c297856ef3",
+      "bytes": 12326
+    },
+    {
+      "path": "search/round09-new-sources/query-ledger-r09-root.json",
+      "sha256": "5ad5cd6072dea89f002ca2eb9e707432a288377804a60965a42505f20b04d526",
+      "bytes": 3582
+    },
+    {
+      "path": "search/round09-new-sources/public-route-observations-r09.json",
+      "sha256": "67865e6ca44bfdc9d71e52a06ebe24aaa9de69b47be366a035b7ef95a96bd2c6",
+      "bytes": 1864
+    },
+    {
+      "path": "search/round09-new-sources/quality-feedback-r09-audit-1410.json",
+      "sha256": "bca69bee62f62dcfe0dac3f1ce6d787baae27b8771094d41359e254fb35b5ae9",
+      "bytes": 11452
+    },
+    {
+      "path": "search/round09-new-sources/audit-observation-69-r09.json",
+      "sha256": "5799c9ab8d89ba357c5446b9c80b748dd70ee0b020718cde195a9be1f4c444af",
+      "bytes": 942
+    },
+    {
+      "path": "search/round09-new-sources/validation-r09-root.json",
+      "sha256": "afecc9418caa12e85e68905810d777b320d6cc00077edbb2f3ca4d29fd65a430",
+      "bytes": 1015
+    },
+    {
+      "path": "search/round09-new-sources/water-mep/round09-water-mep-candidates.json",
+      "sha256": "172817225816b9cfcfbb52a591ef87ea15e4a551bd360a2e22a42dbe50beaadd",
+      "bytes": 15251
+    },
+    {
+      "path": "search/round09-new-sources/recent-directory/recent-directory-r09.json",
+      "sha256": "91436f5d85fa8df1861994d71566f38a72e3a126a3b6c84ac3f02a5ef470436d",
+      "bytes": 234257
+    },
+    {
+      "path": "search/round09-new-sources/recent-directory/validation-r09.json",
+      "sha256": "cbf05885958c9f70f5c73d12ec2cde2a3b6e06e1cc33a667aae4e5e54673924c",
+      "bytes": 1782
+    },
+    {
+      "path": "search/round09-new-sources/state-r09.json",
+      "sha256": "9d0cccd353a3e78bf503159bbf5558ba67db73396d46c6759cd3eac8c850a77e",
+      "bytes": 2520
+    },
+    {
+      "path": "search/discussion-1420.md",
+      "sha256": "90d0d510e438bdbb3dea28ad12a58c85c692fe75c0373272197ebbf7f91dd502",
+      "bytes": 2563
+    }
+  ]
+}

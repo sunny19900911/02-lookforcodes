@@ -1,0 +1,289 @@
+{
+  "schema_version": "cecs-public-search-r10-foundation-v1",
+  "batch_id": "R10-FOUNDATION-FIRST",
+  "source_id": "SEARCH-R10-FOUNDATION-20261017",
+  "started_at": "2026-10-17T14:25:02+08:00",
+  "frozen_at": "2026-10-17T14:29:38+08:00",
+  "candidate_count": 0,
+  "draft_candidate_count": 0,
+  "candidates": [],
+  "draft_candidates": [],
+  "result": "本轮未取得通过普通GET确认的、去重后的新地基基础/桩基CECS PDF候选。",
+  "dedup": {
+    "checked_at": "2026-10-17T14:25:02+08:00",
+    "master_path": "C:/Users/mj528/Documents/004 工作/web-demo/outputs/cecs-master-20261017/catalog/cecs-master.json",
+    "master_key": "links.requested_url",
+    "search_scope": "search/**/*candidate*.json 中递归download_url",
+    "search_candidate_json_files": 19,
+    "parse_errors": 0,
+    "unique_existing_urls": 153,
+    "technique": "内存SHA256精确URL比对，不输出旧URL参数值",
+    "note": "776/147两新URL不在此快照；22-2024学术站URL已有。无新候选进入主表。"
+  },
+  "blocked_routes": [
+    {
+      "source_id": "SRC-R10-F-BLOCK-001",
+      "seed_ids": [],
+      "standard_number": "T/CECS 776-2020",
+      "standard_name": "水泥土筒桩技术规程",
+      "year": 2020,
+      "source_page": "https://pro5323b5d3-pic11.ysjianzhan.cn/upload/1T-CECS776-2020SNTTZJSGC.pdf",
+      "original_url": "https://pro5323b5d3-pic11.ysjianzhan.cn/upload/1T-CECS776-2020SNTTZJSGC.pdf",
+      "final_url": null,
+      "format": "PDF（索引）",
+      "is_draft": false,
+      "status": "搜索索引元数据，不作为可访问候选",
+      "parent_page_status": "未定位具体父页；托管CDN所属网站及参编身份未核实",
+      "metadata_evidence": [
+        {
+          "kind": "搜索索引封面片段",
+          "evidence": "索引可见T/CECS776-2020、题名及主编辽宁伟业岩土科技有限公司/福建省建筑科学研究院有限责任公司；仅索引证据"
+        }
+      ],
+      "access": {
+        "method": "普通GET",
+        "checked_at": "2026-10-17T14:28:07+08:00",
+        "http_status": 403,
+        "pdf_saved": false
+      },
+      "action": "首次本URL普通GET403即停止；未换会话、请求头、代理或登录方式",
+      "permissions": "不可据搜索索引断言公开下载许可或可访问性"
+    },
+    {
+      "source_id": "SRC-R10-F-BLOCK-002",
+      "seed_ids": [],
+      "standard_number": "CECS 147:2016",
+      "standard_name": "加筋水泥土桩锚技术规程",
+      "year": 2016,
+      "source_page": "https://pro5323b5d3-pic11.ysjianzhan.cn/upload/5CECS147-2016JJSNTZMJSGC.pdf",
+      "original_url": "https://pro5323b5d3-pic11.ysjianzhan.cn/upload/5CECS147-2016JJSNTZMJSGC.pdf",
+      "final_url": null,
+      "format": "PDF（索引）",
+      "is_draft": false,
+      "status": "搜索索引元数据，不作为可访问候选",
+      "parent_page_status": "未定位具体父页；托管CDN所属网站及参编身份未核实",
+      "metadata_evidence": [
+        {
+          "kind": "搜索索引",
+          "evidence": "索引可见CECS147:2016及加筋水泥土桩锚内容；未GET到封面"
+        }
+      ],
+      "access": {
+        "method": "普通GET",
+        "checked_at": "2026-10-17T14:28:07+08:00",
+        "http_status": 403,
+        "pdf_saved": false
+      },
+      "action": "首次本URL普通GET403即停止；未绕过",
+      "permissions": "不可据搜索索引断言公开下载许可或可访问性"
+    }
+  ],
+  "duplicate_or_invalid_routes": [
+    {
+      "source_id": "SRC-R10-F-DUP-001",
+      "seed_ids": [],
+      "standard_number": "T/CECS 22-2024",
+      "standard_name": "岩土锚杆技术规程",
+      "year": 2024,
+      "source_page": "https://www.zhanggenbao.com/",
+      "detail_url": null,
+      "original_url": "https://www.zhanggenbao.com/wp-content/uploads/2025/12/TCECS-22-2024-%E5%B2%A9%E5%9C%9F%E9%94%9A%E6%9D%86%E6%8A%80%E6%9C%AF%E8%A7%84%E7%A8%8B.pdf",
+      "final_url": "https://www.zhanggenbao.com/wp-content/uploads/2025/12/TCECS-22-2024-%E5%B2%A9%E5%9C%9F%E9%94%9A%E6%9D%86%E6%8A%80%E6%9C%AF%E8%A7%84%E7%A8%8B.pdf/",
+      "existing_candidate_download_url": true,
+      "access": {
+        "method": "普通GET",
+        "checked_at": "2026-10-17T14:26:05+08:00",
+        "http_status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "pdf_signature": false,
+        "bytes_read": 16,
+        "pdf_saved": false
+      },
+      "metadata_evidence": [
+        {
+          "kind": "普通GET及web.open",
+          "evidence": "尾斜杠重定向，返回研究组首页HTML；不能据.pdf路径判断PDF。"
+        }
+      ],
+      "action": "重复且非PDF，排除；未保存HTML响应"
+    }
+  ],
+  "notice_only_index_routes": [
+    {
+      "source_id": "SRC-R10-F-NOTICE-001",
+      "standard_number": "T/CECS 781-2020",
+      "url": "https://qxb-img-osscache.qixin.com/standards/fcfbcccc652e5a4b305766bbdab80200.pdf",
+      "observation": "索引显示发布《短螺旋挤土灌注桩技术规程》的公告；未GET，未判定为规范正文"
+    },
+    {
+      "source_id": "SRC-R10-F-NOTICE-002",
+      "standard_number": "T/CECS 1316-2023",
+      "url": "https://qxb-img-osscache.qixin.com/standards/0552c80cd6f50146574326eb3ac27c02.pdf",
+      "observation": "索引显示发布《能量桩桥面除冰融雪系统技术规程》的公告；未GET，未判定为规范正文"
+    },
+    {
+      "source_id": "SRC-R10-F-NOTICE-003",
+      "standard_number": "T/CECS 892-2021",
+      "url": "https://qxb-img-osscache.qixin.com/standards/f747fe8db3d7145ac47c5e90d4c2076a.pdf",
+      "observation": "索引显示发布《潜孔冲击高压喷射注浆桩技术规程》的公告；未GET，未判定为规范正文"
+    }
+  ],
+  "query_count": 40,
+  "query_batches": [
+    {
+      "batch_id": "R10-F-Q01",
+      "queries": [
+        "\"CECS\" filetype:pdf \"桩\" \"技术规程\" -ttbz -guifanku -doc88 -book118 -bzko",
+        "\"CECS\" filetype:pdf \"地基\" site:gov.cn",
+        "\"CECS\" filetype:pdf \"基础\" site:edu.cn -article -参考文献",
+        "\"CECS\" filetype:pdf \"桩基\" \"主编\" -ttbz -guifanku -doc88 -book118 -bzko"
+      ],
+      "outcome": "索引命中776、标准目录、政府勘察报告引用；未访问TTBZ返回项。",
+      "time_window": "2026-10-17T14:25:02+08:00/2026-10-17T14:28:31+08:00"
+    },
+    {
+      "batch_id": "R10-F-Q02",
+      "queries": [
+        "\"CECS\" \"载体桩\" \"pdf\" -ttbz -guifanku -bzko -doc88 -book118",
+        "\"CECS\" \"螺杆灌注桩\" \"pdf\" -ttbz -guifanku -bzko -doc88 -book118",
+        "\"CECS\" filetype:pdf \"桩\" -ttbz -guifanku -bzko -doc88 -book118 -ysjianzhan -gongbiaoku -shigongdaquan",
+        "\"CECS\" \"地基\" \"下载\" \"技术规程\" -ttbz -guifanku -bzko -book118 -doc88 -taodocs"
+      ],
+      "outcome": "命中601/780/515/279/96等第三方目录和付费预览；发现147真实静态PDF索引。",
+      "time_window": "2026-10-17T14:25:02+08:00/2026-10-17T14:28:31+08:00"
+    },
+    {
+      "batch_id": "R10-F-Q03",
+      "queries": [
+        "\"CECS\" \"桩\" \"征求意见稿\" \"pdf\" -ttbz -book118 -guifanku -doc88 -bzko",
+        "\"CECS\" \"地基\" \"征求意见稿\" \"pdf\" -ttbz -book118 -guifanku -doc88 -bzko",
+        "\"CECS\" filetype:pdf \"foundation\" -ttbz -book118 -guifanku -doc88 -bzko",
+        "\"CECS\" filetype:pdf \"锚杆\" -ttbz -book118 -guifanku -doc88 -bzko -article -参考文献"
+      ],
+      "outcome": "锚杆查询命中张根宝站22-2024实际URL；其余多为第三方预览/论文/非中国CECS同名项。",
+      "time_window": "2026-10-17T14:25:02+08:00/2026-10-17T14:28:31+08:00"
+    },
+    {
+      "batch_id": "R10-F-Q04",
+      "queries": [
+        "\"CECS\" \"桩\" \"pdf\" \"中淳\"",
+        "\"CECS\" \"桩\" \"pdf\" \"建华\"",
+        "\"CECS\" \"基础\" \"pdf\" site:cecs.org.cn",
+        "\"CECS\" \"桩\" \"pdf\" site:china-gec.com"
+      ],
+      "outcome": "厂家定向命中582/738/932/601等第三方目录，未定位厂家自身PDF href。",
+      "time_window": "2026-10-17T14:25:02+08:00/2026-10-17T14:28:31+08:00"
+    },
+    {
+      "batch_id": "R10-F-Q05",
+      "queries": [
+        "\"CECS\" \"地基\" \"附件\" -site:ttbz.org.cn -site:guifanku.com -site:bzko.com -site:doc88.com -site:max.book118.com",
+        "\"CECS\" \"桩\" \"下载\" site:org.cn -site:ttbz.org.cn",
+        "\"CECS\" \"桩\" filetype:pdf site:com.cn -site:ysjianzhan.cn -site:guifanku.com -site:bzko.com -site:book118.com",
+        "\"CECS\" \"水泥土筒桩\" \"附件\" -site:ttbz.org.cn"
+      ],
+      "outcome": "附件路线多为科技公示/检测细则/名录/企业报告，未冒充标准正文。",
+      "time_window": "2026-10-17T14:25:02+08:00/2026-10-17T14:28:31+08:00"
+    },
+    {
+      "batch_id": "R10-F-Q06",
+      "queries": [
+        "\"载体桩施工技术规程\" \"pdf\" -site:ttbz.org.cn -site:book118.com -site:guifanku.com -site:bzko.com -site:doc88.com",
+        "\"静钻根植桩技术规程\" \"pdf\" -site:ttbz.org.cn -site:book118.com -site:guifanku.com -site:bzko.com -site:doc88.com",
+        "\"CECS\" \"桩\" filetype:pdf site:qixin.com",
+        "\"CECS\" \"基础\" filetype:pdf site:mystuff.com.cn"
+      ],
+      "outcome": "发现781/1316/892的第三方公告PDF索引，未作为规范全文候选；标题不符的通道草案排除。",
+      "time_window": "2026-10-17T14:25:02+08:00/2026-10-17T14:28:31+08:00"
+    },
+    {
+      "batch_id": "R10-F-Q07",
+      "queries": [
+        "\"CECS 22\" filetype:pdf site:gov.cn",
+        "\"CECS 96\" filetype:pdf site:org.cn -site:ttbz.org.cn",
+        "\"CECS 279\" filetype:pdf -site:book118.com -site:guifanku.com -site:bzko.com -site:doc88.com -site:ttbz.org.cn",
+        "\"CECS\" \"抗浮\" \"附件\" \"pdf\" -site:book118.com -site:guifanku.com -site:bzko.com -site:doc88.com -site:ttbz.org.cn"
+      ],
+      "outcome": "政府/协会结果为其他标准中的引用、检测机构范围和论文，未得相应CECS标准PDF。",
+      "time_window": "2026-10-17T14:25:02+08:00/2026-10-17T14:28:31+08:00"
+    },
+    {
+      "batch_id": "R10-F-Q08",
+      "queries": [
+        "site:geoseu.cn \"CECS\" \"pdf\"",
+        "\"CECS\" \"旋挖\" \"pdf\" -site:ttbz.org.cn -site:guifanku.com -site:bzko.com -site:doc88.com -site:book118.com",
+        "\"CECS\" \"灌注桩\" \"pdf\" -site:ttbz.org.cn -site:guifanku.com -site:bzko.com -site:doc88.com -site:book118.com -site:ysjianzhan.cn -site:qixin.com -site:webfree.net",
+        "\"CECS\" \"基坑\" \"pdf\" -site:ttbz.org.cn -site:guifanku.com -site:bzko.com -site:doc88.com -site:book118.com -site:ysjianzhan.cn -site:qixin.com"
+      ],
+      "outcome": "旋挖/灌注桩/基坑多为第三方目录、付费预览和非CECS附件；未取付费内容。",
+      "time_window": "2026-10-17T14:25:02+08:00/2026-10-17T14:28:31+08:00"
+    },
+    {
+      "batch_id": "R10-F-Q09",
+      "queries": [
+        "\"CECS\" \"pdf\" site:zju.edu.cn \"标准\" \"桩\"",
+        "\"CECS\" \"pdf\" site:hhu.edu.cn \"技术规程\"",
+        "\"CECS\" \"pdf\" site:ecjtu.edu.cn -article",
+        "\"CECS\" \"基础\" \"下载\" \"主编\" \"附件\" -site:ttbz.org.cn"
+      ],
+      "outcome": "大学定向未得新的CECS规范PDF；返回内容多为预览和引用。",
+      "time_window": "2026-10-17T14:25:02+08:00/2026-10-17T14:28:31+08:00"
+    },
+    {
+      "batch_id": "R10-F-Q10",
+      "queries": [
+        "\"CECS\" \"微型桩\" \"征求意见\" -site:ttbz.org.cn -site:guifanku.com -site:book118.com -site:cndao.com",
+        "\"CECS\" \"1182\" \"pdf\" -site:ttbz.org.cn -site:guifanku.com -site:book118.com -site:bzko.com",
+        "\"CECS\" \"预制桩\" \"下载\" \"公司\" -site:ttbz.org.cn -site:guifanku.com -site:book118.com -site:bzko.com",
+        "\"CECS 22\" \"pdf\" \"工勘\" -site:ttbz.org.cn -site:guifanku.com -site:book118.com -site:bzko.com"
+      ],
+      "outcome": "未得新公开附件；厂家主页有标准参编/送审新闻，未定位可用规范PDF href。",
+      "time_window": "2026-10-17T14:25:02+08:00/2026-10-17T14:28:31+08:00"
+    }
+  ],
+  "coverage_gaps": [
+    {
+      "standards": [
+        "T/CECS 776-2020",
+        "CECS 147:2016"
+      ],
+      "gap": "有真实公开搜索索引URL，但本轮普通GET403；父页/网站主体/权限未知，不作为新候选"
+    },
+    {
+      "standards": [
+        "T/CECS 601-2019",
+        "T/CECS 780-2020",
+        "T/CECS 738-2020",
+        "T/CECS 515-2018",
+        "T/CECS 932-2021",
+        "T/CECS 1182-2022"
+      ],
+      "gap": "仅目录、元数据或第三方预览，未定位优先机构/厂家可访问PDF href"
+    },
+    {
+      "standards": [
+        "CECS 22:2005",
+        "CECS 96:1997",
+        "CECS 279:2010"
+      ],
+      "gap": "政府/大学/协会定向结果主要为引用/名录/论文，未得独立标准附件"
+    },
+    {
+      "standards": [
+        "桩基/地基基础草案（未编号）"
+      ],
+      "gap": "结果多为付费预览/TTBZ或非目标标准，未访问TTBZ、不猜附件地址"
+    }
+  ],
+  "restrictions": {
+    "ttbz_opened": false,
+    "login_used": false,
+    "bypass_403": false,
+    "pdf_saved": false,
+    "raw_html_saved": false,
+    "transient_parameter_values_saved": false,
+    "old_inputs_modified": false,
+    "git_used": false,
+    "full_text_review": "未执行，不声明完整或现行有效"
+  }
+}

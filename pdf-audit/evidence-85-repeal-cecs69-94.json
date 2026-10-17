@@ -1,0 +1,30 @@
+{
+  "evidence_id": "PDF-CECS-85-REPEAL-20261017",
+  "source_id": "PDF-CECS-85-REPEAL-20261017",
+  "statement_type": "原文事实（实际PDF公告图像，双审目视）",
+  "checked_at": "2026-10-17T14:37:16+08:00",
+  "candidate_id": "R10-69-2011-BJHCGK",
+  "source_url": "https://bjhcgk.com/upload/files/20230113/RWLQPGVG-20230113133107.pdf",
+  "pdf_sha256": "aacaa7444f7b6dff165737cb5a4acef2aced0ad9afcfd089d78880f5aa6dda4f",
+  "pdf_physical_page": 2,
+  "page_side": "左半页",
+  "printed_page": null,
+  "position_note": "同页右半为前言，公告无印刷folio；另PDF16右印25修订说明记批准日期/公告85",
+  "announcement_issuer": "中国工程建设标准化协会",
+  "announcement_number": "85",
+  "announcement_date": "2011-06-22",
+  "implementation_date": "2011-10-01",
+  "repealed_standard_number": "CECS 69:94",
+  "repealed_standard_title": "后装拔出法检测混凝土强度技术规程",
+  "repeal_effective_date": "2011-10-01",
+  "quote": "自2011年10月1日起施行。原《后装拔出法检测混凝土强度技术规程》CECS 69：94同时废止。",
+  "evidence_image": "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R10-69-2011-BJHCGK\\page-002-upper-inspection.png",
+  "corroborating_image": "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R10-69-2011-BJHCGK\\page-016-upper-inspection.png",
+  "review_method": "第二审与root220dpi实际图像核对；未据OCR或搜索摘要确认",
+  "boundaries": [
+    "仅确认本公告所载历史废止事件；不推断69:2011在2026现行。",
+    "旧69:94历史文件继续保留；旧HPU404候选不覆盖。",
+    "新69:2011全PDF仍为C，公告事件证据与整件完整性分别判断。",
+    "文件及PNG仅留本地，未上传GitHub。"
+  ]
+}

@@ -1,7 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import crypto from 'node:crypto';
-import {createAuditIdentity,updateAuditIdentity,auditCompletenessFields} from './audit-identity-core.mjs';
+import {createAuditIdentity,updateAuditIdentity,auditCompletenessFields,matchUnnumberedAuditCandidate} from './audit-identity-core.mjs';
 import {cleanSharingExternal} from './sharing-projection-core.mjs';
 
 const root = path.resolve(import.meta.dirname, '..');
@@ -32,11 +32,12 @@ function identify(raw, explicitYear=null, explicitStage=null) {
   if(!number || number==='XXX') issues.push('标准编号不完整，待核实');
   if(year===null) issues.push('标准年份缺失或不完整，待核实');
   const report=/报批/.test(text) || /报批/.test(explicitStage??'');
+  const review=/送审/.test(text) || /送审/.test(explicitStage??'');
   const draft=/征求意见|202X|XXX/i.test(text) || /征求意见|草案/.test(explicitStage??'');
-  const stage=report?'报批稿':draft?'征求意见稿':'正式文本候选';
+  const stage=report?'报批稿':review?'送审稿':draft?'征求意见稿':'正式文本候选';
   const edition=(text.match(/(?:19|20)\d{2}年版/)?.[0]??null);
   const editionYear=edition?Number(edition.slice(0,4)):null;
-  const identity=number && number!=='XXX'?`${family}-${number.replace(/[:]/g,'_')}-${year??'YEAR-UNKNOWN'}-${stage==='报批稿'?'APPROVAL-DRAFT':stage==='征求意见稿'?'CONSULT-DRAFT':'FORMAL'}${editionYear?`-E${editionYear}`:''}`:`CECS-UNRESOLVED-${slug(text)}`;
+  const identity=number && number!=='XXX'?`${family}-${number.replace(/[:]/g,'_')}-${year??'YEAR-UNKNOWN'}-${stage==='报批稿'?'APPROVAL-DRAFT':stage==='送审稿'?'REVIEW-DRAFT':stage==='征求意见稿'?'CONSULT-DRAFT':'FORMAL'}${editionYear?`-E${editionYear}`:''}`:`CECS-UNRESOLVED-${slug(text)}`;
   let name=text.replace(/\.(?:pdf|docx?|zip)$/i,'').replace(/^T\s*[\/_\-]?\s*CHES\s*\d+[-:]\d{4}\s*/i,'');
   name=name.replace(/(?:T\s*[\/_\-]?\s*)?CECS(?:[\s_\-]*T)?[\s_\-]*(?:G\s*[:：]\s*[A-Z]\d+(?:-\d+)?|\d+|XXX)(?:(?:\s*[:：\-]\s*|\s+)(?:19\d{2}|20\d{2}|\d{2}|202X)(?!\d))?(?:-T)?/i,'').replace(/(?:19|20)\d{2}年版/,'').replace(/[《》【】_]/g,' ').replace(/征求意见稿|报批稿|作废|废止/g,'').replace(/\s*-\s*\d{8}$/,'').replace(/^[\s-]+|[\s-]+$/g,'').replace(/\s+/g,' ');
   const prefix=/(?:T\s*[\/_\-]?\s*CECS|CECS[\s_\-]*T|CECS\s*\d+\s*[:\-]\s*\d{4}\s*-T)/i.test(text)?'T/CECS':'CECS';
@@ -82,13 +83,15 @@ for(const r of seed.items){
 const receipts=[];
 const receiptCache=new Map();
 async function receipt(file){if(receiptCache.has(file))return receiptCache.get(file);const j=await readJson(file);if(!j)return null;const raw=await fs.readFile(file,'utf8');receipts.push({path:path.relative(root,file).replace(/\\/g,'/'),sha256:sha(raw),imported_at:now});receiptCache.set(file,j);return j;}
-const checkpoint=process.argv.includes('--checkpoint1350')?'1350':process.argv.includes('--checkpoint1330')?'1330':process.argv.includes('--checkpoint1320')?'1320':null;
+const checkpoint=process.argv.includes('--checkpoint1410')?'1410':process.argv.includes('--checkpoint1350')?'1350':process.argv.includes('--checkpoint1330')?'1330':process.argv.includes('--checkpoint1320')?'1320':null;
+const has1350=['1350','1410'].includes(checkpoint),has1330=['1330','1350','1410'].includes(checkpoint);
 const searchManifests=[];
-if(checkpoint){searchManifests.push(await receipt(path.join(root,'search/freeze-inputs-1320.json')));if(['1330','1350'].includes(checkpoint))searchManifests.push(await receipt(path.join(root,'search/freeze-inputs-1330.json')));}
-if(checkpoint==='1350')for(const name of ['freeze-inputs-1340.json','freeze-inputs-1340-water-mep-addendum-v2.json','freeze-inputs-g2-round02-share-1350.json'])searchManifests.push(await receipt(path.join(root,'search',name)));
+if(checkpoint){searchManifests.push(await receipt(path.join(root,'search/freeze-inputs-1320.json')));if(has1330)searchManifests.push(await receipt(path.join(root,'search/freeze-inputs-1330.json')));}
+if(has1350)for(const name of ['freeze-inputs-1340.json','freeze-inputs-1340-water-mep-addendum-v2.json','freeze-inputs-g2-round02-share-1350.json'])searchManifests.push(await receipt(path.join(root,'search',name)));
+if(checkpoint==='1410')for(const name of ['freeze-inputs-1400.json','master-authority/freeze-ttbz-p1-1410.json'])searchManifests.push(await receipt(path.join(root,'search',name)));
 const manifestEntries=new Map();for(const m of searchManifests)for(const e of m.files){if(manifestEntries.has(e.path)&&manifestEntries.get(e.path).sha256!==e.sha256)throw new Error(`Conflicting frozen source: ${e.path}`);manifestEntries.set(e.path,e);}
 // Select the reviewed sharing projection before reading any legacy raw candidate.
-if(checkpoint==='1350')manifestEntries.delete('search/g2-public-routes/round02-candidates.json');
+if(has1350)manifestEntries.delete('search/g2-public-routes/round02-candidates.json');
 const searchManifest=checkpoint?{checkpoint,files:[...manifestEntries.values()],manifests:searchManifests,input_file_count:manifestEntries.size}:null;
 if(searchManifest){for(const e of searchManifest.files){const bytes=await fs.readFile(path.join(root,e.path));if(bytes.length!==e.bytes||sha(bytes)!==e.sha256)throw new Error(`Frozen search input changed: ${e.path}`);if(!e.path.endsWith('.json'))receipts.push({path:e.path,sha256:e.sha256,imported_at:now,content_kind:'text reference; not a data row'});}}
 
@@ -100,11 +103,13 @@ for(const file of selectedSearchFiles.sort()){
   const rootMetadata=j?.standard_number&&j?.metadata_evidence?[{...j,candidate_id:`META-${slug(j.standard_number+(j.edition_note??''))}`,discovery_evidence:j.quality_boundary??j.permission}]:[];
   const supplemented=j?.supplement_only?external.search.find(x=>x.candidate_id===j.candidate_id):null;
   const supplements=supplemented?[{...supplemented,...j,alternative_urls:(j.historical_links??[]).flatMap(h=>[h.url,h.https_variant].filter(Boolean)),discovery_evidence:j.summary}]:[];
-  for(const raw of [...rootMetadata,...(j?.candidates??[]),...(j?.draft_candidates??[]),...supplements,...(j?.metadata_only??[]).map(x=>({...x,candidate_id:`META-${slug(x.standard_number)}`,discovery_evidence:x.download_status??x.search_route_lead})),...(j?.zero_candidate_or_pending_routes??[]).map(x=>({...x,candidate_id:`META-ROUTE-${slug(x.standard_number)}`,download_url:null,alternative_urls:[],discovery_evidence:x.transient_parameter_note??x.status})),...(j?.no_direct_candidate??[]).map(x=>({...x,candidate_id:`LEAD-${slug(x.standard_number)}`,discovery_evidence:x.reference_limit,metadata_evidence:[{source_url:x.metadata_reference,claim:x.reference_limit}]}))]){
-    const c={...raw,download_url:raw.download_url??raw.direct_url??null,source_page:raw.source_page??raw.detail_url??raw.metadata_reference??raw.direct_url??null,alternative_urls:raw.alternative_urls??raw.alternate_urls??raw.backup_urls??[],discovered_by_query:raw.discovered_by_query??raw.discovery_query??null,discovery_evidence:raw.discovery_evidence??[raw.version_candidate,raw.permission_observed,raw.english_name_from_source?`来源英文名：${raw.english_name_from_source}`:null,raw.next_check].filter(Boolean).join('；'),topic_group:raw.topic_group??(file.includes('g2-public-routes')?'G2':null)};
+  for(const raw of [...rootMetadata,...(j?.candidates??[]),...(j?.draft_candidates??[]),...supplements,...(j?.metadata_only??[]).map(x=>({...x,candidate_id:`META-${slug(x.standard_number)}`,discovery_evidence:x.download_status??x.search_route_lead})),...(j?.metadata_only_non_pdf_routes??[]).map(x=>({...x,candidate_id:`META-NONPDF-${slug(x.document_url)}`,standard_number:x.name_raw,name:x.name_raw.match(/《([^》]+)》/)?.[1]??null,download_url:null,discovery_evidence:x.counting_boundary,metadata_evidence:[{source_url:x.source_page,source_id:x.source_id,claim:`附件原名：${x.name_raw}；格式${x.format}；${x.counting_boundary}`}]})),...(j?.zero_candidate_or_pending_routes??[]).map(x=>({...x,candidate_id:`META-ROUTE-${slug(x.standard_number)}`,download_url:null,alternative_urls:[],discovery_evidence:x.transient_parameter_note??x.status})),...(j?.no_direct_candidate??[]).map(x=>({...x,candidate_id:`LEAD-${slug(x.standard_number)}`,discovery_evidence:x.reference_limit,metadata_evidence:[{source_url:x.metadata_reference,claim:x.reference_limit}]}))]){
+    const c={...raw,name:raw.name??raw.standard_name??null,download_url:raw.download_url??raw.direct_url??null,source_page:raw.source_page??raw.detail_url??raw.metadata_reference??raw.direct_url??null,alternative_urls:raw.alternative_urls??raw.alternate_urls??raw.backup_urls??raw.alternates??[],discovered_by_query:raw.discovered_by_query??raw.discovery_query??null,discovery_evidence:raw.discovery_evidence??[raw.version_candidate,raw.permission_observed,raw.english_name_from_source?`来源英文名：${raw.english_name_from_source}`:null,raw.next_check].filter(Boolean).join('；'),topic_group:raw.topic_group??(file.includes('g2-public-routes')?'G2':null)};
     const p=identify(`${c.standard_number??''} ${c.name??''} ${c.edition_note??c.edition_label??''}`,c.year,c.draft_stage);
     const mapped=(c.seed_ids??[]).map(id=>original.find(x=>x.seed_id===id)?.standard_id).map(id=>standards.get(id)).find(x=>x);
     let s=(mapped?.standard_id===p.id?mapped:null)??addStandard(p.id,{standard_number:p.published_code_candidate,name:c.name??(p.name||'中文名称待封面核准'),year:p.year,version_stage:p.stage,edition_label:p.edition_label});
+    if(!p.number||p.number==='XXX')s.placeholder_code_observations=[...(s.placeholder_code_observations??[]),{context:'检索候选原始编号',standard_number:c.standard_number,source_id:c.candidate_id}];
+    if(c.document_url){s.non_pdf_routes=[...(s.non_pdf_routes??[]),{document_url:c.document_url,format:c.format,source_id:c.source_id,source_page:c.source_page,original_name:c.name_raw}];s.issues.push(c.counting_boundary);}
     if(c.source_id==='CABP-BOOK-105427-20261017'){
       s.edition_note=c.edition_note;s.metadata_date_layers=[{context:'出版方网页字段原值',published_date:'2012-04-24',effective_date:'2012-04-24',withdrawn_label:'废止',withdrawal_date:null},{context:'试读书内施行日期（搜索解析，待直接核封面）',effective_date:'2003-03-01',edition_printing:'2012年7月第3版；2015年1月第11次印刷'}];
       s.issues.push('2012年版保持编号CECS102:2002；网页2012-04-24与书内2003-03-01日期分层保留，主实施日期暂不择值；网页废止日为空，不补猜');
@@ -171,13 +176,14 @@ for(const i of supplementalDirectory?.issues??[]){
   if(standards.has(sid))standards.get(sid).issues.push(`${i.type}：${i.evidence} ${i.handling}`);
 }
 
-const round07Directory=checkpoint==='1350'?await receipt(path.join(root,'search/round07-broad-attachments/directory/directory-round07.json')):null;
-for(const d of round07Directory?.records??[]){
+const round07Directory=has1350?await receipt(path.join(root,'search/round07-broad-attachments/directory/directory-round07.json')):null;
+const round08Directory=checkpoint==='1410'?await receipt(path.join(root,'search/round08-public-expansion/directory2/directory-round08.json')):null;
+for(const directDirectory of [round07Directory,round08Directory].filter(Boolean))for(const d of directDirectory.records??[]){
   // These are numbered entries. The enclosing directory's own draft stage is not theirs.
   const p=identify(`${d.standard_number} ${d.name}`,d.year);
   const s=addStandard(p.id,{standard_number:d.standard_number,name:d.name,year:p.year,version_stage:p.stage,standard_family:d.standard_family});
   if(s.name!==d.name){s.name_variants=[...new Set([...(s.name_variants??[]),s.name,d.name])];s.issues.push(`直接目录题名差异：${s.name} / ${d.name} [${d.source_id}]`);}
-  const eid=addEvidence({standard_id:s.standard_id,kind:'直接政府PDF目录（非规范全文）',statement_type:d.evidence_type,source_id:d.source_id,source_url:d.source_pdf,source_page:d.source_page,source_date:d.source_publication_date,observed_at:round07Directory.checked_at,source_printed_page:d.source_printed_page,pdf_page_one_based:d.pdf_page_one_based,source_text:d.raw_cells.join(' / '),claim:`直接PDF目录原题名：${d.name}；原号：${d.raw_standard_number}；日期格：${d.date_cell_raw??''}；历史状态：${d.historical_status_raw??''}`,applicability:`目录不是规范全文，混合日期格不写实施日期；${d.directory_stage}；${d.standard_version_stage}；不据此确认2026现行性`,raw_record:d});
+  const eid=addEvidence({standard_id:s.standard_id,kind:'直接政府PDF目录（非规范全文）',statement_type:d.evidence_type??'原文事实（直接政府PDF表格解析）',source_id:d.source_id,source_url:d.source_pdf,source_page:d.source_page,source_date:d.source_publication_date,observed_at:directDirectory.checked_at,source_printed_page:d.source_printed_page,pdf_page_one_based:d.pdf_page_one_based,source_text:d.raw_cells.join(' / '),claim:`直接PDF目录原题名：${d.name}；原号：${d.raw_standard_number}；日期格：${d.date_cell_raw??''}；历史状态：${typeof d.historical_status_raw==='object'?JSON.stringify(d.historical_status_raw):d.historical_status_raw??''}`,applicability:`目录不是规范全文，混合日期格不写实施日期；${d.directory_stage??''}；${d.standard_version_stage??''}；不据此确认2026现行性`,raw_record:d});
   s.metadata_evidence_ids.push(eid);s.directory_memberships.push({source_id:d.source_id,evidence_id:eid,pdf_page_one_based:d.pdf_page_one_based,source_printed_page:d.source_printed_page,date_cell_raw:d.date_cell_raw});
   if(d.source_page&&!s.source_pages.includes(d.source_page))s.source_pages.push(d.source_page);
   for(const issue of p.issues)s.issues.push(issue);
@@ -185,7 +191,7 @@ for(const d of round07Directory?.records??[]){
   if(prior<0)external.directories.push(d);
   else{const old=external.directories[prior];external.directories[prior]={...d,previous_observations:[...(old.previous_observations??[]),old]};}
 }
-const directoryCorrections=checkpoint==='1350'?await receipt(path.join(root,'search/round07-broad-attachments/directory/corrections-round02.json')):null;
+const directoryCorrections=has1350?await receipt(path.join(root,'search/round07-broad-attachments/directory/corrections-round02.json')):null;
 for(const c of directoryCorrections?.corrections??[]){
   const p=identify(c.standard_number),s=standards.get(p.id);if(!s)throw new Error(`Correction has no standard: ${c.standard_number}`);
   const eid=addEvidence({standard_id:s.standard_id,kind:'目录题名更正（保留旧索引证据）',statement_type:'原文事实（直接PDF原格）',source_id:`DIRECT-PDF-CORRECTION-${p.id}`,source_url:c.source_pdf,pdf_page_one_based:c.pdf_page_one_based,source_printed_page:c.source_printed_page,observed_at:directoryCorrections.checked_at,source_text:`旧索引：${c.old_name}；PDF原格：${c.new_direct_pdf_name}`,claim:c.reason,applicability:'优先直接原件题名，旧索引原文件及证据不改',raw_record:c});
@@ -194,13 +200,36 @@ for(const c of directoryCorrections?.corrections??[]){
   s.name=c.new_direct_pdf_name;s.metadata_evidence_ids.push(eid);
 }
 
+const unresolvedDirectoryEntries=[];
+for(const g of [...(round08Directory?.gaps??[]),...(round08Directory?.parse_issues??[])]){
+  const entry_id=`GAP-${slug(JSON.stringify(g))}`,isMissingVersion=Boolean(g.name&&g.source_row_id);
+  const eid=addEvidence({standard_id:null,entry_id,kind:isMissingVersion?'目录不完整编号/年份缺口':'目录说明行或解析位置待核',statement_type:'原文事实（直接PDF原格）',source_id:`${g.source_directory_id}:${g.source_row_id??g.pdf_page_one_based+'-'+g.row_index_in_table}`,source_url:g.source_pdf,pdf_page_one_based:g.pdf_page_one_based,source_printed_page:g.source_printed_page,observed_at:round08Directory.checked_at,source_text:g.raw_cells.join(' / '),claim:g.reason,applicability:'保留原格与页码，不自动补全年份，不计编号版本；不是无编号在编草案',raw_record:g});
+  const entry={entry_id,...g,raw_code:g.raw_cells?.[2]??null,entry_class:isMissingVersion?'编号/四位年份未闭合':'非标准说明或解析待核',evidence_id:eid};
+  unresolvedDirectoryEntries.push(entry);
+  issues.push({issue_id:`I-${slug(entry_id)}`,standard_id:null,entry_id,name:g.name??'目录说明/解析缺口',seed_ids:[],type:entry.entry_class,status:'待核',priority:'常规',action:`${g.reason}；PDF顺序${g.pdf_page_one_based}/印刷${g.source_printed_page??'无'}；原格${g.raw_cells.join(' / ')}`,source_ids:[eid]});
+}
+
+const ttbzDirectory=checkpoint==='1410'?await receipt(path.join(root,'search/master-authority/ttbz-ui-observed-20261017-p1.json')):null;
+for(const d of ttbzDirectory?.standards??[]){
+  const p=identify(`${d.standard_number} ${d.name}`,d.year);
+  const s=addStandard(p.id,{standard_number:d.standard_number,name:d.name,year:p.year,version_stage:'正式目录记录'});
+  if(s.name!==d.name){s.name_variants=[...new Set([...(s.name_variants??[]),s.name,d.name])];s.issues.push(`平台当前题名差异待核：${s.name} / ${d.name}`);}
+  const eid=addEvidence({standard_id:s.standard_id,kind:'全国团体平台公开DOM当前目录',statement_type:d.statement_type,source_id:d.source_id,source_url:d.source_page,source_page:d.list_source_page,observed_at:d.status_checked_at,source_text:`平台标注${d.current_status_reported}；公布${d.public_announcement_date}；发布${d.published_date}；实施${d.effective_date}`,claim:d.status_basis,applicability:'仅实际匿名DOM观察的10条/1页；2960组织徽章及前100上限不当已采集数；非全文或具体工程适用性证明',raw_record:d});
+  s.metadata_evidence_ids.push(eid);s.status_evidence_ids.push(eid);s.directory_memberships.push({source_id:d.source_id,evidence_id:eid,source_kind:'TTBZ公开DOM'});
+  s.current_status='现行（全国团体平台标注）';s.status_checked_at=d.status_checked_at;s.status_basis=d.status_basis;s.status_source_scope='全国团体标准信息平台公开列表，10条实际观察';s.standard_type=d.standard_type;s.public_announcement_date=d.public_announcement_date;
+  s.metadata_date_layers=[...(s.metadata_date_layers??[]),{context:'全国团体平台公开DOM详细标签',source_id:d.source_id,public_announcement_date:d.public_announcement_date,published_date:d.published_date,effective_date:d.effective_date}];
+  for(const key of ['published_date','effective_date']){if(s[key]&&s[key]!==d[key])s.issues.push(`${key}日期冲突：${s[key]} / ${d[key]} [${d.source_id}]`);else s[key]=d[key];}
+  if(!s.source_pages.includes(d.source_page))s.source_pages.push(d.source_page);
+  external.directories.push(d);
+}
+
 // Dated publication/withdrawal events remain distinct from a 2026 current-status claim.
 const withdrawnSource=evidence.find(e=>e.source_id==='HNIS-CECS-2185-20241115');
 if(withdrawnSource){
   for(const [sid,event] of [['CECS-22-2024-FORMAL','公告载明实施'],['CECS-22-2005-FORMAL','公告载明废止并被2024版替代']]){const s=standards.get(sid);if(!s)continue;s.status_events=[...(s.status_events??[]),{event,event_date:'2025-04-01',published_date:'2024-11-12',evidence_id:withdrawnSource.evidence_id,source_id:withdrawnSource.source_id,evidence_level:'省级标准化机构转载协会第2185号公告，协会原页待复核'}];s.status_evidence_ids.push(withdrawnSource.evidence_id);s.status_checked_at=now;s.replacement_relationships.push({kind:event,replaces:sid.includes('-2024-')?'CECS-22-2005-FORMAL':null,replaced_by:sid.includes('-2005-')?'CECS-22-2024-FORMAL':null,applies_as_of:'2025-04-01',evidence_id:withdrawnSource.evidence_id,evidence_level:'机构转载，2026当前现行性另核'});s.issues.push('第2185号转载公告所载2025-04-01废止/实施事件可见；2024版2026现行性与协会原公告仍待核');}
 }
 
-const repealEvidence=checkpoint==='1350'?await receipt(path.join(root,'pdf-audit/evidence-2185-repeal-cecs22-2005.json')):null;
+const repealEvidence=has1350?await receipt(path.join(root,'pdf-audit/evidence-2185-repeal-cecs22-2005.json')):null;
 if(repealEvidence){
   for(const [id,old] of [['CECS-22-2005-FORMAL',true],['CECS-22-2024-FORMAL',false]]){
     const s=standards.get(id);if(!s)throw new Error(`Missing 2185 event identity: ${id}`);
@@ -217,11 +246,13 @@ if(checkpoint){const auditFreeze=await receipt(path.join(root,`pdf-audit/freeze-
 for(const a of auditInput?.results??[]){
   const p=identify(`${a.standard_number??''} ${a.name??''}`,a.year,a.draft_stage??a.version_class??(/征求意见/.test(a.version_match??'')?'征求意见稿':null));
   const existing=[...links.values()].find(l=>[l.requested_url,l.discovery_url,l.final_url].includes(a.requested_url??a.download_url));
+  const matchedUnnumbered=matchUnnumberedAuditCandidate(a,p,existing,standards);
+  if(matchedUnnumbered)p.id=matchedUnnumbered;
   let ss=existing?.standard_ids.filter(id=>id===p.id).map(id=>standards.get(id)).filter(Boolean)??[];
   if(!ss.length)ss=[addStandard(p.id,createAuditIdentity(a,p))];
   for(const s of ss){
     updateAuditIdentity(s,a);
-    if(!p.number&&a.standard_number)s.standard_number=a.standard_number;
+    if((!p.number||p.number==='XXX')&&a.standard_number){s.placeholder_code_observations=[...(s.placeholder_code_observations??[]),{context:'独立审查所见占位编号',standard_number:a.standard_number,source_id:a.audit_id,observed_at:a.checked_at}];s.standard_number=a.standard_number;}
     const l=addLink(s,a.requested_url??a.download_url,{source_page:a.source_page,source_kind:'独立审查公开候选'});
     if(!l)continue;
     if(a.metadata_only){l.source_kind='公告/元数据文档（非标准全文）';l.metadata_only=true;}
@@ -242,8 +273,21 @@ for(const a of auditInput?.results??[]){
 
 const conflict=await receipt(path.join(root,'search/conflict-796-years.json'));
 if(conflict){for(const value of conflict.retained_values??[]){const p=identify(`${value} ${conflict.name}`);const s=addStandard(p.id,{standard_number:value,name:conflict.name,year:p.year});s.name=conflict.name;s.version_stage='正式性/年份冲突待核';s.identity_conflict_group=conflict.source_id;s.identity_confirmed=false;s.issues.push(conflict.status);for(const e of conflict.evidence??[]){const id=addEvidence({standard_id:s.standard_id,kind:'编号年份冲突',observed_at:conflict.checked_at,...e});s.metadata_evidence_ids.push(id);}s.issues.push(...(conflict.next_test??[]));}}
-const conflictSupplement=['1330','1350'].includes(checkpoint)?await receipt(path.join(root,'search/round05-796-conflict-supplement.json')):null;
+const conflictSupplement=has1330?await receipt(path.join(root,'search/round05-796-conflict-supplement.json')):null;
 if(conflictSupplement){for(const id of ['CECS-796-2020-FORMAL','CECS-796-2021-FORMAL']){const s=standards.get(id);if(!s)continue;const e=addEvidence({standard_id:id,kind:'796公告副本与出版年份冲突',statement_type:'原文事实（所见副本）',source_id:conflictSupplement.source_id,source_url:conflictSupplement.source_url,observed_at:conflictSupplement.source_checked_at,claim:JSON.stringify(conflictSupplement.metadata_claim),applicability:'第三方托管协会公告副本1页，非标准全文；不消除出版方2020与公告2021冲突',raw_record:conflictSupplement});s.metadata_evidence_ids.push(e);s.metadata_date_layers=[...(s.metadata_date_layers??[]),{context:'第757号公告副本所载日期（非对身份冲突的裁决）',...conflictSupplement.metadata_claim}];s.issues.push(conflictSupplement.status);}}
+
+const frozenBaseline1410=checkpoint==='1410'?await readJson(path.join(out,'history/master-before-1410.json')):null;
+if(checkpoint==='1410'&&!frozenBaseline1410)throw new Error('1410 requires its immutable pre-merge master snapshot');
+const round08Conflicts=checkpoint==='1410'?await receipt(path.join(root,'search/round08-public-expansion/directory2/directory-conflicts.json')):null;
+for(const c of round08Conflicts?.conflicts??[]){
+  const id=identify(c.variants[0].standard_number).id,s=standards.get(id);if(!s)throw new Error(`Missing conflict identity ${id}`);
+  const names=[...new Set(c.variants.map(v=>v.name))],old=frozenBaseline1410?.standards.find(s=>s.standard_id===id);
+  s.name_variants=[...new Set([...(s.name_variants??[]),s.name,...names])];s.name=old?.name??'题名冲突待核';s.name_resolution_status='同号异名待核；未选定正式题名';s.identity_confirmed=false;s.identity_conflict_group=`XJ-R08-${c.number}-${c.year}`;
+  s.directory_name_conflicts=c.variants;
+  const conflictEvidence=c.variants.map(v=>addEvidence({standard_id:id,kind:'政府目录同编号年份多题名',statement_type:'原文事实（直接PDF原格，另有目视复核）',source_id:`${s.identity_conflict_group}:${v.source_row_id}`,source_url:round08Directory.records[0].source_pdf,pdf_page_one_based:v.pdf_page_one_based,source_printed_page:v.source_printed_page,observed_at:round08Conflicts.checked_at,source_text:v.raw_cells.join(' / '),claim:`目录所见题名：${v.name}；${c.type}`,applicability:'保留全部原始取值及页码；不按行顺序选择正式题名，不拆成两个已确认规范',raw_record:v}));
+  s.metadata_evidence_ids.push(...conflictEvidence);s.issues.push(`${c.type}：${names.join(' / ')}`);
+  issues.push({issue_id:`I-${slug(s.identity_conflict_group)}`,standard_id:id,seed_ids:s.seed_ids,type:'同编号年份多题名冲突',status:'待核',priority:'常规',action:c.variants.map(v=>`${v.name} [PDF顺序${v.pdf_page_one_based}/印刷${v.source_printed_page}]`).join('；')+'；待官方核号，不选定正式题名',source_ids:conflictEvidence});
+}
 
 // Explicit human maintenance is merged last; regeneration never loses these records.
 const maintenance=await readJson(path.join(out,'maintenance-input.json'))??{schema_version:1,standards:[],links:[],note:'新增/更新/停用写入本文件；原始记录与证据永久保留。字段变更须注明reason/source_id。'};
@@ -262,36 +306,51 @@ const model={schema_version:'1.1.0',generated_at:now,scope:{target:'全网现存
 model.coverage.verified_complete_unique_sha256=new Set(model.links.filter(l=>l.complete_pdf&&l.sha256).map(l=>l.sha256)).size;
 model.unresolved_drafts=unresolvedDrafts;
 model.coverage.unresolved_unnumbered_drafts=unresolvedDrafts.length;
+model.unresolved_directory_entries=unresolvedDirectoryEntries;
+model.coverage.unresolved_directory_version_gaps=unresolvedDirectoryEntries.filter(e=>e.entry_class==='编号/四位年份未闭合').length;
+model.coverage.directory_nonstandard_or_parse_gaps=unresolvedDirectoryEntries.length-model.coverage.unresolved_directory_version_gaps;
 model.coverage.verified_complete_draft_pdf_links=model.links.filter(l=>l.draft_content_complete&&l.version_verified&&!l.complete_pdf).length;
 model.coverage.verified_complete_draft_versions=model.standards.filter(s=>s.best_draft_link_id).length;
 model.coverage.supplemental_directory_records=supplementalDirectory?.records?.length??0;
 model.coverage.round07_directory_observations=round07Directory?.records?.length??0;
-model.coverage.directory_observation_count=(directory?.standards?.length??0)+(supplementalDirectory?.records?.length??0)+(round07Directory?.records?.length??0);
+model.coverage.round08_directory_observations=round08Directory?.records?.length??0;
+model.coverage.ttbz_observed_records=ttbzDirectory?.standards?.length??0;
+model.coverage.directory_observation_count=(directory?.standards?.length??0)+(supplementalDirectory?.records?.length??0)+(round07Directory?.records?.length??0)+(round08Directory?.records?.length??0)+(ttbzDirectory?.standards?.length??0);
 model.coverage.authority_records=external.directories.length;
 model.scope.authority_directories.push(...(supplementalDirectory?.sources??[]));
-model.scope.directory_coverage={...model.scope.directory_coverage,supplemental:supplementalDirectory?.coverage??null,round07:round07Directory?.coverage??null};
+if(ttbzDirectory)model.scope.authority_directories.push({source_id:ttbzDirectory.source_id,source_page:ttbzDirectory.source_page,checked_at:ttbzDirectory.checked_at,scope:ttbzDirectory.coverage});
+model.scope.directory_coverage={...model.scope.directory_coverage,supplemental:supplementalDirectory?.coverage??null,round07:round07Directory?.coverage??null,round08:round08Directory?.coverage??null,ttbz_public_dom:ttbzDirectory?.coverage??null};
 model.scope.checkpoint=checkpoint;
 model.scope.directory_unique_number_year_count=new Set(external.directories.map(d=>identify(d.standard_number,d.year).id)).size;
 model.external.search_manifest=searchManifest;
 model.external.search_manifests=searchManifests;
 model.external.conflict_796_supplement=conflictSupplement;
-if(['1330','1350'].includes(checkpoint))model.external.completeness_feedback=await receipt(path.join(root,'search/round06-22-completeness-receipt.json'));
+if(has1330)model.external.completeness_feedback=await receipt(path.join(root,'search/round06-22-completeness-receipt.json'));
 model.external.directory_supplement=supplementalDirectory;
 model.external.directory_round07=round07Directory;
+model.external.directory_round08=round08Directory;
+model.external.directory_round08_conflicts=round08Conflicts;
+model.external.ttbz_public_dom=ttbzDirectory;
 model.external.directory_corrections=directoryCorrections;
 model.external.repeal_2185=repealEvidence;
-if(checkpoint==='1350')model.external.round07_water_mep=await receipt(path.join(root,'search/round07-broad-attachments/water-mep/candidates-round07-water-mep-share-v2.json'));
+if(has1350)model.external.round07_water_mep=await receipt(path.join(root,'search/round07-broad-attachments/water-mep/candidates-round07-water-mep-share-v2.json'));
 model.external.search_coverage=checkpoint?await receipt(path.join(root,'search/g1-round03-coverage.json')):null;
 
 for(const s of model.standards) for(const txt of s.issues) issues.push({issue_id:`I-${slug(s.standard_id+txt)}`,standard_id:s.standard_id,seed_ids:s.seed_ids,type:'识别或状态待核实',status:'待查',priority:'常规',action:txt,source_ids:s.metadata_evidence_ids});
 
 const previous=await readJson(path.join(out,'cecs-master.json'));
-const mergeBaseline=checkpoint==='1350'?await readJson(path.join(out,'history/master-before-1350.json')):previous;
-if(round07Directory&&mergeBaseline){
-  const baselineIds=new Set(mergeBaseline.standards.map(s=>s.standard_id));
+const mergeBaseline=checkpoint==='1410'?frozenBaseline1410:has1350?await readJson(path.join(out,'history/master-before-1350.json')):previous;
+const round07Baseline=has1350?await readJson(path.join(out,'history/master-before-1350.json')):mergeBaseline;
+if(round07Directory&&round07Baseline){
+  const baselineIds=new Set(round07Baseline.standards.map(s=>s.standard_id));
   const roundIds=new Set(round07Directory.records.map(d=>identify(`${d.standard_number} ${d.name}`,d.year).id));
   model.coverage.round07_directory_unique_identities=roundIds.size;
   model.coverage.round07_directory_new_identities_against_frozen_master=[...roundIds].filter(id=>!baselineIds.has(id)).length;
+}
+if(mergeBaseline){
+  const baselineIds=new Set(mergeBaseline.standards.map(s=>s.standard_id));
+  if(round08Directory){const ids=new Set(round08Directory.records.map(d=>identify(`${d.standard_number} ${d.name}`,d.year).id));model.coverage.round08_directory_unique_identities=ids.size;model.coverage.round08_directory_new_identities_against_frozen_master=[...ids].filter(id=>!baselineIds.has(id)).length;}
+  if(ttbzDirectory)model.coverage.ttbz_new_identities_against_frozen_master=ttbzDirectory.standards.filter(d=>!baselineIds.has(identify(d.standard_number,d.year).id)).length;
   model.coverage.merge_net_new_identities=model.standards.filter(s=>!baselineIds.has(s.standard_id)).length;
   model.scope.merge_baseline={generated_at:mergeBaseline.generated_at,registered_standard_versions:mergeBaseline.standards.length,registered_links:mergeBaseline.links.length};
 }
@@ -324,8 +383,8 @@ const full=model.links.filter(l=>l.complete_pdf&&l.active);
 const drafts=model.links.filter(l=>l.draft_content_complete&&l.version_verified&&!l.complete_pdf&&l.active);
 const sorted=[...model.standards].sort((a,b)=>Number(b.baseline)-Number(a.baseline)||a.standard_number?.localeCompare(b.standard_number??'','en',{numeric:true})||a.standard_id.localeCompare(b.standard_id));
 const mapLinks=new Map(model.links.map(l=>[l.link_id,l]));
-const pdfState=s=>{if(s.best_link_id)return '已验完整PDF';if(s.best_draft_link_id)return '完整报批稿，非正式标准全文';const ls=s.link_ids.map(id=>mapLinks.get(id));return ls.find(l=>l.pages&&/可解析/.test(l.download_status))?.download_status??(ls.length?ls.find(l=>l.checked_at)?.download_status??'候选未实测':'尚无下载候选');};
-const standardRows=sorted.map(s=>[s.standard_number,`${s.name}${s.edition_label?`（${s.edition_label}）`:''}`,mapLinks.get(s.best_link_id??s.best_draft_link_id)?.final_url??'',pdfState(s),s.current_status,s.version_stage,s.year,s.baseline?'基线':'新增',s.topic_group_name??'待分组',s.scope,s.standard_type,dateValue(s.effective_date),dateValue(s.published_date),s.status_checked_at?stamp(s.status_checked_at):'',s.source_pages[0]??'',s.usable_alternative_count,s.standard_id,s.issues.join('\n'),s.seed_ids.join(', '),s.link_ids.length,s.replacement_relationships.map(r=>`${r.kind}: ${r.replaces_raw??r.replaces??r.replaced_by??''}${r.applies_as_of?`；日期${r.applies_as_of}`:''}${r.evidence_level?`；${r.evidence_level}`:''} [${r.evidence_id}]`).join('\n'),s.status_evidence_ids.join(', '),s.name_variants?.join('\n')??'',dateValue(s.withdrawal_date),s.status_basis??'']);
+const pdfState=s=>{if(s.best_link_id)return '已验完整PDF';if(s.best_draft_link_id)return `完整${s.version_class??s.draft_stage??'草案'}，非正式标准全文`;const ls=s.link_ids.map(id=>mapLinks.get(id));return ls.find(l=>l.pages&&/可解析/.test(l.download_status))?.download_status??(ls.length?ls.find(l=>l.checked_at)?.download_status??'候选未实测':'尚无下载候选');};
+const standardRows=sorted.map(s=>[s.standard_number,`${s.name}${s.edition_label?`（${s.edition_label}）`:''}${s.name_resolution_status&&s.name!=='题名冲突待核'?'（同号异名待核）':''}`,mapLinks.get(s.best_link_id??s.best_draft_link_id)?.final_url??'',pdfState(s),s.current_status,s.version_stage,s.year,s.baseline?'基线':'新增',s.topic_group_name??'待分组',s.scope,s.standard_type,dateValue(s.effective_date),dateValue(s.published_date),s.status_checked_at?stamp(s.status_checked_at):'',s.source_pages[0]??'',s.usable_alternative_count,s.standard_id,s.issues.join('\n'),s.seed_ids.join(', '),s.link_ids.length,s.replacement_relationships.map(r=>`${r.kind}: ${r.replaces_raw??r.replaces??r.replaced_by??''}${r.applies_as_of?`；日期${r.applies_as_of}`:''}${r.evidence_level?`；${r.evidence_level}`:''} [${r.evidence_id}]`).join('\n'),s.status_evidence_ids.join(', '),s.name_variants?.join('\n')??'',dateValue(s.withdrawal_date),s.status_basis??'',dateValue(s.public_announcement_date)]);
 const configs=[];
 const nativeHyperlinks=[];
 function makeSheet(name,title,headers,rows,{widths={},urls=[],dates=[],times=[],rowHeight=48,primary=false}={}){
@@ -346,20 +405,20 @@ function makeSheet(name,title,headers,rows,{widths={},urls=[],dates=[],times=[],
   for(const c of dates)sheet.getRange(`${col(c)}9:${col(c)}${end}`).setNumberFormat('yyyy-mm-dd');for(const c of times)sheet.getRange(`${col(c)}9:${col(c)}${end}`).setNumberFormat('yyyy-mm-dd hh:mm');}
   configs.push({sheet,name,headers,rows,end,last});return sheet;
 }
-const main=makeSheet('规范总表','CECS 规范与下载总表', ['规范编号','规范名称','推荐PDF（草案见稿型）','PDF核验状态','2026现行性','稿型','年份','基线/新增','专业分组','适用范围','标准类型','实施日期','发布日期','现行性核验日期','来源详情页','有效备用数','稳定ID','待查问题','原记录映射','候选链接数','历史替代关系','状态证据ID','名称差异','废止日期','状态依据与定位'],standardRows,{primary:true,urls:[2,14],dates:[11,12,23],times:[13],widths:{0:27,1:54,2:23,3:39,4:35,5:22,6:10,7:12,8:29,9:26,10:48,11:15,12:15,13:24,14:16,15:14,16:53,17:100,18:22,19:16,20:90,21:30,22:70,23:15,24:110},rowHeight:56});
+const main=makeSheet('规范总表','CECS 规范与下载总表', ['规范编号','规范名称','推荐PDF（草案见稿型）','PDF核验状态','2026现行性','稿型','年份','基线/新增','专业分组','适用范围','标准类型','实施日期','发布日期','现行性核验日期','来源详情页','有效备用数','稳定ID','待查问题','原记录映射','候选链接数','历史替代关系','状态证据ID','名称差异','废止日期','状态依据与定位','平台公布日期'],standardRows,{primary:true,urls:[2,14],dates:[11,12,23,25],times:[13],widths:{0:27,1:54,2:23,3:39,4:35,5:22,6:10,7:12,8:29,9:26,10:48,11:15,12:15,13:24,14:16,15:14,16:53,17:100,18:22,19:16,20:90,21:30,22:70,23:15,24:110,25:18},rowHeight:56});
 main.getRange('D4').values=[['已验完整PDF链接']];main.getRange('E4').values=[[full.length]];main.getRange('D5').values=[['81条基线登记']];main.getRange('E5').values=[[model.coverage.baseline_records_registered]];main.getRange('G4').values=[['全集分母未知']];main.getRange('I4').values=[['历史目录不证明2026现行性']];
 const pdfRow=l=>[l.verified_standard_ids.map(id=>standards.get(id)?.standard_number).join(', '),l.verified_standard_ids.map(id=>standards.get(id)?.name).join(', '),l.final_url,l.recommendation,l.recommendation_reason,l.pages,l.pdf_bytes===null?null:l.pdf_bytes/1048576,l.search_copy,l.bookmarks,l.bookmark_navigation,l.clickable_toc,l.clarity,l.completeness,stamp(l.checked_at),l.source_page,l.link_id,l.sha256,l.local_audit_file,l.verified_standard_ids.join(', ')];
 const pdfHeaders=['规范编号','规范名称','最终PDF链接','推荐等级','推荐理由','页数','大小（MiB）','正文搜索复制','章节书签数','书签跳转','可点击目录','清晰度','完整性证据（AI审查判断）','核验时间','来源详情页','链接ID','SHA256','本地核验路径','已确认版本ID'];
 const pdfLayout={primary:true,urls:[2,14],times:[13],widths:{0:27,1:54,2:18,3:14,4:100,5:10,6:16,7:90,8:14,9:50,10:85,11:90,12:110,13:24,14:18,15:28,16:70,17:100,18:55},rowHeight:88};
 const completeRows=full.map(pdfRow);
 makeSheet('已验完整PDF','已确认版本与完整性的正式 PDF',pdfHeaders,completeRows,pdfLayout);
-makeSheet('完整草案PDF','完整报批稿，非正式标准全文',[...pdfHeaders,'稿型','草案内容完整','正式全文集合'],drafts.map(l=>[...pdfRow(l),l.version_class??l.draft_stage,'内容完整（AI审查判断）','不计正式完整PDF']),{...pdfLayout,widths:{...pdfLayout.widths,19:20,20:35,21:30}});
+makeSheet('完整草案PDF','内容完整的草案，非正式标准全文',[...pdfHeaders,'稿型','草案内容完整','正式全文集合'],drafts.map(l=>[...pdfRow(l),l.version_class??l.draft_stage,'内容完整（AI审查判断）','不计正式完整PDF']),{...pdfLayout,widths:{...pdfLayout.widths,19:20,20:35,21:30}});
 const linkRows=model.links.map(l=>[l.link_id,l.standard_ids.join('\n'),l.candidate_ids?.join(', ')??l.candidate_id??'',l.source_page,l.requested_url,l.final_url,l.download_status,cellText(l.access_restriction),l.url_expiry,stamp(l.checked_at),l.http_status,l.pages,l.pdf_bytes,l.pdf_bytes===null?null:l.pdf_bytes/1048576,l.sha256,cellText(l.parse_ok),l.version_match,l.version_verified===true?'已确认':'未确认',l.complete_pdf?'已验完整':'待核/不完整',l.completeness,l.recommendation,l.recommendation_reason,cellText(l.text_layer),l.search_copy,l.bookmarks,l.bookmark_navigation,l.clickable_toc,l.clarity,l.page_order,l.cropping_rotation,l.watermark,cellText(l.encrypted),l.audit_evidence_paths.join('\n'),l.local_audit_file,l.check_history.map(h=>`${h.checked_at} ${h.outcome}`).join('\n'),l.notes.join('\n'),l.active?'保留':'停用',l.verified_standard_ids?.join(', ')??'',l.requested_url,l.final_url]);
 linkRows.forEach((row,i)=>{const l=model.links[i];if(l.draft_content_complete)row[18]='完整草案（非正式全文）';row.push(l.version_class??l.draft_stage??'',l.draft_content_complete?'内容完整（草案）':'',l.quality_statement_type??'');});
 makeSheet('链接明细','全部候选与实际核验链接', ['链接ID','关联版本ID','候选ID','来源详情页','请求链接','最终链接','下载状态','权限状态','过期情况','核验时间','HTTP状态','页数','文件字节数','大小（MiB）','SHA256','解析结果','版本匹配证据','版本确认','完整性状态','完整性证据','推荐等级','推荐理由','文本层存在','正文搜索复制','章节书签数','书签跳转','目录点击','清晰度','页序','裁边与旋转','水印','加密','核验证据路径','本地核验文件','逐次检查历史','问题备注','维护状态','已确认适用版本','请求URL原文','最终URL原文','稿型（审查）','草案内容完整','评级陈述类型'],linkRows,{urls:[3,4,5],times:[9],widths:{0:28,1:55,2:30,3:18,4:18,5:18,6:40,7:48,8:44,9:24,10:13,11:10,12:19,13:16,14:70,15:44,16:90,17:15,18:32,19:125,20:13,21:110,22:16,23:110,24:15,25:65,26:100,27:110,28:70,29:70,30:65,31:12,32:130,33:130,34:130,35:110,36:12,37:55,38:170,39:170,40:26,41:28,42:60},rowHeight:96});
 const seedRows=original.map(r=>[r.seed_id,r.standard_id,r.original_name,r.standard_number,r.year,r.draft_stage,r.topic_group_name,r.source_annotation,r.source_id,r.candidate_url,r.link_id,r.parsing_issues.join('\n')]);
 makeSheet('原始映射','81 条原始记录的不可丢失映射', ['原记录ID','规范稳定ID','原始文件名','解析编号','解析年份','稿型','专业分组','原网页标注','原始source_id','候选下载链接','链接ID','识别问题'],seedRows,{urls:[9],widths:{0:14,1:55,2:100,3:27,4:14,5:22,6:30,7:20,8:75,9:18,10:28,11:90},rowHeight:56});
-const issueRows=issues.map(i=>[i.issue_id,i.standard_id??i.draft_id??'',standards.get(i.standard_id)?.standard_number??'',standards.get(i.standard_id)?.name??i.name??'',i.seed_ids.join(', '),i.type,i.status,i.priority,i.action,i.source_ids.join(', ')]);
+const issueRows=issues.map(i=>[i.issue_id,i.standard_id??i.draft_id??i.entry_id??'',standards.get(i.standard_id)?.standard_number??'',standards.get(i.standard_id)?.name??i.name??'',i.seed_ids.join(', '),i.type,i.status,i.priority,i.action,i.source_ids.join(', ')]);
 makeSheet('待查与问题','缺全文与元数据冲突队列', ['问题ID','规范稳定ID','规范编号','规范名称','原记录ID','问题类别','处理状态','优先级','待查动作','证据ID'],issueRows,{widths:{0:28,1:55,2:27,3:54,4:22,5:30,6:14,7:14,8:140,9:100},rowHeight:58});
 const evidenceRows=evidence.map(e=>[e.evidence_id,e.standard_id,e.kind,e.statement_type,e.source_id,e.source_url,e.source_page??'',e.observed_at??'',e.source_text??'',e.claim??'',e.applicability??'',e.evidence_paths?.join('\n')??'',e.pdf_page_one_based??'',e.source_printed_page??'']);
 makeSheet('状态与来源依据','状态、目录与独立审查证据', ['证据ID','规范稳定ID','证据种类','陈述类型','source_id','来源URL','来源详情页','来源记录或检查时间','原文摘录/原始行','证据说明','适用日期与限制','核验证据路径','PDF顺序页','印刷页码'],evidenceRows,{urls:[5,6],widths:{0:28,1:55,2:28,3:32,4:75,5:18,6:18,7:35,8:125,9:130,10:110,11:130,12:16,13:16},rowHeight:78});
@@ -374,8 +433,9 @@ notes.find(r=>r[0]==='目录不同标准号')[1]=model.scope.directory_unique_nu
 notes.find(r=>r[0]==='目录来源数')[1]=model.scope.authority_directories.length;
 notes.push(['无编号在编名称',unresolvedDrafts.length],['混合日期格','湖北49行表头为实施日期/任务下达日期，仅保留原始格，不写入实施日期。'],['省略空白页口径','有同版或可信页面证据证明省略的是装帧空白、且全部内容闭合，才可按审查升B并注明；未证明仍C。'],['联合编号','T/CECS-CBIMU与T/CECS-CREA各自为独立编号族，不与普通CECS同数字号合并。']);
 notes.push(['链接与文件分别计数','相同SHA256的主链与备用链分别保留为下载链接，只计一份不同文件；规范版本按稳定ID分别计数。']);
-if(['1330','1350'].includes(checkpoint))notes.push(['102版次','CECS102:2002（2012年版）单列E2012身份，编号年份仍为2002；无版次副本不被假定为初版，两者未完成版次匹配不共享下载链接。'],['公告与全文',`${model.coverage.independent_audit_results}条实GET审查中包含1条796发布公告元数据；仅1页公告不计完整标准，年份冲突仍保留。`]);
-if(checkpoint==='1350')notes.push(['完整草案PDF链接数',drafts.length],['草案完整性','完整报批稿单列在完整草案PDF；draft_content_complete表示内容闭合，complete_pdf只用于正式完整集合，不能据false改写为内容待核。'],['评级陈述类型','完整性、可读性与推荐等级为AI基于实测的审查判断，不是出版方认证；HTTP、字节、页数与原文公告分别作为观测/原文事实。'],['旧22废止依据','CECS22:2005据实得出版物内协会第2185号公告，2025-04-01同时废止；PDF顺序第5页无印刷页码，双审目视。旧PDF继续保留，2024版2026现行性仍未知。'],['目录本轮去重',`137条直接目录观测，135身份；对冻结811身份净增${model.coverage.round07_directory_new_identities_against_frozen_master}。全部目录现${model.coverage.authority_records}条不同来源行，含${model.coverage.directory_observation_count}次历史及新观测，不用相对58目录的85当净增。`],['608题名更正','仅608-2019按湖北PDF顺序22/印刷21的直接原格更名为绿色建筑运营后评估标准；旧后评价索引题名与证据保留，10065/10066不改名。']);
+if(has1330)notes.push(['102版次','CECS102:2002（2012年版）单列E2012身份，编号年份仍为2002；无版次副本不被假定为初版，两者未完成版次匹配不共享下载链接。'],['公告与全文',`${model.coverage.independent_audit_results}条实GET审查中包含1条796发布公告元数据；仅1页公告不计完整标准，年份冲突仍保留。`]);
+if(has1350)notes.push(['完整草案PDF链接数',drafts.length],['草案完整性','内容完整的报批稿、送审稿等单列在完整草案PDF，按实际稿型显示；draft_content_complete表示内容闭合，complete_pdf只用于正式完整集合，不能据false改写为内容待核。'],['评级陈述类型','完整性、可读性与推荐等级为AI基于实测的审查判断，不是出版方认证；HTTP、字节、页数与原文公告分别作为观测/原文事实。'],['旧22废止依据','CECS22:2005据实得出版物内协会第2185号公告，2025-04-01同时废止；PDF顺序第5页无印刷页码，双审目视。旧PDF继续保留，2024版2026现行性仍未知。'],['R07目录去重',`137条直接目录观测，135身份；对当时冻结811身份净增${model.coverage.round07_directory_new_identities_against_frozen_master}。全部目录现${model.coverage.authority_records}条不同来源行，含${model.coverage.directory_observation_count}次历史及新观测，不用相对58目录的85当净增。`],['608题名更正','仅608-2019按湖北PDF顺序22/印刷21的直接原格更名为绿色建筑运营后评估标准；旧后评价索引题名与证据保留，10065/10066不改名。']);
+if(checkpoint==='1410')notes.push(['R08目录去重',`新疆新增165来源行/156号年，对全部旧889身份净增${model.coverage.round08_directory_new_identities_against_frozen_master}；19条已登记重核链接不重复计数。15条编号/年份未闭合独立列问题，不自动补年或混入原3条在编。`],['同号异名冲突','1137-2022与22-2012保留全部原图题名和物理/印刷页，不按行序或目录草案状态选择正式题名。'],['平台DOM当前标注','实际匿名观察10条/1页，其中新增身份1；现行仅表示全国团体平台标注及检查日，不是具体工程适用性确认；2960徽章与前100上限不是已采集分母。公布/发布/实施分存。'],['Word元数据路线','两条DOC/DOCX附件只登记元数据、格式与来源，未读取原文，不作为PDF链接或完整PDF。'],['新正式完整件限制','212/235/122/17评B；122/17为按本件目录范围闭合的数字重排副本，不宣称出版社原页式；122页脚局部字形裁切保留。333/287仍C，不能把287因占位号直接定草案。']);
 makeSheet('说明与覆盖','覆盖范围与维护口径', ['项目','内容'],notes,{widths:{0:40,1:145},rowHeight:60});
 makeSheet('变更记录','追加保存的规范与链接变更', ['变更ID','变更时间','实体','稳定ID','操作','原因','原指纹','现指纹'],model.change_log.map(c=>[c.change_id,stamp(c.at),c.entity,c.id,c.operation,c.reason,c.previous_fingerprint,c.current_fingerprint]),{times:[1],widths:{0:28,1:24,2:16,3:55,4:14,5:65,6:72,7:72},rowHeight:32});
 workbook.recalculate();

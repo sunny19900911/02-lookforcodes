@@ -1,0 +1,105 @@
+{
+  "source_id": "SEARCH-R09-ROOT-QUERY-LEDGER-20261017",
+  "recorded_at_utc": "2026-10-17 06:20:32 UTC",
+  "statement_type": "原文事实（实际查询请求及结果摘要）",
+  "query_count": 11,
+  "open_count": 7,
+  "calls": [
+    {
+      "source_id": "SEARCH-R09-WEB-45",
+      "request": {
+        "search_query": [
+          {
+            "q": "site:cnass.cn \"CECS\" \"相关文献\""
+          },
+          {
+            "q": "site:cnass.cn \"CECS\" \"技术规程.pdf\""
+          },
+          {
+            "q": "site:edu.cn \"CECS\" filetype:pdf \"钢结构\""
+          },
+          {
+            "q": "site:edu.cn \"CECS\" filetype:pdf \"混凝土\""
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "source_id": "SEARCH-R09-WEB-46",
+      "request": {
+        "search_query": [
+          {
+            "q": "site:tmky.hpu.edu.cn CECS filetype:pdf"
+          },
+          {
+            "q": "site:tmky.hpu.edu.cn \"CECS\" \"规程\""
+          },
+          {
+            "q": "site:edu.cn \"CECS\" \"中国计划出版社\" filetype:pdf"
+          },
+          {
+            "q": "site:cnass.cn \"CECS\" \"相关文献\" -325"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "source_id": "SEARCH-R09-WEB-47",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://tmky.hpu.edu.cn/__local/C/50/C1/BC5CAAF66018396E9CD63FC4EDE_B2D81413_DFC9E.pdf?e=.pdf"
+          }
+        ],
+        "search_query": [
+          {
+            "q": "\"CECS\" \"主编单位\" \"施行日期\" filetype:pdf"
+          },
+          {
+            "q": "\"CECS\" \"条文说明\" \"前言\" site:edu.cn filetype:pdf"
+          },
+          {
+            "q": "site:cnass.cn \"CECS\" \"附件\" -325"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "source_id": "SEARCH-R09-WEB-48",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.cnass.cn/upload/gjgfenhui/file/20220815/1660537195190242.pdf"
+          },
+          {
+            "ref_id": "https://www.uibim.com/wp-content/uploads/2025/02/8e20c59990bd0f2.pdf"
+          },
+          {
+            "ref_id": "https://www.ttbz.org.cn/Home/PdfFileStreamGet/c3RuLDE1MTIxNA%28eq%29%28eq%29"
+          },
+          {
+            "ref_id": "https://www.ttbz.org.cn/Home/PdfFileStreamGet/c3QsMTUxMDQ5"
+          },
+          {
+            "ref_id": "https://static1.tianyancha.com/czd_file/standard/30d8c78389ad4736c5f36a3b8365f980.pdf"
+          },
+          {
+            "ref_id": "https://static1.tianyancha.com/czd_file/standard/84734d2f62cf9e1bf8f8f41415e285b7.pdf"
+          }
+        ],
+        "response_length": "long"
+      }
+    }
+  ],
+  "results_summary": [
+    "大学泛检索多为论文引用，排除作标准全文；HPU命中69:2011公开PDF，补69:94历史序列，web解析23页。",
+    "已用325协会附件不重计；封面词主编单位/施行日期带来新的公开索引草稿PDF。",
+    "5新PDF候选=1历史正式候选+4占位草稿；没有宣称完整/现行。",
+    "TTBZ两条索引占位草稿的无附加查询参数流地址，普通GET均403、web失败/HTML，因此只metadata/待修路线，不计PDF候选，不推断登录需求。",
+    "uibim本次普通GET握手超时；drain-man-hole普通GET200/PDF仅读64bytes；其他web解析仍需独立GET审查。"
+  ],
+  "sharing_boundary": "不保存或分享原始HTML/PDF、瞬时附加参数值。仅结构化公开请求和结果摘要，版本/完整性由audit决定。"
+}

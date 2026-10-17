@@ -52,7 +52,7 @@ for standard in master['standards']:
         assert best in links, 'Best link missing'
         if not links[best].get('complete_pdf'):
             assert links[best].get('draft_content_complete') and any(
-                word in str(standard.get('version_stage', '')) for word in ('草案', '报批', '征求')
+                word in str(standard.get('version_stage', '')) for word in ('草案', '报批', '送审', '征求', 'DRAFT')
             ), 'Unverified or unclassified draft link recommended'
 sheet_counts = {}
 native = errors = 0

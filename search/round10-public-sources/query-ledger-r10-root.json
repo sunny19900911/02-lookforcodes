@@ -1,0 +1,108 @@
+{
+  "source_id": "SEARCH-R10-ROOT-QUERY-LEDGER-20261017",
+  "recorded_at_utc": "2026-10-17 06:29:29 UTC",
+  "query_count": 8,
+  "open_count": 5,
+  "click_count": 3,
+  "calls": [
+    {
+      "source_id": "SEARCH-R10-WEB-49",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"CECS 69\" \"2011\" filetype:pdf -site:tmky.hpu.edu.cn"
+          },
+          {
+            "q": "\"CECS\" \"前言\" \"检测\" \"中国计划出版社\" filetype:pdf"
+          },
+          {
+            "q": "\"CECS\" \"标准下载\" \"检测\""
+          },
+          {
+            "q": "\"CECS\" \"规范下载\" \"检测\""
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "source_id": "SEARCH-R10-WEB-50",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://bjhcgk.com/upload/files/20230113/RWLQPGVG-20230113133107.pdf"
+          },
+          {
+            "ref_id": "https://www.cctedu.net/lustersoft_file/source_file/e3145e1f-06b6-4c36-848c-ead86d7d39ff/c1c2a313-c99a-4221-a9e6-4f1b8d884edb/c44430cb-0b80-4111-92a2-c0b6f6f177c8.pdf"
+          },
+          {
+            "ref_id": "https://www.instrument.com.cn/download/shtml/1312365.shtml"
+          },
+          {
+            "ref_id": "https://bjhcgk.com/"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "source_id": "SEARCH-R10-WEB-51",
+      "request": {
+        "click": [
+          {
+            "ref_id": "turn152view3",
+            "id": 133
+          },
+          {
+            "ref_id": "turn152view3",
+            "id": 122
+          },
+          {
+            "ref_id": "turn152view3",
+            "id": 201
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "source_id": "SEARCH-R10-WEB-52",
+      "request": {
+        "search_query": [
+          {
+            "q": "site:bjhcgk.com CECS filetype:pdf"
+          },
+          {
+            "q": "\"CECS\" \"检测\" filetype:pdf site:zcgl.com"
+          },
+          {
+            "q": "\"CECS\" \"检测\" \"标准规范\" filetype:pdf"
+          },
+          {
+            "q": "\"CECS 03\" filetype:pdf"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "source_id": "SEARCH-R10-WEB-53",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.ceshi17.cn/download/"
+          }
+        ],
+        "response_length": "long"
+      }
+    }
+  ],
+  "results_summary": [
+    "69:2011新独立托管北京海创高科PDF，web超时而普通GET200/PDF签名；HPU404旧记录不改。",
+    "该企业html/61公开同名下载项，但未从该项获取此PDF明确href，不能拿同名页当父页。html/1031与115没有本轮CECS附件收益。",
+    "02:2005第三方索引新附件证书主机名不匹配停止；不假称可用更完整替代。",
+    "仪器信息网21-2024仅元数据/预览，无直接PDF；03-2007页明确APP登录/活力值，不继续账户操作；纽利德下载中心502未得实际href。",
+    "云南绿色施工要点/武汉目录/天津检测管理文件均只引用CECS，不作为规范全文；UCI CECS03-02为大学嵌入式技术报告，排除。"
+  ],
+  "sharing_boundary": "仅实际请求与摘要，不含原始HTML/PDF、账号操作或瞬时参数值。"
+}

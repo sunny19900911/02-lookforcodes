@@ -1,0 +1,19 @@
+{
+  "checked_at": "2026-10-17T14:39:55+08:00",
+  "reviewer": "audit_r08_conversion_draft独立只读复核",
+  "result": "通过：两新ID/来源2哈希/本地PDF字节哈希一致，69C与02证书主机名D；公告历史事件字段与图像一致，旧94/HPU404保留，canonical48及R09/R10冻结均未变",
+  "pending_sha256": "b85f429140403811b90b5215ca38ab9c45d420705073ccb55c93f072805843e5",
+  "event_evidence_sha256": "442e9485aae9fed84a118ebfdc0365e80bb2328ef05ba901958274a81178f95e",
+  "prospective_with_r09": {
+    "count": 56,
+    "formal_complete_links": 14,
+    "versions": 12,
+    "hashes": 12,
+    "complete_drafts": 5,
+    "ratings": {
+      "B": 19,
+      "C": 17,
+      "D": 20
+    }
+  }
+}

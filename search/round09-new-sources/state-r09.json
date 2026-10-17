@@ -1,0 +1,76 @@
+{
+  "source_id": "SEARCH-R09-CHECKPOINT-1420-20261017",
+  "recorded_at": "2026-10-17T14:23:24+08:00",
+  "pdf_candidates": 6,
+  "formal_historical_candidates": 2,
+  "placeholder_draft_candidates": 4,
+  "preview_routes_separate": 1,
+  "blocked_platform_metadata_routes": 2,
+  "government_source_records": 138,
+  "government_complete_unique_number_years": 137,
+  "unresolved_year_code": 1,
+  "government_records_with_actual_html_locations": 138,
+  "page_title_effective_date_conflict_rows": 33,
+  "not_in_master_at_read": 137,
+  "not_in_master_boundary": "只是当前读取快照比对；正式合库净增由catalog决定。",
+  "source_reported_new_water_403_routes": 5,
+  "water_query_count": 36,
+  "canonical_audit_observed_at_read": {
+    "result_count": 40,
+    "sha256": "400cf857fd7d1a084bb44cb4f0b387cda220f679e88370784296314f96386d33",
+    "updated_at": "2026-10-17T14:00:03+08:00"
+  },
+  "last_independent_review_batch": "1410 pending8，SHA455b212b19fd80b644aa82c64e5592d07e35fc27fd462c99571dbd6fdebb4b57：正式完整B4、完整送审草案B1另列；合并须主控批准。",
+  "new_r09_complete_pdf_count_by_search": 0,
+  "old_freeze_integrity": [
+    {
+      "manifest": "search/freeze-inputs-1320.json",
+      "files": 19,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-round04.json",
+      "files": 9,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-1330.json",
+      "files": 12,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-1340.json",
+      "files": 12,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-1340-water-mep-addendum.json",
+      "files": 3,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-1340-water-mep-addendum-v2.json",
+      "files": 4,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-g2-round02-share-1350.json",
+      "files": 1,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-1400.json",
+      "files": 13,
+      "unchanged": true,
+      "failures": []
+    }
+  ],
+  "boundary": "只新来源元数据。候选/预览/正式完整/草案完整分开，历史清单不确认2026现行。无Git、账号登录、PDF上传或原始HTML共享。"
+}

@@ -1,0 +1,23 @@
+{
+  "source_id": "SEARCH-R09-INDEPENDENT-VALIDATION-20261017",
+  "recorded_at": "2026-10-17T14:23:24+08:00",
+  "directory_rows": 138,
+  "directory_resolved_unique_keys": 137,
+  "directory_unresolved": 1,
+  "all_actual_html_locations": true,
+  "master_identity_count_at_read": 889,
+  "master_sha256_at_read": "701f9680a958bd2ea8cacdc8bef7d9677e4acdb4536149618785cc7c2938add1",
+  "normalized_numeric_master_keys": 866,
+  "matching_number_years": [],
+  "not_in_master_at_read": 137,
+  "dedupe_boundary": "独立按master.standard_number统一编号与4位年检查；不是已合库数，非数字G/图集号不猜。",
+  "pdf_candidate_count": 6,
+  "root_candidates_unchanged": [
+    "R09-HPU-69-2011",
+    "R09-CNASS-DRAFT-CABLE-ACCEPT",
+    "R09-DRAFT-PREFAB-LOW-CARBON",
+    "R09-DRAFT-DRAIN-MANHOLE-GRATING",
+    "R09-DRAFT-WOOD-FIRE-COATINGS"
+  ],
+  "metadata_projection_note": "2条平台占位号按各自索引分别保留XXX/XXXX，不用组合占位显示；5候选本体不变。"
+}

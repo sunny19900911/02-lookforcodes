@@ -1,0 +1,54 @@
+{
+  "checkpoint": "R10 supplementary fixed before next 14:40 handoff",
+  "frozen_at": "2026-10-17T14:38:07+08:00",
+  "updated_at": "2026-10-17T14:37:16+08:00",
+  "status": "fixed_independent_pending_not_canonical",
+  "snapshot": "audit-pending-round08-fixed-r10.json",
+  "sha256": "b85f429140403811b90b5215ca38ab9c45d420705073ccb55c93f072805843e5",
+  "pending_candidate_count": 2,
+  "ordinary_get_attempt_count": 2,
+  "new_parseable_pdfs": 1,
+  "new_certificate_hostname_mismatch_candidates": 1,
+  "formal_complete_added": 0,
+  "complete_draft_added": 0,
+  "ratings": {
+    "C": 1,
+    "D": 1
+  },
+  "canonical_count": 48,
+  "canonical_sha256": "a81a40dfff05c0bd437b99875baba5efc7f540c05ae9c59437aceb66d5aa65e2",
+  "prior_pending": "audit-pending-round07-freeze-1430.json",
+  "source_inputs": [
+    {
+      "path": "search/round10-public-sources/candidates-r10-detection.json",
+      "sha256": "0c6ec696308986f650354115279d84384acc920cb63633440b97dd88489e7df0"
+    },
+    {
+      "path": "search/freeze-inputs-1430.json",
+      "sha256": "3974c2d6470358bce3c086132f783d963e351988ab4bf18450def551067d5722"
+    }
+  ],
+  "historical_event_evidence": {
+    "path": "evidence-85-repeal-cecs69-94.json",
+    "sha256": "442e9485aae9fed84a118ebfdc0365e80bb2328ef05ba901958274a81178f95e"
+  },
+  "prospective_if_both_pending_selected": {
+    "result_count": 56,
+    "formal_complete_links": 14,
+    "formal_complete_versions": 12,
+    "formal_complete_hashes": 12,
+    "complete_drafts": 5,
+    "ratings": {
+      "D": 20,
+      "C": 17,
+      "B": 19
+    }
+  },
+  "boundaries": [
+    "R09 six records and R10 two records are separate fixed inputs; no canonical merge yet.",
+    "69:2011 C owing to unproved omission of blank backs24/26/28, watermark and no OCR/navigation; old69:94 and HPU404 retained.",
+    "85notice image confirms only historical69:94 repeal effective2011-10-01, not2011 version current status in2026.",
+    "02:2005 new route fails hostname certificate verification; no TLS bypass.",
+    "No Git or PDF/image upload by audit role."
+  ]
+}

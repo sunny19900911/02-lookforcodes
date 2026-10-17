@@ -1,0 +1,8 @@
+{
+  "checked_at": "2026-10-17T14:37:16+08:00",
+  "reviewer": "audit_r08_conversion_draft独立只读复核",
+  "snapshot": "audit-pending-round07-freeze-1430.json",
+  "sha256": "1f75a6b1536d5265a2a8cb814e1c2d1c7630de38d9dd49ec707650a174aebe0f",
+  "result": "通过：6唯一候选/7GET尝试，4本地PDF哈希字节匹配、3来源哈希匹配；完整草案3不混正式；预期54条/正式14链12版12hash/草案5/B19C16D19",
+  "canonical_unchanged": true
+}

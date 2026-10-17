@@ -1,0 +1,95 @@
+{
+  "checked_at": "2026-10-17T14:35:00+08:00",
+  "controller_thread": "01a1482e-ed9b-70b3-b74c-89867f90d180",
+  "roles": [
+    {
+      "role": "catalog",
+      "title": "CECS ①｜规范总表管理",
+      "threadId": "01a14838-25e1-7de2-9595-0b694022aa05",
+      "directory": "catalog",
+      "owns": "Excel及主索引唯一写入"
+    },
+    {
+      "role": "search",
+      "title": "CECS ②｜检索路径与方法迭代",
+      "threadId": "01a14838-987f-7860-b82e-e000fe59ca30",
+      "directory": "search",
+      "owns": "候选与查询路线，master-authority子目录暂由主控写入"
+    },
+    {
+      "role": "pdf-audit",
+      "title": "CECS ③｜PDF 下载与质量审查",
+      "threadId": "01a14838-9d35-74d1-8de7-5683103ad144",
+      "directory": "pdf-audit",
+      "owns": "审查元数据及downloads-temp内核验文件"
+    }
+  ],
+  "scope": "全网可发现CECS及历史/草案，81仅基线；不得声称穷尽；每10分钟交流",
+  "output_root": "C:/Users/mj528/Documents/004 工作/web-demo/outputs/cecs-master-20261017",
+  "publication_checkout": "reviewed-publish-repo",
+  "publication_branch": "codex/reviewed-cecs-20261017",
+  "git_command": "git push origin HEAD:main",
+  "last_confirmed_published_data": {
+    "commit": "8a807a8dc309cfbf070d6a8df793bdff6b665d12",
+    "generated_at_beijing": "2026-10-17T14:06:54+08:00",
+    "identities": 889,
+    "links": 134,
+    "audits": 40,
+    "formal_complete_links": 10,
+    "formal_unique_pdfs": 8,
+    "complete_draft_links": 1,
+    "xlsx_sha256": "3843f0b27e13f43fe1f33065cddc312c0c77bee52878f7f899c78420a779a0e4"
+  },
+  "current_next_batch": {
+    "status": "catalog_build_and_independent_final_check_in_progress",
+    "audit_freeze": "1410",
+    "audit_sha256": "a81a40dfff05c0bd437b99875baba5efc7f540c05ae9c59437aceb66d5aa65e2",
+    "audit_count": 48,
+    "expected_formal_complete_links": 14,
+    "expected_formal_unique_pdfs": 12,
+    "expected_complete_drafts": 2,
+    "expected_identities_provisional": 1008,
+    "expected_links_provisional": 146,
+    "inputs": [
+      "search/freeze-inputs-1400.json",
+      "search/master-authority/freeze-ttbz-p1-1410.json"
+    ],
+    "next_steps": [
+      "等catalog最终freeze-1410与独立schema收据，不在检查中抢发布",
+      "在reviewed-publish-repo运行coordination/verify_delivery.py（bundled Python）、sync_exchange.py、update_release.py",
+      "核对TEMP_QUERY/原PDF/PNG/原HTML/原始提取未入Git；运行相关catalog行为测试",
+      "正常commit并HEAD:main push，成功与失败分别落盘，不强推"
+    ],
+    "not_this_batch": [
+      "R09/R10检索及round07后审查只pending，不追入移动目标"
+    ]
+  },
+  "privacy_boundary": {
+    "old_checkout": "exchange-repo旧main与原始历史仅本地，绝不push",
+    "excluded_inputs": [
+      "search/g2-public-routes/round02-candidates.json",
+      "candidates-round07-water-mep.json",
+      "web/raw响应",
+      "page-extraction.json",
+      "table-rows.json",
+      "PDF/PNG/JPEG/DOCX/ZIP原件"
+    ],
+    "safe_sources": "只分享投影、manifest、metadata与受测维护脚本。原始字节及hash本地保留。"
+  },
+  "browser": {
+    "browser_id": "2",
+    "tab_org": "1",
+    "tab_list": "2",
+    "marked_handoff": true,
+    "public_limit": "仅显示前100条",
+    "observed": "只有第一页10条已固化；2960徽标非采集分母",
+    "last_action": "每页10条控件单击未展开新选项，仍10条，未绕过上限或登录",
+    "metadata": "search/master-authority/ttbz-ui-observed-20261017-p1.json"
+  },
+  "constraints": [
+    "不改工作台应用源码、主分支或其他工作树；所有写入仅任务输出目录",
+    "不上传规范原件、页面图、账户/密钥/临时下载参数",
+    "主控唯一Git写入，catalog唯一Excel/主索引写入；角色可继续独立pending",
+    "不重复创建自动化；原对话负责跟进自动化"
+  ]
+}

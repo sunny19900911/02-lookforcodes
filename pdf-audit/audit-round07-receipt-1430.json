@@ -1,0 +1,63 @@
+{
+  "checkpoint": "1430",
+  "frozen_at": "2026-10-17T14:33:38+08:00",
+  "updated_at": "2026-10-17T14:32:17+08:00",
+  "status": "independent_pending_freeze_not_canonical",
+  "snapshot": "audit-pending-round07-freeze-1430.json",
+  "sha256": "1f75a6b1536d5265a2a8cb814e1c2d1c7630de38d9dd49ec707650a174aebe0f",
+  "pending_candidate_count": 6,
+  "ordinary_get_attempt_count": 7,
+  "new_parseable_pdfs": 4,
+  "new_http404_candidates": 1,
+  "new_tls_timeout_candidates": 1,
+  "formal_complete_added": 0,
+  "complete_draft_added": 3,
+  "pending_ratings": {
+    "D": 2,
+    "B": 3,
+    "C": 1
+  },
+  "canonical_count": 48,
+  "canonical_sha256": "a81a40dfff05c0bd437b99875baba5efc7f540c05ae9c59437aceb66d5aa65e2",
+  "source_inputs": [
+    {
+      "path": "search/round09-new-sources/candidates-r09-root-share.json",
+      "sha256": "e06bc88574152717b0aa0e49bcce149f436f19701079be3e9ece13c297856ef3"
+    },
+    {
+      "path": "search/round09-new-sources/water-mep/round09-water-mep-candidates.json",
+      "sha256": "172817225816b9cfcfbb52a591ef87ea15e4a551bd360a2e22a42dbe50beaadd"
+    },
+    {
+      "path": "search/freeze-inputs-1420.json",
+      "sha256": "cc3118242ffa6b13e530ef48678adacb5a6fc9a2d0fe553f39be2ca6e66df2ed"
+    }
+  ],
+  "root_share_ids_urls_identical": true,
+  "prospective_after_authorized_merge": {
+    "result_count": 54,
+    "formal_complete_links": 14,
+    "formal_complete_versions": 12,
+    "formal_complete_hashes": 12,
+    "complete_drafts": 5,
+    "draft_stages": {
+      "报批稿": 3,
+      "送审稿": 1,
+      "征求意见稿": 1
+    },
+    "ratings": {
+      "D": 19,
+      "C": 16,
+      "B": 19
+    }
+  },
+  "boundaries": [
+    "No R09 merge until master new checkpoint authorization.",
+    "3 complete drafts remain outside formal complete set.",
+    "243 content boundaries present but original rendering has blank technical threshold and garbled standard reference; C, not corrected.",
+    "69 HPU URL HTTP404 and prefab TLS timeout are this-attempt observations only.",
+    "243 Schannel verified TLS GET succeeded after Python BAD_ECPOINT; attempts both retained, no certificate checks disabled.",
+    "R10-69 successful new source is a separate next pending, does not overwrite R09-HPU404.",
+    "No PDF/image upload or Git operations by audit role."
+  ]
+}

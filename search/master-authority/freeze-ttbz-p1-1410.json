@@ -1,0 +1,14 @@
+{
+  "producer": "controller",
+  "checkpoint": "1410-TTBZ-public-first-page",
+  "frozen": true,
+  "checked_at": "2026-10-17T14:23:34.715711+08:00",
+  "files": [
+    {
+      "path": "search/master-authority/ttbz-ui-observed-20261017-p1.json",
+      "sha256": "da0251d1ee5dfe9dac0cac6721a7d3e793e40f596ebb9b028c38ebf977ad2cd7",
+      "bytes": 13044
+    }
+  ],
+  "scope": "Ten actually observed public DOM records only. Organization badge 2960 and public list cap 100 are not acquired coverage."
+}
