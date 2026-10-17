@@ -8,4 +8,8 @@ XLSX未变，SHA256 `05da49e829a2ac73232bd9205ae750090f6fe26ffba33fd1e4ae3a3d129
 
 builder今后调用sharing-projection-core.mjs自动清外部投影。两项独立语义验证通过：删除临时query仍保留file_id及fragment、正常稳定query完全不变；用合成示例，不使用或输出真实临时值。分享操作收据为sharing-projection-receipt.json。
 
+最终独立只读分享复核零违规：machine与分享source均无瞬时query，来源路径/SHA和回执一致，811/127/33/81与9完整双门槛、102/796无回归，Excel SHA未变。search另外提供round02-candidates-share.json及freeze-inputs-g2-round02-share-1350.json，已独立复核，redirect_entry置null而去参数route明确未验；发布源可优先采用search该语义更明确的投影，原冻结输入仅本地保留。
+
 R07及草案质量仍在下一批审查，当前canonical33和本轮Excel不追加新结果。评级/完整性结论属于AI基于实测的判断，不当作发布方认证。Git及干净发布树均由主控操作，本角色未调用Git。
+
+13:53:57审查角色现已固定round05七GET，catalog复核冻结SHA256为`90081712aea2c2ddb78202101d3e31753828ed6e663af87a139ec9e007e7dcf8`。待主控授权后，预计审查40、正式完整10链接/8版本/8哈希，完整报批稿另1；10025正式完整B、零碳报批稿内容完整B但不入正式集合，41/164仍C，三GET403仅本次失败。回执及草案schema适配要求已列入pending-next-round.md；当前811/127/33与9正式完整仍冻结。

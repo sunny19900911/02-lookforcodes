@@ -1,0 +1,459 @@
+{
+  "schema_version": "cecs-public-candidates-r08-water-historical-v1",
+  "batch_id": "R08-WATER-HISTORICAL-1401",
+  "frozen_at": "2026-10-17T14:02:08+08:00",
+  "source_id": "SEARCH-R08-WATER-HISTORICAL-20261017",
+  "scope": "公开厂家/机构网站水与管道历史CECS附件；仅结构化证据",
+  "candidate_count": 3,
+  "restrictions": [
+    "未登录、未绕过403或权限提示",
+    "未保存或分享PDF、原始HTML响应、瞬时参数",
+    "下载中心明确要求登录后停止该路线",
+    "全文质量与现行有效性由独立审查判断"
+  ],
+  "dedup": {
+    "master_path": "C:/Users/mj528/Documents/004 工作/web-demo/outputs/cecs-master-20261017/catalog/cecs-master.json",
+    "checked_at": "2026-10-17T14:00:55+08:00",
+    "key": "links.requested_url",
+    "matching_urls": 0,
+    "note": "三条精确URL均未见于当前master；不等于标准在master中不存在，不合并主表"
+  },
+  "candidates": [
+    {
+      "candidate_id": "R08-WH-001",
+      "source_id": "SRC-R08-WH-001",
+      "seed_ids": [],
+      "standard_number": "CECS 122:2001",
+      "standard_name": "埋地硬聚氯乙烯排水管道工程技术规程",
+      "year": 2001,
+      "status": "正式出版外观的历史版本候选，未作全文审查",
+      "is_draft": false,
+      "draft_evidence": "所见封面未标征求意见稿或草案；不代表独立终审完成",
+      "edition_kind": "historical",
+      "current_validity": "未核实",
+      "download_url": "https://web.yonggao.com/upload/2016/01/25/14536852275425t7ozy.pdf",
+      "direct_url": "https://web.yonggao.com/upload/2016/01/25/14536852275425t7ozy.pdf",
+      "original_url": "https://web.yonggao.com/upload/2016/01/25/14536852275425t7ozy.pdf",
+      "final_url": "https://web.yonggao.com/upload/2016/01/25/14536852275425t7ozy.pdf",
+      "source_page": "https://web.yonggao.com/upload/2016/01/25/14536852275425t7ozy.pdf",
+      "detail_url": null,
+      "parent_page_status": "未定位具体附件父页；source_page为实际PDF本身",
+      "format": "PDF",
+      "candidate_only": true,
+      "full_text_review_status": "未审查，不声明完整",
+      "metadata_evidence": [
+        {
+          "source_id": "SRC-R08-WH-001-COVER",
+          "url": "https://web.yonggao.com/upload/2016/01/25/14536852275425t7ozy.pdf",
+          "kind": "内存封面渲染",
+          "evidence": "封面在内存渲染可见 CECS 122:2001、标准全名、2001 北京。"
+        },
+        {
+          "source_id": "SRC-R08-WH-001-GET",
+          "url": "https://web.yonggao.com/upload/2016/01/25/14536852275425t7ozy.pdf",
+          "kind": "普通公开GET",
+          "evidence": "200; application/pdf; %PDF- 签名；未保存PDF；未带登录会话"
+        },
+        {
+          "source_id": "SRC-R08-WH-001-HOST",
+          "url": "https://web.yonggao.com/",
+          "kind": "厂家域名归属背景",
+          "evidence": "官网页面显示公元管道/永高官网；仅为域名背景，不能作为PDF具体父页"
+        }
+      ],
+      "access": {
+        "method": "GET",
+        "checked_at": "2026-10-17T13:59:10+08:00",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "received_bytes": 1380587,
+        "pdf_signature": true,
+        "tool_reported_page_count": 54,
+        "page_count_scope": "解析器报告值，未逐页审查",
+        "authentication_used": false,
+        "redirect_observed": false,
+        "pdf_saved": false
+      },
+      "permissions": {
+        "public_access_observed": true,
+        "reuse_authorization": "未核实；公开可达不等于获得转载授权",
+        "website_owner_role": "管道厂家官网；是否本标准起草/参编单位未核实",
+        "compiler_evidence": "北京市市政工程设计研究院（文本提取可辨，单位信息不作参编身份背书）",
+        "restriction_context": "公元现有下载中心有登录限制；本候选来自独立搜索索引中的老静态PDF URL，普通GET可达；不推断绕过认证或授权下载中心内容"
+      },
+      "alternates": [],
+      "failed_routes": [
+        {
+          "method": "web.open/screenshot",
+          "result": "web正文解析54页但截图超时；后普通GET200并内存渲染封面"
+        }
+      ]
+    },
+    {
+      "candidate_id": "R08-WH-002",
+      "source_id": "SRC-R08-WH-002",
+      "seed_ids": [],
+      "standard_number": "CECS 17:2000",
+      "standard_name": "埋地硬聚氯乙烯给水管道工程技术规程",
+      "year": 2000,
+      "status": "正式出版外观的历史版本候选，未作全文审查",
+      "is_draft": false,
+      "draft_evidence": "所见封面未标征求意见稿或草案；不代表独立终审完成",
+      "edition_kind": "historical",
+      "current_validity": "未核实",
+      "download_url": "https://web.yonggao.com/upload/2016/01/25/14536847989371ldcs8.pdf",
+      "direct_url": "https://web.yonggao.com/upload/2016/01/25/14536847989371ldcs8.pdf",
+      "original_url": "https://web.yonggao.com/upload/2016/01/25/14536847989371ldcs8.pdf",
+      "final_url": "https://web.yonggao.com/upload/2016/01/25/14536847989371ldcs8.pdf",
+      "source_page": "https://web.yonggao.com/upload/2016/01/25/14536847989371ldcs8.pdf",
+      "detail_url": null,
+      "parent_page_status": "未定位具体附件父页；source_page为实际PDF本身",
+      "format": "PDF",
+      "candidate_only": true,
+      "full_text_review_status": "未审查，不声明完整",
+      "metadata_evidence": [
+        {
+          "source_id": "SRC-R08-WH-002-COVER",
+          "url": "https://web.yonggao.com/upload/2016/01/25/14536847989371ldcs8.pdf",
+          "kind": "内存封面渲染",
+          "evidence": "封面在内存渲染可见 CECS 17:2000、标准全名、2000 北京。"
+        },
+        {
+          "source_id": "SRC-R08-WH-002-GET",
+          "url": "https://web.yonggao.com/upload/2016/01/25/14536847989371ldcs8.pdf",
+          "kind": "普通公开GET",
+          "evidence": "200; application/pdf; %PDF- 签名；未保存PDF；未带登录会话"
+        },
+        {
+          "source_id": "SRC-R08-WH-002-HOST",
+          "url": "https://web.yonggao.com/",
+          "kind": "厂家域名归属背景",
+          "evidence": "官网页面显示公元管道/永高官网；仅为域名背景，不能作为PDF具体父页"
+        }
+      ],
+      "access": {
+        "method": "GET",
+        "checked_at": "2026-10-17T13:59:10+08:00",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "received_bytes": 4332627,
+        "pdf_signature": true,
+        "tool_reported_page_count": 64,
+        "page_count_scope": "解析器报告值，未逐页审查",
+        "authentication_used": false,
+        "redirect_observed": false,
+        "pdf_saved": false
+      },
+      "permissions": {
+        "public_access_observed": true,
+        "reuse_authorization": "未核实；公开可达不等于获得转载授权",
+        "website_owner_role": "管道厂家官网；是否本标准起草/参编单位未核实",
+        "compiler_evidence": "封面后单位页有主编单位，但本批不核定厂家参编关系",
+        "restriction_context": "公元现有下载中心有登录限制；本候选来自独立搜索索引中的老静态PDF URL，普通GET可达；不推断绕过认证或授权下载中心内容"
+      },
+      "alternates": [],
+      "failed_routes": [
+        {
+          "method": "web.open/screenshot",
+          "result": "web.open两次超时；后普通GET200并内存渲染封面"
+        }
+      ]
+    },
+    {
+      "candidate_id": "R08-WH-003",
+      "source_id": "SRC-R08-WH-003",
+      "seed_ids": [],
+      "standard_number": "CECS 287:2011",
+      "standard_name": "漩流降噪特殊单立管排水系统技术规程",
+      "year": 2011,
+      "status": "正式出版外观的历史版本候选，未作全文审查",
+      "is_draft": false,
+      "draft_evidence": "所见封面未标征求意见稿或草案；不代表独立终审完成",
+      "edition_kind": "historical",
+      "current_validity": "未核实",
+      "download_url": "https://ygj.era.com.cn/upload/2016/01/25/14536845576423kfpp0.pdf",
+      "direct_url": "https://ygj.era.com.cn/upload/2016/01/25/14536845576423kfpp0.pdf",
+      "original_url": "https://ygj.era.com.cn/upload/2016/01/25/14536845576423kfpp0.pdf",
+      "final_url": "https://ygj.era.com.cn/upload/2016/01/25/14536845576423kfpp0.pdf",
+      "source_page": "https://ygj.era.com.cn/upload/2016/01/25/14536845576423kfpp0.pdf",
+      "detail_url": null,
+      "parent_page_status": "未定位具体附件父页；source_page为实际PDF本身",
+      "format": "PDF",
+      "candidate_only": true,
+      "full_text_review_status": "未审查，不声明完整",
+      "metadata_evidence": [
+        {
+          "source_id": "SRC-R08-WH-003-COVER",
+          "url": "https://ygj.era.com.cn/upload/2016/01/25/14536845576423kfpp0.pdf",
+          "kind": "封面文本及搜索索引",
+          "evidence": "搜索索引及封面文本明确 CECS 287:2011、标准全名和2011年7月1日实施。"
+        },
+        {
+          "source_id": "SRC-R08-WH-003-GET",
+          "url": "https://ygj.era.com.cn/upload/2016/01/25/14536845576423kfpp0.pdf",
+          "kind": "普通公开GET",
+          "evidence": "200; application/pdf; %PDF- 签名；未保存PDF；未带登录会话"
+        },
+        {
+          "source_id": "SRC-R08-WH-003-HOST",
+          "url": "https://ygj.era.com.cn/",
+          "kind": "厂家域名归属背景",
+          "evidence": "官网页面显示公元管道/永高官网；仅为域名背景，不能作为PDF具体父页"
+        }
+      ],
+      "access": {
+        "method": "GET",
+        "checked_at": "2026-10-17T13:59:10+08:00",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "received_bytes": 2083020,
+        "pdf_signature": true,
+        "tool_reported_page_count": 73,
+        "page_count_scope": "解析器报告值，未逐页审查",
+        "authentication_used": false,
+        "redirect_observed": false,
+        "pdf_saved": false
+      },
+      "permissions": {
+        "public_access_observed": true,
+        "reuse_authorization": "未核实；公开可达不等于获得转载授权",
+        "website_owner_role": "管道厂家官网；是否本标准起草/参编单位未核实",
+        "compiler_evidence": "索引列主编中建（北京）国际设计顾问有限公司、浙江光华塑业有限公司；未证实公元为参编单位",
+        "restriction_context": "公元现有下载中心有登录限制；本候选来自独立搜索索引中的老静态PDF URL，普通GET可达；不推断绕过认证或授权下载中心内容"
+      },
+      "alternates": [],
+      "failed_routes": [
+        {
+          "method": "web.open",
+          "result": "工具不可访问；后普通GET200，区分工具失败与网站HTTP状态"
+        }
+      ]
+    }
+  ],
+  "queries": [
+    {
+      "query_id": "R08-WH-Q01",
+      "query": "site:yonggao.com \"CECS\" \"151\"",
+      "result": "未定位151附件",
+      "time_window": "2026-10-17T13:55:07+08:00/2026-10-17T14:00:55+08:00"
+    },
+    {
+      "query_id": "R08-WH-Q02",
+      "query": "site:yonggao.com \"CECS\" \"153\"",
+      "result": "未定位153附件",
+      "time_window": "2026-10-17T13:55:07+08:00/2026-10-17T14:00:55+08:00"
+    },
+    {
+      "query_id": "R08-WH-Q03",
+      "query": "site:yonggao.com \"CECS\" \"122\"",
+      "result": "未通过本查询定位122；后经公开upload路径索引找到",
+      "time_window": "2026-10-17T13:55:07+08:00/2026-10-17T14:00:55+08:00"
+    },
+    {
+      "query_id": "R08-WH-Q04",
+      "query": "site:yonggao.com \"CECS\" filetype:pdf -164 -41",
+      "result": "未新增明确可用CECS链接",
+      "time_window": "2026-10-17T13:55:07+08:00/2026-10-17T14:00:55+08:00"
+    },
+    {
+      "query_id": "R08-WH-Q05",
+      "query": "site:web.yonggao.com/upload/ \"CECS\"",
+      "result": "命中已收41等，URL重复排除",
+      "time_window": "2026-10-17T13:55:07+08:00/2026-10-17T14:00:55+08:00"
+    },
+    {
+      "query_id": "R08-WH-Q06",
+      "query": "site:yonggao.com \"标准规范\"",
+      "result": "未取得新附件父页",
+      "time_window": "2026-10-17T13:55:07+08:00/2026-10-17T14:00:55+08:00"
+    },
+    {
+      "query_id": "R08-WH-Q07",
+      "query": "site:yonggao.com \"技术资料\"",
+      "result": "未取得新附件父页",
+      "time_window": "2026-10-17T13:55:07+08:00/2026-10-17T14:00:55+08:00"
+    },
+    {
+      "query_id": "R08-WH-Q08",
+      "query": "site:yonggao.com \"资料下载\"",
+      "result": "未取得新附件父页",
+      "time_window": "2026-10-17T13:55:07+08:00/2026-10-17T14:00:55+08:00"
+    },
+    {
+      "query_id": "R08-WH-Q09",
+      "query": "\"CECS\" \"永高\" \"pdf\" -\"41\" -\"164\"",
+      "result": "未新增明确可用CECS链接",
+      "time_window": "2026-10-17T13:55:07+08:00/2026-10-17T14:00:55+08:00"
+    },
+    {
+      "query_id": "R08-WH-Q10",
+      "query": "\"CECS\" site:era.com.cn filetype:pdf",
+      "result": "命中287:2011实际PDF URL",
+      "time_window": "2026-10-17T13:55:07+08:00/2026-10-17T14:00:55+08:00"
+    },
+    {
+      "query_id": "R08-WH-Q11",
+      "query": "\"CECS 122\" \"pdf\" 管业",
+      "result": "未定位优先机构附件",
+      "time_window": "2026-10-17T13:55:07+08:00/2026-10-17T14:00:55+08:00"
+    },
+    {
+      "query_id": "R08-WH-Q12",
+      "query": "\"CECS 153\" \"pdf\" \"管业\"",
+      "result": "未定位优先机构附件",
+      "time_window": "2026-10-17T13:55:07+08:00/2026-10-17T14:00:55+08:00"
+    },
+    {
+      "query_id": "R08-WH-Q13",
+      "query": "site:ygj.era.com.cn \"CECS\" filetype:pdf",
+      "result": "命中287:2011",
+      "time_window": "2026-10-17T13:55:07+08:00/2026-10-17T14:00:55+08:00"
+    },
+    {
+      "query_id": "R08-WH-Q14",
+      "query": "site:era.com.cn/upload/ \"CECS\"",
+      "result": "命中287:2011",
+      "time_window": "2026-10-17T13:55:07+08:00/2026-10-17T14:00:55+08:00"
+    },
+    {
+      "query_id": "R08-WH-Q15",
+      "query": "site:era.com.cn \"CECS\" \"151\"",
+      "result": "未定位151附件",
+      "time_window": "2026-10-17T13:55:07+08:00/2026-10-17T14:00:55+08:00"
+    },
+    {
+      "query_id": "R08-WH-Q16",
+      "query": "site:era.com.cn \"CECS\" \"122\"",
+      "result": "未定位122附件",
+      "time_window": "2026-10-17T13:55:07+08:00/2026-10-17T14:00:55+08:00"
+    },
+    {
+      "query_id": "R08-WH-Q17",
+      "query": "site:ygj.era.com.cn \"下载\"",
+      "result": "未定位无需登录的CECS附件父页",
+      "time_window": "2026-10-17T13:55:07+08:00/2026-10-17T14:00:55+08:00"
+    },
+    {
+      "query_id": "R08-WH-Q18",
+      "query": "site:yonggao.com \"145368\"",
+      "result": "发现既有公开上传路径索引",
+      "time_window": "2026-10-17T13:55:07+08:00/2026-10-17T14:00:55+08:00"
+    },
+    {
+      "query_id": "R08-WH-Q19",
+      "query": "site:era.com.cn \"CECS\" -\"41\" -\"164\" -\"287\" -news -年会",
+      "result": "未新增明确可用CECS链接",
+      "time_window": "2026-10-17T13:55:07+08:00/2026-10-17T14:00:55+08:00"
+    },
+    {
+      "query_id": "R08-WH-Q20",
+      "query": "\"CECS\" \"公元\" \"标准下载\"",
+      "result": "未定位公开附件父页",
+      "time_window": "2026-10-17T13:55:07+08:00/2026-10-17T14:00:55+08:00"
+    },
+    {
+      "query_id": "R08-WH-Q21",
+      "query": "site:yonggao.com/upload/2016/01/25/ pdf",
+      "result": "命中122及17的实际PDF URL，也有非CECS文件未收",
+      "time_window": "2026-10-17T13:55:07+08:00/2026-10-17T14:00:55+08:00"
+    },
+    {
+      "query_id": "R08-WH-Q22",
+      "query": "site:era.com.cn/upload/2016/01/25/ pdf",
+      "result": "命中公开历史文件索引",
+      "time_window": "2026-10-17T13:55:07+08:00/2026-10-17T14:00:55+08:00"
+    },
+    {
+      "query_id": "R08-WH-Q23",
+      "query": "site:web.yonggao.com \"埋地\" filetype:pdf",
+      "result": "命中122历史PDF",
+      "time_window": "2026-10-17T13:55:07+08:00/2026-10-17T14:00:55+08:00"
+    },
+    {
+      "query_id": "R08-WH-Q24",
+      "query": "site:ygj.era.com.cn \"建筑\" filetype:pdf",
+      "result": "未新增明确可用CECS链接",
+      "time_window": "2026-10-17T13:55:07+08:00/2026-10-17T14:00:55+08:00"
+    },
+    {
+      "query_id": "R08-WH-Q25",
+      "query": "\"14536845576423kfpp0.pdf\"",
+      "result": "补查精确URL，未定位具体父页",
+      "time_window": "2026-10-17T13:55:07+08:00/2026-10-17T14:00:55+08:00"
+    },
+    {
+      "query_id": "R08-WH-Q26",
+      "query": "\"14536852275425t7ozy.pdf\"",
+      "result": "补查精确URL，未定位具体父页",
+      "time_window": "2026-10-17T13:55:07+08:00/2026-10-17T14:00:55+08:00"
+    },
+    {
+      "query_id": "R08-WH-Q27",
+      "query": "\"14536847989371ldcs8.pdf\"",
+      "result": "命中第三方AI文章，未作为标准事实依据；原公元实际URL普通GET核对",
+      "time_window": "2026-10-17T13:55:07+08:00/2026-10-17T14:00:55+08:00"
+    },
+    {
+      "query_id": "R08-WH-Q28",
+      "query": "site:web.yonggao.com \"14536852275425t7ozy\"",
+      "result": "无结果",
+      "time_window": "2026-10-17T13:55:07+08:00/2026-10-17T14:00:55+08:00"
+    },
+    {
+      "query_id": "R08-WH-Q29",
+      "query": "site:web.yonggao.com \"CECS\" \"122\" \"2001\"",
+      "result": "无结果",
+      "time_window": "2026-10-17T13:55:07+08:00/2026-10-17T14:00:55+08:00"
+    },
+    {
+      "query_id": "R08-WH-Q30",
+      "query": "site:ygj.era.com.cn \"CECS\" \"17\" \"2000\"",
+      "result": "无结果",
+      "time_window": "2026-10-17T13:55:07+08:00/2026-10-17T14:00:55+08:00"
+    },
+    {
+      "query_id": "R08-WH-Q31",
+      "query": "site:web.yonggao.com \"CECS\" \"153\" \"2003\"",
+      "result": "无结果",
+      "time_window": "2026-10-17T13:55:07+08:00/2026-10-17T14:00:55+08:00"
+    }
+  ],
+  "site_routes": [
+    {
+      "url": "https://web.yonggao.com/",
+      "result": "公开主页可达，仅用于域名背景，未找到本3PDF的具体父页"
+    },
+    {
+      "url": "https://web.yonggao.com/index.php/service/center/cptd",
+      "result": "普通GET后未检出CECS/PDF下载索引"
+    },
+    {
+      "url": "https://web.yonggao.com/index.php/app",
+      "result": "普通GET后未检出CECS/PDF下载索引"
+    },
+    {
+      "url": "https://web.yonggao.com/index.php/product",
+      "result": "普通GET后未检出CECS/PDF下载索引"
+    },
+    {
+      "url": "https://www.era.com.cn/index.php/Home/Market/downcenter/pType/12/pid/74/typeId/87.html",
+      "result": "公开页面明确下载资料需登录，未登录、未尝试下载，不作为本3候选父页"
+    }
+  ],
+  "coverage_gaps": [
+    {
+      "standard_number": "CECS 151（年份未定）",
+      "candidate_count": 0,
+      "gap": "精确域名/编号检索未得真实公开附件，未猜URL"
+    },
+    {
+      "standard_number": "CECS 153（年份未定）",
+      "candidate_count": 0,
+      "gap": "精确域名/编号检索未得真实公开附件，未猜URL"
+    },
+    {
+      "standard_number": "CECS 122:2001 / CECS 17:2000 / CECS 287:2011",
+      "gap": "具体附件父页未知；现行版本/替代关系、起草单位身份、转载授权、全文质量均未核实"
+    }
+  ]
+}

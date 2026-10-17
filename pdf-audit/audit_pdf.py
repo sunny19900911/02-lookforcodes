@@ -72,6 +72,8 @@ def inspect(c):
       r['text_pages']=sum(bool(x.strip()) for x in texts)
       r['text_characters']=sum(len(x) for x in texts)
       r['cjk_characters']=sum(len(re.findall(r'[\u4e00-\u9fff]',x)) for x in texts)
+      unicode_warnings=[{'page':i+1,'surrogate_count':sum(0xD800<=ord(ch)<=0xDFFF for ch in t)} for i,t in enumerate(texts) if any(0xD800<=ord(ch)<=0xDFFF for ch in t)]
+      if unicode_warnings:r['text_unicode_warnings']=unicode_warnings
       r['text_layer']=r['text_pages']>0
       r['body_searchable']=None
       r['body_text_layer']='待正文中文与图像对照；少量导航文字或乱码不能证明正文可搜索'
@@ -101,7 +103,10 @@ def inspect(c):
       r['recommendation']='C';r['recommendation_reason']='实际GET和全部页面解析通过，等待版本、目录末项与终页、抽样图像核验'
       sample_idx=sorted(set([0,min(4,n-1),min(6,n-1),n//2,max(0,n-3),n-1]))
       detail={'audit_id':ident,'checked_at':r['checked_at'],'outline':outline,'links':links,'geometry':geometry,'text_checks':[{'page':i+1,'chars':len(t),'cjk':len(re.findall(r'[\u4e00-\u9fff]',t)),'excerpt':t[:900] if i<8 or i>=n-3 else t[:200]} for i,t in enumerate(texts)],'sample_page_numbers':[i+1 for i in sample_idx]}
-      dpath=folder/'parse-evidence.json';dpath.write_text(json.dumps(detail,ensure_ascii=False,indent=2),encoding='utf-8');r['evidence_paths'].append(str(dpath))
+      # PDF text may contain unpaired surrogate code points. JSON escapes retain
+      # these extraction defects without misreporting a serialization failure as
+      # an unreadable PDF or a failed GET.
+      dpath=folder/'parse-evidence.json';dpath.write_text(json.dumps(detail,ensure_ascii=True,indent=2),encoding='utf-8');r['evidence_paths'].append(str(dpath))
       for i in sample_idx:
         prefix=folder/('page-%03d'%(i+1))
         cmd=['pdftoppm','-f',str(i+1),'-l',str(i+1),'-r','110','-singlefile','-png',str(p),str(prefix)]

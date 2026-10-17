@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "producer": "audit",
-  "status": "pending_merge_after_canonical_freeze",
+  "status": "ready_for_next_checkpoint_not_canonical",
   "results": [
     {
       "candidate_id": "R07-G4-10025-2019-DLSSYHT",
@@ -10,7 +10,7 @@
       "standard_number": "T/CECS 10025-2019",
       "year": "2019",
       "name": "绿色建材评价 预制构件",
-      "draft_stage": "正式历史版候选，待封面核",
+      "draft_stage": "正式发布版（封面核对）",
       "source_id": "SEARCH-R36-10025-2019",
       "source_page": "https://aimg8.dlssyht.cn/u/2150462/ueditor/file/1076/2150462/1723183276280200.pdf",
       "download_url": "https://aimg8.dlssyht.cn/u/2150462/ueditor/file/1076/2150462/1723183276280200.pdf",
@@ -25,13 +25,13 @@
         }
       ],
       "quality_warning": "与已审10032带橙水印副本同CDN路径簇，不能预断本件有无水印或完整",
-      "download_check_status": "候选未审",
+      "download_check_status": "已完成GET与全文边界核验",
       "requested_url": "https://aimg8.dlssyht.cn/u/2150462/ueditor/file/1076/2150462/1723183276280200.pdf",
       "checked_at": "2026-10-17T13:43:05+08:00",
       "audit_id": "R07-G4-10025-2019-DLSSYHT",
-      "download_status": "已实测GET可解析PDF；完整性待核",
-      "recommendation": "C",
-      "recommendation_reason": "实际GET和全部页面解析通过，等待版本、目录末项与终页、抽样图像核验",
+      "download_status": "实测可下载完整PDF（扫描，无文本层；橙色大水印备用件）",
+      "recommendation": "B",
+      "recommendation_reason": "版本与目录末项、正文及附录闭环，扫描正文仍可读；PDF5橙色大水印覆盖正文，不具备文字检索和章节导航，作为较低质量备用件。",
       "evidence_paths": [
         "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R07-G4-10025-2019-DLSSYHT\\parse-evidence.json",
         "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R07-G4-10025-2019-DLSSYHT\\page-001.png",
@@ -40,11 +40,12 @@
         "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R07-G4-10025-2019-DLSSYHT\\page-007.png",
         "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R07-G4-10025-2019-DLSSYHT\\page-008.png",
         "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R07-G4-10025-2019-DLSSYHT\\page-010.png",
-        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R07-G4-10025-2019-DLSSYHT\\contact-sheet.jpg"
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R07-G4-10025-2019-DLSSYHT\\contact-sheet.jpg",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R07-G4-10025-2019-DLSSYHT\\supplement-contact.jpg"
       ],
       "audit_rules_version": "2026-10-17.2",
-      "complete_pdf": false,
-      "version_verified": false,
+      "complete_pdf": true,
+      "version_verified": true,
       "standard_key": "T/CECS 10025-2019",
       "http_status": 200,
       "final_url": "https://aimg8.dlssyht.cn/u/2150462/ueditor/file/1076/2150462/1723183276280200.pdf",
@@ -64,8 +65,8 @@
       "text_characters": 0,
       "cjk_characters": 0,
       "text_layer": false,
-      "body_searchable": null,
-      "body_text_layer": "待正文中文与图像对照；少量导航文字或乱码不能证明正文可搜索",
+      "body_searchable": false,
+      "body_text_layer": "全部10页无文本层，扫描图像，不能直接搜索复制正文",
       "searchable": "无文本层，不能直接搜索复制",
       "bookmark_count": 0,
       "bookmark_valid_target_count": 0,
@@ -76,11 +77,40 @@
         "0": 10
       },
       "cropbox_diff_pages": [],
-      "version_match": "待封面人工核验",
-      "completeness": "可下载，完整性待核",
-      "clarity": "待封面/目录/正文/表图/末页目视抽查",
+      "version_match": "封面与页眉为T/CECS 10025-2019，名称绿色建材评价 预制构件；发布日期及实施日清楚，不由此推断2026现行状态",
+      "completeness": "10页全部目视：封面、中文目录I、英文目录II、前言III，PDF5-9为连续正文印刷1-5；五章、表1续表、附录A.1-A.6和表A.1均在，末页版权/封底。目录末项附录A起4，PDF9印刷5自然收束，未见缺漏。",
+      "clarity": "全10页目视文字、表格、公式及末页可辨；扫描略倾斜，PDF5有遮挡水印",
       "contact_sheet": "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R07-G4-10025-2019-DLSSYHT\\contact-sheet.jpg",
-      "elapsed_seconds": 3.0
+      "elapsed_seconds": 3.0,
+      "version_class": "正式发布版（2026现行性未核）",
+      "release_date": "2019-09-12",
+      "implementation_date": "2020-03-01",
+      "completeness_status": "按本件目录与全页目视闭环",
+      "watermark": "PDF5正文有橙色大幅圆形水印，覆盖引用标准和术语；底下文字抽查仍可辨认",
+      "native_outline_present": false,
+      "publisher_original_bookmarks": null,
+      "visual_review_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "comparison": "当前已审此版本仅此可解析副本；不称全网最优，建议保留水印限制",
+      "reviewed_at": "2026-10-17T13:53:07+08:00",
+      "visual_checked_at": "2026-10-17T13:53:07+08:00",
+      "audit_history": [
+        {
+          "checked_at": "2026-10-17T13:53:07+08:00",
+          "method": "版本/目录与终页/页序/全文渲染、OCR与图像及导航检查",
+          "outcome": "版本与目录末项、正文及附录闭环，扫描正文仍可读；PDF5橙色大水印覆盖正文，不具备文字检索和章节导航，作为较低质量备用件。"
+        }
+      ]
     },
     {
       "candidate_id": "R07-G5-727-2020-YSJIANZHAN",
@@ -113,7 +143,8 @@
       "standard_key": "T/CECS 727-2020",
       "error": "HTTPError: HTTP Error 403: Forbidden",
       "http_status": 403,
-      "elapsed_seconds": 0.12
+      "elapsed_seconds": 0.12,
+      "reviewed_at": "2026-10-17T13:53:07+08:00"
     },
     {
       "candidate_id": "R07-G5-DRAFT-ZERO-2025",
@@ -123,7 +154,7 @@
       "number": null,
       "year": "2025",
       "name": "零碳工业建筑评价标准",
-      "draft_stage": "编号占位草稿；不与正式编号合并；具体征求意见/报批阶段待原稿核准",
+      "draft_stage": "报批稿",
       "source_id": "SEARCH-R34-ZERO-INDUSTRIAL-DRAFT",
       "source_page": "https://25978851.s21i.faiusr.com/61/ABUIABA9GAAg2qzRwwYooP7w_gQ.pdf",
       "download_url": "https://25978851.s21i.faiusr.com/61/ABUIABA9GAAg2qzRwwYooP7w_gQ.pdf",
@@ -141,13 +172,13 @@
         "pages_reported": 84,
         "pdf_foreword": "中国电子工程设计院股份有限公司负责技术解释；封面编号占位"
       },
-      "download_check_status": "草案候选未审",
+      "download_check_status": "已完成GET与草案全文边界核验",
       "requested_url": "https://25978851.s21i.faiusr.com/61/ABUIABA9GAAg2qzRwwYooP7w_gQ.pdf",
       "checked_at": "2026-10-17T13:43:05+08:00",
       "audit_id": "R07-G5-DRAFT-ZERO-2025",
-      "download_status": "已实测GET可解析PDF；完整性待核",
-      "recommendation": "C",
-      "recommendation_reason": "实际GET和全部页面解析通过，等待版本、目录末项与终页、抽样图像核验",
+      "download_status": "实测可下载完整报批稿PDF（非正式标准全文）",
+      "recommendation": "B",
+      "recommendation_reason": "报批稿全文内容闭环、数字文字清楚，章节导航基本可用；1书签和至少4处英文目录错链，存在原稿文字问题，限草案研究参考。",
       "evidence_paths": [
         "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R07-G5-DRAFT-ZERO-2025\\parse-evidence.json",
         "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R07-G5-DRAFT-ZERO-2025\\page-001.png",
@@ -156,11 +187,16 @@
         "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R07-G5-DRAFT-ZERO-2025\\page-043.png",
         "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R07-G5-DRAFT-ZERO-2025\\page-082.png",
         "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R07-G5-DRAFT-ZERO-2025\\page-084.png",
-        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R07-G5-DRAFT-ZERO-2025\\contact-sheet.jpg"
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R07-G5-DRAFT-ZERO-2025\\contact-sheet.jpg",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R07-G5-DRAFT-ZERO-2025\\supplement-contact.jpg",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R07-G5-DRAFT-ZERO-2025\\rendered-footers-001.jpg",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R07-G5-DRAFT-ZERO-2025\\rendered-footers-061.jpg",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R07-G5-DRAFT-ZERO-2025\\continuity-render\\render-errors.txt",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R07-G5-DRAFT-ZERO-2025\\draft-navigation-evidence.json"
       ],
       "audit_rules_version": "2026-10-17.2",
       "complete_pdf": false,
-      "version_verified": false,
+      "version_verified": true,
       "standard_key": "T/CECS ××××-2025",
       "http_status": 200,
       "final_url": "https://25978851.s21i.faiusr.com/61/ABUIABA9GAAg2qzRwwYooP7w_gQ.pdf",
@@ -180,23 +216,79 @@
       "text_characters": 61218,
       "cjk_characters": 40100,
       "text_layer": true,
-      "body_searchable": null,
-      "body_text_layer": "待正文中文与图像对照；少量导航文字或乱码不能证明正文可搜索",
-      "searchable": "待抽查中文抽取准确性",
+      "body_searchable": true,
+      "body_text_layer": "WPS数字文字导出，84页均有正文文字，非OCR扫描；普通中文可搜索复制，公式上下标和次序需对照图像",
+      "searchable": "可搜索复制普通正文；公式复制有次序和上下标问题",
       "bookmark_count": 74,
       "bookmark_valid_target_count": 74,
-      "bookmark_navigation": "全部目标有效",
-      "clickable_toc": "待人工核对目录页Link注释",
+      "bookmark_navigation": "74个为章节导航，目标均在页范围内；73个标题与目标正文匹配，“引用标准名录”错跳PDF24用词说明，应为PDF25",
+      "clickable_toc": "102个Link含标题区/页码区重复注释；英文目录PDF5至少4处错链：9.1→20应21、10.1→20应23、引用标准→24应25、条文说明→24应26",
       "link_annotation_count": 102,
       "rotation_summary": {
         "0": 84
       },
       "cropbox_diff_pages": [],
-      "version_match": "待封面人工核验",
-      "completeness": "可下载，完整性待核",
-      "clarity": "待封面/目录/正文/表图/末页目视抽查",
+      "version_match": "封面明确“报批稿”，T/CECS ××××-2025、出版社及施行日期仍为占位，不能登记为正式发布标准",
+      "completeness": "完整报批稿，非正式标准全文。84页页首/页序连续1-84；目录十章至PDF23，用词说明24、引用标准25、条文说明扉页26、制定说明27、说明目录28，说明十章至PDF80-84，末条10.2.10跨83-84自然结束；目录未列附录。全84页Poppler产图且日志为空，双审核对全文边界，未见内容缺页。",
+      "clarity": "抽查封面、目录、公式、表格和末章清楚，未见遮挡性水印或明显裁切；全84页完成基础渲染",
       "contact_sheet": "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R07-G5-DRAFT-ZERO-2025\\contact-sheet.jpg",
-      "elapsed_seconds": 2.69
+      "elapsed_seconds": 2.69,
+      "draft_content_complete": true,
+      "version_class": "报批稿",
+      "version_verified_scope": "只证明文件封面匹配报批稿身份；不证明正式批准、标准编号或2026现行性",
+      "completeness_status": "完整报批稿，非正式标准全文",
+      "formal_complete_set_exclusion": "占位编号报批稿单列，不计正式完整PDF链接、版本和哈希集合",
+      "recommendation_scope": "草案阅读质量；不代表正式标准推荐",
+      "watermark": "抽查未见遮挡性水印",
+      "bookmark_semantic_match_count": 73,
+      "bookmark_semantic_error_count": 1,
+      "native_outline_present": true,
+      "publisher_original_bookmarks": null,
+      "bookmark_provenance": "下载文件已自带74章节Outline，审查未添加；出版社原生制作身份未证明",
+      "visual_review_pages": [
+        1,
+        4,
+        5,
+        11,
+        24,
+        25,
+        26,
+        27,
+        28,
+        35,
+        36,
+        43,
+        80,
+        82,
+        83,
+        84
+      ],
+      "independent_review": "第二审独立核对84页编号与全页渲染、目录/说明末项、74书签及102Link；支持完整报批稿单列，发现导航及原稿文字问题，root重点图像复核。",
+      "quality_anomalies": [
+        {
+          "pdf_pages": [
+            25
+          ],
+          "observed": "原稿可见“本条准”“近对”文字，非单纯提取错误",
+          "statement_type": "原文事实（图像）"
+        },
+        {
+          "pdf_pages": [
+            27
+          ],
+          "observed": "编制原则编号为（1）、（1）、（3），不静默纠正",
+          "statement_type": "原文事实（图像）"
+        }
+      ],
+      "reviewed_at": "2026-10-17T13:53:07+08:00",
+      "visual_checked_at": "2026-10-17T13:53:07+08:00",
+      "audit_history": [
+        {
+          "checked_at": "2026-10-17T13:53:07+08:00",
+          "method": "版本/目录与终页/页序/全文渲染、OCR与图像及导航检查",
+          "outcome": "报批稿全文内容闭环、数字文字清楚，章节导航基本可用；1书签和至少4处英文目录错链，存在原稿文字问题，限草案研究参考。"
+        }
+      ]
     },
     {
       "candidate_id": "R07-WATER-MEP-41-2004",
@@ -213,8 +305,8 @@
       "final_redirect_url": null,
       "alternative_urls": [],
       "download_format": "PDF",
-      "draft_stage": "historical_formal_candidate",
-      "download_check_status": "候选未审",
+      "draft_stage": "正式历史版（封面核对）",
+      "download_check_status": "已完成GET及正文/说明边界核验；完整性待外证",
       "complete_pdf": false,
       "permission_status": "无登录/付费提示的公开检索候选；未证明转载授权",
       "source_kind": "公元管道（原永高）官网域名公开附件；转载授权未独立核实",
@@ -235,9 +327,9 @@
       "parent_page_status": "未定位具体附件父页；原记录首页仅作域名背景。PDF URL由公开搜索索引发现。",
       "requested_url": "https://web.yonggao.com/upload/2016/01/25/145368482007647jwul.pdf",
       "audit_id": "R07-WATER-MEP-41-2004",
-      "download_status": "已实测GET可解析PDF；完整性待核",
+      "download_status": "实测可下载PDF；全文完整性仍有印刷28/30疑点",
       "recommendation": "C",
-      "recommendation_reason": "实际GET和全部页面解析通过，等待版本、目录末项与终页、抽样图像核验",
+      "recommendation_reason": "正文、附录及说明末项均可读，但说明扉页附近28/30页未收录且尚无可靠空白页证明；OCR错误较多，复制不能代替原图。",
       "evidence_paths": [
         "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R07-WATER-MEP-41-2004\\parse-evidence.json",
         "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R07-WATER-MEP-41-2004\\page-001.png",
@@ -246,10 +338,13 @@
         "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R07-WATER-MEP-41-2004\\page-024.png",
         "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R07-WATER-MEP-41-2004\\page-045.png",
         "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R07-WATER-MEP-41-2004\\page-047.png",
-        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R07-WATER-MEP-41-2004\\contact-sheet.jpg"
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R07-WATER-MEP-41-2004\\contact-sheet.jpg",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R07-WATER-MEP-41-2004\\supplement-contact.jpg",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R07-WATER-MEP-41-2004\\rendered-footers-001.jpg",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R07-WATER-MEP-41-2004\\continuity-render\\render-errors.txt"
       ],
       "audit_rules_version": "2026-10-17.2",
-      "version_verified": false,
+      "version_verified": true,
       "standard_key": "CECS 41:2004",
       "http_status": 200,
       "content_type": "application/pdf",
@@ -268,9 +363,9 @@
       "text_characters": 40576,
       "cjk_characters": 12429,
       "text_layer": true,
-      "body_searchable": null,
-      "body_text_layer": "待正文中文与图像对照；少量导航文字或乱码不能证明正文可搜索",
-      "searchable": "待抽查中文抽取准确性",
+      "body_searchable": true,
+      "body_text_layer": "TH-OCR扫描文字层，普通中文可部分检索；断行、字词、温度/数字/公式识别错误明显",
+      "searchable": "有OCR可检索，但复制数值/符号需逐项核图",
       "bookmark_count": 0,
       "bookmark_valid_target_count": 0,
       "bookmark_navigation": "无原生书签",
@@ -280,11 +375,56 @@
         "0": 47
       },
       "cropbox_diff_pages": [],
-      "version_match": "待封面人工核验",
-      "completeness": "可下载，完整性待核",
-      "clarity": "待封面/目录/正文/表图/末页目视抽查",
+      "version_match": "封面/扉页CECS 41:2004与建筑给水硬聚氯乙烯管管道工程技术规程匹配；不证明现行状态",
+      "completeness": "47页均可渲染且日志为空。目录八章、附录A、用词说明、条文说明可定位；PDF7-32正文印刷1-26连续，PDF33说明扉页对应目录27，PDF34说明目录印29，PDF35说明正文印31后至PDF47印43连续并自然结束（7.2.2续文）。印刷28/30未收录，形态疑似空白装帧页但无同版可靠证据，不称已证明正文缺失，也暂不计完整。说明目录未列第8章，不因正文有第8章就判说明缺第8章。",
+      "clarity": "抽查正文、表格和末页扫描可读，略有噪点；未见遮挡性水印或裁去正文",
       "contact_sheet": "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R07-WATER-MEP-41-2004\\contact-sheet.jpg",
-      "elapsed_seconds": 1.03
+      "elapsed_seconds": 1.03,
+      "version_class": "正式历史版（2026现行性未核）",
+      "completeness_status": "正文/附录/说明末项已到，疑似装帧空白页未证明",
+      "watermark": "抽查未见遮挡性水印",
+      "native_outline_present": false,
+      "publisher_original_bookmarks": null,
+      "suspected_omitted_printed_pages": [
+        28,
+        30
+      ],
+      "substantive_missing_pages_proven": false,
+      "visual_review_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        31,
+        32,
+        33,
+        34,
+        35,
+        43,
+        44,
+        45,
+        46,
+        47
+      ],
+      "independent_review": "第二审只读核对目录、正文及说明页码与末项，结论C；root复核46-47末条实际为7.2.2，未证明技术内容缺失。",
+      "reviewed_at": "2026-10-17T13:53:07+08:00",
+      "search_input_path": "search/round07-broad-attachments/water-mep/candidates-round07-water-mep-share-v2.json",
+      "search_input_sha256": "89e6f9ba3544c40986ad790f602a3b7d457db039d90a6eacc132f9aa2333dbcd",
+      "search_input_note": "v2仅收窄其他历史HEAD失败表述，本件ID与稳定下载URL不变；本次GET事实独立保存",
+      "visual_checked_at": "2026-10-17T13:53:07+08:00",
+      "audit_history": [
+        {
+          "checked_at": "2026-10-17T13:53:07+08:00",
+          "method": "版本/目录与终页/页序/全文渲染、OCR与图像及导航检查",
+          "outcome": "正文、附录及说明末项均可读，但说明扉页附近28/30页未收录且尚无可靠空白页证明；OCR错误较多，复制不能代替原图。"
+        }
+      ]
     },
     {
       "candidate_id": "R07-WATER-MEP-164-2004",
@@ -301,8 +441,8 @@
       "final_redirect_url": null,
       "alternative_urls": [],
       "download_format": "PDF",
-      "draft_stage": "historical_formal_candidate",
-      "download_check_status": "候选未审",
+      "draft_stage": "正式历史版（封面/正文扉页核对）",
+      "download_check_status": "已完成GET及正文/说明边界核验；完整性待外证",
       "complete_pdf": false,
       "permission_status": "无登录/付费提示的公开检索候选；未证明转载授权",
       "source_kind": "公元管道（原永高）官网域名公开附件；原件含免费标准网转载标记，授权未核",
@@ -323,9 +463,9 @@
       "parent_page_status": "未定位具体附件父页；原记录首页仅作域名背景。PDF URL由公开搜索索引发现。",
       "requested_url": "https://web.yonggao.com/upload/2016/01/25/14536852038932egik5.pdf",
       "audit_id": "R07-WATER-MEP-164-2004",
-      "download_status": "已实测GET可解析PDF；完整性待核",
+      "download_status": "实测可下载PDF；全文完整性仍有印刷38/40疑点",
       "recommendation": "C",
-      "recommendation_reason": "实际GET和全部页面解析通过，等待版本、目录末项与终页、抽样图像核验",
+      "recommendation_reason": "正文、四附录及末章说明可读，38/40印刷页未收录且空白性质尚未证明；另有原稿说明扉页名称差异、OCR错误及页边下载站水印。",
       "evidence_paths": [
         "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R07-WATER-MEP-164-2004\\parse-evidence.json",
         "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R07-WATER-MEP-164-2004\\page-001.png",
@@ -334,10 +474,14 @@
         "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R07-WATER-MEP-164-2004\\page-037.png",
         "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R07-WATER-MEP-164-2004\\page-071.png",
         "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R07-WATER-MEP-164-2004\\page-073.png",
-        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R07-WATER-MEP-164-2004\\contact-sheet.jpg"
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R07-WATER-MEP-164-2004\\contact-sheet.jpg",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R07-WATER-MEP-164-2004\\supplement-contact.jpg",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R07-WATER-MEP-164-2004\\rendered-footers-001.jpg",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R07-WATER-MEP-164-2004\\rendered-footers-061.jpg",
+        "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R07-WATER-MEP-164-2004\\continuity-render\\render-errors.txt"
       ],
       "audit_rules_version": "2026-10-17.2",
-      "version_verified": false,
+      "version_verified": true,
       "standard_key": "CECS 164:2004",
       "http_status": 200,
       "content_type": "application/pdf",
@@ -356,9 +500,9 @@
       "text_characters": 62575,
       "cjk_characters": 21817,
       "text_layer": true,
-      "body_searchable": null,
-      "body_text_layer": "待正文中文与图像对照；少量导航文字或乱码不能证明正文可搜索",
-      "searchable": "待抽查中文抽取准确性",
+      "body_searchable": true,
+      "body_text_layer": "扫描OCR文字层，中文可部分检索但字词/空格/数字/符号不可靠；不能称高质量数字原生正文",
+      "searchable": "有OCR可检索，复制正文及公式需核对扫描图",
       "bookmark_count": 0,
       "bookmark_valid_target_count": 0,
       "bookmark_navigation": "无原生书签",
@@ -368,11 +512,76 @@
         "0": 73
       },
       "cropbox_diff_pages": [],
-      "version_match": "待封面人工核验",
-      "completeness": "可下载，完整性待核",
-      "clarity": "待封面/目录/正文/表图/末页目视抽查",
+      "version_match": "封面及正文扉页为CECS 164:2004“埋地聚乙烯排水管管道工程技术规程”；说明扉页PDF44印为“工程设计规程”，保留原件内名称差异，不静默改写",
+      "completeness": "73页均产图，Poppler另有hint-table及字体替换提示。目录十一章、附录A-D、用词说明及说明已定位；PDF7-43对应印刷1-37连续（末用词说明37），PDF44说明扉页对应目录39，PDF45/46说明目录印41/42，PDF47起说明正文43至PDF73印69第11章自然结束。印刷38/40未收录，可能为空白装帧页，未获同版可靠证明；不称已证明技术内容缺失，也暂不计完整。",
+      "clarity": "抽查扫描正文、表格及末页可读；PDF37横置表格需旋转阅读，metadata旋转0；页边有freebz.net水印。第二审PDF15、18-21公式及37横表可辨，未见明显整项符号缺失，但不能证明字体替换逐字符等价。",
       "contact_sheet": "C:\\Users\\mj528\\Documents\\004 工作\\web-demo\\outputs\\cecs-master-20261017\\pdf-audit\\R07-WATER-MEP-164-2004\\contact-sheet.jpg",
-      "elapsed_seconds": 3.56
+      "elapsed_seconds": 3.56,
+      "version_class": "正式历史版（2026现行性未核）",
+      "completeness_status": "正文/附录/说明末项已到，疑似装帧空白页未证明",
+      "watermark": "页顶/页底freebz.net下载站水印，抽查主要在页边未遮正文",
+      "native_outline_present": false,
+      "publisher_original_bookmarks": null,
+      "suspected_omitted_printed_pages": [
+        38,
+        40
+      ],
+      "substantive_missing_pages_proven": false,
+      "visual_review_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        15,
+        18,
+        19,
+        20,
+        21,
+        37,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        62,
+        63,
+        64,
+        69,
+        70,
+        71,
+        72,
+        73
+      ],
+      "independent_review": "第二审独立核对正文、四附录及说明目录和末69页，支持C。PDF62页脚图像为58、PDF63为59，OCR前者误取59，不存在实际58缺页；说明扉页名称差异已双审目视。",
+      "quality_anomalies": [
+        {
+          "pdf_pages": [
+            2,
+            44
+          ],
+          "observed": "正文扉页“技术规程”与条文说明扉页“设计规程”名称不一致，图像可见，非OCR推断",
+          "statement_type": "原文事实（文件图像）"
+        }
+      ],
+      "reviewed_at": "2026-10-17T13:53:07+08:00",
+      "search_input_path": "search/round07-broad-attachments/water-mep/candidates-round07-water-mep-share-v2.json",
+      "search_input_sha256": "89e6f9ba3544c40986ad790f602a3b7d457db039d90a6eacc132f9aa2333dbcd",
+      "search_input_note": "v2仅收窄其他历史HEAD失败表述，本件ID与稳定下载URL不变；本次GET事实独立保存",
+      "visual_checked_at": "2026-10-17T13:53:07+08:00",
+      "audit_history": [
+        {
+          "checked_at": "2026-10-17T13:53:07+08:00",
+          "method": "版本/目录与终页/页序/全文渲染、OCR与图像及导航检查",
+          "outcome": "正文、四附录及末章说明可读，38/40印刷页未收录且空白性质尚未证明；另有原稿说明扉页名称差异、OCR错误及页边下载站水印。"
+        }
+      ]
     },
     {
       "candidate_id": "R07-WATER-MEP-1012-2022",
@@ -418,7 +627,11 @@
       "standard_key": "T/CECS 1012-2022",
       "error": "HTTPError: HTTP Error 403: Forbidden",
       "http_status": 403,
-      "elapsed_seconds": 0.16
+      "elapsed_seconds": 0.16,
+      "reviewed_at": "2026-10-17T13:53:07+08:00",
+      "search_input_path": "search/round07-broad-attachments/water-mep/candidates-round07-water-mep-share-v2.json",
+      "search_input_sha256": "89e6f9ba3544c40986ad790f602a3b7d457db039d90a6eacc132f9aa2333dbcd",
+      "search_input_note": "v2仅收窄其他历史HEAD失败表述，本件ID与稳定下载URL不变；本次GET事实独立保存"
     },
     {
       "candidate_id": "R07-WATER-MEP-828-2021",
@@ -466,8 +679,27 @@
       "standard_key": "T/CECS 828-2021",
       "error": "HTTPError: HTTP Error 403: Forbidden",
       "http_status": 403,
-      "elapsed_seconds": 0.12
+      "elapsed_seconds": 0.12,
+      "reviewed_at": "2026-10-17T13:53:07+08:00",
+      "search_input_path": "search/round07-broad-attachments/water-mep/candidates-round07-water-mep-share-v2.json",
+      "search_input_sha256": "89e6f9ba3544c40986ad790f602a3b7d457db039d90a6eacc132f9aa2333dbcd",
+      "search_input_note": "v2仅收窄其他历史HEAD失败表述，本件ID与稳定下载URL不变；本次GET事实独立保存"
     }
   ],
-  "updated_at": "2026-10-17T13:44:19+08:00"
+  "updated_at": "2026-10-17T13:53:07+08:00",
+  "new_get_count": 7,
+  "replacement_count": 0,
+  "formal_complete_pdf_added": 1,
+  "complete_draft_added": 1,
+  "rating_counts": {
+    "B": 2,
+    "D": 3,
+    "C": 2
+  },
+  "canonical_base": {
+    "path": "audit-results.json",
+    "count": 33,
+    "sha256": "84e4361fbbcdee054efb3ac89e5610001df33e049db3271ba2f2fd1616686629"
+  },
+  "counting_note": "正式完整新增10025-2019一链/一版本/一哈希；零碳报批稿完整内容单列，complete_pdf=false，不计正式集合。B评级包含1正式+1草案阅读质量。"
 }

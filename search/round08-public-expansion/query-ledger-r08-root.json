@@ -1,0 +1,113 @@
+{
+  "source_id": "SEARCH-R08-QUERY-LEDGER-20261017",
+  "recorded_at_utc": "2026-10-17 06:00:58 UTC",
+  "statement_type": "原文事实（本轮实际工具请求与结构化结果记录）",
+  "query_count": 16,
+  "open_count": 3,
+  "calls": [
+    {
+      "source_id": "SEARCH-R08-WEB-40",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"10025-2019\" filetype:pdf -site:aimg8.dlssyht.cn"
+          },
+          {
+            "q": "\"10032-2019\" filetype:pdf -site:aimg8.dlssyht.cn"
+          },
+          {
+            "q": "\"CECS\" \"绿色建材评价\" filetype:pdf site:ctc.ac.cn"
+          },
+          {
+            "q": "\"CECS\" \"绿色建材评价\" \"标准下载\""
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "source_id": "SEARCH-R08-WEB-41",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"T/CECS 10025\" filetype:pdf"
+          },
+          {
+            "q": "\"T/CECS 10032\" filetype:pdf"
+          },
+          {
+            "q": "\"CECS\" \"预制构件\" \"绿色建材评价\" pdf"
+          },
+          {
+            "q": "\"CECS\" \"保温系统材料\" pdf"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "source_id": "SEARCH-R08-WEB-42",
+      "request": {
+        "search_query": [
+          {
+            "q": "site:ccpa.com.cn CECS filetype:pdf"
+          },
+          {
+            "q": "site:cabr.com.cn CECS filetype:pdf"
+          },
+          {
+            "q": "site:chinaprecast.cn CECS filetype:pdf"
+          },
+          {
+            "q": "site:concrete365.com CECS filetype:pdf"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "source_id": "SEARCH-R08-WEB-43",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"CECS\" \"征求意见稿\" \"混凝土\" pdf"
+          },
+          {
+            "q": "\"CECS\" \"征求意见稿\" \"绿色\" pdf"
+          },
+          {
+            "q": "\"CECS\" \"征求意见稿\" \"钢结构\" pdf"
+          },
+          {
+            "q": "\"CECS\" \"征求意见稿\" \"结构\" site:gov.cn"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "source_id": "SEARCH-R08-WEB-44",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.lsjcrzzx.com/"
+          },
+          {
+            "ref_id": "https://m.cnass.cn/site/content/325.html"
+          },
+          {
+            "ref_id": "https://media.src.leju.com/imp/imp/deal/10/1f/3/e20c955f600d4a5ca00a52e7ac1_p24_mk24.pdf"
+          }
+        ],
+        "response_length": "long"
+      }
+    }
+  ],
+  "results_summary": [
+    "10025/10032无大水印替代本本轮未得新公开PDF，引用清单/介绍不充作全文。",
+    "四个参编/协会指定域名查询空结果；后改为主题+征求意见稿，定位cnass公开资料页与绿色住区占位稿。",
+    "web.open三个地址超时；后普通匿名GET中cnass移动/桌面页均200并提取实际href；lsjcrzzx证书过期，leju TLS握手失败，均未关闭验证。",
+    "cnass实际href3历史正式候选+1送审PDF，另2Word草稿非PDF。绿色住区索引草稿TLS失败仍仅候选。"
+  ],
+  "sharing_boundary": "不保存/分享原始HTML或公开下载瞬时参数。此日志只列公开请求/结果摘要，完整性依独立审查。"
+}

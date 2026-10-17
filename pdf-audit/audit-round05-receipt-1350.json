@@ -1,0 +1,47 @@
+{
+  "checked_at": "2026-10-17T13:53:57+08:00",
+  "status": "pending_freeze_ready_not_canonical",
+  "snapshot": "audit-pending-round05-freeze-1350.json",
+  "sha256": "90081712aea2c2ddb78202101d3e31753828ed6e663af87a139ec9e007e7dcf8",
+  "pending_count": 7,
+  "canonical_count": 33,
+  "canonical_sha256": "84e4361fbbcdee054efb3ac89e5610001df33e049db3271ba2f2fd1616686629",
+  "source_inputs": [
+    {
+      "path": "search/round07-broad-attachments/green/candidates-r07-green.json",
+      "sha256": "1347f035b1de8b8bdbe13ed0b3cee53e6a9a96de960bdd0812172993b344d4a9"
+    },
+    {
+      "path": "search/round07-broad-attachments/water-mep/candidates-round07-water-mep-share-v2.json",
+      "sha256": "89e6f9ba3544c40986ad790f602a3b7d457db039d90a6eacc132f9aa2333dbcd"
+    },
+    {
+      "path": "search/freeze-inputs-1340-water-mep-addendum-v2.json",
+      "sha256": "508185ceab7f8930993e1f0dfe37c6f1551350165134417f898eafc735609dda"
+    }
+  ],
+  "new_formal_complete_links": 1,
+  "new_complete_drafts": 1,
+  "pending_rating_counts": {
+    "B": 2,
+    "D": 3,
+    "C": 2
+  },
+  "prospective_after_authorized_merge": {
+    "result_count": 40,
+    "formal_complete_links": 10,
+    "formal_complete_versions": 8,
+    "formal_complete_hashes": 8,
+    "ratings": {
+      "D": 16,
+      "C": 13,
+      "B": 11
+    }
+  },
+  "notes": [
+    "B includes one complete formal scan with watermark and one complete approval draft; draft excluded from formal complete set.",
+    "41:2004 and164:2004 remain C; suspected omitted blank leaves unproved.",
+    "727,1012,828: GET403 observed, login/permanent failure not inferred.",
+    "Canonical33 and all older freezes unchanged; no GitHub or PDF upload by this role."
+  ]
+}

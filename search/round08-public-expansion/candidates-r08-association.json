@@ -1,0 +1,222 @@
+{
+  "schema_version": 1,
+  "producer": "search/root",
+  "round": "R08",
+  "recorded_at": "2026-10-17T13:59:40+08:00",
+  "source_id": "SEARCH-R08-ASSOCIATION-ATTACHMENTS-20261017",
+  "counts": {
+    "pdf_candidates": 5,
+    "historical_formal_candidates": 3,
+    "draft_pdf_candidates": 2,
+    "non_pdf_word_draft_routes": 2
+  },
+  "candidates": [
+    {
+      "candidate_id": "R08-CNASS-212-2006",
+      "source_id": "SEARCH-R08-CNASS-212-2006",
+      "seed_ids": [],
+      "topic_group": "G3",
+      "standard_number": "CECS 212:2006",
+      "number": "212",
+      "year": "2006",
+      "name": "预应力钢结构技术规程",
+      "source_page": "https://www.cnass.cn/site/content/325.html",
+      "source_page_alternatives": [
+        "https://m.cnass.cn/site/content/325.html"
+      ],
+      "download_url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863584412305.pdf",
+      "alternative_urls": [
+        "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863584412305.pdf"
+      ],
+      "final_url": null,
+      "draft_stage": "正式历史版候选，待PDF封面核验；2026现行性未核",
+      "source_link_text": "CECS 212-2006 预应力钢结构技术规程.pdf",
+      "source_page_access": {
+        "method": "普通匿名GET",
+        "http_status": 200,
+        "checked_at": "2026-10-17T13:57:22+08:00"
+      },
+      "permission_status": "分会公开资料页无登录/付费即可读到附件href；PDF尚未GET，转载授权未核。",
+      "download_check_status": "候选未审；父页GET成功不证明PDF可下载或完整。",
+      "complete_pdf": null,
+      "metadata_evidence": [
+        {
+          "source_url": "https://www.cnass.cn/site/content/325.html",
+          "source_id": "CNASS-CONTENT-325-20261017",
+          "evidence_type": "原文事实（实际HTML附件名称与href）",
+          "claim": "页面列示该名称及附件地址；封面及完整性由独立PDF审查判定。"
+        }
+      ],
+      "dedupe_note": "2026-10-17 13:57读取catalog/cecs-master.json，按host+path合并HTTP/HTTPS比对，未见该附件URL；不表示编号在主库不存在。"
+    },
+    {
+      "candidate_id": "R08-CNASS-235-2008",
+      "source_id": "SEARCH-R08-CNASS-235-2008",
+      "seed_ids": [
+        "S041"
+      ],
+      "topic_group": "G3",
+      "standard_number": "CECS 235:2008",
+      "number": "235",
+      "year": "2008",
+      "name": "铸钢节点应用技术规程",
+      "source_page": "https://www.cnass.cn/site/content/325.html",
+      "source_page_alternatives": [
+        "https://m.cnass.cn/site/content/325.html"
+      ],
+      "download_url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863593110778.pdf",
+      "alternative_urls": [
+        "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863593110778.pdf"
+      ],
+      "final_url": null,
+      "draft_stage": "正式历史版候选，待PDF封面核验；2026现行性未核",
+      "source_link_text": "CECS 235-2008 铸钢节点应用技术规程 .pdf",
+      "source_page_access": {
+        "method": "普通匿名GET",
+        "http_status": 200,
+        "checked_at": "2026-10-17T13:57:22+08:00"
+      },
+      "permission_status": "分会公开资料页无登录/付费即可读到附件href；PDF尚未GET，转载授权未核。",
+      "download_check_status": "候选未审；父页GET成功不证明PDF可下载或完整。",
+      "complete_pdf": null,
+      "metadata_evidence": [
+        {
+          "source_url": "https://www.cnass.cn/site/content/325.html",
+          "source_id": "CNASS-CONTENT-325-20261017",
+          "evidence_type": "原文事实（实际HTML附件名称与href）",
+          "claim": "页面列示该名称及附件地址；封面及完整性由独立PDF审查判定。"
+        }
+      ],
+      "dedupe_note": "2026-10-17 13:57读取catalog/cecs-master.json，按host+path合并HTTP/HTTPS比对，未见该附件URL；不表示编号在主库不存在。"
+    },
+    {
+      "candidate_id": "R08-CNASS-333-2012",
+      "source_id": "SEARCH-R08-CNASS-333-2012",
+      "seed_ids": [],
+      "topic_group": "G3",
+      "standard_number": "CECS 333:2012",
+      "number": "333",
+      "year": "2012",
+      "name": "结构健康监测系统设计标准",
+      "source_page": "https://www.cnass.cn/site/content/325.html",
+      "source_page_alternatives": [
+        "https://m.cnass.cn/site/content/325.html"
+      ],
+      "download_url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863590691072.pdf",
+      "alternative_urls": [
+        "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863590691072.pdf"
+      ],
+      "final_url": null,
+      "draft_stage": "正式历史版候选，待PDF封面核验；2026现行性未核",
+      "source_link_text": "CECS 333-2012 结构健康监测系统设计标准CECS333：2012.pdf",
+      "source_page_access": {
+        "method": "普通匿名GET",
+        "http_status": 200,
+        "checked_at": "2026-10-17T13:57:22+08:00"
+      },
+      "permission_status": "分会公开资料页无登录/付费即可读到附件href；PDF尚未GET，转载授权未核。",
+      "download_check_status": "候选未审；父页GET成功不证明PDF可下载或完整。",
+      "complete_pdf": null,
+      "metadata_evidence": [
+        {
+          "source_url": "https://www.cnass.cn/site/content/325.html",
+          "source_id": "CNASS-CONTENT-325-20261017",
+          "evidence_type": "原文事实（实际HTML附件名称与href）",
+          "claim": "页面列示该名称及附件地址；封面及完整性由独立PDF审查判定。"
+        }
+      ],
+      "dedupe_note": "2026-10-17 13:57读取catalog/cecs-master.json，按host+path合并HTTP/HTTPS比对，未见该附件URL；不表示编号在主库不存在。"
+    },
+    {
+      "candidate_id": "R08-CNASS-DRAFT-INDUSTRIAL-CONVERSION",
+      "source_id": "SEARCH-R08-CNASS-DRAFT-INDUSTRIAL-CONVERSION",
+      "seed_ids": [],
+      "topic_group": "G3",
+      "standard_number": "T/CECS（编号未见）",
+      "number": null,
+      "year": null,
+      "name": "工业建筑非工业化改造结构检测鉴定标准",
+      "source_page": "https://www.cnass.cn/site/content/325.html",
+      "download_url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863809601694.pdf",
+      "alternative_urls": [
+        "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863809601694.pdf"
+      ],
+      "final_url": null,
+      "draft_stage": "附件名标送审稿；PDF封面阶段/占位编号待核，不混正式版。",
+      "source_link_text": "T_CECS 《工业建筑非工业化改造结构检测鉴定标准》送审稿.pdf",
+      "source_page_access": {
+        "method": "普通匿名GET",
+        "http_status": 200,
+        "checked_at": "2026-10-17T13:57:22+08:00"
+      },
+      "permission_status": "公开资料页提供实际href；PDF未GET，转载授权未核。",
+      "download_check_status": "草案候选未审",
+      "complete_pdf": null
+    },
+    {
+      "candidate_id": "R08-DRAFT-GREEN-RESIDENTIAL-LEJU",
+      "source_id": "SEARCH-R43-GREEN-RESIDENTIAL-DRAFT",
+      "seed_ids": [],
+      "topic_group": "G5",
+      "standard_number": "T/CECS ***:201x",
+      "number": null,
+      "year": null,
+      "name": "绿色住区标准",
+      "source_page": "https://media.src.leju.com/imp/imp/deal/10/1f/3/e20c955f600d4a5ca00a52e7ac1_p24_mk24.pdf",
+      "download_url": "https://media.src.leju.com/imp/imp/deal/10/1f/3/e20c955f600d4a5ca00a52e7ac1_p24_mk24.pdf",
+      "alternative_urls": [],
+      "final_url": null,
+      "draft_stage": "公开搜索索引封面写征求意见稿、编号占位；未得正文核验，不混正式版。",
+      "permission_status": "公开索引PDF；web open超时，普通GET本次TLS握手失败，未绕过证书校验/认证。",
+      "download_check_status": "草案候选未审；本次连接失败非永久失效结论。",
+      "complete_pdf": null,
+      "access_observation": {
+        "requested_url": "https://media.src.leju.com/imp/imp/deal/10/1f/3/e20c955f600d4a5ca00a52e7ac1_p24_mk24.pdf",
+        "checked_at": "2026-10-17T13:57:22+08:00",
+        "method": "ordinary anonymous GET; PDF body only prefix read, not completeness audit",
+        "error_type": "URLError",
+        "error_summary": "<urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1032)>"
+      },
+      "parent_page_status": "未定位具体父页；source_page为实际索引PDF。"
+    }
+  ],
+  "metadata_only_non_pdf_routes": [
+    {
+      "source_id": "SEARCH-R08-CNASS-WORD-1673863801188027",
+      "name_raw": "T CECS 685-2020《房屋结构安全动态监测技术规程》（征求意见稿）.doc",
+      "source_page": "https://www.cnass.cn/site/content/325.html",
+      "document_url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863801188027.doc",
+      "download_url": null,
+      "format": "DOC",
+      "draft_stage": "页面附件名明确征求意见稿；未读取Word原文，不当正式版。",
+      "counting_boundary": "非PDF，仅登记格式与来源路线；不计PDF候选/完整PDF。"
+    },
+    {
+      "source_id": "SEARCH-R08-CNASS-WORD-1673863810857249",
+      "name_raw": "T_CECS 《大跨度钢结构监测技术规程》征求意见稿定稿-附专家意见20221201-吴金志.docx",
+      "source_page": "https://www.cnass.cn/site/content/325.html",
+      "document_url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863810857249.docx",
+      "download_url": null,
+      "format": "DOCX",
+      "draft_stage": "页面附件名明确征求意见稿；未读取Word原文，不当正式版。",
+      "counting_boundary": "非PDF，仅登记格式与来源路线；不计PDF候选/完整PDF。"
+    }
+  ],
+  "failed_routes": [
+    {
+      "source_page": "https://www.lsjcrzzx.com/",
+      "observation": "web超时/普通GET证书过期；未关闭证书校验；0附件。"
+    }
+  ],
+  "excluded": [
+    {
+      "source_page": "https://www.ctc.ac.cn/module/download/downfile.jsp?classid=0&filename=f7f914875f014191b29768cee7e8d07d.pdf",
+      "reason": "儿童友好认证实施规则，仅引用CECS绿色建材标准，不是CECS全文。"
+    },
+    {
+      "source_page": "https://www.webfree.net/download/2544",
+      "reason": "第三方介绍/压缩下载路线，未得公开直接PDF，无新增候选；不依据页数声称其为优于已审本的替代。"
+    }
+  ],
+  "method_revision": "协会资料页web工具超时后，普通匿名GET可读；实际href带出3历史+1送审PDF，另2Word草稿不冒充PDF。10025/10032清洁替代本两轮8查询未得新公开PDF。"
+}

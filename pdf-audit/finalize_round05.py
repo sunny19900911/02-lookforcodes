@@ -73,7 +73,7 @@ water41.update(
     draft_stage='正式历史版（封面核对）',
     version_match='封面/扉页CECS 41:2004与建筑给水硬聚氯乙烯管管道工程技术规程匹配；不证明现行状态',
     completeness_status='正文/附录/说明末项已到，疑似装帧空白页未证明',
-    completeness='47页均可渲染且日志为空。目录八章、附录A、用词说明、条文说明可定位；PDF7-32正文印刷1-26连续，PDF33说明扉页对应目录27，PDF34说明目录印29，PDF35说明正文印31后至PDF47印43连续并自然结束（7.2.1续文）。印刷28/30未收录，形态疑似空白装帧页但无同版可靠证据，不称已证明正文缺失，也暂不计完整。',
+    completeness='47页均可渲染且日志为空。目录八章、附录A、用词说明、条文说明可定位；PDF7-32正文印刷1-26连续，PDF33说明扉页对应目录27，PDF34说明目录印29，PDF35说明正文印31后至PDF47印43连续并自然结束（7.2.2续文）。印刷28/30未收录，形态疑似空白装帧页但无同版可靠证据，不称已证明正文缺失，也暂不计完整。说明目录未列第8章，不因正文有第8章就判说明缺第8章。',
     download_status='实测可下载PDF；全文完整性仍有印刷28/30疑点',
     download_check_status='已完成GET及正文/说明边界核验；完整性待外证',
     recommendation='C', recommendation_reason='正文、附录及说明末项均可读，但说明扉页附近28/30页未收录且尚无可靠空白页证明；OCR错误较多，复制不能代替原图。',
@@ -84,6 +84,7 @@ water41.update(
     native_outline_present=False, publisher_original_bookmarks=None,
     suspected_omitted_printed_pages=[28,30], substantive_missing_pages_proven=False,
     visual_review_pages=[1,2,3,4,5,6,7,8,9,10,31,32,33,34,35,43,44,45,46,47],
+    independent_review='第二审只读核对目录、正文及说明页码与末项，结论C；root复核46-47末条实际为7.2.2，未证明技术内容缺失。',
 )
 
 water164 = rows['R07-WATER-MEP-164-2004']
@@ -98,11 +99,12 @@ water164.update(
     recommendation='C', recommendation_reason='正文、四附录及末章说明可读，38/40印刷页未收录且空白性质尚未证明；另有原稿说明扉页名称差异、OCR错误及页边下载站水印。',
     body_searchable=True, body_text_layer='扫描OCR文字层，中文可部分检索但字词/空格/数字/符号不可靠；不能称高质量数字原生正文',
     searchable='有OCR可检索，复制正文及公式需核对扫描图',
-    clarity='抽查扫描正文、表格及末页可读；PDF37横置表格需旋转阅读，metadata旋转0；页边有freebz.net水印。字体替换提示不等于已证实正文缺字，抽查图像另记。',
+    clarity='抽查扫描正文、表格及末页可读；PDF37横置表格需旋转阅读，metadata旋转0；页边有freebz.net水印。第二审PDF15、18-21公式及37横表可辨，未见明显整项符号缺失，但不能证明字体替换逐字符等价。',
     watermark='页顶/页底freebz.net下载站水印，抽查主要在页边未遮正文',
     native_outline_present=False, publisher_original_bookmarks=None,
     suspected_omitted_printed_pages=[38,40], substantive_missing_pages_proven=False,
-    visual_review_pages=[1,2,3,4,5,6,7,8,9,10,37,42,43,44,45,46,47,69,70,71,72,73],
+    visual_review_pages=[1,2,3,4,5,6,7,8,9,10,15,18,19,20,21,37,42,43,44,45,46,47,62,63,64,69,70,71,72,73],
+    independent_review='第二审独立核对正文、四附录及说明目录和末69页，支持C。PDF62页脚图像为58、PDF63为59，OCR前者误取59，不存在实际58缺页；说明扉页名称差异已双审目视。',
     quality_anomalies=[{'pdf_pages':[2,44], 'observed':'正文扉页“技术规程”与条文说明扉页“设计规程”名称不一致，图像可见，非OCR推断', 'statement_type':'原文事实（文件图像）'}],
 )
 

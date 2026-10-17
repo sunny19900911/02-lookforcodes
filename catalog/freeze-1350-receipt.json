@@ -1,0 +1,91 @@
+{
+  "checkpoint": "1350",
+  "sealed_at": "2026-10-17T06:10:18.500Z",
+  "generated_at": "2026-10-17T06:06:54.893Z",
+  "master_sha256": "701f9680a958bd2ea8cacdc8bef7d9677e4acdb4536149618785cc7c2938add1",
+  "xlsx_sha256": "3843f0b27e13f43fe1f33065cddc312c0c77bee52878f7f899c78420a779a0e4",
+  "xlsx_bytes": 700883,
+  "worksheet_count": 10,
+  "worksheets": [
+    {
+      "name": "规范总表",
+      "records": 889,
+      "columns": 25
+    },
+    {
+      "name": "已验完整PDF",
+      "records": 10,
+      "columns": 19
+    },
+    {
+      "name": "完整草案PDF",
+      "records": 1,
+      "columns": 22
+    },
+    {
+      "name": "链接明细",
+      "records": 134,
+      "columns": 43
+    },
+    {
+      "name": "原始映射",
+      "records": 81,
+      "columns": 12
+    },
+    {
+      "name": "待查与问题",
+      "records": 828,
+      "columns": 10
+    },
+    {
+      "name": "状态与来源依据",
+      "records": 1144,
+      "columns": 14
+    },
+    {
+      "name": "检索记录",
+      "records": 83,
+      "columns": 12
+    },
+    {
+      "name": "说明与覆盖",
+      "records": 37,
+      "columns": 2
+    },
+    {
+      "name": "变更记录",
+      "records": 1949,
+      "columns": 8
+    }
+  ],
+  "native_hyperlinks": 3335,
+  "error_cells": 0,
+  "coverage": {
+    "baseline_records_registered": 81,
+    "baseline_standard_versions": 74,
+    "registered_standard_versions": 889,
+    "registered_links": 134,
+    "verified_complete_pdf_links": 10,
+    "verified_complete_standard_versions": 8,
+    "authority_records": 798,
+    "independent_audit_results": 40,
+    "downloaded_parseable_pending": 9,
+    "verified_complete_unique_sha256": 8,
+    "unresolved_unnumbered_drafts": 3,
+    "verified_complete_draft_pdf_links": 1,
+    "verified_complete_draft_versions": 1,
+    "supplemental_directory_records": 58,
+    "round07_directory_observations": 137,
+    "directory_observation_count": 847,
+    "round07_directory_unique_identities": 135,
+    "round07_directory_new_identities_against_frozen_master": 72,
+    "merge_net_new_identities": 78
+  },
+  "selected_search_file_count": 47,
+  "audit_sha256": "400cf857fd7d1a084bb44cb4f0b387cda220f679e88370784296314f96386d33",
+  "semantic_validation": "passed",
+  "saved_workbook_validation": "passed; ZIP integrity and openpyxl read-only inspection",
+  "visual_review": "saved XLSX reimported and rendered: draft identity/scope/navigation, old22 status/basis, new22 navigation and 102 edition; visually checked",
+  "runtime_limitation": "artifact-tool process and read-only reimport/render returned exit 1 after successful export/render output without diagnostic; success established by independent saved-file checks, not exit status",
+  "git_operation": "none; controlled by primary thread"
+}

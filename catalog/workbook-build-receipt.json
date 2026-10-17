@@ -1,21 +1,26 @@
 {
-  "generated_at": "2026-10-17T05:37:51.370Z",
+  "generated_at": "2026-10-17T06:06:54.893Z",
   "path": "catalog/CECS可下载PDF总表.xlsx",
   "sheets": [
     {
       "name": "规范总表",
-      "records": 811,
-      "columns": 23
+      "records": 889,
+      "columns": 25
     },
     {
       "name": "已验完整PDF",
-      "records": 9,
+      "records": 10,
       "columns": 19
     },
     {
+      "name": "完整草案PDF",
+      "records": 1,
+      "columns": 22
+    },
+    {
       "name": "链接明细",
-      "records": 127,
-      "columns": 40
+      "records": 134,
+      "columns": 43
     },
     {
       "name": "原始映射",
@@ -24,45 +29,52 @@
     },
     {
       "name": "待查与问题",
-      "records": 749,
+      "records": 828,
       "columns": 10
     },
     {
       "name": "状态与来源依据",
-      "records": 934,
-      "columns": 12
+      "records": 1144,
+      "columns": 14
     },
     {
       "name": "检索记录",
-      "records": 71,
+      "records": 83,
       "columns": 12
     },
     {
       "name": "说明与覆盖",
-      "records": 31,
+      "records": 37,
       "columns": 2
     },
     {
       "name": "变更记录",
-      "records": 1019,
+      "records": 1949,
       "columns": 8
     }
   ],
   "coverage": {
     "baseline_records_registered": 81,
     "baseline_standard_versions": 74,
-    "registered_standard_versions": 811,
-    "registered_links": 127,
-    "verified_complete_pdf_links": 9,
-    "verified_complete_standard_versions": 7,
-    "authority_records": 710,
-    "independent_audit_results": 33,
+    "registered_standard_versions": 889,
+    "registered_links": 134,
+    "verified_complete_pdf_links": 10,
+    "verified_complete_standard_versions": 8,
+    "authority_records": 798,
+    "independent_audit_results": 40,
     "downloaded_parseable_pending": 9,
-    "verified_complete_unique_sha256": 7,
+    "verified_complete_unique_sha256": 8,
     "unresolved_unnumbered_drafts": 3,
-    "supplemental_directory_records": 58
+    "verified_complete_draft_pdf_links": 1,
+    "verified_complete_draft_versions": 1,
+    "supplemental_directory_records": 58,
+    "round07_directory_observations": 137,
+    "directory_observation_count": 847,
+    "round07_directory_unique_identities": 135,
+    "round07_directory_new_identities_against_frozen_master": 72,
+    "merge_net_new_identities": 78
   },
   "formula_errors": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
   "authoring_library": "@oai/artifact-tool",
-  "visual_review": "预览已生成，须人工目视确认"
+  "visual_review": "saved XLSX reimported and rendered: draft identity/scope/navigation, old22 status/basis, new22 navigation and 102 edition; visually checked"
 }

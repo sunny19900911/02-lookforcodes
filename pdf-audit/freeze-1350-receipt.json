@@ -1,0 +1,44 @@
+{
+  "checkpoint": "2026-10-17T13:50:00+08:00",
+  "frozen_at": "2026-10-17T14:00:03+08:00",
+  "updated_at": "2026-10-17T14:00:03+08:00",
+  "before_sha256": "84e4361fbbcdee054efb3ac89e5610001df33e049db3271ba2f2fd1616686629",
+  "sha256": "400cf857fd7d1a084bb44cb4f0b387cda220f679e88370784296314f96386d33",
+  "input_snapshot": "audit-pending-round05-freeze-1350.json",
+  "input_sha256": "90081712aea2c2ddb78202101d3e31753828ed6e663af87a139ec9e007e7dcf8",
+  "result_count": 40,
+  "complete_link_count": 10,
+  "complete_version_count": 8,
+  "complete_hash_count": 8,
+  "complete_draft_count": 1,
+  "complete_draft_candidate_ids": [
+    "R07-G5-DRAFT-ZERO-2025"
+  ],
+  "rating_counts": {
+    "A": 0,
+    "B": 11,
+    "C": 13,
+    "D": 16
+  },
+  "rating_scope_note": "B11包含正式标准10条及完整报批稿阅读质量1条；草案不计正式完整集合",
+  "metadata_only_count": 1,
+  "additions": 7,
+  "replacements": 0,
+  "merged_candidate_ids": [
+    "R07-G4-10025-2019-DLSSYHT",
+    "R07-G5-727-2020-YSJIANZHAN",
+    "R07-G5-DRAFT-ZERO-2025",
+    "R07-WATER-MEP-41-2004",
+    "R07-WATER-MEP-164-2004",
+    "R07-WATER-MEP-1012-2022",
+    "R07-WATER-MEP-828-2021"
+  ],
+  "old_freeze": "audit-results-freeze-1330.json",
+  "current_freeze": "audit-results-freeze-1350.json",
+  "history_preserved": true,
+  "old33_records_unchanged": true,
+  "new_complete_candidate": "R07-G4-10025-2019-DLSSYHT",
+  "quality_limits": "10025水印备用；完整报批单列、导航及原稿小错保留；41/164空白页未证维持C；3次403不推断登录或永久失效。",
+  "canonical_frozen_until": "主控本轮本地封版；新审查另存后续增量文件",
+  "publication_status": "本角色未操作Git或远端，发布状态由主控单独登记"
+}

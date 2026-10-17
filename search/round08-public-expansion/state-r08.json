@@ -1,0 +1,73 @@
+{
+  "source_id": "SEARCH-R08-CHECKPOINT-1400-20261017",
+  "recorded_at": "2026-10-17T14:03:35+08:00",
+  "new_pdf_candidates": 8,
+  "historical_formal_pdf_candidates": 6,
+  "draft_pdf_candidates": 2,
+  "non_pdf_word_draft_routes": 2,
+  "new_directory_source_records": 165,
+  "unique_number_years_in_new_directory_source_records": 156,
+  "number_years_not_in_round07": 152,
+  "not_in_round07_boundary": "不是主库净新增数，由catalog对全主库去重决定。",
+  "all_directory_rows_have_actual_pdf_physical_page": true,
+  "directory_internal_conflict_groups": 2,
+  "conflict_visual_check": "原PDF物理53/62/165页目视确认，不是提取丢位；只确认目录可见冲突，不猜正式编号。",
+  "unresolved_year_or_number_rows": 15,
+  "nonstandard_code_explanations": 2,
+  "audit_latest_canonical_freeze": {
+    "path": "pdf-audit/audit-results-freeze-1350.json",
+    "sha256": "400cf857fd7d1a084bb44cb4f0b387cda220f679e88370784296314f96386d33",
+    "frozen_at": "2026-10-17T14:00:03+08:00",
+    "results": 40,
+    "formal_complete_links": 10,
+    "formal_complete_versions": 8,
+    "formal_complete_hashes": 8,
+    "complete_approval_drafts_separate": 1
+  },
+  "r08_complete_pdf_added_by_search": 0,
+  "previous_freeze_integrity": [
+    {
+      "manifest": "search/freeze-inputs-1320.json",
+      "file_count": 19,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-round04.json",
+      "file_count": 9,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-1330.json",
+      "file_count": 12,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-1340.json",
+      "file_count": 12,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-1340-water-mep-addendum.json",
+      "file_count": 3,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-1340-water-mep-addendum-v2.json",
+      "file_count": 4,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-g2-round02-share-1350.json",
+      "file_count": 1,
+      "unchanged": true,
+      "failures": []
+    }
+  ],
+  "boundary": "R08新候选尚待独立审查。目录/Word不计PDF；现行性/转载授权未核；无Git、账号登录或原PDF上传。"
+}

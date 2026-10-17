@@ -1,0 +1,99 @@
+{
+  "source_id": "SEARCH-R08-PUBLIC-PAGES-20261017",
+  "statement_type": "原文事实（普通匿名GET观察，非完整性审查）",
+  "observations": [
+    {
+      "requested_url": "https://www.lsjcrzzx.com/",
+      "checked_at": "2026-10-17T13:57:22+08:00",
+      "method": "ordinary anonymous GET; PDF body only prefix read, not completeness audit",
+      "error_type": "URLError",
+      "error_summary": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1032)>"
+    },
+    {
+      "requested_url": "https://m.cnass.cn/site/content/325.html",
+      "checked_at": "2026-10-17T13:57:22+08:00",
+      "method": "ordinary anonymous GET; PDF body only prefix read, not completeness audit",
+      "http_status": 200,
+      "final_url": "https://m.cnass.cn/site/content/325.html",
+      "content_type": "text/html; charset=UTF-8",
+      "pdf_prefix": false,
+      "title": "结构检测监测鉴定标准-相关文献_中国钢结构协会空间结构分会",
+      "relevant_links": [
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863584412305.pdf",
+          "text": "CECS 212-2006 预应力钢结构技术规程.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863593110778.pdf",
+          "text": "CECS 235-2008 铸钢节点应用技术规程 .pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863590691072.pdf",
+          "text": "CECS 333-2012 结构健康监测系统设计标准CECS333：2012.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863801188027.doc",
+          "text": "T CECS 685-2020《房屋结构安全动态监测技术规程》（征求意见稿）.doc"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863810857249.docx",
+          "text": "T_CECS 《大跨度钢结构监测技术规程》征求意见稿定稿-附专家意见20221201-吴金志.docx"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863809601694.pdf",
+          "text": "T_CECS 《工业建筑非工业化改造结构检测鉴定标准》送审稿.pdf"
+        }
+      ],
+      "body_bytes_read": 42690
+    },
+    {
+      "requested_url": "https://www.cnass.cn/site/content/325.html",
+      "checked_at": "2026-10-17T13:57:22+08:00",
+      "method": "ordinary anonymous GET; PDF body only prefix read, not completeness audit",
+      "http_status": 200,
+      "final_url": "https://www.cnass.cn/site/content/325.html",
+      "content_type": "text/html; charset=UTF-8",
+      "pdf_prefix": false,
+      "title": "结构检测监测鉴定标准-相关文献_中国钢结构协会空间结构分会",
+      "relevant_links": [
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863584412305.pdf",
+          "text": "CECS 212-2006 预应力钢结构技术规程.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863593110778.pdf",
+          "text": "CECS 235-2008 铸钢节点应用技术规程 .pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863590691072.pdf",
+          "text": "CECS 333-2012 结构健康监测系统设计标准CECS333：2012.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863801188027.doc",
+          "text": "T CECS 685-2020《房屋结构安全动态监测技术规程》（征求意见稿）.doc"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863810857249.docx",
+          "text": "T_CECS 《大跨度钢结构监测技术规程》征求意见稿定稿-附专家意见20221201-吴金志.docx"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863809601694.pdf",
+          "text": "T_CECS 《工业建筑非工业化改造结构检测鉴定标准》送审稿.pdf"
+        }
+      ],
+      "body_bytes_read": 39543
+    },
+    {
+      "requested_url": "https://media.src.leju.com/imp/imp/deal/10/1f/3/e20c955f600d4a5ca00a52e7ac1_p24_mk24.pdf",
+      "checked_at": "2026-10-17T13:57:22+08:00",
+      "method": "ordinary anonymous GET; PDF body only prefix read, not completeness audit",
+      "error_type": "URLError",
+      "error_summary": "<urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1032)>"
+    }
+  ],
+  "share_projection": {
+    "recorded_at": "2026-10-17T14:03:35+08:00",
+    "raw_metadata_sha256": "2e61c7cbf420a4bf83fd71f9a53aacb87dae125d83ad6697b7bd33563df7287f",
+    "note": "仅保留CECS实际附件href及访问观察；非CECS链接略，不含HTML/PDF/瞬时参数。原始结构化观察本地保留。"
+  }
+}

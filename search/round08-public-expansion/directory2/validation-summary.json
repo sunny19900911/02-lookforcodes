@@ -1,0 +1,19 @@
+{
+  "new_source_records": 165,
+  "unique_number_year_in_new_source_records": 156,
+  "genuinely_new_unique_number_year_vs_round07": 152,
+  "physical_pages_valid": true,
+  "all_have_raw_cells": true,
+  "all_have_source_id": true,
+  "duplicate_source_ids": 0,
+  "round07_links": 19,
+  "unresolved_standard_rows": 15,
+  "nonstandard_code_rows": 2,
+  "conflict_groups": 2,
+  "original_pdf_saved": false,
+  "screenshots_saved": false,
+  "directory-round08.json_sha256": "e3bac1d3877707fc32c17c8b15b6d882333272c8f635ba402f0a04eb52786c81",
+  "directory-conflicts.json_sha256": "776a6296bbcfa21341e2caf356515b14a244e2b0290c46a24b2c62ff3fcb948b",
+  "raw-cells.json_sha256": "0734dd1298fed2b2132697002171c244d2c50c2774ca2bd1c384e8503dc1fc8b",
+  "front-matter-evidence.json_sha256": "1034e0698e2dc2898a3990bf94b26a3cc33ce5f34cb5071f95e30d27a446766c"
+}

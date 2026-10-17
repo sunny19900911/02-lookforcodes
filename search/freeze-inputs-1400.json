@@ -1,0 +1,119 @@
+{
+  "producer": "search",
+  "checkpoint": "14:00",
+  "checked_at": "2026-10-17T14:03:35+08:00",
+  "frozen": true,
+  "input_file_count": 13,
+  "previous_freeze_integrity": [
+    {
+      "manifest": "search/freeze-inputs-1320.json",
+      "file_count": 19,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-round04.json",
+      "file_count": 9,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-1330.json",
+      "file_count": 12,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-1340.json",
+      "file_count": 12,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-1340-water-mep-addendum.json",
+      "file_count": 3,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-1340-water-mep-addendum-v2.json",
+      "file_count": 4,
+      "unchanged": true,
+      "failures": []
+    },
+    {
+      "manifest": "search/freeze-inputs-g2-round02-share-1350.json",
+      "file_count": 1,
+      "unchanged": true,
+      "failures": []
+    }
+  ],
+  "note": "固定后不修改。仅结构化分享元数据/来源/缺口，无PDF/PNG/HTML/瞬时下载参数值。原始结构化观察及脚本不列同步。目录不当全文，R08候选未升级完整。",
+  "files": [
+    {
+      "path": "search/round08-public-expansion/candidates-r08-association.json",
+      "sha256": "71aeda678feab922cbf54ff1f5a1bd7b261dbaffcb72acb2181b49efd46789ca",
+      "bytes": 10909
+    },
+    {
+      "path": "search/round08-public-expansion/query-ledger-r08-root.json",
+      "sha256": "f2e9ac4b80083f9ca8f0dbaa0bc5bd3caf20471e0c45d394434b9b3a4f13d37a",
+      "bytes": 3424
+    },
+    {
+      "path": "search/round08-public-expansion/public-page-observations-r08-share.json",
+      "sha256": "d13e47a2eea062a4279b56e0eaafae87164ea072e514266754e4f47323281f41",
+      "bytes": 4996
+    },
+    {
+      "path": "search/round08-public-expansion/quality-feedback-r08-audit-1350.json",
+      "sha256": "090da252a0bc781b6d160e8d436458c913d96dacefe6fb43b87ab30fb7426bda",
+      "bytes": 8798
+    },
+    {
+      "path": "search/round08-public-expansion/water-historical/round08-water-historical-candidates.json",
+      "sha256": "223658d0a58498a9515d0bfdac01ef726a49da071bf518ba2a95c03cce027b22",
+      "bytes": 19384
+    },
+    {
+      "path": "search/round08-public-expansion/directory2/directory-round08.json",
+      "sha256": "e3bac1d3877707fc32c17c8b15b6d882333272c8f635ba402f0a04eb52786c81",
+      "bytes": 461037
+    },
+    {
+      "path": "search/round08-public-expansion/directory2/directory-conflicts.json",
+      "sha256": "776a6296bbcfa21341e2caf356515b14a244e2b0290c46a24b2c62ff3fcb948b",
+      "bytes": 2464
+    },
+    {
+      "path": "search/round08-public-expansion/directory2/raw-cells.json",
+      "sha256": "0734dd1298fed2b2132697002171c244d2c50c2774ca2bd1c384e8503dc1fc8b",
+      "bytes": 152395
+    },
+    {
+      "path": "search/round08-public-expansion/directory2/validation-summary.json",
+      "sha256": "0f8ae5e82f9f5fcebd6b8db5f321264f00b4cdb69cc58ab87efc5a571d825d33",
+      "bytes": 857
+    },
+    {
+      "path": "search/round08-public-expansion/directory2/front-matter-evidence.json",
+      "sha256": "1034e0698e2dc2898a3990bf94b26a3cc33ce5f34cb5071f95e30d27a446766c",
+      "bytes": 6649
+    },
+    {
+      "path": "search/round08-public-expansion/directory2/conflict-visual-check-r08.json",
+      "sha256": "739d7614421466820b240ff3424fdbdf4eeddd8f53aec0507fe04bc703fec42c",
+      "bytes": 3951
+    },
+    {
+      "path": "search/round08-public-expansion/state-r08.json",
+      "sha256": "8cc8e8046d7c9a49d020f24b783d46d44657870ff7e0827166f3a839d1bdd60d",
+      "bytes": 2479
+    },
+    {
+      "path": "search/discussion-1400.md",
+      "sha256": "74908f3f45b849f1623e62c4d5495cb6599cb883e566aecbba2543d02a14927b",
+      "bytes": 2712
+    }
+  ]
+}

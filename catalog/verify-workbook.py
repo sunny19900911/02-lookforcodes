@@ -14,8 +14,11 @@ master = json.loads((root / 'cecs-master.json').read_text(encoding='utf-8'))
 with zipfile.ZipFile(book) as archive:
     assert archive.testzip() is None
 workbook = openpyxl.load_workbook(book, data_only=False)
-assert len(workbook.worksheets) == 9
+build = json.loads((root / 'workbook-build-receipt.json').read_text(encoding='utf-8'))
+assert workbook.sheetnames == [s['name'] for s in build['sheets']]
 expected = {'规范总表':len(master['standards']), '已验完整PDF':master['coverage']['verified_complete_pdf_links'], '链接明细':len(master['links']), '原始映射':81, '待查与问题':len(master['issues']), '状态与来源依据':len(master['evidence']), '变更记录':len(master['change_log'])}
+if '完整草案PDF' in workbook.sheetnames:
+    expected['完整草案PDF'] = master['coverage']['verified_complete_draft_pdf_links']
 for name, count in expected.items():
     sheet=workbook[name]
     assert sheet['B5'].value == count, (name, sheet['B5'].value, count)
@@ -46,6 +49,19 @@ for link in master['links']:
     if link.get('complete_pdf'):
         assert not link.get('metadata_only')
         assert link.get('version_verified') and link.get('final_url') and link.get('sha256') and link.get('pages') and link.get('pdf_bytes') and link.get('audit_id') and link.get('audit_evidence_paths'), link['link_id']
+draft_links=[link for link in master['links'] if link.get('draft_content_complete') and link.get('version_verified') and not link.get('complete_pdf')]
+if draft_links:
+    draft_sheet=workbook['完整草案PDF']
+    assert collections.Counter(draft_sheet.cell(r,3).hyperlink.target for r in range(9,9+len(draft_links)))==collections.Counter(link['final_url'] for link in draft_links)
+    assert not {link['link_id'] for link in draft_links} & {link['link_id'] for link in complete_links}
+    for row, link in enumerate(draft_links,9):
+        assert draft_sheet.cell(row,20).value == link['version_class']
+        assert '内容完整' in draft_sheet.cell(row,21).value
+        assert '不计正式' in draft_sheet.cell(row,22).value
+    link_rows={workbook['链接明细'].cell(r,1).value:r for r in range(9,9+len(master['links']))}
+    for link in draft_links:
+        row=link_rows[link['link_id']]
+        assert workbook['链接明细'].cell(row,19).value == '完整草案（非正式全文）'
 standards={s['standard_id']:s for s in master['standards']}
 if 'CECS-102-2002-FORMAL-E2012' in standards:
     edition=standards['CECS-102-2002-FORMAL-E2012']
@@ -54,6 +70,14 @@ if 'CECS-102-2002-FORMAL-E2012' in standards:
     assert edition['published_date'] is None and edition['effective_date'] is None
 if 'CECS-796-2021-FORMAL' in standards:
     assert standards['CECS-796-2021-FORMAL']['name']=='屋面结构雪荷载设计标准'
+if master['scope'].get('checkpoint')=='1350':
+    assert standards['CECS-22-2005-FORMAL']['withdrawal_date']=='2025-04-01'
+    assert standards['CECS-22-2005-FORMAL']['current_status'].startswith('已废止')
+    standard_rows={workbook['规范总表'].cell(r,17).value:r for r in range(9,9+len(master['standards']))}
+    row=standard_rows['CECS-22-2005-FORMAL']
+    assert workbook['规范总表'].cell(row,5).value.startswith('已废止')
+    assert workbook['规范总表'].cell(row,24).value.date().isoformat()=='2025-04-01'
+    assert '第5页' in workbook['规范总表'].cell(row,25).value
 receipt={'checked_at_utc':__import__('datetime').datetime.now(__import__('datetime').timezone.utc).isoformat(),'xlsx_sha256':hashlib.sha256(book.read_bytes()).hexdigest(),'bytes':book.stat().st_size,'sheets':[{ 'name':s.title,'rows':s.max_row,'columns':s.max_column,'freeze_panes':s.freeze_panes} for s in workbook], 'native_hyperlinks':len(hyperlinks),'error_cells':len(errors),'all_81_original_mappings':True,'counts_reconciled':True,'complete_pdf_required_fields':True}
 (root/'workbook-validation.json').write_text(json.dumps(receipt,ensure_ascii=False,indent=2),encoding='utf-8')
 print(json.dumps(receipt,ensure_ascii=False))

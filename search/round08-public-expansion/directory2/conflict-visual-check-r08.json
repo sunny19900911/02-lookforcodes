@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-17T14:01:30.723+08:00",
+  "producer": "search-r08-independent-visual-check",
+  "source_directory": "新疆《住房和城乡建设标准体系框架》修订版征求意见稿政府PDF",
+  "source_reference": "directory-round08.json:source.source_pdf",
+  "check_scope": "仅PDF物理53、62、165页的指定目录原格，未复核对应规范全文。",
+  "method": "公开原PDF匿名GET后只读载入内存；pdfplumber按实际原格边界取局部区域，160dpi渲染；对三个区域逐一目视。未保存PDF原件；局部PNG仅本地，不上传/分享。",
+  "checks": [
+    {
+      "pdf_page_one_based": 53,
+      "region": {
+        "table_index": 1,
+        "source_row_id": "[01].6.2-20",
+        "pdf_points_bbox": [
+          35.5,
+          351.14,
+          559.8,
+          406.84
+        ],
+        "location": "建筑信息模型设计应用标准整行，含标准号列全部左右边框"
+      },
+      "visible_name": "建筑信息模型设计应用标准",
+      "visible_number": "T/CECS 1137-2022",
+      "number_layout": "T/CECS在上一行，1137-2022在下一行",
+      "visible_digits_complete": true,
+      "extraction_matches_visible": true,
+      "column_clipping_observed": false,
+      "uncertainty": "号码与行名清晰可辨；仅能确认目录原格如此，不能据此核定2026现行性或其他同号条目的正式编号。"
+    },
+    {
+      "pdf_page_one_based": 62,
+      "region": {
+        "table_index": 1,
+        "source_row_id": "[02].1.3.1-55",
+        "pdf_points_bbox": [
+          35.5,
+          163.74,
+          559.8,
+          222.24
+        ],
+        "location": "模块应急传染病医院建筑技术规程整行，含标准号列全部左右边框"
+      },
+      "visible_name": "模块应急传染病医院建筑技术规程",
+      "visible_number": "T/CECS 1137-2022",
+      "number_layout": "标准号在完整单元格内单行显示",
+      "visible_digits_complete": true,
+      "extraction_matches_visible": true,
+      "column_clipping_observed": false,
+      "uncertainty": "1137四位数字与2022年份完整可辨，没有可见裁切造成前后数字丢失；该名称真正对应的正式编号须查公告/封面，本核对不推定。"
+    },
+    {
+      "pdf_page_one_based": 165,
+      "region": {
+        "table_index": 1,
+        "source_row_ids": [
+          "[02].13.3.2-35",
+          "[02].13.3.2-36"
+        ],
+        "pdf_points_bbox": [
+          35.5,
+          405.24,
+          559.8,
+          498.24
+        ],
+        "location": "叠压供水、小区集中生活热水两整行，均包含标准号列全部左右边框"
+      },
+      "visible_rows": [
+        {
+          "source_row_id": "[02].13.3.2-35",
+          "visible_name": "叠压供水技术规程",
+          "visible_number": "CECS22: 2012"
+        },
+        {
+          "source_row_id": "[02].13.3.2-36",
+          "visible_name": "小区集中生活热水设计应用规程",
+          "visible_number": "CECS22: 2012"
+        }
+      ],
+      "visible_digits_complete": true,
+      "extraction_matches_visible": true,
+      "column_clipping_observed": false,
+      "uncertainty": "两格均清晰显示CECS22及2012，22与冒号之间未见其他数字或遮挡；冒号的Unicode编码不由图像判断。不能据此猜测各名称应对应的正式号。"
+    }
+  ],
+  "conclusion": {
+    "visual_conflict_confirmed": true,
+    "source_extraction_uncertain": false,
+    "statement": "两组同编号对应不同名称的情况在原政府PDF目录格中均可见；不是本次文本解析或列宽裁切所能解释的丢位。",
+    "qualification": "这证明目录内部可见内容冲突；是否目录编制/排版错误及正确编号，仍须由正式公告或规范封面交叉核实，不直接作正式编号更正。"
+  },
+  "frozen_files_changed": false,
+  "local_pngs_upload_allowed": false
+}

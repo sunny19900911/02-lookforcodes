@@ -1,5 +1,21 @@
 # 封版后的待合入队列
 
+13:50批已授权合入并封版889/134/40；下文R07、1340、水MEP-v2及七GET待办为合入前历史，勿重复新增。当前真正待下一批为R08/14:00，见首节。
+
+## R08 / 14:00 新检索批（本轮不追入）
+
+原文事实（检索角色交接）：`search/freeze-inputs-1400.json`，13个结构化分享文件，manifest SHA256 `a02d910b3e4f1db769eda1d11e68ff7a9adb005ae2ed834bc0284f0e3b749519`。8个新PDF候选为6历史正式候选及2草案，未审查不得升完整；2个Word草稿只作元数据，不计PDF。协会公开附件前5见`search/round08-public-expansion/candidates-r08-association.json`，另3历史水专业122:2001/17:2000/287:2011见`search/round08-public-expansion/water-historical/round08-water-historical-candidates.json`（具体相对路径以下批manifest为准，不递归扫描）。
+
+新疆目录另165来源记录/156号年，152相对R07未见不等于主库净增；1137-2022、22-2012两组同号年名称冲突已对物理53/62/165页目视，待官方核号，不静默择名。15条缺年份保持缺口。此批不加入当前授权1350回灌，也不扩大正式完整计数。
+
+## 13:50审查冻结已到，待主控授权回灌
+
+原文事实（审查角色交接，source_id: `pdf-audit/audit-round05-receipt-1350.json`）：13:53:57固定7条实际GET增量，冻结文件`pdf-audit/audit-pending-round05-freeze-1350.json`，SHA256 `90081712aea2c2ddb78202101d3e31753828ed6e663af87a139ec9e007e7dcf8`，本角色已独立核对一致。原canonical33条及本角色811身份/127链接/Excel不变。
+
+AI审查判断（不是出版方认证）：10025-2019的10页水印扫描本为正式完整B；零碳工业84页为内容完整的报批稿B，`complete_pdf:false`、`draft_content_complete:true`、`version_class/draft_stage:'报批稿'`，须单列完整草案，不能计正式完整。其74书签1处错跳及英文目录至少4处错链保留。41:2004、164:2004各C，目录/说明末项闭合但疑似空白页性质缺证明，不能称正文缺失；164说明扉页题名不一致与字体替换提示保留。727/1012/828只记本次GET403，不推断永久失效或需登录。
+
+若下一批获准合入：33+7=40审查，正式完整10链接/8版本/8哈希，另完整报批稿1；评级B11/C13/D16（B含该草案阅读质量）。这只是冻结增量回执的前瞻口径，尚未更新当前总表。检索水/机电出处仅采用share-v2及其4文件manifest，不读原始临时响应，不与v1双计。
+
 水/机电当前分享版改选v2：`search/freeze-inputs-1340-water-mep-addendum-v2.json`固定4结构化文件，候选采用`candidates-round07-water-mep-share-v2.json`，原4 ID/URL与计数不变。v1冻结记录保留历史，但不要作为当前分享输入或与v2双计。更正范围：仅file_id=112有GET过期证据；74/111/130只获HEAD HTML观察，不得统称已过期/失效。全部瞬时值已排除，不读取原始响应。下轮主控选择v2 manifest后再合入，当前811/127/33封版不变。
 
 草案schema待下轮适配：audit对R07七候选已实际GET，10025的10页水印版拟B备用，零碳工业84页为报批稿占位编号。闭环后采用draft_content_complete:true与version_class/draft_stage='报批稿'独立保存内容完整性；complete_pdf:false仅排除当前正式完整集合，completeness必须明示“完整报批稿，非正式标准全文”，不得假写内容待核。version_verified只表示匹配报批稿身份。下轮mapper显式保存这些字段，识别稿型，链接明细呈现；不把目录用unresolved_drafts[]当成全部草案集合。当前canonical33/811/127冻结未改。

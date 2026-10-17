@@ -1,0 +1,726 @@
+{
+  "source_id": "SEARCH-R08-PUBLIC-PAGES-20261017",
+  "statement_type": "原文事实（普通匿名GET观察，非完整性审查）",
+  "observations": [
+    {
+      "requested_url": "https://www.lsjcrzzx.com/",
+      "checked_at": "2026-10-17T13:57:22+08:00",
+      "method": "ordinary anonymous GET; PDF body only prefix read, not completeness audit",
+      "error_type": "URLError",
+      "error_summary": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1032)>"
+    },
+    {
+      "requested_url": "https://m.cnass.cn/site/content/325.html",
+      "checked_at": "2026-10-17T13:57:22+08:00",
+      "method": "ordinary anonymous GET; PDF body only prefix read, not completeness audit",
+      "http_status": 200,
+      "final_url": "https://m.cnass.cn/site/content/325.html",
+      "content_type": "text/html; charset=UTF-8",
+      "pdf_prefix": false,
+      "title": "结构检测监测鉴定标准-相关文献_中国钢结构协会空间结构分会",
+      "relevant_links": [
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863559644744.pdf",
+          "text": "0 GB 55001-2021 工程结构通用规范.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863559727197.pdf",
+          "text": "0 GB 55006-2021 钢结构通用规范.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863561678560.pdf",
+          "text": "0 GB 55018-2021 工程测量通用规范.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863559940729.docx",
+          "text": "0 GB 55018-2021 工程测量通用规范-废止的现行强条.docx"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863562210469.pdf",
+          "text": "0 GB 55021-2021 既有建筑鉴定与加固通用规范.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863562622692.pdf",
+          "text": "0 GB 55022-2021 既有建筑维护与改造通用规范.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863573708372.pdf",
+          "text": "1 GB 50144-2019 工业建筑可靠性鉴定标准.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863571460192.pdf",
+          "text": "1 GB 50205-2020 钢结构工程施工质量验收标准（含20200731勘误）.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863573502218.pdf",
+          "text": "1 GB 50292-2015 民用建筑可靠性鉴定标准.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863580265676.pdf",
+          "text": "1 GB 51008-2016 高耸与复杂钢结构检测与鉴定标准 .pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863604851055.pdf",
+          "text": "1 GBT 50344-2019 建筑结构检测技术标准.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863577162401.pdf",
+          "text": "1 GBT 50621-2010 钢结构现场检测技术标准.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863587806036.pdf",
+          "text": "2 JGJ 8-2016 建筑变形测量规范.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863584412305.pdf",
+          "text": "CECS 212-2006 预应力钢结构技术规程.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863593110778.pdf",
+          "text": "CECS 235-2008 铸钢节点应用技术规程 .pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863590691072.pdf",
+          "text": "CECS 333-2012 结构健康监测系统设计标准CECS333：2012.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863591620161.pdf",
+          "text": "CJT 297-2016 桥梁缆索用高密度聚乙烯护套料.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863597791018.pdf",
+          "text": "DB 11T 637-2009 房屋结构安全鉴定标准.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863602655363.pdf",
+          "text": "DG 08-2011-2007 钢结构检测与鉴定技术规程.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863602200435.pdf",
+          "text": "DGJ 08-81-2000 现有建筑抗震鉴定与加固规程 .pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863613220193.pdf",
+          "text": "DGT J08-2019-2007 膜结构检测技术规程.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863619717976.pdf",
+          "text": "DGTJ 08-804-2005 既有建筑物结构检测与评定标准.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863606788396.pdf",
+          "text": "GB 11345-89 钢焊缝手工超声波探伤方法和探伤结果分级.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863610379901.pdf",
+          "text": "GB 11345-2013 焊缝无损检测 超声检测 技术、检测等级和评定.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863633482859.pdf",
+          "text": "GB 50017-2017 钢结构设计标准（含条文说明） .pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863621933205.pdf",
+          "text": "GB 50023-2009 建筑抗震鉴定标准(附条文说明).pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863623314376.pdf",
+          "text": "GB 50023-2009 建筑抗震鉴定标准-附条文说明-可复制.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863628715528.pdf",
+          "text": "GB 50068-2018 建筑结构可靠性设计统一标准.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863627388129.pdf",
+          "text": "GB 50117-2014 构筑物抗震鉴定标准.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863632988731.pdf",
+          "text": "GB 50153-2008 工程结构可靠性设计统一标准.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863760924431.pdf",
+          "text": "GB 50661-2011 钢结构焊接规范.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863730695612.pdf",
+          "text": "GB 50755-2012 钢结构工程施工规范.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863668856901.pdf",
+          "text": "GB 50911-2013 城市轨道交通工程监测技术规范.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863694852812.pdf",
+          "text": "GB 50982-2014 建筑与桥梁结构监测技术规范.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863716317210.pdf",
+          "text": "GB 55002-2021 建筑与市政工程抗震通用规范.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863747182428.pdf",
+          "text": "GB_T 1.1-2020 标准化工作导则第1部分：标准化文件的结构和起草规则.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863744865061.pdf",
+          "text": "GBT 197-2003 普通螺纹 公差.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863748935635.pdf",
+          "text": "GBT 699-2015 优质碳素结构钢 .pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863753822158.pdf",
+          "text": "GBT 700-2006 碳素结构钢.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863756950244.pdf",
+          "text": "GBT 1591-2018 低合金高强度结构钢 .pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863755179268.pdf",
+          "text": "GBT 7659-2010 焊接结构用铸钢件.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863757640156.pdf",
+          "text": "GBT 8358-2014 钢丝绳实际破断拉力测定方法.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863758102209.pdf",
+          "text": "GBT 8706-2017 钢丝绳 术语、标记和分类.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863759166546.pdf",
+          "text": "GBT 11352-2009 一般工程用铸造碳钢件.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863760488089.pdf",
+          "text": "GBT 14370-2015 预应力筋用锚具、夹具和连接器.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863760660699.pdf",
+          "text": "GBT 15822.1-2005 无损检测 磁粉监测 第1部分：总则.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863762761350.pdf",
+          "text": "GBT 16939-2016 钢网架螺栓球节点用高强度螺栓.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863761627664.pdf",
+          "text": "GBT 17101-2019 桥梁缆索用热镀锌或锌铝合金钢丝.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863762260758.pdf",
+          "text": "GBT 20934-2016 钢拉杆.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863762892949.pdf",
+          "text": "GBT 21837《铁磁性钢丝绳电磁检测方法》 （送审稿）.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863762670297.pdf",
+          "text": "GBT 24191-2009 钢丝绳 实际弹性模量测定方法.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863763338449.pdf",
+          "text": "GBT 33363-2016 预应力热镀锌钢绞线.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863781767730.pdf",
+          "text": "GBT 50083-2014 工程结构设计基本术语标准.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863768289752.pdf",
+          "text": "JGJ 7-2010 空间网格结构技术规程.PDF"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863768913400.pdf",
+          "text": "JGJ 82-2011 钢结构高强度螺栓连接技术规程.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863772123648.pdf",
+          "text": "JGJ 85-2010_预应力筋用锚具、夹具和连接器应用技术规程.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863773614149.pdf",
+          "text": "JGJ 116-2009 建筑抗震加固技术规程.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863776137414.pdf",
+          "text": "JGJ 125-2016 危险房屋鉴定标准.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863777702510.pdf",
+          "text": "JGJ 257-2012 《索结构技术规程》局部修订征求意见稿202112.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863781152662.pdf",
+          "text": "JGJ 257-2012 索结构技术规程 .pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863781995774.pdf",
+          "text": "JGJT 302-2013 建筑工程施工过程结构分析与监测技术规范.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863796630579.pdf",
+          "text": "JGJT 395-2017 铸钢结构技术规程  .pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863792287536.pdf",
+          "text": "JGJT 442-2019 开合屋盖结构技术标准-A.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863810251356.pdf",
+          "text": "JGJT 483-2020 高强钢结构设计标准.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863795840365.pdf",
+          "text": "JGT 330-2011 建筑工程用索.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863807505771.pdf",
+          "text": "JTT 1037-2016 公路桥梁结构安全监测系统技术规程.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863799185245.pdf",
+          "text": "NB T 47013.4-2015 承压设备无损检测 第4部分：磁粉检测.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863800711288.pdf",
+          "text": "SL 601-2013 混凝土坝安全监测技术规范.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863801188027.doc",
+          "text": "T CECS 685-2020《房屋结构安全动态监测技术规程》（征求意见稿）.doc"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863810857249.docx",
+          "text": "T_CECS 《大跨度钢结构监测技术规程》征求意见稿定稿-附专家意见20221201-吴金志.docx"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863809601694.pdf",
+          "text": "T_CECS 《工业建筑非工业化改造结构检测鉴定标准》送审稿.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863810633982.pdf",
+          "text": "T_CSCS 033-2022《钢结构监测技术标准》-.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863813411549.pdf",
+          "text": "T_CSCS 钢结构工程检测与鉴定通用标准-审查后修改稿.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863812427143.docx",
+          "text": "T_CSCS 工业钢结构工程检测与评定技术规程_送审稿20221027（鉴定）.docx"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863813913757.pdf",
+          "text": "T_CSCS 空间钢结构工程检测与评定技术规程-征求意见稿_20211201150136.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863814263911.pdf",
+          "text": "T_CSCS-《高耸钢结构工程检测与评定技术规程（征求意见稿）》.pdf.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863814279544.pdf",
+          "text": "T_CSCS-《高耸钢结构工程检测与评定技术规程》编制说明.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863815863500.pdf",
+          "text": "T_CSCS-空间钢结构工程检测与评定技术规程-征求意见稿_20211201150136.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863821287349.pdf",
+          "text": "YB 9257-96 钢结构检测评定加固技术规程.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863815331060.pdf",
+          "text": "YBT 4294-2012 不锈钢拉索.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863816604216.pdf",
+          "text": "YBT 4543-2016 建筑工程用锌-5%铝-混合稀土合金镀层拉索.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863816323746.pdf",
+          "text": "YBT 4574-2016 高强度低松弛预应力热镀锌-5铝-稀土合金镀层钢绞线.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863819286942.pdf",
+          "text": "YBT 5295-2010《密封钢丝绳》.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863819918548.pdf",
+          "text": "ZZZZ 2016 现代索网结构开篇之作_道顿竞技馆_余玉洁.pdf"
+        },
+        {
+          "url": "http://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863820638335.pdf",
+          "text": "ZZZZ 中钢构检字【2021】第05号（正式版）关于中国钢结构协会钢结构检测与评（鉴）定团体标准预审的规定(1).pdf"
+        }
+      ],
+      "body_bytes_read": 42690
+    },
+    {
+      "requested_url": "https://www.cnass.cn/site/content/325.html",
+      "checked_at": "2026-10-17T13:57:22+08:00",
+      "method": "ordinary anonymous GET; PDF body only prefix read, not completeness audit",
+      "http_status": 200,
+      "final_url": "https://www.cnass.cn/site/content/325.html",
+      "content_type": "text/html; charset=UTF-8",
+      "pdf_prefix": false,
+      "title": "结构检测监测鉴定标准-相关文献_中国钢结构协会空间结构分会",
+      "relevant_links": [
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863559644744.pdf",
+          "text": "0 GB 55001-2021 工程结构通用规范.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863559727197.pdf",
+          "text": "0 GB 55006-2021 钢结构通用规范.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863561678560.pdf",
+          "text": "0 GB 55018-2021 工程测量通用规范.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863559940729.docx",
+          "text": "0 GB 55018-2021 工程测量通用规范-废止的现行强条.docx"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863562210469.pdf",
+          "text": "0 GB 55021-2021 既有建筑鉴定与加固通用规范.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863562622692.pdf",
+          "text": "0 GB 55022-2021 既有建筑维护与改造通用规范.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863573708372.pdf",
+          "text": "1 GB 50144-2019 工业建筑可靠性鉴定标准.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863571460192.pdf",
+          "text": "1 GB 50205-2020 钢结构工程施工质量验收标准（含20200731勘误）.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863573502218.pdf",
+          "text": "1 GB 50292-2015 民用建筑可靠性鉴定标准.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863580265676.pdf",
+          "text": "1 GB 51008-2016 高耸与复杂钢结构检测与鉴定标准 .pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863604851055.pdf",
+          "text": "1 GBT 50344-2019 建筑结构检测技术标准.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863577162401.pdf",
+          "text": "1 GBT 50621-2010 钢结构现场检测技术标准.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863587806036.pdf",
+          "text": "2 JGJ 8-2016 建筑变形测量规范.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863584412305.pdf",
+          "text": "CECS 212-2006 预应力钢结构技术规程.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863593110778.pdf",
+          "text": "CECS 235-2008 铸钢节点应用技术规程 .pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863590691072.pdf",
+          "text": "CECS 333-2012 结构健康监测系统设计标准CECS333：2012.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863591620161.pdf",
+          "text": "CJT 297-2016 桥梁缆索用高密度聚乙烯护套料.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863597791018.pdf",
+          "text": "DB 11T 637-2009 房屋结构安全鉴定标准.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863602655363.pdf",
+          "text": "DG 08-2011-2007 钢结构检测与鉴定技术规程.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863602200435.pdf",
+          "text": "DGJ 08-81-2000 现有建筑抗震鉴定与加固规程 .pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863613220193.pdf",
+          "text": "DGT J08-2019-2007 膜结构检测技术规程.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863619717976.pdf",
+          "text": "DGTJ 08-804-2005 既有建筑物结构检测与评定标准.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863606788396.pdf",
+          "text": "GB 11345-89 钢焊缝手工超声波探伤方法和探伤结果分级.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863610379901.pdf",
+          "text": "GB 11345-2013 焊缝无损检测 超声检测 技术、检测等级和评定.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863633482859.pdf",
+          "text": "GB 50017-2017 钢结构设计标准（含条文说明） .pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863621933205.pdf",
+          "text": "GB 50023-2009 建筑抗震鉴定标准(附条文说明).pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863623314376.pdf",
+          "text": "GB 50023-2009 建筑抗震鉴定标准-附条文说明-可复制.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863628715528.pdf",
+          "text": "GB 50068-2018 建筑结构可靠性设计统一标准.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863627388129.pdf",
+          "text": "GB 50117-2014 构筑物抗震鉴定标准.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863632988731.pdf",
+          "text": "GB 50153-2008 工程结构可靠性设计统一标准.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863760924431.pdf",
+          "text": "GB 50661-2011 钢结构焊接规范.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863730695612.pdf",
+          "text": "GB 50755-2012 钢结构工程施工规范.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863668856901.pdf",
+          "text": "GB 50911-2013 城市轨道交通工程监测技术规范.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863694852812.pdf",
+          "text": "GB 50982-2014 建筑与桥梁结构监测技术规范.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863716317210.pdf",
+          "text": "GB 55002-2021 建筑与市政工程抗震通用规范.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863747182428.pdf",
+          "text": "GB_T 1.1-2020 标准化工作导则第1部分：标准化文件的结构和起草规则.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863744865061.pdf",
+          "text": "GBT 197-2003 普通螺纹 公差.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863748935635.pdf",
+          "text": "GBT 699-2015 优质碳素结构钢 .pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863753822158.pdf",
+          "text": "GBT 700-2006 碳素结构钢.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863756950244.pdf",
+          "text": "GBT 1591-2018 低合金高强度结构钢 .pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863755179268.pdf",
+          "text": "GBT 7659-2010 焊接结构用铸钢件.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863757640156.pdf",
+          "text": "GBT 8358-2014 钢丝绳实际破断拉力测定方法.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863758102209.pdf",
+          "text": "GBT 8706-2017 钢丝绳 术语、标记和分类.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863759166546.pdf",
+          "text": "GBT 11352-2009 一般工程用铸造碳钢件.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863760488089.pdf",
+          "text": "GBT 14370-2015 预应力筋用锚具、夹具和连接器.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863760660699.pdf",
+          "text": "GBT 15822.1-2005 无损检测 磁粉监测 第1部分：总则.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863762761350.pdf",
+          "text": "GBT 16939-2016 钢网架螺栓球节点用高强度螺栓.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863761627664.pdf",
+          "text": "GBT 17101-2019 桥梁缆索用热镀锌或锌铝合金钢丝.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863762260758.pdf",
+          "text": "GBT 20934-2016 钢拉杆.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863762892949.pdf",
+          "text": "GBT 21837《铁磁性钢丝绳电磁检测方法》 （送审稿）.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863762670297.pdf",
+          "text": "GBT 24191-2009 钢丝绳 实际弹性模量测定方法.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863763338449.pdf",
+          "text": "GBT 33363-2016 预应力热镀锌钢绞线.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863781767730.pdf",
+          "text": "GBT 50083-2014 工程结构设计基本术语标准.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863768289752.pdf",
+          "text": "JGJ 7-2010 空间网格结构技术规程.PDF"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863768913400.pdf",
+          "text": "JGJ 82-2011 钢结构高强度螺栓连接技术规程.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863772123648.pdf",
+          "text": "JGJ 85-2010_预应力筋用锚具、夹具和连接器应用技术规程.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863773614149.pdf",
+          "text": "JGJ 116-2009 建筑抗震加固技术规程.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863776137414.pdf",
+          "text": "JGJ 125-2016 危险房屋鉴定标准.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863777702510.pdf",
+          "text": "JGJ 257-2012 《索结构技术规程》局部修订征求意见稿202112.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863781152662.pdf",
+          "text": "JGJ 257-2012 索结构技术规程 .pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863781995774.pdf",
+          "text": "JGJT 302-2013 建筑工程施工过程结构分析与监测技术规范.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863796630579.pdf",
+          "text": "JGJT 395-2017 铸钢结构技术规程  .pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863792287536.pdf",
+          "text": "JGJT 442-2019 开合屋盖结构技术标准-A.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863810251356.pdf",
+          "text": "JGJT 483-2020 高强钢结构设计标准.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863795840365.pdf",
+          "text": "JGT 330-2011 建筑工程用索.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863807505771.pdf",
+          "text": "JTT 1037-2016 公路桥梁结构安全监测系统技术规程.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863799185245.pdf",
+          "text": "NB T 47013.4-2015 承压设备无损检测 第4部分：磁粉检测.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863800711288.pdf",
+          "text": "SL 601-2013 混凝土坝安全监测技术规范.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863801188027.doc",
+          "text": "T CECS 685-2020《房屋结构安全动态监测技术规程》（征求意见稿）.doc"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863810857249.docx",
+          "text": "T_CECS 《大跨度钢结构监测技术规程》征求意见稿定稿-附专家意见20221201-吴金志.docx"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863809601694.pdf",
+          "text": "T_CECS 《工业建筑非工业化改造结构检测鉴定标准》送审稿.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863810633982.pdf",
+          "text": "T_CSCS 033-2022《钢结构监测技术标准》-.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863813411549.pdf",
+          "text": "T_CSCS 钢结构工程检测与鉴定通用标准-审查后修改稿.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863812427143.docx",
+          "text": "T_CSCS 工业钢结构工程检测与评定技术规程_送审稿20221027（鉴定）.docx"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863813913757.pdf",
+          "text": "T_CSCS 空间钢结构工程检测与评定技术规程-征求意见稿_20211201150136.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863814263911.pdf",
+          "text": "T_CSCS-《高耸钢结构工程检测与评定技术规程（征求意见稿）》.pdf.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863814279544.pdf",
+          "text": "T_CSCS-《高耸钢结构工程检测与评定技术规程》编制说明.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863815863500.pdf",
+          "text": "T_CSCS-空间钢结构工程检测与评定技术规程-征求意见稿_20211201150136.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863821287349.pdf",
+          "text": "YB 9257-96 钢结构检测评定加固技术规程.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863815331060.pdf",
+          "text": "YBT 4294-2012 不锈钢拉索.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863816604216.pdf",
+          "text": "YBT 4543-2016 建筑工程用锌-5%铝-混合稀土合金镀层拉索.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863816323746.pdf",
+          "text": "YBT 4574-2016 高强度低松弛预应力热镀锌-5铝-稀土合金镀层钢绞线.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863819286942.pdf",
+          "text": "YBT 5295-2010《密封钢丝绳》.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863819918548.pdf",
+          "text": "ZZZZ 2016 现代索网结构开篇之作_道顿竞技馆_余玉洁.pdf"
+        },
+        {
+          "url": "https://www.cnass.cn/upload/gjgfenhui/file/20230116/1673863820638335.pdf",
+          "text": "ZZZZ 中钢构检字【2021】第05号（正式版）关于中国钢结构协会钢结构检测与评（鉴）定团体标准预审的规定(1).pdf"
+        }
+      ],
+      "body_bytes_read": 39543
+    },
+    {
+      "requested_url": "https://media.src.leju.com/imp/imp/deal/10/1f/3/e20c955f600d4a5ca00a52e7ac1_p24_mk24.pdf",
+      "checked_at": "2026-10-17T13:57:22+08:00",
+      "method": "ordinary anonymous GET; PDF body only prefix read, not completeness audit",
+      "error_type": "URLError",
+      "error_summary": "<urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1032)>"
+    }
+  ]
+}
